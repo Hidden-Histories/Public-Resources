@@ -9,8 +9,8 @@ The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC
 The process for creating an iOS asset bundle on a Mac is similar.
 See the last section of this document for further information.
 
-**Important Note**: In order for the assets to work in **ARpoise** and **AR-vos** you MUST create and upload BOTH
-the **Android** and the **iOS** asset bundle to a web folder accessible via **http**.
+**Important Note**: In order for the assets to work in **ARpoise** and **AR-vos** you MUST create BOTH
+the **Android** and the **iOS** asset bundles.
 
 
 ## Unity Install
