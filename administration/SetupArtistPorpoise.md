@@ -12,7 +12,7 @@ We use WinSCP on a Windows 10 machine, but the setup using some other client on 
 You need ftp/sftp access to the hiddenhistoriesjtown.org server. Sue gave that access to me.
 Here is what I created on the site so far.
 ### Image - Folders:
-![SetupArtistPorpoise1](/adminstration/images/SetupArtistPorpoise1.PNG)
+![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
 
 Unity is installed with the following modules.
 ### Image - Unity Modules:
