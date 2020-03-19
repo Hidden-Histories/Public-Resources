@@ -9,6 +9,10 @@ The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC
 The process for creating an iOS asset bundle on a Mac is similar.
 See the last section of this document for further information.
 
+**Important Note**: In order for the assets to work in **ARpoise** and **AR-vos** you MUST create and upload BOTH
+the **Android** and the **iOS** asset bundle to a web folder accessible via **http**.
+
+
 ## Unity Install
 The tutorial uses Unity 2018.3.14.f1 on Windows 10.
 ### Image - Unity Install:
@@ -129,7 +133,7 @@ Select the **AssetBundles** folder created earlier. You should see four entries.
 ![CreateAssetBundle12](/documentation/images/CreateAssetBundle12.PNG)
 
 The first **exampleassetbundle** file is the actual asset bundle that needs to be made available on the web.
-The second file (with lines in the icon) is a manifest file describing what is in the bundle. If you double click to open it, the file should contain something like:
+The second file (with lines in the icon) is a manifest file describing what is in the bundle. If you double click on the file to open it, it should contain something like:
 ```
 ManifestFileVersion: 0
 CRC: 1652422628
