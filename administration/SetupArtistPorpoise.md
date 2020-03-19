@@ -1,17 +1,18 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories
-# -- Creating Asset Bundles --
+# -- Setup Artist Porpoise --
 ## Overview
-This is a step by step tutorial to create an asset bundle that can be used by **ARpoise** or **AR-vos**.
-In the tutorial an asset bundle for Android is created.
-This is done on Windows 10.
-The process for creating an iOS asset bundle or doing the steps on a Mac are the similar.
-See the last section of this document for further information.
+This is a step by step tutorial to set up Porpoise used by **ARpoise** or **AR-vos** for every artist involved in hidden histories.
+We created a template for an example artist named ‘Example Artist’, in order to set up a real artist you should follow the steps below.
+In the tutorial we setup porpoise for Tamiko Thiel. If you set up for another user, use the real name where ever it we say Tamiko Thiel below.
 
-## Unity Install
-The tutorial uses Unity 2018.3.14.f1 on Windows 10.
-### Image - Unity Install:
-![CreateAssetBundle1](/documentation/images/CreateAssetBundle1.PNG)
+
+## Folder Structure
+We use WinSCP on a Windows 10 machine, but the setup using some other client on a Mac, e.g. Cyberduck, should work the same.
+You need ftp/sftp access to the hiddenhistoriesjtown.org server. Sue gave that access to me.
+Here is what I created on the site so far.
+### Image - Folders:
+![SetupArtistPorpoise1](/adminstration/images/SetupArtistPorpoise1.PNG)
 
 Unity is installed with the following modules.
 ### Image - Unity Modules:
