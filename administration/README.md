@@ -5,4 +5,4 @@
 This folder contains administration documentation for **Hidden Histories**.
 
 ## Contents
-
+[Setup Artist Porpoise](/administration/SetupArtistPorpoise.md).
