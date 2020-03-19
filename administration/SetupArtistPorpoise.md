@@ -83,6 +83,7 @@ $_googleMapsKey = 'AIzaSyDFyHIm77knmp5A7qNyY1234hz814SlFaM';
 ```
 With the real hidden histories google maps key!
 
+## Further Reading
 Another document will talk about how to configure an example layer for the user.
 
 The document linked below gives more info about how an artist has to set up layers.
