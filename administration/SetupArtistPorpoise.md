@@ -36,13 +36,16 @@ make sure the last but one line contains the file system location of the config 
 ![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
 
 ## Edit porpoise.php
-Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php, make sure line with the chdir command contains the file system location of the ExampleArtist directory created in the first step above.
-
+Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php,
+make sure line with the chdir command contains the file system location of the php directory created in the step above.
+```
+chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
+```
 ### Image - porpoise.php:
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
 
 ## Check the Web Access
-Your new porpoise service should be visible on the web right now. In a web browser enter  the url.
+Your new porpoise service should be visible on the web right now. In a web browser, enter the url.
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
@@ -54,7 +57,7 @@ You can create a password for your user TamikoThiel through the web interface. E
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php?TamikoThiel=gigeldigik
 
-Please use a reasonable password instead of ‘gigeldigik’ in the url above! And use a different password for every user.
+Please use a reasonable password instead of ‘gigeldigik’ in the url above! And use a different password for every user!
 
 A password will be created for the artist, e.g.
 ```
@@ -69,17 +72,18 @@ Use the name and password you created above and login to the service.
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
 
-## Add Google Maps Key
-The error message is displayed because the google maps key for hidden histories needs to be added to the file 
+The error message is displayed because the google maps key for hidden histories needs to be added.
 
-/public_html/artists/ExampleArtist/php/web/dashboard/mapskey.inc.php
+## Add Google Maps Key
+Edit the file /public_html/artists/ExampleArtist/php/web/dashboard/mapskey.inc.php
 
 and make sure the last line reads
 ```
 $_googleMapsKey = 'AIzaSyDFyHIm77knmp5A7qNyY1234hz814SlFaM';
 ```
-With the real hidden histories google maps key.
+With the real hidden histories google maps key!
 
+Another document will talk about how to configure an example layer for the user.
 
 The document linked below gives more info about how an artist has to set up layers.
 https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
