@@ -52,10 +52,12 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php
 Please use a reasonable password instead of ‘gigeldigik’ in the url above! And use a different password for every user.
 
 A password will be created for the artist, e.g.
+```
+$_access["TamikoThiel"] = '$1$i15qMjc5$ZoKrbjTHXlhpAeJfZg.Xt1';
+```
+Copy that line into the file /public_html/artists/TamikoThiel/php/web/dashboard/users.inc.php
 
-$_access["TamikoThiel"] = '$1$i15qMjc5$ZoZrbjTHXlhpAeJfZg.Xt1';
-
-Copy that line into the file /public_html/ artists/TamikoThiel/php/web/dashboard/users.inc.php
-
+### Image - Add Password:
+![SetupArtistPorpoise6](/administration/images/SetupArtistPorpoise6.PNG)
 
 
