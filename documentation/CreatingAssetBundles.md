@@ -2,10 +2,11 @@
 # Hidden Histories
 # -- Creating Asset Bundles --
 ## Overview
+NOTE: this assumes prior knowledge of Unity!
+
 This is a step by step tutorial to create an asset bundle that can be used by **ARpoise** or **AR-vos**.
-In the tutorial an asset bundle for Android is created.
-This is done on Windows 10.
-The process for creating an iOS asset bundle or doing the steps on a Mac are similar.
+The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
+The process for creating an iOS asset bundle on a Mac are similar.
 See the last section of this document for further information.
 
 ## Unity Install
@@ -42,7 +43,7 @@ In the Project panel right click on **Assets** and select **Create / Folder** fr
 ![CreateAssetBundle5](/documentation/images/CreateAssetBundle5.PNG)
 
 ## 3D Assets
-Create two game objects in the SampleScene, a red cube and a blue sphere. (Sorry, this is not a Unity tutorial for creating 3D assets. Please refer to Unity's own tutorials.) 
+Create two game objects in the SampleScene, for instance a red cube and a blue sphere. (Sorry, this is not a Unity tutorial for creating 3D assets. Please refer to Unity's own tutorials.) 
 ### Image - Game Objects:
 ![CreateAssetBundle6](/documentation/images/CreateAssetBundle6.PNG)
 
