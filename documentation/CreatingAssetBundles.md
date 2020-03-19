@@ -42,8 +42,7 @@ In the Project panel right click on **Assets** and select **Create / Folder** fr
 ![CreateAssetBundle5](/documentation/images/CreateAssetBundle5.PNG)
 
 ## 3D Assets
-Sorry, this is not a Unity tutorial for creating 3D assets.
-For the tutorial two game objects have been created in the SampleScene, a red cube and a blue sphere.
+Create two game objects in the SampleScene, a red cube and a blue sphere. (Sorry, this is not a Unity tutorial for creating 3D assets. Please refer to Unity's own tutorials.) 
 ### Image - Game Objects:
 ![CreateAssetBundle6](/documentation/images/CreateAssetBundle6.PNG)
 
