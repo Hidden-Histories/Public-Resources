@@ -56,8 +56,27 @@ A password will be created for the artist, e.g.
 $_access["TamikoThiel"] = '$1$i15qMjc5$ZoKrbjTHXlhpAeJfZg.Xt1';
 ```
 Copy that line into the file /public_html/artists/TamikoThiel/php/web/dashboard/users.inc.php
-
 ### Image - Add Password:
 ![SetupArtistPorpoise6](/administration/images/SetupArtistPorpoise6.PNG)
+
+## Login as the Artist
+Use the name and password you created above and login to the service.
+### Image - Login as the Artist:
+![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
+
+## Add Google Maps Key
+The error message is displayed because the google maps key for hidden histories needs to be added to the file 
+
+/public_html/artists/ExampleArtist/php/web/dashboard/mapskey.inc.php
+
+and make sure the last line reads
+```
+$_googleMapsKey = 'AIzaSyDFyHIm77knmp5A7qNyY1234hz814SlFaM';
+```
+With the real hidden histories google maps key.
+
+
+The document linked below gives more info about how an artist has to set up layers.
+https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
 
