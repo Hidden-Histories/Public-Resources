@@ -25,7 +25,7 @@ Start out by creating a new Unity project, call the project **CreateAssetBundle*
 ![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
 
 ## Android Build
-The build platform needs to be changed to Android.
+Change the build platform to Android.
 
 Click: **File / Build Settings…**
 
