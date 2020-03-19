@@ -31,7 +31,7 @@ Edit the file /public_html/artists/TamikoThiel/php/config.php, make sure the las
 ![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
 
 ## Edit porpoise.php
-Edit the file /public_html/artists/TamikoThiel/php /web/porpoise.php, make sure line with the chdir command contains the file system location of the ExampleArtist directory created in the first step above.
+Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php, make sure line with the chdir command contains the file system location of the ExampleArtist directory created in the first step above.
 
 ### Image - porpoise.php:
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
@@ -43,4 +43,19 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 ### Image - Web Access:
 ![SetupArtistPorpoise5](/administration/images/SetupArtistPorpoise5.PNG)
+
+## Add Password
+You can create a password for your user TamikoThiel through the web interface. Enter the url:
+
+https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php?TamikoThiel=gigeldigik
+
+Please use a reasonable password instead of ‘gigeldigik’ in the url above! And use a different password for every user.
+
+A password will be created for the artist, e.g.
+
+$_access["TamikoThiel"] = '$1$i15qMjc5$ZoZrbjTHXlhpAeJfZg.Xt1';
+
+Copy that line into the file /public_html/ artists/TamikoThiel/php/web/dashboard/users.inc.php
+
+
 
