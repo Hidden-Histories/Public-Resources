@@ -48,11 +48,11 @@ Create two game objects in the SampleScene, for instance a red cube and a blue s
 ![CreateAssetBundle6](/documentation/images/CreateAssetBundle6.PNG)
 
 ## 3D Prefabs
-Turn the two objects into prefabs by dragging them from the **SampleScene** panel to the **Prefabs** folder created above.
+Turn the two objects into prefabs by dragging them one by one from the **SampleScene** panel to the **Prefabs** folder created above.
 ### Image - Prefabs:
 ![CreateAssetBundle7](/documentation/images/CreateAssetBundle7.PNG)
 
-Make sure both prefabs do not have any transformations, e.g.:
+Make sure both prefabs have zero transforms, e.g.:
 ### Image - Transform:
 ![CreateAssetBundle8](/documentation/images/CreateAssetBundle8.PNG)
 
@@ -64,7 +64,7 @@ Call the script **CreateAssetBundles**. Repeat the step and call the second scri
 
 Double click on the **CreateAssetBundles** script. Visual Studio or your favorite C# editor should open.
 
-Empty the file and copy the following lines into the file and save it.
+Delete the entire contents of the file, copy the following lines into the file and save it.
 ```
 using System.IO;
 using UnityEditor;
@@ -112,7 +112,7 @@ Now, when you right click on the **BlueSphere** prefab in the Prefabs folder you
 ## Create an Asset Bundle
 Select the **BlueSphere** prefab.
 
-On the right bottom of the Unity window you should see the label **AssetBundle** with **None** selected.
+On the bottom right of the Unity window you should see the label **AssetBundle** with **None** selected.
 Click on **None** and select **New** from the context menu. Enter the name of the new asset bundle,
 for the tutorial that is **exampleassetbundle**.
 ### Image - Select Asset Bundle:
@@ -120,7 +120,7 @@ for the tutorial that is **exampleassetbundle**.
 
 Select the **RedCube** prefab and also select the **exampleassetbundle** for it.
 
-Select the **RedCube** prefab, Right Click and select the **Build AssetBundles** option from the bottom of the context menu.
+Select either of your prefabs, do a right click and select the **Build AssetBundles** option from the bottom of the context menu.
 
 ### The asset bundle should be created!!!!!!!!
 
@@ -129,7 +129,7 @@ Select the **AssetBundles** folder created earlier. You should see four entries.
 ![CreateAssetBundle12](/documentation/images/CreateAssetBundle12.PNG)
 
 The first **exampleassetbundle** file is the actual asset bundle that needs to be made available on the web.
-The second file is a manifest file describing what is in the bundle. The file should contain something like:
+The second file (with lines in the icon) is a manifest file describing what is in the bundle. If you double click to open it, the file should contain something like:
 ```
 ManifestFileVersion: 0
 CRC: 1652422628
@@ -165,13 +165,10 @@ Assets:
 - Assets/Prefabs/RedCube.prefab
 Dependencies: []
 ```
-The two lines listing the two assets contained, the blue sphere and the red cube, are important.
-It is a good idea to keep the manifest around with the asset bundle so you can find out what is in the bundle.
+The two lines near the bottom listing your two assets, are important - you will need to enter these exact names (here BlueSphere and RedCube) into the porPOIse setup form in order to call them up as augments. Therefore always copy the manifest file to wherever you copy the asset bundle file, so you can find out what is in the bundle.
 
-The actual asset bundle file needs to be uploaded to the web and needs to be made available via http.
-The url of that file needs to be entered into the porpoise configuration of the layer
-that wants to show the red cube or the blue sphere as points of interest,
-but that topic is covered in a different tutorial.
+Upload the asset bundle file and manifest file to the web in a folder that can be accessed via http.
+You will need to enter the URL of the asset bundle file into the porPOIse web form for the layer showing the red cube or the blue sphere as augments (or POIs, Points Of Interest). This is covered in a different tutorial. (LINK!!!)
 
 ## iOS Asset Bundles
 In order to build an iOS asset bundle the iOS Unity module needs to be installed, see the second image above. Then the script CreateiOSAssetBundles can be used to create the asset bundles for iOS.
