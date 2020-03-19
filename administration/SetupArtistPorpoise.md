@@ -8,30 +8,31 @@
 This is a step by step tutorial to set up porPOIse for **ARpoise** or **AR-vos** for every artist involved in Hidden Histories.
 We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below.
 
-In the tutorial we set up porPOIse for Tamiko Thiel. When you set up for another artist, use the artist's real name where ever it  says Tamiko Thiel below. 
+In the tutorial we used screenshots of Tamiko Thiel's porPOIse. When you set up for another artist, use the artist's real name where ever it says Tamiko Thiel below. 
 
 **Please use only 'normal' letters and no white space characters for artist's names**.
 
 ## Folder Structure
-We use WinSCP on a Windows 10 machine, but the setup using some other client on a Mac, e.g. Cyberduck, should work the same.
-You need ftp/sftp access to the hiddenhistoriesjtown.org server. Sue gave that access to me.
-Here is what I created on the site so far.
+We use the WinSCP FTP client on a Windows 10 machine to upload files to the Hidden Histories server, but the setup using a different FTP client on a Mac, e.g. Cyberduck, should work the same.
+You need ftp/sftp access to the hiddenhistoriesjtown.org server. Here is what I created on the site so far.
+
 ### Image - Folders:
 ![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
 
 Under **public_html** I created two folders, **ArpoiseDirectory** and **artists**.
-I will talk about ArpoiseDirectory in another tutorial,
-here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
+I will talk about ArpoiseDirectory in another tutorial (LINK!!!), here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
 
 ## Create Artist Folder
-Create a copy of the **ExampleArtist** folder and call it **TamikoThiel**, please do not use blanks or other strange characters in the artist’s name.
+Create a copy of the **ExampleArtist** folder, here called TamikoThiel - rename it with the artist's name. Please do not use blanks or other special characters in the artist’s name.
+
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
 
-The **TamikoThiel** folder contains three subfolders, **AssetBundles** for the asset bundles, i.e. the artwork of the artist,
-**config** for the configuration of the layers of the artist
-and **php** for the interface allowing the artist to configure her/his layers
-
+The folder "TamikoThiel" contains three subfolders:
+- **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
+- **config** for the configuration of the layers of the artist.
+- **php** for the interface that enables the artist to configure their layers
+.
 ## Edit config.php
 Edit the file /public_html/artists/TamikoThiel/php/config.php,
 make sure the last but one line contains the file system location of the config directory created in the step above.
