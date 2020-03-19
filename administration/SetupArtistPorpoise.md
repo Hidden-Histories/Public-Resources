@@ -13,19 +13,25 @@ Here is what I created on the site so far.
 ### Image - Folders:
 ![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
 
-Under **public_html** I created two folders, **ArpoiseDirectory** and **artists**. I will talk about ArpoiseDirectory in another tutorial, here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
+Under **public_html** I created two folders, **ArpoiseDirectory** and **artists**.
+I will talk about ArpoiseDirectory in another tutorial,
+here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
 
 ## Create Artist Folder
 Create a copy of the **ExampleArtist** folder and call it **TamikoThiel**, please do not use blanks or other strange characters in the artist’s name.
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
 
-The TamikoThiel folder contains three subfolders, AssetBundles for the asset bundles, i.e. the artwork of the artist, config for the configuration of the layers of the artist and php for the interface allowing the artist to configure her/his layers
+The **TamikoThiel** folder contains three subfolders, **AssetBundles** for the asset bundles, i.e. the artwork of the artist,
+**config** for the configuration of the layers of the artist
+and **php** for the interface allowing the artist to configure her/his layers
 
 ## Edit config.php
-Edit the file /public_html/artists/TamikoThiel/php/config.php, make sure the last but one line contains the file system location of the config directory created in the step above.
-
+Edit the file /public_html/artists/TamikoThiel/php/config.php,
+make sure the last but one line contains the file system location of the config directory created in the step above.
+```
 “/home4/hhjtown/public_html/artists/TamikoThiel/config”
+```
 ### Image - config.php:
 ![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
 
