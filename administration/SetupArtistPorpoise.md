@@ -88,7 +88,7 @@ and make sure the last line reads
 ```
 $_googleMapsKey = 'AIzaSyDFyHIm77knmp5A7qNyY1234hz814SlFaM';
 ```
-With the real hidden histories google maps key!
+With the real Hidden Histories google maps key!
 
 ## Further Reading
 Another document will talk about how to configure an example layer for the user.
