@@ -171,7 +171,7 @@ Upload the asset bundle file and manifest file to the web in a folder that can b
 You will need to enter the URL of the asset bundle file into the porPOIse web form for the layer showing the red cube or the blue sphere as augments (or POIs, Points Of Interest). This is covered in a different tutorial. (LINK!!!)
 
 ## iOS Asset Bundles
-In order to build an iOS asset bundle the iOS Unity module needs to be installed, see the second image above. Then the script CreateiOSAssetBundles can be used to create the asset bundles for iOS.
+In order to build an iOS asset bundle, you need to include the iOS Build Support module in your Unity project (see the second image from the top, "Image - Unity Modules:"). Then use right click / Build iOSAssetBundles to create the asset bundles for iOS.
 
 **Important Note**: In order for the assets to work in **ARpoise** and **AR-vos** on **Android** and **iOS**,
 both the **Android** and the **iOS** asset bundle need to be created and made available on the web via **http**.
