@@ -3,12 +3,12 @@
 # -- Setup Artist Porpoise --
 ## Overview
 
-**NOTE:** This tutorial is meant for the Hidden Histories administrator who sets up accounts for the artists.
+**NOTE:** This tutorial is meant ONLY for the Hidden Histories admin who sets up accounts for the artists!!!
 
-This is a step by step tutorial to set up porPOIse for **ARpoise** or **AR-vos** for every artist involved in Hidden Histories.
+This is a step by step tutorial how to set up porPOIse for **ARpoise** or **AR-vos** for each artist involved in Hidden Histories.
 We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below.
 
-In the tutorial we used screenshots of Tamiko Thiel's porPOIse. When you set up for another artist, use the artist's real name where ever it says Tamiko Thiel below. 
+In the tutorial we used screenshots of Tamiko Thiel's porPOIse. When you set up for another artist, use the artist's real name where ever it says "Tamiko Thiel" below. 
 
 **Please use only 'normal' letters and no white space characters for artist's names**.
 
@@ -28,14 +28,14 @@ Create a copy of the **ExampleArtist** folder, here called TamikoThiel - rename 
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
 
-The folder "TamikoThiel" contains three subfolders:
+The artist's folder (here "TamikoThiel") contains three subfolders:
 - **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
 - **config** for the configuration of the layers of the artist.
 - **php** for the interface that enables the artist to configure their layers
 .
 ## Edit config.php
-Edit the file /public_html/artists/TamikoThiel/php/config.php,
-make sure the last but one line contains the file system location of the config directory created in the step above.
+Edit the file /public_html/artists/TamikoThiel/php/config.php:
+make sure the second to last line contains the file system location of the config directory created in the step above.
 ```
 “/home4/hhjtown/public_html/artists/TamikoThiel/config”
 ```
@@ -43,8 +43,8 @@ make sure the last but one line contains the file system location of the config 
 ![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
 
 ## Edit porpoise.php
-Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php,
-make sure line with the chdir command contains the file system location of the php directory created in the step above.
+Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php. 
+Make sure line with the chdir command contains the file system location of the php directory created in the step above.
 ```
 chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ```
@@ -52,7 +52,7 @@ chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
 
 ## Check the Web Access
-Your new porpoise service should be visible on the web right now. In a web browser, enter the url.
+Your new porPOIse service should be visible on the web right now. In a web browser, enter the url.
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
@@ -60,7 +60,7 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 ![SetupArtistPorpoise5](/administration/images/SetupArtistPorpoise5.PNG)
 
 ## Add Password
-You can create a password for your user TamikoThiel through the web interface. Enter the url:
+You can create a password for your artist (here "TamikoThiel" with password "gigeldigik") through the web interface. Enter the URL with ?artistname=artistpassword:
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php?TamikoThiel=gigeldigik
 
@@ -79,10 +79,10 @@ Use the name and password you created above and login to the service.
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
 
-The error message is displayed because the google maps key for hidden histories needs to be added.
+The error message is displayed because the google maps key for Hidden Histories needs to be added.
 
 ## Add Google Maps Key
-Edit the file /public_html/artists/ExampleArtist/php/web/dashboard/mapskey.inc.php
+Edit the file /public_html/artists/TamikoThiel/php/web/dashboard/mapskey.inc.php
 
 and make sure the last line reads
 ```
