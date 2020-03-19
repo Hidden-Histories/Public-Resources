@@ -13,7 +13,7 @@ The tutorial uses Unity 2018.3.14.f1 on Windows 10.
 ### Image - Unity Install:
 ![CreateAssetBundle1](/documentation/images/CreateAssetBundle1.PNG)
 
-Unity is installed with the following modules.
+Install Unity with the following modules.
 ### Image - Unity Modules:
 ![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
 
