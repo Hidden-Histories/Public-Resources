@@ -17,7 +17,7 @@ Install Unity with the following modules.
 ### Image - Unity Modules:
 ![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
 
-Microsoft Visual Studio is also installed. The free version is good enough.
+Microsoft Visual Studio will be automatically installed as well. The free version is good enough.
 
 ## CreateAssetBundle Project
 Start out by creating a new Unity project, call the project **CreateAssetBundle**.
