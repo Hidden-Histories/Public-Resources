@@ -177,10 +177,12 @@ You will need to enter the URL of the asset bundle file into the porPOIse web fo
 ## iOS Asset Bundles
 In order to build an iOS asset bundle, you need to include the iOS Build Support module in your Unity project (see the second image from the top, "Image - Unity Modules:"). Then use right click / Build iOSAssetBundles to create the asset bundles for iOS.
 
-**Important Note**: In order for the assets to work in **ARpoise** and **AR-vos** you MUST create and upload BOTH
+**Important Notes**: 
+
+- In order for the assets to work in **ARpoise** and **AR-vos** you MUST create and upload BOTH
 the **Android** and the **iOS** asset bundle to a web folder accessible via **http**.
 
-Furthermore, the following naming convention needs to be applied.
+- You MUST use the following naming convention:
 If the name of the Android asset bundle is **exampleassetbundle**,
 the name of the iOS asset bundle needs to be **exampleassetbundlei**.
 I.e. the same name followed by a lower case letter ‘**i**’.
