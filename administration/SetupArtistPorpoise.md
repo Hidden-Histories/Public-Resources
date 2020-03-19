@@ -4,7 +4,7 @@
 ## Overview
 This is a step by step tutorial to set up Porpoise used by **ARpoise** or **AR-vos** for every artist involved in hidden histories.
 We created a template for an example artist named ‘Example Artist’, in order to set up a real artist you should follow the steps below.
-In the tutorial we setup porpoise for Tamiko Thiel. If you set up for another user, use the real name where ever it we says Tamiko Thiel below.
+In the tutorial we set up porpoise for Tamiko Thiel. If you set up for another user, use the real name where ever it we says Tamiko Thiel below. **Please use only 'normal' letters and no white space characters for artist's names**.
 
 ## Folder Structure
 We use WinSCP on a Windows 10 machine, but the setup using some other client on a Mac, e.g. Cyberduck, should work the same.
