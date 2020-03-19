@@ -185,4 +185,4 @@ the **Android** and the **iOS** asset bundle to a web folder accessible via **ht
 - You MUST use the following naming convention:
 If the name of the Android asset bundle is **exampleassetbundle**,
 the name of the iOS asset bundle needs to be **exampleassetbundlei**.
-I.e. the same name followed by a lower case letter ‘**i**’.
+(The same name followed by a lower case letter ‘**i**’.)
