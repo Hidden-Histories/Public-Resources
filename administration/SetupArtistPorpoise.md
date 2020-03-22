@@ -90,12 +90,15 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 
 .
 ## Login as the Artist
-Use the name and password you created above and login to the service.
+Use the name and password you created above and login to the service via the login screen:
+https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
+
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
 
 The error message is displayed because the google maps key for Hidden Histories needs to be added.
 
+.
 ## Add Google Maps Key
 Edit the file /public_html/artists/TamikoThiel/php/web/dashboard/mapskey.inc.php
 
