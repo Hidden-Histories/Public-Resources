@@ -63,29 +63,32 @@ chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
 
 .
-## Check the web access
-The artist's new porPOIse service should be accessible on the web now via a login page. In a web browser, enter the following url, replacing "TamikoThiel" with the artist's name:
+## Check web access to the artist's porPOIse service
+The artist's new porPOIse service should be accessible on the web now via a login page. In a web browser, enter the following url, replacing "TamikoThiel" with the artist's name. You should get the following login screen:
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 ### Image - Web Access:
 ![SetupArtistPorpoise5](/administration/images/SetupArtistPorpoise5.PNG)
 
-## Add Password
-You can create a password for your artist (here "TamikoThiel" with password "gigeldigik") through the web interface. Enter the URL with ?artistname=artistpassword:
+.
+## Create a password for the artist
+Use the following URL to create a password for the artist, replacing "TamikoThiel" with their name and "gigeldigik" with their chosen password. Enter the URL with ?artistname=artistpassword:
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php?TamikoThiel=gigeldigik
 
-Please use a reasonable password instead of ‘gigeldigik’ in the url above! And use a different password for every user!
+Please use a different password for every user!
 
-A password will be created for the artist, e.g.
+It will generate an encoded passwork such as the following:
 ```
 $_access["TamikoThiel"] = '$1$i15qMjc5$ZoKrbjTHXlhpAeJfZg.Xt1';
 ```
-Copy that line into the file /public_html/artists/TamikoThiel/php/web/dashboard/users.inc.php
+Copy that entire line into the artist's users.inc.php file, in our example here: /public_html/artists/TamikoThiel/php/web/dashboard/users.inc.php
+
 ### Image - Add Password:
 ![SetupArtistPorpoise6](/administration/images/SetupArtistPorpoise6.PNG)
 
+.
 ## Login as the Artist
 Use the name and password you created above and login to the service.
 ### Image - Login as the Artist:
