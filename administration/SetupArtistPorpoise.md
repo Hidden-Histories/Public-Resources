@@ -11,7 +11,7 @@ Each artist (and helper) will have their own copy of the porPOIse back end user 
 There are two steps to set up a new artist with porPOIse:
 1. This tutorial shows how to create and configure a **porPOIse account** for each artist.
 2. Afterwards, the admin has to configure the artist's layers in the **ArpoiseDirectory**. For that tutorial, please see the 
-documentation on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
+documentation on the ARpoise github site, but **replace references to the ARpoise server with the appropriate URLs for the Hidden Histories server**! https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
 We created a **template folder** for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use the artist's real name whereever it says "Tamiko Thiel" below. Please use only 'normal' letters and no white space characters for 
 artist's names.
@@ -96,7 +96,8 @@ Replace "TamikoThiel" here with the name of the new artist and login using the n
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 Note that to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! To change this:
-1. First the admin has to change the GPS location in the ArpoiseDirectory (see tutorial here):  https://github.com/ARPOISE/ARpoise/tree/master/php/dir.
+1. First the admin has to change the GPS location in the ArpoiseDirectory. For that tutorial, please see the 
+documentation on the ARpoise github site, but **replace references to the ARpoise server with the appropriate URLs for the Hidden Histories server**! https://github.com/ARPOISE/ARpoise/tree/master/php/dir.
 2. Then the artist has to change the GPS location in their own layers (see tutorial on creating augments with porPOIse): https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
 ### Image - Artist's default Home page on porPOIse:
