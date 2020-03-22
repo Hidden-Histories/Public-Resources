@@ -5,12 +5,13 @@
 
 **NOTE:** This tutorial is meant ONLY for the Hidden Histories admin who sets up accounts for the artists!!!
 
-Each artist (and helper) will have their own copy of the porPOIse back end user interface for managing their own layers.
+Each artist (and helper) will have their own copy of the porPOIse back end user interface for managing their own layers for both **ARpoise** and **AR-vos**.
 
-This is a step by step tutorial how to set up porPOIse for **ARpoise** or **AR-vos** for each artist involved in Hidden Histories.
-We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below.
+There are two steps to set up a new artist with porPOIse:
+- This tutorial shows how to create and configure a porPOIse folder for each artist.
+- Afterwards, the admin has to configure the artist's layers in the ArpoiseDirectory. For that tutorial, please see the documentation on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
-In the tutorial we used screenshots of Tamiko Thiel's porPOIse. When you set up for another artist, use the artist's real name where ever it says "Tamiko Thiel" below. 
+We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use the artist's real name whereever it says "Tamiko Thiel" below. 
 
 **Please use only 'normal' letters and no white space characters for artist's names**.
 
@@ -20,7 +21,7 @@ You need ftp/sftp access to the hiddenhistoriesjtown.org server.
 
 Under **public_html** we created two folders, **ArpoiseDirectory** and **artists**. This tutorial covers setting up a new artist in the **artists** folder.
 
-Afterwards, the admin will need to configure the ArpoiseDirectory for each artist. For that tutorial, please see the documentation on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
+Afterwards, the admin will need to configure the ArpoiseDirectory for each artist. 
 
 In **artists** we created a template folder called **ExampleArtist**. It contains three subfolders:
 - **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
