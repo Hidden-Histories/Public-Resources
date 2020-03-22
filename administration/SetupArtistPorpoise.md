@@ -98,7 +98,7 @@ Replace "TamikoThiel" here with the name of the new artist and login using the n
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 Note that to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! To change this:
-1. First the admin has to change the GPS location in the ArpoiseDirectory. For that tutorial, please see the 
+1. First the admin has to change the GPS location in the ArpoiseDirectory. https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/ For that tutorial, please see the 
 documentation on the ARpoise github site, but **replace references to the ARpoise server with the appropriate URLs for the Hidden Histories server**! https://github.com/ARPOISE/ARpoise/tree/master/php/dir.
 2. Then the artist has to change the GPS location in their own layers (see tutorial on creating augments with porPOIse): https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
@@ -108,9 +108,7 @@ documentation on the ARpoise github site, but **replace references to the ARpois
 .
 ## Next Steps
 
-2. **The admin must now configure the new artist's layers in the ArpoiseDirectory.** https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/
-
-For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
+2. **The admin must now configure the new artist's layers in the ArpoiseDirectory.** https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/ For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
 3. After the artist's layers are entered in the directory, the artist can create and edit their layers. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
