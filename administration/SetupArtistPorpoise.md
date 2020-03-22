@@ -9,8 +9,8 @@ Each artist (and helper) will have their own copy of the porPOIse back end user 
 **ARpoise** and **AR-vos**.
 
 There are two steps to set up a new artist with porPOIse:
-- This tutorial shows how to create and configure a **porPOIse account** for each artist.
-- Afterwards, the admin has to configure the artist's layers in the **ArpoiseDirectory**. For that tutorial, please see the 
+1. This tutorial shows how to create and configure a **porPOIse account** for each artist.
+2. Afterwards, the admin has to configure the artist's layers in the **ArpoiseDirectory**. For that tutorial, please see the 
 documentation on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
 We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps 
