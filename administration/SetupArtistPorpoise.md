@@ -37,6 +37,7 @@ Duplicate the entire contents of the **ExampleArtist** folder and rename it with
 .
 ## Edit the artist's config.php file
 Edit the artist's config file (in our example here /public_html/artists/TamikoThiel/php/config.php).
+
 Make sure the second to last line contains the file system location of the config directory created in the step above. (And as always, make sure you don't delete the closing bracket '}'.)
 ```
 “/home4/hhjtown/public_html/artists/TamikoThiel/config”
@@ -44,15 +45,18 @@ Make sure the second to last line contains the file system location of the confi
 ### Image - config.php:
 ![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
 
-## Edit porpoise.php
-Edit the file /public_html/artists/TamikoThiel/php/web/porpoise.php. 
-Make sure line with the chdir command contains the file system location of the php directory created in the step above.
+.
+## Edit the artist's porpoise.php file:
+Edit the artist's porpoise.php file (in our example here /public_html/artists/TamikoThiel/php/web/porpoise.php). 
+
+Make sure the line with the chdir command contains the file system location of the php directory created in the step above.
 ```
 chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ```
 ### Image - porpoise.php:
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
 
+.
 ## Check the Web Access
 Your new porPOIse service should be visible on the web right now. In a web browser, enter the url.
 
