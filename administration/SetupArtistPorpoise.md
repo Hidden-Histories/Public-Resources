@@ -53,7 +53,7 @@ And as always, make sure you don't delete the closing bracket '}' ;-)
 
 .
 ## Edit the artist's porpoise.php file:
-Edit the artist's porpoise.php (in our example here /public_html/artists/TamikoThiel/php/web/porpoise.php). 
+Edit the artist's porpoise.php file, in our example here: /public_html/artists/TamikoThiel/php/web/porpoise.php 
 
 Make sure the line with the **chdir** command contains the file system location of the php directory created in the step above.
 ```
@@ -63,8 +63,8 @@ chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
 
 .
-## Check the Web Access
-Your new porPOIse service should be visible on the web right now. In a web browser, enter the url.
+## Check the web access
+The artist's new porPOIse service should be accessible on the web now via a login page. In a web browser, enter the following url, replacing "TamikoThiel" with the artist's name:
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
