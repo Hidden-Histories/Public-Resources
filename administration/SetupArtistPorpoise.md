@@ -5,7 +5,7 @@
 
 **NOTE:** This tutorial is meant ONLY for the Hidden Histories admin who sets up accounts for the artists!!!
 
-Each artist will have their own porPOIse back end user interface to set up their own layers.
+Each artist (and helper) will have their own copy of the porPOIse back end user interface for managing their own layers.
 
 This is a step by step tutorial how to set up porPOIse for **ARpoise** or **AR-vos** for each artist involved in Hidden Histories.
 We created a template for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below.
