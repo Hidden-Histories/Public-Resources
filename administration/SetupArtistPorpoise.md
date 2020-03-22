@@ -16,12 +16,13 @@ In the tutorial we used screenshots of Tamiko Thiel's porPOIse. When you set up 
 We use the WinSCP FTP client on a Windows 10 machine to upload files to the Hidden Histories server, but the setup using a different FTP client on a Mac, e.g. Cyberduck, should work the same.
 You need ftp/sftp access to the hiddenhistoriesjtown.org server. Here is what I created on the site so far.
 
-### Image - Folders:
-![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
-
 Under **public_html** I created two folders, **ArpoiseDirectory** and **artists**.
 I will talk about ArpoiseDirectory in another tutorial (LINK!!!), here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
 
+### Image - Folders:
+![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
+
+.
 ## Create Artist Folder
 Create a copy of the **ExampleArtist** folder, here called TamikoThiel - rename it with the artist's name. Please do not use blanks or other special characters in the artist’s name.
 
