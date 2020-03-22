@@ -1,0 +1,1 @@
+[18-Mar-2020 17:50:01 America/Chicago] PHP Deprecated:  Non-static method GUI::createNewPOIScreen() should not be called statically in /home4/hhjtown/public_html/ArpoiseDirectory/php/web/dashboard/index.php on line 53

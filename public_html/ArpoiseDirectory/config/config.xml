@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<porpoise-configuration>
+ <connectors>
+  <!--<connector><name></name><file></file></connector>-->
+ </connectors>
+ 
+ <layers>
+
+<!--
+
+Sample XML layer configuration
+  <layer>
+   <name>example</name>
+   <connector>XMLPOIConnector</connector>
+   <source>example.xml</source>
+  </layer>
+ -->
+
+  
+  <layer>
+   <name>Arpoise-Directory</name>
+   <connector>XMLPOIConnector</connector>
+   <source>Arpoise-Directory.xml</source>
+  </layer>
+
+  <layer>
+   <name>AR-vos-Directory</name>
+   <connector>XMLPOIConnector</connector>
+   <source>AR-vos-Directory.xml</source>
+  </layer>
+
+ </layers>
+</porpoise-configuration>
