@@ -35,7 +35,7 @@ Duplicate the entire contents of the **ExampleArtist** folder and rename it with
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
 
 .
-## Edit config.php
+## Edit the Artist's config.php file
 Edit the file /public_html/artists/TamikoThiel/php/config.php:
 make sure the second to last line contains the file system location of the config directory created in the step above.
 ```
