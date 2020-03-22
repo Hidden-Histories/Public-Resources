@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3672372376
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ccba815766687ae4b069a98b50c89337
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 44f946da2770336156603928e8c2456f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/StripesCube.prefab
+- Assets/Prefabs/BlueCube.prefab
+- Assets/Prefabs/VioletCube.prefab
+- Assets/Prefabs/OrangeCube.prefab
+- Assets/Prefabs/BellCube.prefab
+- Assets/Prefabs/RedCube.prefab
+- Assets/Prefabs/YellowCube.prefab
+Dependencies: []
