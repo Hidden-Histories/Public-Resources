@@ -1,4 +1,4 @@
-![HiddenHistories Logo](/images/hiddenhistories-logo_sq.jpg)
+![HiddenHistories Logo](/images/hiddenhistories-logo.png)
 # Public-Resources
 Public Resources of 'Hidden Histories of San Jose Japantown'.
 ## Documentation
