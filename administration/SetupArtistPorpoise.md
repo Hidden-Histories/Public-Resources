@@ -95,27 +95,18 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 Replace "TamikoThiel" here with the name of the new artist and login using the name and password you created above:
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
-Note that to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! Information on how to change this is in the ArpoiseDirectory set up for each artist (https://github.com/ARPOISE/ARpoise/tree/master/php/dir), and in the artist tutorial for creating augments with porPOIse. **LINK**
+Note that to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! Information on how to change this is in the ArpoiseDirectory set up  (https://github.com/ARPOISE/ARpoise/tree/master/php/dir), and in the artist tutorial for creating augments with porPOIse. **LINK**
 
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
 
-The error message is displayed because the google maps key for Hidden Histories needs to be added.
-
 .
-## Add Google Maps Key
-Edit the file /public_html/artists/TamikoThiel/php/web/dashboard/mapskey.inc.php
+## Next Steps
 
-and make sure the last line reads
-```
-$_googleMapsKey = 'AIzaSyDFyHIm77knmp5A7qNyY1234hz814SlFaM';
-```
-With the real Hidden Histories google maps key!
+2. The admin must now configure the new artist's layers in the ArpoiseDirectory. For that tutorial, please see this 
+document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
-## Further Reading
-Another document will talk about how to configure an example layer for the user.
-
-The document linked below gives more info about how an artist has to set up layers.
+3. After the artist's layers are entered in the directory, the artist can create and edit their layers. For that tutorial, please see this document on the ARpoise github site:
 https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
 
