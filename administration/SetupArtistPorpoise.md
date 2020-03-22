@@ -95,7 +95,7 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 Replace "TamikoThiel" here with the name of the new artist and login using the name and password you created above:
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
-Note that to avoid having all the artist layers pile up in the same place in Japantown, the default location of the layer is in the salt flats! Information on how to change this is in the ArpoiseDirectory set up for each artist (https://github.com/ARPOISE/ARpoise/tree/master/php/dir), and in the artist tutorial for creating augments with porPOIse. **LINK**
+Note that to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! Information on how to change this is in the ArpoiseDirectory set up for each artist (https://github.com/ARPOISE/ARpoise/tree/master/php/dir), and in the artist tutorial for creating augments with porPOIse. **LINK**
 
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
