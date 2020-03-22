@@ -24,7 +24,7 @@ I will talk about ArpoiseDirectory in another tutorial (LINK!!!), here we just c
 
 .
 ## Create Artist Folder
-Create a copy of the **ExampleArtist** folder, here called TamikoThiel - rename it with the artist's name. Please do not use blanks or other special characters in the artist’s name.
+Duplicate the entire contents of the **ExampleArtist** folder and rename it with the artist's name. In this example, we called it "TamikoThiel." Please do NOT use blanks or other special characters in the artist’s name.
 
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
