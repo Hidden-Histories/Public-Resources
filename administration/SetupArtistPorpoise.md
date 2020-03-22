@@ -31,7 +31,9 @@ In **artists** we created a template folder called **ExampleArtist**. It contain
 
 .
 ## Create Artist Folder
-Duplicate the entire contents of the **ExampleArtist** folder and rename it with the artist's name. In this example, we called it "TamikoThiel." Please do NOT use blanks or other special characters in the artist’s name.
+Duplicate the entire contents of the **ExampleArtist** folder and rename it with the artist's name. In this example, we called it "TamikoThiel." 
+
+Please do NOT use blanks or other special characters in the artist’s name.
 
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
@@ -40,7 +42,9 @@ Duplicate the entire contents of the **ExampleArtist** folder and rename it with
 ## Edit the artist's config.php file
 Edit the artist's config file (in our example here /public_html/artists/TamikoThiel/php/config.php).
 
-Make sure the second to last line contains the file system location of the config directory created in the step above. (And as always, make sure you don't delete the closing bracket '}'.)
+Make sure the second to last line contains the **file system location of the config directory** created in the step above. 
+
+And as always, make sure you don't delete the closing bracket '}' ;-)
 ```
 “/home4/hhjtown/public_html/artists/TamikoThiel/config”
 ```
@@ -49,9 +53,9 @@ Make sure the second to last line contains the file system location of the confi
 
 .
 ## Edit the artist's porpoise.php file:
-Edit the artist's porpoise.php file (in our example here /public_html/artists/TamikoThiel/php/web/porpoise.php). 
+Edit the artist's porpoise.php (in our example here /public_html/artists/TamikoThiel/php/web/porpoise.php). 
 
-Make sure the line with the chdir command contains the file system location of the php directory created in the step above.
+Make sure the line with the **chdir** command contains the file system location of the php directory created in the step above.
 ```
 chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ```
