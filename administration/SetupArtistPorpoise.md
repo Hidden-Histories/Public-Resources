@@ -75,13 +75,13 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 .
 ## Create a password for the artist
-Use the following URL to create a password for the artist, replacing "TamikoThiel" with their name and "gigeldigik" with their chosen password. Enter the URL with ?artistname=artistpassword:
+Use the following URL to create a password for the artist, replacing "TamikoThiel" with their name and "gigeldigik" with their chosen password:
 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/crypt.php?TamikoThiel=gigeldigik
 
 Please use a different password for every user!
 
-It will generate an encoded passwork such as the following:
+It will generate an encoded password such as the following:
 ```
 $_access["TamikoThiel"] = '$1$i15qMjc5$ZoKrbjTHXlhpAeJfZg.Xt1';
 ```
@@ -92,8 +92,10 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 
 .
 ## Login as the Artist
-Use the name and password you created above and login to the service via the login screen:
+Replace "TamikoThiel" here with the name of the new artist and login using the name and password you created above:
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
+
+Note that to avoid having all the artist layers pile up in the same place in Japantown, the default location of the layer is in the salt flats! Information on how to change this is in the ArpoiseDirectory set up for each artist (https://github.com/ARPOISE/ARpoise/tree/master/php/dir), and in the artist tutorial for creating augments with porPOIse. **LINK**
 
 ### Image - Login as the Artist:
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
