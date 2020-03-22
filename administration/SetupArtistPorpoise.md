@@ -17,7 +17,12 @@ We use the WinSCP FTP client on a Windows 10 machine to upload files to the Hidd
 You need ftp/sftp access to the hiddenhistoriesjtown.org server. Here is what I created on the site so far.
 
 Under **public_html** I created two folders, **ArpoiseDirectory** and **artists**.
-I will talk about ArpoiseDirectory in another tutorial (LINK!!!), here we just cover **artists**. In **artists** we created a template folder called **ExampleArtist**.
+I will talk about ArpoiseDirectory in another tutorial (LINK!!!), here we just cover **artists**. 
+
+In **artists** we created a template folder called **ExampleArtist**. It contains three subfolders:
+- **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
+- **config** for the configuration of the layers of the artist.
+- **php** for the interface that enables the artist to configure their layers
 
 ### Image - Folders:
 ![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
@@ -29,10 +34,6 @@ Duplicate the entire contents of the **ExampleArtist** folder and rename it with
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
 
-The artist's folder (here "TamikoThiel") contains three subfolders:
-- **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
-- **config** for the configuration of the layers of the artist.
-- **php** for the interface that enables the artist to configure their layers
 .
 ## Edit config.php
 Edit the file /public_html/artists/TamikoThiel/php/config.php:
