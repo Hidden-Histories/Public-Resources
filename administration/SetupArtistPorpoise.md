@@ -108,8 +108,9 @@ documentation on the ARpoise github site, but **replace references to the ARpois
 .
 ## Next Steps
 
-2. **The admin must now configure the new artist's layers in the ArpoiseDirectory.** For that tutorial, please see this 
-document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
+2. **The admin must now configure the new artist's layers in the ArpoiseDirectory.** https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/
+
+For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
 3. After the artist's layers are entered in the directory, the artist can create and edit their layers. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
