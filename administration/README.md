@@ -1,4 +1,4 @@
-![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+![Hidden Histories Logo](/images/hiddenhistories-logo_sq.png)
 # Hidden Histories
 
 ## Overview
