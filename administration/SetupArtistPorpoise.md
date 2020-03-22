@@ -105,7 +105,7 @@ Note that to avoid having all the artist layers pile up in the same place in Jap
 .
 ## Next Steps
 
-2. The admin must now configure the new artist's layers in the ArpoiseDirectory. For that tutorial, please see this 
+2. **The admin must now configure the new artist's layers in the ArpoiseDirectory.** For that tutorial, please see this 
 document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/tree/master/php/dir
 
 3. After the artist's layers are entered in the directory, the artist can create and edit their layers. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
