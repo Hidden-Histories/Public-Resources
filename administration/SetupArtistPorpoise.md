@@ -20,7 +20,7 @@ You need ftp/sftp access to the hiddenhistoriesjtown.org server. We use the WinS
 files to the Hidden Histories server, but the setup using a different FTP client on a Mac, e.g. Cyberduck, should work the same.
 
 Under **public_html** we created two folders, **ArpoiseDirectory** and **artists**. As mentioned above, this tutorial covers setting up a new artist in the **artists** folder. For the the **ArpoiseDirectory** tutorial, please see the 
-documentation on the ARpoise github site, but **replace references to the ARpoise server with the appropriate URLs for the Hidden Histories server**!: https://github.com/ARPOISE/ARpoise/blob/master/php/dir/README.md
+documentation linked from the section [**Next Steps**](#next-steps) below.
 
 In **artists** we created a template folder called **ExampleArtist**. It contains three subfolders:
 - **AssetBundles** for the asset bundles, i.e. the artist's artwork that makes up the total augment.
