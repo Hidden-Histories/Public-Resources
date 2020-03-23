@@ -106,7 +106,7 @@ NOTE: to avoid having all the artist layers pile up in the same place in Japanto
 
 2. The **admin** must now **register and configure the new artist's layers in the ArpoiseDirectory.** For that tutorial, please see this document on the ARpoise github site but:
 - **Replace references to the ARpoise server with the appropriate URLs for the Hidden Histories server!**
-- We recommend using the artist initials or some such unique tag to make the layer names unique and easily identifiable, e.g. sueyuen1, SY_test1 etc.
+- We recommend using the artist initials or some such unique tag to make the layer names unique and easily identifiable, e.g. sueyuen1, SYtest1 etc.
 - https://github.com/ARPOISE/ARpoise/tree/master/php/dir#arpoisedirectory-back-end
 
 3. Once the admin has registered the artist's layers in the directory, the artist can add assets to their layers, animate them if desired and begin testing and editing their layers. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
