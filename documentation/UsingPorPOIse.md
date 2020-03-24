@@ -29,7 +29,7 @@ The layer configuration page lets you edit properties that apply to the entire l
 
 It also gives you a list of the POIs that make up the AR experience of your layer, and allows you to add new POIs to the layer with the **New POI** link above the layer list.
 
-![ExampleArtist-ExampleLayer_porPOIse](/images/ExampleArtist-ExampleLayer_porPOIse.png)
+![ExampleArtist-ExampleLayer_POIlist](/images/ExampleArtist-ExampleLayer_POIlist.png)
 
 ### Explanation:
 You can edit the following properties of a layer:
