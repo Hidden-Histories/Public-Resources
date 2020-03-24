@@ -27,27 +27,29 @@ Click on the name of your test or example layer.
 
 The layer configuration page lets you edit properties that apply to the entire layer.
 
-It also gives you a list of the POIs that make up the AR experience of your layer, and allow you to add new POIs to the layer.
+It also gives you a list of the POIs that make up the AR experience of your layer, and allows you to add new POIs to the layer with the **New POI** link above the layer list.
 
 ![ExampleArtist-ExampleLayer_porPOIse](/images/ExampleArtist-ExampleLayer_porPOIse.png)
 
 ### Explanation:
 You can edit the following properties of a layer:
-* **Layer title**: The layer title is optional, if given, it is displayed by the application in the top center of the screen.
-* **Refresh interval**: The refresh interval is optional, if given, it defines the seconds after which the client application will reload the layer information.
-* **Redirect to layer**: The redirection layer is optional, if given, the layer redirected to is displayed by the client instead of the current one.
-* **Visibility in meters**: The range in meters inside which the layer is visible to clients, 1500m is the maximum.
-* **Area size in meters**: The area size is optional, if given, POIs having an absolute geo-location are kept within this area.
-* **Area width in meters**: The area width is optional, if given, POIs having an absolute geo-location are kept within this area.
-* **Show menu button**: This combo box defines whether the ARpoise menu button is shown by the client application.
+* **Layer title**: The layer title is optional. If given, it is displayed by the ARpoise app in the top center of the screen.
+* **Refresh interval**: The refresh interval is optional. If given, it defines the seconds after which the ARpoise app will update  the layer. **When is this useful? What is the default???**
+* **Redirect to layer**: The redirection layer is optional, if given, the layer redirected to is displayed by the client instead of the current one. **When is this useful? What is the default???**
+* **Visibility in meters**: The layer is visible if a viewer is within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.)
+* **Area size in meters**: The area size is optional, if given, POIs having an absolute geo-location are kept within this area around the viewer. If the viewer is walking around the POIs will be relocated if they fall outside this area.
+* **Area width in meters**: The area width is optional, if given, POIs having an absolute geo-location are kept within this area. (is width E-W and size N-S???)
+* **Show menu button**: This combo box defines whether the ARpoise menu button is shown by the client application. (???)
 * **Apply Kalman filter**: This combo box defines whether a Kalman filter is applied to the device location by the client application.
-* **No pois message**: This message is shown by the client application, if there are no POIs in range of the device location.
-* Action **Show information**: This combo box defines whether information messages are displayed by the client application.
-* Action **Information message**: This allows to set a static information message to be displayed by the client application.
-* **Save** button: Saves the attributes to the layer's xml file.
-* **New POI** link: Allows to add a new POI to the layer.
-* POI-list-**Lat**: Allows to change the latitude of the POI. 
-* POI-list-**Lon**: Allows to change the longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
+* **No pois message**: This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
+* Action **Show information**: This combo box defines whether information messages are displayed by the client application. (???)
+* Action **Information message**: This allows to set a static information message to be displayed by the client application. (???)
+* **Save** button: Saves the attributes to the layer's xml file. If you make changes to these properties, you MUST save them!
+* **New POI** link: Allows you to add a new POI to the layer.
+* POI-list-**Id**: Interneal number to identify the POI. 
+* POI-list-**Title**: Name of the POI - click here to edit POI properties, including this name. 
+* POI-list-**Lat**: Allows you to change the latitude of the POI. You can also change the POI's location can also be changed by dragging the POI's marker in the placement map.
+* POI-list-**Lon**: Allows you to change the longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
 * POI-list-**Save**: Save changes to the POI's location to the layer's xml file.
 * POI-list-**DEL**: Delete the POI from the layer.
 
