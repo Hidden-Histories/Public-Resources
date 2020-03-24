@@ -12,8 +12,9 @@ Use this tutorial to learn how to place and adjust **POI**s in your own AR **lay
 - Once you understand how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
 . 
-## ARpoise Back-End Layers List
+## porPOIse Layers List
 
+When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you.
 . 
 ### Screen Shot: Arpoise Directory Service - Overview page
 
