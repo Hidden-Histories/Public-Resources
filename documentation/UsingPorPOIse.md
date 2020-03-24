@@ -1,4 +1,4 @@
-![ARpoise Logo](/images/arpoise_logo_rgb-128.png)
+![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # ARpoise-PorPOISe Back End
 
 ## Overview
