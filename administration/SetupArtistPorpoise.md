@@ -109,6 +109,7 @@ NOTE: to avoid having all the artist layers pile up in the same place in Japanto
 - We recommend using the artist initials or some such unique tag to make the layer names unique and easily identifiable, e.g. sueyuen1, SYtest1 etc.
 - https://github.com/ARPOISE/ARpoise/tree/master/php/dir#arpoisedirectory-back-end
 
-3. Once the admin has registered the artist's layers in the directory, the artist can add assets to their layers, animate them if desired and begin testing and editing their layers. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
+3. Once the admin has registered the artist's layers in the directory, the artist can use their test layer to go through the porPOIse tutorial. In porPOIse, you can change the relative placement and scale of the objects, and add simple animations. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
+4. When the artist is comfortable using porPOIse, they can add their own assets. This requires using various programs to create 3D objects, textures, more complex 2D and 3D animations, sound etc. They then have to be put together into an AR experience in Unity, exported in a Unity AssetBundle. After uploading this AssetBundle to their online server, they can link the AssetBundle in their porPOIse and set up the assets for a new AR experience. For that tutorial, please see this document on the ARpoise github site: https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md
 
