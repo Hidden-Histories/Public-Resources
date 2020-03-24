@@ -25,9 +25,11 @@ Click on the name of your test or example layer.
 . 
 ## porPOIse Layer Configuration
 
-The layer configuration page lets you edit properties that apply to the entire layer.
+The layer configuration holds properties that apply to the entire layer. 
 
-It also gives you a list of the POIs that make up the AR experience of your layer, and allows you to add new POIs to the layer with the **New POI** link above the layer list.
+Feel free to change the **Layer title**, which is shown in the ARpoise app (click "Save" to save your changes). Otherwise please leave these properties at the default values or discuss with the admin before you change them.
+
+Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer, and a **New POI** link with which you can add new POIs to the layer.
 
 ![ExampleArtist-ExampleLayer_POIlist](/images/ExampleArtist-ExampleLayer_POIlist.png)
 
