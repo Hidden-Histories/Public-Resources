@@ -15,9 +15,8 @@ Use this tutorial to learn how to place and adjust **POI**s in your own AR **lay
 ## porPOIse Layers List
 
 When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you.
-. 
-### Screen Shot: Arpoise Directory Service - Overview page
 
+. 
 ![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
 ### Explanation:
