@@ -26,22 +26,21 @@ Click on the name of your test or example layer.
 ## porPOIse Layer Configuration
 
 The layer configuration holds properties that apply to the entire layer. 
-
-Feel free to change the **Layer title**, which is shown in the ARpoise app (click "Save" to save your changes). Otherwise please leave these properties at the default values or discuss with the admin before you change them.
+- Feel free to change the **Layer title**, which is shown in the ARpoise app (click "Save" to save your changes). 
+- Otherwise we recommend leaving these properties at the default values, or discussing with the admin before you change them.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer, and a **New POI** link with which you can add new POIs to the layer.
 
 ![ExampleArtist-ExampleLayer_POIlist](/images/ExampleArtist-ExampleLayer_POIlist.png)
 
 ### Explanation:
-You can edit the following properties of a layer.
 
 Layer configuration:
 
 * **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app in the top center of the screen.
 * **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. (Mostly useful if a developer changes the POIs via code.)
 * **Redirect to layer**: The redirection layer is optional (default is no redirect). if given, the layer will redirected to a different layer. Currently not used.
-* **Visibility in meters**: The layer is visible only if a viewer is standing within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.) NOTE: Please discuss with the admin where you want the layer to appear, as they also need to set a GPS position and visibility range in an ARpoise directory. If your POIs are outside of the area set by the admin for your layer, they might not be visible.
+* **Visibility in meters**: The layer is visible only if a viewer is standing within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.) NOTE: Please discuss with the admin where you want the layer to appear, as they also need to set a GPS position and visibility range for your layer in an ARpoise directory. If your POIs are outside of the area set by the admin for your layer, they might not be visible. If you want the viewer to only see your layer when they are close to the actual location, you can set a smaller range in the POI configuration discussed below.
 * **Area size in meters**: Optional north-south bounds around the viewer in which the POIs should be constrained if the viewer is moving. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay at their set positions.
 * **Area width in meters**: Optional east-west bounds around the viewer in which the POIs should be constrained if the viewer is moving. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay at their set positions.
 * **Show menu button**: This combo box defines whether the ARpoise logo menu button is shown in the app. If the logo menu button is on, the viewer can click on it to get out of a layer and back to the list of available layers, or click twice to enter a Fixed Position when they want to view a layer that is far away from them.
