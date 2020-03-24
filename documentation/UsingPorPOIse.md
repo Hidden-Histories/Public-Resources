@@ -35,7 +35,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 ### Explanation:
 
-Layer configuration:
+**Layer configuration:**
 
 * **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app in the top center of the screen.
 * **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. (Mostly useful if a developer changes the POIs via code.)
@@ -52,7 +52,7 @@ Layer configuration:
 * **Action: Information message**: Currently not used.
 * **Save** button: If you make changes to these properties, you MUST save them!
 
-Google map box: (Note: "Find place" field is defunct)
+**Google map box:** (Note: "Find place" field is defunct)
 
 - Each marker represents one POI. 
 - Mouse over a marker to see the Title of the POI it represents. Watch out: there may be several on top of each other!
@@ -61,7 +61,7 @@ Google map box: (Note: "Find place" field is defunct)
 - If you move a marker but still see a marker in that location, there were more than one markers at the exact same locations.
 
 
-In the POIs list:
+**POIs list:**
 
 * **New POI** link: Allows you to add a new POI to the layer.
 * POI-list-**Id**: Interneal number to identify the POI. 
