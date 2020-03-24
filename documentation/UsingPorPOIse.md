@@ -18,11 +18,16 @@ When you log in to your porPOIse account, you will see a list of the layers that
 
 If you want more layers, please ask your admin to add them for you.
 
+Click on the name of your test or example layer.
+
 ![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
 . 
 ## porPOIse Layer Configuration
 
+The layer configuration page lets you edit properties that apply to the entire layer.
+
+It also gives you a list of the POIs that make up the AR experience of your layer, and allow you to add new POIs to the layer.
 
 ![ExampleArtist-ExampleLayer_porPOIse](/images/ExampleArtist-ExampleLayer_porPOIse.png)
 
