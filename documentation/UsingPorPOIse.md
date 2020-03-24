@@ -16,11 +16,11 @@ Use this tutorial to learn how to place and adjust **POI**s in your own AR **lay
 
 When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you.
 
-. 
+If you want more layers, please ask your admin to add them for you.
+
 ![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
-### Explanation:
-A list of all your layers is shown. In order to add a new layer you will have to edit the file **config.xml** in your configuration directory and also create an **.xml** file for your new layer in the configuration directory.
+
 
 ## ARpoise Back-End Layer Configuration
 ### Screen Shot:
