@@ -64,12 +64,12 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 **POIs list:**
 
 * **New POI** link: Allows you to add a new POI to the layer.
-* POI-list-**Id**: Interneal number to identify the POI. 
-* POI-list-**Title**: Name of the POI - click here to edit POI properties, including this name. 
-* POI-list-**Lat**: Allows you to change the latitude of the POI. 
-* POI-list-**Lon**: Allows you to change the longitude of the POI. 
-* POI-list-**Save**: Save changes to the POI's location to the layer's xml file.
-* POI-list-**DEL**: Delete the POI from the layer.
+* **Id**: Interneal number to identify the POI. 
+* **Title**: Name of the POI - click here to edit POI properties, including this name. 
+* **Lat**: Allows you to change the latitude of the POI. 
+* **Lon**: Allows you to change the longitude of the POI. 
+* **Save**: Save changes to the POI's location to the layer's xml file.
+* **DEL**: Delete the POI from the layer.
 
 ## ARpoise Back-End POI Configuration
 ### Screen Shot:
