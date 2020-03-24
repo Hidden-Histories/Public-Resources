@@ -27,7 +27,7 @@ If you want more layers, please ask your admin to add them for you.
 ![ExampleArtist-ExampleLayer_porPOIse](/images/ExampleArtist-ExampleLayer_porPOIse.png)
 
 ### Explanation:
-The following properties of a layer can be edited:
+You can edit the following properties of a layer:
 * **Layer title**: The layer title is optional, if given, it is displayed by the application in the top center of the screen.
 * **Refresh interval**: The refresh interval is optional, if given, it defines the seconds after which the client application will reload the layer information.
 * **Redirect to layer**: The redirection layer is optional, if given, the layer redirected to is displayed by the client instead of the current one.
@@ -50,7 +50,7 @@ The following properties of a layer can be edited:
 ### Screen Shot:
 ![BackEndImg3](/images/BackEnd3.png)
 ### Explanation:
-The following properties of a POI can be edited:
+You can edit the following properties of a POI:
 * **Title**: The title is optional, it is not used by the client application.
 * **Lat/Lon**: Allows to change the latitude and longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
 * **Is visible**: This combo box defines whether the POI is visible.
