@@ -50,14 +50,15 @@ Layer configuration:
 * **Action: Label**: Currently not used.
 * **Action: Show information**: Currently not used.
 * **Action: Information message**: Currently not used.
-* **Save** button: Saves the attributes to the layer's xml file. If you make changes to these properties, you MUST save them!
+* **Save** button: If you make changes to these properties, you MUST save them!
 
-In the Google map box: (Sorry, the "Find place" field does not work right now!)
+Google map box: (Note: "Find place" field is defunct)
 
 - Each marker represents one POI. 
-- Mouse over a marker to see the Title of the POI it represents. There may be several on top of each other.
-- Click and drag on a marker to change that POI's GPS position in the map. Notice that as you do that, the latitude and longitute (Lat/Lon) of that POI will change in the list as well.
-- If you move a marker, you MUST click **Save** in the POI list next to the POI you have moved, otherwise it will revert to its previous position!
+- Mouse over a marker to see the Title of the POI it represents. Watch out: there may be several on top of each other!
+- Click and drag on a marker to change that POI's GPS position in the map. As you drag it, you will see the latitude and longitute (Lat/Lon) of that POI changing in the list as well. 
+- Note which POI was changing: if you move a marker, you MUST click **Save** in the POI list next to the POI you have moved, otherwise it will revert to its previous position!
+- If you move a marker but still see a marker in that location, there were more than one markers at the exact same locations.
 
 
 In the POIs list:
