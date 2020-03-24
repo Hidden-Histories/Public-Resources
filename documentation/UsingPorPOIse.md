@@ -36,17 +36,21 @@ You can edit the following properties of a layer.
 
 Layer configuration:
 
-* **Layer title**: The layer title is optional. If given, it is displayed by the ARpoise app in the top center of the screen.
-* **Refresh interval**: The refresh interval is optional. If given, it defines the seconds after which the ARpoise app will update  the layer. **When is this useful? What is the default???**
-* **Redirect to layer**: The redirection layer is optional, if given, the layer redirected to is displayed by the client instead of the current one. **When is this useful? What is the default???**
-* **Visibility in meters**: The layer is visible if a viewer is within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.)
-* **Area size in meters**: The area size is optional, if given, POIs having an absolute geo-location are kept within this area around the viewer. If the viewer is walking around the POIs will be relocated if they fall outside this area.
-* **Area width in meters**: The area width is optional, if given, POIs having an absolute geo-location are kept within this area. (is width E-W and size N-S???)
-* **Show menu button**: This combo box defines whether the ARpoise menu button is shown by the client application. (???)
-* **Apply Kalman filter**: This combo box defines whether a Kalman filter is applied to the device location by the client application.
+Note: some of the functions are only for use by developers who are programming extra functionality.
+
+* **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app in the top center of the screen.
+* **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. (Only useful if a developer changes the POIs via code.)
+* **Redirect to layer**: The redirection layer is optional (default is no redirect). if given, the layer will redirected to a different layer. (Only useful if a developer changes wants to trigger this via code.)
+* **Visibility in meters**: The layer is visible only if a viewer is standing within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.) NOTE: the admin also needs to define an area in which the entire layer can be found. Please make sure that the center position of your POIs and the position of the layer is roughly the same.
+* **Area size in meters**: Optional north-south bounds around the viewer in which the POIs should be constrained if the viewer is moving. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay at their set positions.
+* **Area width in meters**: Optional east-west bounds around the viewer in which the POIs should be constrained if the viewer is moving. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay at their set positions.
+* **Show menu button**: This combo box defines whether the ARpoise logo menu button is shown in the app. If the logo menu button is on, the viewer can click on it to get out of a layer and back to the list of available layers, or click twice to enter a Fixed Position when they want to view a layer that is far away from them.
+* **Apply Kalman filter**: Currently not used.
+* **Is a default layer** Currently not used.
 * **No pois message**: This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
-* Action **Show information**: This combo box defines whether information messages are displayed by the client application. (???)
-* Action **Information message**: This allows to set a static information message to be displayed by the client application. (???)
+* **Action: Label**: Currently not used.
+* **Action: Show information**: Currently not used.
+* **Action: Information message**: Currently not used.
 * **Save** button: Saves the attributes to the layer's xml file. If you make changes to these properties, you MUST save them!
 
 In the Google map box: (Sorry, the "Find place" field does not work right now!)
