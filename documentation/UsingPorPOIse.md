@@ -14,9 +14,6 @@ If you are standing at the location where your layer is positioned, you can then
 Once you understand how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
 . 
-## Documentation:
-
-. 
 ## ARpoise Back-End Layers List
 
 . 
