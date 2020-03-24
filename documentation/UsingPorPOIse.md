@@ -14,11 +14,9 @@ Use this tutorial to learn how to place and adjust **POI**s in your own AR **lay
 . 
 ## porPOIse Layers List
 
-When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you.
+When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you want more layers, please ask your admin to add them for you.)
 
-If you want more layers, please ask your admin to add them for you.
-
-Click on the name of your test or example layer.
+Click on the name of your test or example layer to open it for editing.
 
 ![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
@@ -63,9 +61,9 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 **POIs list:**
 
-* **New POI** link: Allows you to add a new POI to the layer.
-* **Id**: Interneal number to identify the POI. 
-* **Title**: Name of the POI - click here to edit POI properties, including this name. 
+* **New POI** link: Click to add a new POI to the layer.
+* **Id**: Internal number to identify the POI. 
+* **Title**: Name of the POI - click to open the POI and edit its properties. 
 * **Lat**: Allows you to change the latitude of the POI. 
 * **Lon**: Allows you to change the longitude of the POI. 
 * **Save**: Save changes to the POI's location to the layer's xml file.
