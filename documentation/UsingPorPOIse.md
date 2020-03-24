@@ -1,5 +1,5 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# ARpoise-PorPOISe Back End
+# ARpoise PorPOISe Back End User Interface
 
 ## Overview
 Use porPOISe to place and adjust **POI**s of your own AR **layers.**
