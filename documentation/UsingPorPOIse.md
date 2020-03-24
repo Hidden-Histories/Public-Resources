@@ -18,7 +18,7 @@ When you log in to your porPOIse account, you will see a list of the layers that
 . 
 ### Screen Shot: Arpoise Directory Service - Overview page
 
-![BackEndImg1](/images/BackEnd1.png)
+![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
 ### Explanation:
 A list of all your layers is shown. In order to add a new layer you will have to edit the file **config.xml** in your configuration directory and also create an **.xml** file for your new layer in the configuration directory.
