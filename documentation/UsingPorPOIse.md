@@ -24,7 +24,7 @@ If you want more layers, please ask your admin to add them for you.
 ## porPOIse Layer Configuration
 
 
-![BackEndImg2](/images/BackEnd2.png)
+![ExampleArtist-ExampleLayer_porPOIse](/images/ExampleArtist-ExampleLayer_porPOIse.png)
 
 ### Explanation:
 The following properties of a layer can be edited:
