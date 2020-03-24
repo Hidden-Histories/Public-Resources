@@ -32,7 +32,10 @@ It also gives you a list of the POIs that make up the AR experience of your laye
 ![ExampleArtist-ExampleLayer_POIlist](/images/ExampleArtist-ExampleLayer_POIlist.png)
 
 ### Explanation:
-You can edit the following properties of a layer:
+You can edit the following properties of a layer.
+
+Layer configuration:
+
 * **Layer title**: The layer title is optional. If given, it is displayed by the ARpoise app in the top center of the screen.
 * **Refresh interval**: The refresh interval is optional. If given, it defines the seconds after which the ARpoise app will update  the layer. **When is this useful? What is the default???**
 * **Redirect to layer**: The redirection layer is optional, if given, the layer redirected to is displayed by the client instead of the current one. **When is this useful? What is the default???**
@@ -45,11 +48,22 @@ You can edit the following properties of a layer:
 * Action **Show information**: This combo box defines whether information messages are displayed by the client application. (???)
 * Action **Information message**: This allows to set a static information message to be displayed by the client application. (???)
 * **Save** button: Saves the attributes to the layer's xml file. If you make changes to these properties, you MUST save them!
+
+In the Google map box: (Sorry, the "Find place" field does not work right now!)
+
+- Each marker represents one POI. 
+- Mouse over a marker to see the Title of the POI it represents. There may be several on top of each other.
+- Click and drag on a marker to change that POI's GPS position in the map. Notice that as you do that, the latitude and longitute (Lat/Lon) of that POI will change in the list as well.
+- If you move a marker, you MUST click **Save** in the POI list next to the POI you have moved, otherwise it will revert to its previous position!
+
+
+In the POIs list:
+
 * **New POI** link: Allows you to add a new POI to the layer.
 * POI-list-**Id**: Interneal number to identify the POI. 
 * POI-list-**Title**: Name of the POI - click here to edit POI properties, including this name. 
-* POI-list-**Lat**: Allows you to change the latitude of the POI. You can also change the POI's location can also be changed by dragging the POI's marker in the placement map.
-* POI-list-**Lon**: Allows you to change the longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
+* POI-list-**Lat**: Allows you to change the latitude of the POI. 
+* POI-list-**Lon**: Allows you to change the longitude of the POI. 
 * POI-list-**Save**: Save changes to the POI's location to the layer's xml file.
 * POI-list-**DEL**: Delete the POI from the layer.
 
