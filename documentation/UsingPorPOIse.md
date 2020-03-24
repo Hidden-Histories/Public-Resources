@@ -20,11 +20,12 @@ If you want more layers, please ask your admin to add them for you.
 
 ![ExampleArtistStartPage_porPOIse](/images/ExampleArtistStartPage_porPOIse.png)
 
+. 
+## porPOIse Layer Configuration
 
 
-## ARpoise Back-End Layer Configuration
-### Screen Shot:
 ![BackEndImg2](/images/BackEnd2.png)
+
 ### Explanation:
 The following properties of a layer can be edited:
 * **Layer title**: The layer title is optional, if given, it is displayed by the application in the top center of the screen.
