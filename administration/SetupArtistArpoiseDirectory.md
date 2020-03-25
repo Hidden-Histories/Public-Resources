@@ -38,7 +38,7 @@ We expect to merge the two apps in the future when the newer smartphone hardware
 ![DirectoryImg0](/images/Directory0.png)
 
 .
-## Arpoise Directory Service - Arpoise-Directory
+## Arpoise Directory Service - layers list
 
 Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
 
@@ -57,11 +57,22 @@ For each layer, the registry specifies a GPS position that defines a base locati
 
 Click on the "ExampleLayer" Layer Name to see the properties that are defined for this layer.
 
+. 
+## Arpoise Directory Service - layer properties
+
 ![Arpoise-Directory ExampleLayer](/images/Arpoise-Directory_ExampleLayer.png)
 
 ### Explanation:
 
-The Layer Name
+* **Layer Name:** This name MUST be the same as the .xml file that defines the layer. More on that below.
+* **Lat/Lon:** The base GPS location of the layer in decimal form only. Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
+* **IsVisible:** Yes for on, No if you want to hide it for some reason.
+* **Porpoise URL:** Link to the layer in the artist's folder, e.g. https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
+* **Layer Title:** This name  is shown in the directory layers list on the preceding page AND on the layer entry in the ARpoise app (see screenshot of ARpoise app above). Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
+* **Line 2:** The second, smaller line in the layer entry in the ARpoise app (see screenshot of ARpoise app above).
+* **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
+* **Icon Name:** The name of the icon shown in the layer entry in the ARpoise app. This has to be in an AssetBundle that is common to all layers world wide and can only be entered by the ARpoise adminstrators. We have entered the sqare version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
+
 .
 ### Screen Shot: Add new layer
 
