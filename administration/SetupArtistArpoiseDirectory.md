@@ -5,6 +5,8 @@
 ## Overview
 The **porPOIse Back End user interface** is an open source project originally developed in 2009 by Jens de Smit for use with the AR platform LAYAR (now defunct). After using it for years with LAYAR, we created this modified **ARpoise porPOIse** version for use with ARpoise. It requires a directory back end as registry for the AR projects that it services.
 
+[**Original porPOIse Documentation**](#original-porpoise-documentation)
+
 We maintain our **ARpoiseDirectory Back End** on www.arpoise.com. The ArpoiseDirectory is like a single "metalayer" in which each 
 "**POI**" (Point Of Interest) defines the name, URL, attributes, and location of a **layer** (an AR project) that is visible in ARpoise.
 Content creators who want to use the ARpoise or AR-vos apps to deliver their 3D content do NOT need to run this service themselves. They only need to set up the [porPOIse Back End](https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md) user interface, then request that we (as ARpoise administrators at public@arpoise.com) register their layers in the directory.
