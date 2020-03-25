@@ -51,7 +51,9 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 ### Explanation:
 
-For each layer, the registry specifies a base GPS position that defines the area of the world in which the layer is visible. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
+For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. 
+
+If the same augment should be visible in different locations, create a separate copy of that layer and place one at each of the desired GPS locations.
 
 .
 ### Screen Shot: Add new layer
