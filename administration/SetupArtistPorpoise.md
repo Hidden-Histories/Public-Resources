@@ -104,9 +104,11 @@ If you get a page similar to that below, CONGRATULATIONS! The porPOIse interface
 ## Customize the Layer Files for the Artist
 
 Go back to your FTP client and open up the **config folder.** 
-- **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
 
-### Image - Duplicate and Rename Artist's layer .xml files:
+**Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
+
+. 
+### Image - config Folder
 ![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
 - First, rename the ExampleLayer.xml to something like SueYuenExampleLayer.xml or SYExampleLayer.xml, whatever convention you want to use for Hidden Histories. This will be the artist's test file where they can play around and try out new things.
