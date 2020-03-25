@@ -3,15 +3,19 @@
 # -- Setup Artist in ArpoiseDirectory Back End --
 
 ## Overview
-The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.
+The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. (If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.)
 
-porPOIse requires a directory back end as registry for all the AR projects that it services.
+For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service** (accessible only to the admin) at https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
-
-
-We created the **ARpoiseDirectory Back End** on www.arpoise.com. The ArpoiseDirectory is like a single "metalayer" in which each 
-"**POI**" (Point Of Interest) defines the name, URL, attributes, and location of a **layer** (an AR project) that is visible in ARpoise.
+- The ArpoiseDirectory contains two **metalayers**, one for the ARpoise app and one for the AR-vos app. For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
+- In each metalayer, all layers accessible through that app need to be listed as **metaPOIs** (Point Of Interest) with the following properties: layer name, AssetBundle URL, various attributes, and location of a **layer** (an AR project) that is visible in ARpoise.
 Content creators who want to use the ARpoise or AR-vos apps to deliver their 3D content do NOT need to run this service themselves. They only need to set up the [porPOIse Back End](https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md) user interface, then request that we (as ARpoise administrators at public@arpoise.com) register their layers in the directory.
+
+**ARpoise porPOIse** requires a directory back end as registry for all the AR projects that it services.
+
+
+
+
 
 ## Functionality
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter. 
