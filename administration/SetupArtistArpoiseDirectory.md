@@ -9,7 +9,7 @@
 
 For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service** (accessible only to the admin) at https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
-- In porPOIse terminology, each individual AR experience or project is called a **layer** because it "layers" virtual content over the real world. The assets (such as individual or groups of 3D models, images, sounds etc.) that make up the AR experience provided by the layer are called POIs (Points Of Interest).
+- In porPOIse terminology, each individual AR experience or project is called a **layer** because it "layers" virtual content over the real world. The assets (such as individual or groups of 3D models, images, sounds etc.) that make up the AR experience provided by the layer are called **POIs** (Points Of Interest).
 
 - The ArpoiseDirectory contains two **metalayers**, one for the ARpoise app and one for the AR-vos app. For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 
