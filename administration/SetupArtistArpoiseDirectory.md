@@ -13,15 +13,9 @@ For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service
 
 - The ArpoiseDirectory contains two **metalayers**, one for the ARpoise app and one for the AR-vos app, each of which contain all layers around the world that are serviced by the respective app. For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 
-- In each metalayer, all layers accessible through that particular app are in a list of **metaPOIs** (Point Of Interest) with properties including the name, AssetBundle URL and an approximate GPS location and area where it is visible.
+- In each metalayer, all layers accessible through that particular app are listed as a registry of **metaPOIs** (Point Of Interest) including an approximate GPS location and area where it is visible. This allows the app to quickly find which layers are relevant given the location of the user who desires to view their local layers.
 
-Content creators who want to use the ARpoise or AR-vos apps to deliver their 3D content do NOT need to run this service themselves. They only need to set up the [porPOIse Back End](https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md) user interface, then request that we (as ARpoise administrators at public@arpoise.com) register their layers in the directory.
-
-
-
-
-
-
+. 
 ## Functionality
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter. 
 
