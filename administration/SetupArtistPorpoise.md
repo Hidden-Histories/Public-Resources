@@ -91,9 +91,6 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 ![SetupArtistPorpoise6](images/SetupArtistPorpoise6.PNG)
 
 .
-### Image - Duplicate and Rename Artist's layer .xml files:
-![SetupArtistPorpoise2a_config](images/SetupArtistPorpoise2a_config.PNG)
-.
 ## Login as the Artist
 Replace "TamikoThiel" in this URL with the name of the new artist, and then login using the name and password you created above:
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
@@ -103,6 +100,10 @@ NOTE: to avoid having all the artist layers pile up in the same place in Japanto
 ### Image - Artist's default porPOIse Home page
 ![SetupArtistPorpoise7](images/SetupArtistPorpoise7.PNG)
 
+
+.
+### Image - Duplicate and Rename Artist's layer .xml files:
+![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
 1. First the admin has to change the GPS location in the ArpoiseDirectory. See link to that tutorial in the [Next Steps](#next-steps) section at the bottom of this page.
 2. Then the artist has to change the GPS location in their own layers (see tutorial on creating augments with porPOIse): https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
