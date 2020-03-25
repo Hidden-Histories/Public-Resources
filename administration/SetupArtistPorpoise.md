@@ -28,7 +28,7 @@ In **artists** we created a template folder called **ExampleArtist**. It contain
 - **php** for the interface that enables the artist to configure their layers
 
 ### Image - Folders:
-![SetupArtistPorpoise1](/administration/images/SetupArtistPorpoise1.PNG)
+![SetupArtistPorpoise1](images/SetupArtistPorpoise1.PNG)
 
 .
 ## Create Artist Folder
@@ -37,7 +37,7 @@ Duplicate the entire contents of the **ExampleArtist** folder and rename it with
 Please do NOT use blanks or other special characters in the artist’s name.
 
 ### Image - Artist Folder:
-![SetupArtistPorpoise2](/administration/images/SetupArtistPorpoise2.PNG)
+![SetupArtistPorpoise2](images/SetupArtistPorpoise2.PNG)
 
 .
 ## Edit the artist's config.php file
@@ -50,7 +50,7 @@ And as always, make sure you don't delete the closing bracket '}' ;-)
 “/home4/hhjtown/public_html/artists/TamikoThiel/config”
 ```
 ### Image - config.php:
-![SetupArtistPorpoise3](/administration/images/SetupArtistPorpoise3.PNG)
+![SetupArtistPorpoise3](images/SetupArtistPorpoise3.PNG)
 
 .
 ## Edit the artist's porpoise.php file:
@@ -61,7 +61,7 @@ Make sure the line with the **chdir** command contains the file system location 
 chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 ```
 ### Image - porpoise.php:
-![SetupArtistPorpoise4](/administration/images/SetupArtistPorpoise4.PNG)
+![SetupArtistPorpoise4](images/SetupArtistPorpoise4.PNG)
 
 .
 ## Check web access to the artist's porPOIse service
@@ -71,7 +71,7 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 You should get the following login screen:
 . 
 ### Image - Web Access:
-![SetupArtistPorpoise5](/administration/images/SetupArtistPorpoise5.PNG)
+![SetupArtistPorpoise5](images/SetupArtistPorpoise5.PNG)
 
 .
 ## Create a password for the artist
@@ -88,8 +88,11 @@ $_access["TamikoThiel"] = '$1$i15qMjc5$ZoKrbjTHXlhpAeJfZg.Xt1';
 Copy that entire line into the artist's users.inc.php file, in our example here: /public_html/artists/TamikoThiel/php/web/dashboard/users.inc.php
 
 ### Image - Add Password:
-![SetupArtistPorpoise6](/administration/images/SetupArtistPorpoise6.PNG)
+![SetupArtistPorpoise6](images/SetupArtistPorpoise6.PNG)
 
+.
+### Image - Duplicate and Rename Artist's layer .xml files:
+![SetupArtistPorpoise2a_config](images/SetupArtistPorpoise2a_config.PNG)
 .
 ## Login as the Artist
 Replace "TamikoThiel" in this URL with the name of the new artist, and then login using the name and password you created above:
@@ -98,7 +101,7 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
 
 ### Image - Artist's default porPOIse Home page
-![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
+![SetupArtistPorpoise7](images/SetupArtistPorpoise7.PNG)
 
 
 1. First the admin has to change the GPS location in the ArpoiseDirectory. See link to that tutorial in the [Next Steps](#next-steps) section at the bottom of this page.
