@@ -114,6 +114,12 @@ Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 - First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. BruceLeeExampleLayer.xml or BLExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
 - Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
+Now edit the **config/config.xml** file:
+
+### Image - Edit config.xml File
+![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfig2.png)
+
+
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
 
 1. First the admin has to change the GPS location in the ArpoiseDirectory. See link to that tutorial in the [Next Steps](#next-steps) section at the bottom of this page.
