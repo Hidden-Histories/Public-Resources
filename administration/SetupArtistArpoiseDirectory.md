@@ -19,7 +19,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 - NOTE: If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at the desired GPS locations.
 
 . 
-![ARpoise layer List JAMsj](/images/ARpoise_layerList_JAMsj_1024w.png)
+![ARpoise layer List JAMsj](https://github.com/Hidden-Histories/Public-Resources/tree/master/administration/images/ARpoise_layerList_JAMsj_1024w.png)
 
 . 
 ## Documentation:
@@ -35,7 +35,7 @@ AR functionality of [Android ARCore](https://developers.google.com/ar/discover/s
 For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 We expect to merge the two apps in the future when the newer smartphone hardware is widespread.
 
-![DirectoryImg0](/images/Directory0.png)
+![DirectoryImg0](https://github.com/Hidden-Histories/Public-Resources/tree/master/administration/images/Directory0.png)
 
 .
 ## Arpoise Directory Service - layers list
@@ -47,7 +47,7 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 - Tamiko's ExampleLayer (please do NOT change or delete!)
 - When you add new layers, they will also appear in this list.
 
-![Hidden Histories Arpoise-Directory metalayer list](/images/HH_Arpoise-Directory_metalayerList.png)
+![Hidden Histories Arpoise-Directory metalayer list](https://github.com/Hidden-Histories/Public-Resources/tree/master/administration/images/HH_Arpoise-Directory_metalayerList.png)
 
 ### Explanation:
 
@@ -80,15 +80,15 @@ External properties:
 .
 ## Arpoise Directory Service - add a new layer
 
-Go Back to the Arpoise-Directory level, and add a new layer by click on the "New Layer" link above the layer list.
-
-In the next screen just click on "Create" ...
+Go Back to the Arpoise-Directory level.
+- Add a new layer by clicking on the "New Layer" link above the layer list.
+- In the next screen ignore the warning message and just click on "Create" ...
 
 ![Arpoise Directory CreateNewLayer](/images/Arpoise-Directory_CreateNewLayer.png)
 
-### Screen Shot: New empty layer added to directory
-
 ... and a new empty layer will be added to the directory.
+
+![DirectoryImg0c](/images/Directory0c.png)
 
 Click on the new layer name "no title" to configure the new layer.
 
