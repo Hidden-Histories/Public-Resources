@@ -3,7 +3,7 @@
 # -- Setup Artist in ArpoiseDirectory Back End --
 
 ## Overview
-The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. (If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.)
+
 
 For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service** (accessible only to the admin) at https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
@@ -105,40 +105,4 @@ To create a new AR experience for your layer, you need to set up the assets in U
 https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md
 
 .
-## Original porPOIse Documentation
 
-### Only needed if you set up your own porPOIse service
-
-The **porPOIse Back End user interface** is an open source project originally developed in 2009 by Jens de Smit for use with the AR platform LAYAR. Layar is now defunct, but porPOIse continues to work well.
-
-===PorPOISe for Layar===
-Portable Point-of-Interest Server for LAYAR AR app (www.layar.com, now defunct)
-
-===Administrative contact===
-Jens de Smit, jens@layar.com (email might be out of date, as LAYAR when out of business in 2019)
-
-===Introduction===
-PorPOISe is a server for Layar clients. It converts your data sets of POIs
-(Points of Interest) into responses to the Layar client. Things like JSON
-formatting and distance calculation are all done for you. PorPOISe supports
-XML files as data stores.
-
-===Getting started===
-Read INSTALL for installation instructions. Once properly installed, you can
-use the dashboard to create your first POIs. The interface is pretty spartan
-but this will generate correct output format. Study the format if you intend to
-generate your own XML files.
-
-From here on you're on your own. Build a better interface for the dashboard or
-expand PorPOISe to have more features if you need more.
-
-===History===
-PorPOISe originated at SURFnet in 2009 as a spin-off from a small layer-
-building experiment. Over 2010 functionality expanded and feature support
-grew with Layar's feature support. In 2011, PorPOISe's primary author moved
-from SURFnet to Layar and took the project with him.
-
-===More information===
-  * http://www.surfnet.nl/en The home of the creator of PorPOISe
-  * http://teknograd.wordpress.com/2009/10/19/augmented-reality-create-your-own-layar-layer/ An explanation on how to build the most minimal of Layar servers. Very useful to get started
-  * http://layar.com/ wa the target platform for this project was developed (defunct since 2019)
