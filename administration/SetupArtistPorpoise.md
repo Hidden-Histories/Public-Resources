@@ -115,16 +115,12 @@ Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 - Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
 Now edit the **config/config.xml** file:
-- Change the <name> tag AND the <source> tag, preserving the .xml
+- Add the artist name to the <name> tag AND the <source> tag (preserving the .xml file extension!)
+- Duplicate the whole <layer> block and change the <name> tag AND the <source> tag to "ArtistLayer."
+ - Save! You now need to register these layers in the ArpoiseDirectory. See the link in **Next Steps** below.
 
 ### Image - Edit config.xml File
 ![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfigXml.png)
-
-
-NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
-
-1. First the admin has to change the GPS location in the ArpoiseDirectory. See link to that tutorial in the [Next Steps](#next-steps) section at the bottom of this page.
-2. Then the artist has to change the GPS location in their own layers (see tutorial on creating augments with porPOIse): https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md
 
 .
 ## Next Steps
