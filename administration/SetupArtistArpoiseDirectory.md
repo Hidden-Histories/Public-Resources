@@ -43,7 +43,7 @@ We expect to merge the two apps in the future when the newer smartphone hardware
 .
 ### Screen Shot: Arpoise Directory Service - Arpoise-Directory
 
-Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently include:
+Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
 
 - All of Tamiko's Brush the Sky layers in San Jose Japantown.
 - The ExampleLayer template (please do NOT change or delete!)
@@ -54,7 +54,7 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 ### Explanation:
 
-The Arpoise-Directory entry lists all **layers** that are serviced by the ARpoise app client, and for each layer specifies a base GPS position that defines the area of the world in which the layer is visible. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
+For each layer, the registry specifies a base GPS position that defines the area of the world in which the layer is visible. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
 
 .
 ### Screen Shot: Add new layer
