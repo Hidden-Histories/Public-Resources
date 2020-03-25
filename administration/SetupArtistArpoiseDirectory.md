@@ -51,11 +51,9 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 ### Explanation:
 
-(The Google map will only show the GPS location of the very first layer in the list.)
+Note: The Google map only shows the GPS location of the very first layer in the list.
 
-For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. 
-
-If the same augment should be visible in different locations, create a separate copy of that layer and place one at each of the desired GPS locations.
+For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible.
 
 Click on the "ExampleLayer" Layer Name to see the properties that are defined for this layer.
 
