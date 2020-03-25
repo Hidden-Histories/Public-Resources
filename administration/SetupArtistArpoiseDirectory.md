@@ -59,6 +59,11 @@ If the same augment should be visible in different locations, create a separate 
 
 Click on the "ExampleLayer" Layer Name to see the properties that are defined for this layer.
 
+![Arpoise-Directory ExampleLayer](/images/Arpoise-Directory_ExampleLayer.png)
+
+### Explanation:
+
+The Layer Name
 .
 ### Screen Shot: Add new layer
 
@@ -67,7 +72,7 @@ To add a new layer, click on the "New Layer" link above the list of current laye
 
 In the next screen just click on "Create" ...
 
-![Arpoise-Directory ExampleLayer](/images/Arpoise-Directory_ExampleLayer.png)
+
 
 ### Screen Shot: New empty layer added to directory
 
