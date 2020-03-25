@@ -50,12 +50,11 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 - Tamiko's ExampleLayer (please do NOT change or delete!)
 - When you add new layers, they will also appear in this list.
 
-
 The Arpoise-Directory entry lists all **layers** that are serviced by the ARpoise app client, and for each layer specifies a base GPS position that defines the area of the world in which the layer is visible. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
 
 To add a new layer, click on the "New Layer" link above the list of current layers.
 
-![DirectoryImg0a](/images/Directory0a.png)
+![Hidden Histories Arpoise-Directory metalayer list](/images/HH_Arpoise-Directory_metalayerList.png)
 
 .
 ### Screen Shot: Add new layer
