@@ -16,15 +16,14 @@ The **Hidden Histories ARpoiseDirectory Back End Directory Service** is located 
 
 ## Functionality
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter, e.g. where the viewer who just opened the app is standing in the world.
-
 - The **ARpoiseDirectory Back End service** then returns a list of all layers within a specified range of the client's GPS location, and displays them in the app.
-
 - If there are no layers within range of the client's location, an empty list of layer definitions is returned.
+- NOTE: If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at the desired GPS locations.
 
 ![ARpoise layer List JAMsj](/images/ARpoise_layerList_JAMsj_1024w.png)
 
 
-NOTE: If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at the desired GPS locations.
+
 
 
 .
