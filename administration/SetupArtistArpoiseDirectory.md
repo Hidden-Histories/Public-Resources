@@ -84,7 +84,7 @@ Go Back to the Arpoise-Directory level, and add a new layer by click on the "New
 
 In the next screen just click on "Create" ...
 
-[Arpoise-Directory_CreateNewLayer](Arpoise-Directory_CreateNewLayer.png)
+![Arpoise Directory CreateNewLayer](/images/Arpoise-Directory_CreateNewLayer.png)
 
 ### Screen Shot: New empty layer added to directory
 
