@@ -95,27 +95,22 @@ Copy that entire line into the artist's users.inc.php file, in our example here:
 Replace "TamikoThiel" in this URL with the name of the new artist, and then login using the name and password you created above:
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
-If you get a page similar to that below, CONGRATULATIONS! The porPOIse interface is now set up. :-)
+If you get a page similar to that below, CONGRATULATIONS! The porPOIse interface is now set up. :-) Now you need to customize the layar files with the artist's name.
 
-.
 ### Image - Artist's default porPOIse Home page
 ![SetupArtistPorpoise7](images/SetupArtistPorpoise7.PNG)
 
 . 
 ## Customize the Layer Files for the Artist
 
-Next, we need to make a duplicate of the ExampleLayer, and then rename both files with the artist's name, to avoid confusion in the future.
-
 Go back to your FTP client and open up the **config folder.** 
 - **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
 
-- First, rename the ExampleLayer.xml to something like SueYuenExampleLayer.xml or SYExampleLayer.xml, whatever convention you want to use for Hidden Histories. This will be the artist's test file where they can play around and try out new things.
-- Then, duplicate that file and rename it to something like SueYuenArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
-
-.
 ### Image - Duplicate and Rename Artist's layer .xml files:
 ![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
+- First, rename the ExampleLayer.xml to something like SueYuenExampleLayer.xml or SYExampleLayer.xml, whatever convention you want to use for Hidden Histories. This will be the artist's test file where they can play around and try out new things.
+- Then, duplicate that file and rename it to something like SueYuenArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
 
