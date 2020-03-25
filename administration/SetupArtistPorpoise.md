@@ -117,7 +117,7 @@ Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 Now edit the **config/config.xml** file:
 
 ### Image - Edit config.xml File
-![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfig2.png)
+![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfig.png)
 
 
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
