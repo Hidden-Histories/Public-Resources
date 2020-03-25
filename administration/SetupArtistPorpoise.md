@@ -111,8 +111,8 @@ Go back to your FTP client and open up the **config folder.**
 ![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
 Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
-- First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. SueYuenExampleLayer.xml or SYExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
-- Then, **duplicate that file** and rename it to something like SueYuenArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
+- First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. BruceLeeExampleLayer.xml or BLExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
+- Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
 
