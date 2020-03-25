@@ -97,7 +97,7 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
 NOTE: to avoid having all the artist layers pile up in the same place in Japantown, the default GPS location of the layer is in Alviso Marina County Park! We will change this, but first we need to rename the artist's layer files, so it is clear which layer belongs to whom, and make a duplicate file so the artist will have one test file and one file for the final artwork.
 
-### Setup porPOIse for Artist - Artist's default porPOIse Home page
+### Image - Artist's default porPOIse Home page
 ![SetupArtistPorpoise7](/administration/images/SetupArtistPorpoise7.PNG)
 
 
