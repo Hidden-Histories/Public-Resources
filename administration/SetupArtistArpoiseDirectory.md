@@ -52,12 +52,13 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 The Arpoise-Directory entry lists all **layers** that are serviced by the ARpoise app client, and for each layer specifies a base GPS position that defines the area of the world in which the layer is visible. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
 
-To add a new layer, click on the "New Layer" link above the list of current layers.
-
 ![Hidden Histories Arpoise-Directory metalayer list](/images/HH_Arpoise-Directory_metalayerList.png)
 
 .
 ### Screen Shot: Add new layer
+
+
+To add a new layer, click on the "New Layer" link above the list of current layers.
 
 In the next screen just click on "Create" ...
 
