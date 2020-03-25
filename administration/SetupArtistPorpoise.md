@@ -110,6 +110,7 @@ Go back to your FTP client and open up the **config folder.**
 ### Image - config Folder
 ![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
+Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 - First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. SueYuenExampleLayer.xml or SYExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
 - Then, **duplicate that file** and rename it to something like SueYuenArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
