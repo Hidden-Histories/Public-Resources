@@ -8,9 +8,7 @@
 The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. We have set up a porPOIse service for Hidden Histories, and describe how to configure it here. (If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.)
 
 **Each artist (and helper) needs their own copy of the porPOIse back end user interface** for managing their own layers for both 
-**ARpoise** and **AR-vos**.
-
-There are two steps to set up a new artist with porPOIse:
+**ARpoise** and **AR-vos**. There are two steps to set up a new artist with porPOIse:
 1. This tutorial shows how to create and configure a **porPOIse account** for each artist.
 2. Afterwards, the admin has to register and configure the artist's layers in the **ArpoiseDirectory**. See link to that tutorial in the [**Next Steps**](#next-steps) section at the bottom of this page.
 
