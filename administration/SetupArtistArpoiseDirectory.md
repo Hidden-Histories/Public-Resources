@@ -7,7 +7,7 @@
 
 **ARpoise porPOIse** requires a directory back end as registry for all the AR projects ("layers") that it services. The directory keeps track of which layers exist, and where in the world they can be viewed.
 
-For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service** (accessible only to the admin) at https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
+The Hidden Histories ARpoiseDirectory Back End Directory Service is located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
 - In porPOIse terminology, each individual AR experience or project is called a **layer** because it "layers" virtual content over the real world. The assets (such as individual or groups of 3D models, images, sounds etc.) that make up the AR experience provided by the layer are called **POIs** (Points Of Interest).
 
