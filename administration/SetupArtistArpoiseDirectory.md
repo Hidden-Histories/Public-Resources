@@ -9,8 +9,12 @@
 
 For Hidden Histories we created an **ARpoiseDirectory Back End Directory Service** (accessible only to the admin) at https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
+- In porPOIse terminology, each individual AR experience or project is called a **layer** because it "layers" virtual content over the real world. The assets (such as individual or groups of 3D models, images, sounds etc.) that make up the AR experience provided by the layer are called POIs (Points Of Interest).
+
 - The ArpoiseDirectory contains two **metalayers**, one for the ARpoise app and one for the AR-vos app. For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
+
 - In each metalayer, all layers accessible through that app need to be listed as **metaPOIs** (Point Of Interest) with the following properties: layer name, AssetBundle URL, various attributes, and location of a **layer** (an AR project) that is visible in ARpoise.
+
 Content creators who want to use the ARpoise or AR-vos apps to deliver their 3D content do NOT need to run this service themselves. They only need to set up the [porPOIse Back End](https://github.com/ARPOISE/ARpoise/blob/master/php/porpoise/README.md) user interface, then request that we (as ARpoise administrators at public@arpoise.com) register their layers in the directory.
 
 
