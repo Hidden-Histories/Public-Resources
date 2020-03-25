@@ -134,7 +134,7 @@ Before we can start playing with these layers, they have to be registered in the
 
 The **admin** must now **register and configure the new artist's layers in the ArpoiseDirectory.** 
 
-For that tutorial, please see [Setup Artist in ArpoiseDirectory Back End](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md=
+For that tutorial, please see **Setup Artist in ArpoiseDirectory Back End**
 https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md
 
 .
