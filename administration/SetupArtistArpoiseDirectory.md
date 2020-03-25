@@ -78,14 +78,13 @@ External properties:
 * **Icon Name:** The name of the icon shown in the layer entry in the ARpoise app. This has to be in an AssetBundle that is common to all layers world wide and can only be entered by the ARpoise adminstrators. We have entered the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
 .
-### Screen Shot: Add new layer
+## Arpoise Directory Service - add a new layer
 
-
-To add a new layer, click on the "New Layer" link above the list of current layers.
+Go Back to the Arpoise-Directory level, and add a new layer by click on the "New Layer" link above the layer list.
 
 In the next screen just click on "Create" ...
 
-
+[Arpoise-Directory_CreateNewLayer](Arpoise-Directory_CreateNewLayer.png)
 
 ### Screen Shot: New empty layer added to directory
 
