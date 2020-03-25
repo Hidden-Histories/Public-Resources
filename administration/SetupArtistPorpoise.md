@@ -98,6 +98,10 @@ https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 If you get a page similar to that below, CONGRATULATIONS! The porPOIse interface is now set up. :-)
 
 .
+### Image - Artist's default porPOIse Home page
+![SetupArtistPorpoise7](images/SetupArtistPorpoise7.PNG)
+
+. 
 ## Customize the Layer Files for the Artist
 
 Next, we need to make a duplicate of the ExampleLayer, and then rename both files with the artist's name, to avoid confusion in the future.
@@ -105,14 +109,8 @@ Next, we need to make a duplicate of the ExampleLayer, and then rename both file
 Go back to your FTP client and open up the **config folder.** 
 - **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
 
-### Image - Artist's default porPOIse Home page
-![SetupArtistPorpoise7](images/SetupArtistPorpoise7.PNG)
-
 - First, rename the ExampleLayer.xml to something like SueYuenExampleLayer.xml or SYExampleLayer.xml, whatever convention you want to use for Hidden Histories. This will be the artist's test file where they can play around and try out new things.
 - Then, duplicate that file and rename it to something like SueYuenArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
-
-
-
 
 .
 ### Image - Duplicate and Rename Artist's layer .xml files:
