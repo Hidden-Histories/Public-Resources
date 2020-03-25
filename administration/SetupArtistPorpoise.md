@@ -12,7 +12,7 @@ The **porPOIse Back End user interface** is an open source project we had used s
 1. This tutorial shows how to create and configure a **porPOIse account** for each artist.
 2. Afterwards, the admin has to register and configure the artist's layers in the **ArpoiseDirectory**. See link to that tutorial in the [**Next Steps**](#next-steps) section at the bottom of this page.
 
-We created a **template folder** for an example artist named ‘Example Artist’. In order to set up a real artist please follow the steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use the artist's real name whereever it says "Tamiko Thiel" below. Please use only 'normal' letters and no white space characters for 
+We created a **template folder** for an example artist named ‘ExampleArtist’. In order to set up a real artist please follow the steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use the artist's real name whereever it says "Tamiko Thiel" below. Please use only 'normal' letters and no white space characters for 
 artist's names.
 
 ## Folder Structure
