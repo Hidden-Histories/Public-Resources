@@ -1,5 +1,6 @@
-![ARpoise Logo](/images/arpoise_logo_rgb-128.png)
-# ARpoiseDirectory Back End
+![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+# Hidden Histories
+# -- Setup Artist in ArpoiseDirectory Back End --
 
 ## Overview
 The **porPOIse Back End user interface** is an open source project originally developed in 2009 by Jens de Smit for use with the AR platform LAYAR (now defunct). After using it for years with LAYAR, we created this modified **ARpoise porPOIse** version for use with ARpoise. It requires a directory back end as registry for the AR projects that it services.
