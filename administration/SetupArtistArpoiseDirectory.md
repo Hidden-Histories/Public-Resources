@@ -97,7 +97,9 @@ To create a new AR experience for your layer, you need to set up the assets in U
 https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md
 
 .
-## Original porPOIse Documentation: to set up your own porPOIse service
+## Original porPOIse Documentation
+
+### Only needed if you set up your own porPOIse service
 
 The **porPOIse Back End user interface** is an open source project originally developed in 2009 by Jens de Smit for use with the AR platform LAYAR. Layar is now defunct, but porPOIse continues to work well.
 
