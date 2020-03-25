@@ -35,7 +35,7 @@ AR functionality of [Android ARCore](https://developers.google.com/ar/discover/s
 For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 We expect to merge the two apps in the future when the newer smartphone hardware is widespread.
 
-![DirectoryImg0](https://github.com/Hidden-Histories/Public-Resources/tree/master/administration/images/Directory0.png)
+![DirectoryImg0](images/Directory0.png)
 
 .
 ## Arpoise Directory Service - layers list
@@ -47,7 +47,7 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 - Tamiko's ExampleLayer (please do NOT change or delete!)
 - When you add new layers, they will also appear in this list.
 
-![Hidden Histories Arpoise-Directory metalayer list](https://github.com/Hidden-Histories/Public-Resources/tree/master/administration/images/HH_Arpoise-Directory_metalayerList.png)
+![Hidden Histories Arpoise-Directory metalayer list](images/HH_Arpoise-Directory_metalayerList.png)
 
 ### Explanation:
 
@@ -60,7 +60,7 @@ Now **click on the "ExampleLayer" Layer Name** to see the properties that are de
 . 
 ## Arpoise Directory Service - layer properties
 
-![Arpoise-Directory ExampleLayer](/images/Arpoise-Directory_ExampleLayer.png)
+![Arpoise-Directory ExampleLayer](images/Arpoise-Directory_ExampleLayer.png)
 
 ### Explanation:
 
@@ -84,15 +84,15 @@ Go Back to the Arpoise-Directory level.
 - Add a new layer by clicking on the "New Layer" link above the layer list.
 - In the next screen ignore the warning message and just click on "Create" ...
 
-![Arpoise Directory CreateNewLayer](/images/Arpoise-Directory_CreateNewLayer.png)
+![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
 
 ... and a new empty layer will be added to the directory.
 
-![DirectoryImg0c](/images/Directory0c.png)
+![DirectoryImg0c](images/Directory0c.png)
 
 Click on the new layer name "no title" to configure the new layer.
 
-![DirectoryImg0c](/images/Directory0c.png)
+![DirectoryImg0c](images/Directory0c.png)
 
 ### Screen Shot: Configure new layer
 
@@ -100,7 +100,7 @@ See the description of possible attributes beneath this example image.
 
 Enter the configuration for the new layers and then click the "Save" button
 
-![DirectoryImg1](/images/Directory1.png)
+![DirectoryImg1](images/Directory1.png)
 ### Explanation:
 The following attributes of a layer can be edited.
 * **Layer Name**: The name of the layer, for internal purposes only.
