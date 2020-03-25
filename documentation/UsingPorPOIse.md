@@ -5,9 +5,9 @@
 ## Overview
 
 
-Use this tutorial to learn how to place and adjust **POI**s in your own AR **layers.**
-- A **POI** (Point Of Interest) is an asset or a group of assets (such as 3D models, sounds etc.), that make up your AR experience.
+In this tutorial learn how to work with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
 - Each individual AR experience or project exists on a separate ARpoise **layer.** In the ARpoise app, a single location in the real world can have multiple projects at exactly the same site, but if each one is in a separate layer, they will not interfere with each other and will show up in the ARpoise app as separate entries in a list of available projects.
+- A **POI** (Point Of Interest) is an asset or a group of assets (such as 3D models, sounds etc.), that make up your AR experience.
 - If you are standing at the location where your layer is positioned, you can then immediately reopen the **ARpoise app** and you will see the changes in your AR experience.
 - Once you understand how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
