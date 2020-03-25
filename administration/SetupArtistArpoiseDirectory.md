@@ -20,19 +20,16 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 - If there are no layers within range of the client's location, an empty list of layer definitions is returned.
 - NOTE: If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at the desired GPS locations.
 
+. 
 ![ARpoise layer List JAMsj](/images/ARpoise_layerList_JAMsj_1024w.png)
 
-
-
-
-
-.
+. 
 ## Documentation:
 
-.
+. 
 ## ARpoiseDirectory Back End Layer Configuration
 
-.
+. 
 ### Screen Shot: Arpoise Directory Service - Overview page
 
 When you log in to the ARpoiseDirectory Back End, you will see one entry for geolocative layers serviced by the **ARpoise 
