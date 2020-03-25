@@ -30,7 +30,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 ## ARpoiseDirectory Back End Layer Configuration
 
 . 
-### Screen Shot: Arpoise Directory Service - Overview page
+### Screen Shot: Arpoise Directory Service - metalayers list
 
 When you log in to the ARpoiseDirectory Back End, you will see one entry for geolocative layers serviced by the **ARpoise 
 app**, and another entry for both geolocative and image trigger layers serviced by the **AR-vos app**. The older ARpoise 
