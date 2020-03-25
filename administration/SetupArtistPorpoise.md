@@ -117,11 +117,17 @@ Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 Now edit the **config/config.xml** file:
 - Add the artist name to the <name> tag AND the <source> tag (preserving the .xml file extension!)
 - Duplicate the whole <layer> block and change the <name> tag AND the <source> tag to "ArtistLayer."
- - Save! You now need to register these layers in the ArpoiseDirectory. See the link in **Next Steps** below.
 
 ### Image - Edit config.xml File
 ![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfigXml.png)
 
+. 
+When you log in now to the new artist account (or just refresh the page) it should now show
+
+You now need to register these layers in the ArpoiseDirectory. See the link in **Next Steps** below.
+
+### Image - Artist's two layers on porPOIse Home page
+![SetupArtistPorpoise9_BruceLee](images/SetupArtistPorpoise9_BruceLee.png)
 .
 ## Next Steps
 
