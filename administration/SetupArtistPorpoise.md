@@ -121,13 +121,14 @@ Now edit the **config/config.xml** file:
 ### Image - Edit config.xml File
 ![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfigXml.png)
 
-. 
-When you log in now to the new artist account (or just refresh the page) it should now show
+.  
 
-You now need to register these layers in the ArpoiseDirectory. See the link in **Next Steps** below.
+When you log in now to the new artist account (or just refresh the page) it should now show both renamed layers.
 
 ### Image - Artist's two layers on porPOIse Home page
 ![SetupArtistPorpoise9_BruceLee](images/SetupArtistPorpoise9_BruceLee.png)
+
+Before we can start playing with these layers, they have to be registered in the ArpoiseDirectory. See the link to the tutorial in **Next Steps** below.
 .
 ## Next Steps
 
