@@ -12,7 +12,7 @@ The **Hidden Histories ARpoiseDirectory Back End Directory Service** is located 
 
 - The ArpoiseDirectory contains two **metalayers**, one for the ARpoise app and one for the AR-vos app, each of which contain all layers around the world that are serviced by that respective app. For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 
-- Just as a layer is made up of POIs, a metalayer is made up of **metaPOIs** which are the individual layers themselves that are accessible through that particular app. The listing includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of the user wishing to view their local layers.
+- Just as a layer is made up of POIs, a metalayer is made up of a list of **metaPOIs** = the individual layers that are accessible through that particular app. The listing includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of the user wishing to view their local layers.
 
 ## Functionality
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter, e.g. where the viewer who just opened the app is standing in the world.
