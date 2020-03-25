@@ -3,7 +3,7 @@
 # -- Setup Artist in ArpoiseDirectory Back End --
 
 ## Overview
-The **porPOIse Back End user interface** is an open source project we have been using since 2010, and then created this modified **ARpoise porPOIse** version for use with ARpoise. If you need to set up your own version of porPOIse, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.
+The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.
 
 porPOIse requires a directory back end as registry for all the AR projects that it services.
 
