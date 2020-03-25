@@ -65,10 +65,11 @@ chdir("/home4/hhjtown/public_html/artists/TamikoThiel/php");
 
 .
 ## Check web access to the artist's porPOIse service
-The artist's new porPOIse service should be accessible on the web now via a login page. In a web browser, enter the following url, replacing "TamikoThiel" with the artist's name. You should get the following login screen:
-
+The artist's new porPOIse service should be accessible on the web now via a login page. In a web browser, enter the following url, (replacing "TamikoThiel" with the artist's name). 
 https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/dashboard/
 
+You should get the following login screen:
+. 
 ### Image - Web Access:
 ![SetupArtistPorpoise5](/administration/images/SetupArtistPorpoise5.PNG)
 
