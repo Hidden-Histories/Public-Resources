@@ -28,7 +28,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 ## ARpoiseDirectory Back End Layer Configuration
 
 . 
-### Screen Shot: Arpoise Directory Service - metalayers list
+### Arpoise Directory Service - metalayers list
 
 When you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the **ARpoise 
 app**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. The older ARpoise 
@@ -41,7 +41,7 @@ We expect to merge the two apps in the future when the newer smartphone hardware
 ![DirectoryImg0](/images/Directory0.png)
 
 .
-### Screen Shot: Arpoise Directory Service - Arpoise-Directory
+### Arpoise Directory Service - Arpoise-Directory
 
 Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
 
