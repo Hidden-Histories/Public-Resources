@@ -55,7 +55,7 @@ Note: The Google map only shows the GPS location of the very first layer in the 
 
 For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible.
 
-Click on the "ExampleLayer" Layer Name to see the properties that are defined for this layer.
+Now **click on the "ExampleLayer" Layer Name** to see the properties that are defined for this layer (see next image).
 
 . 
 ## Arpoise Directory Service - layer properties
@@ -66,8 +66,8 @@ Click on the "ExampleLayer" Layer Name to see the properties that are defined fo
 
 Internal properties:
 * **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST be the same as the .xml file that defines the layer.** More on that below.
-* **Lat/Lon:** The base GPS location of the layer in decimal form only. Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
-* **IsVisible:** Yes for on, No if you want to hide it for some reason.
+* **Lat/Lon:** The base GPS location of the layer in decimal form. Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.
+* **IsVisible:** Yes for on, No if you want to hide it, if it is not being used.
 * **Visibility in meter:** This is the radius in which the layer should be visible around its Lat/Lon. Given the inaccuracy of GPS, we have found that 200m, which is about 1/2 a block, is a good value. If it is too large, it is misleading as it can be seen far away from the site for which it is intended, but if it is too small it might not be visible at the actual site, as teh smartphone GPS thinks you are several blocks away.
 * **Porpoise URL:** Link to the **artist's layer in the artist's folder**, e.g. https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
