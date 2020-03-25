@@ -62,7 +62,7 @@ To add a new layer, click on the "New Layer" link above the list of current laye
 
 In the next screen just click on "Create" ...
 
-![DirectoryImg0b](/images/Directory0b.png)
+![Arpoise-Directory ExampleLayer](/images/Arpoise-Directory_ExampleLayer.png)
 
 ### Screen Shot: New empty layer added to directory
 
