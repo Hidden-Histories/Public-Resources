@@ -69,13 +69,13 @@ Go Back to the Arpoise-Directory level.
 . 
 ![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
 
-Now click on the new layer name "<no title>" to configure the new layer:
+. 
+**Now click on the new layer name "no title" to configure the new layer**
+
+Enter the properties according to the example and the information below.
 
 . 
-Now **click on the "ExampleLayer" Layer Name** to see the properties that are defined for this layer.
-
-. 
-## Arpoise Directory Service - layer properties
+## Arpoise Directory Service - enter layer properties following this example
 
 ![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
 
