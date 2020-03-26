@@ -126,7 +126,7 @@ Select one of the layers ...
 **... and look all around you, they are also above and below you!**
 
 . 
-![Arpoise-Directory_stripedBox](Arpoise-Directory_stripedBox.png)
+![Arpoise-Directory_stripedBox](images/Arpoise-Directory_stripedBox.png)
 
 . 
 ### Troubleshooting:
