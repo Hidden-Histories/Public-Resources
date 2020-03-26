@@ -18,7 +18,7 @@ Once the porPOIse account has been set up, the layers have to be registered in t
 **NOTE:** Intially, please use the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
 
 
-### Admin workflow for each new artist (or helper):
+## Admin workflow for each new artist (or helper):
 
 With the artist, agree on:
 - A porPOIse user name and password. Ideally the same one as their FTP access to the hiddenhistories server, to make it easier for them to remember.
