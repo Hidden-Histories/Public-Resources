@@ -145,9 +145,9 @@ You should now have completed the following steps:
 
 1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
-3. SetupArtistArpoiseDirectory
+3. **SetupArtistArpoiseDirectory**
 
-### Next steps: arrtist tutorials (under construction)
+### Next steps: artist tutorials (under construction)
 - To learn what you can do in porPOIse, including animations, play around with your existing test layer using the tutorial on the ARpoise porPOISe Back End:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md
 
