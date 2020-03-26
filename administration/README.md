@@ -2,7 +2,11 @@
 # Hidden Histories
 
 ## Overview
-This folder contains administration documentation for **Hidden Histories**.
+This folder contains tutorials for administrators to set up porPOIse accounts and layer for **Hidden Histories** artists and helpers.
 
 ## Contents
-[Setup Artist Porpoise](/administration/SetupArtistPorpoise.md).
+Please follow this order:
+
+1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
+
+2. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
