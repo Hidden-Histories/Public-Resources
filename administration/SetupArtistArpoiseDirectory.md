@@ -134,7 +134,6 @@ Select one of the layers ...
 If the layers still do not appear:
 
 - Is the GPS position you entered in the Fixed Position menu in the ARpoise app correct?
-- Is the 
 - Is the property **IsVisible** set to **Yes** in the layer properties?
 - Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
