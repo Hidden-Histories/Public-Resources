@@ -1,5 +1,5 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# Hidden Histories - Admins: Getting Started with ARpoise 
+# Hidden Histories Admins: Getting Started with ARpoise 
 
 ## Overview   
 This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers.
