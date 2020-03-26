@@ -138,6 +138,17 @@ If the layers still do not appear:
 - Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
 .
+## Admins Overview   
+This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers.
+
+Please go through the tutorials in the given order (they have internal links to each other in the proper sequence):
+
+1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
+
+2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
+
+3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
+
 ## Next Steps
 
 ### Play around in porPOIse with the assets in your test layer
