@@ -90,13 +90,19 @@ Enter the properties according to the example and the information below.
 ### Explanation:
 
 Internal properties:
+
 * **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST** be the same as the **artist's .xml file** that defines the layer and the **artist's config/config.xml entry** that registers their layers. See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist) on how to do this.
+
 * **Lat/Lon:** The base GPS location of the layer in decimal form. If you already know the GPS coordinates you need [(read here how to find them)](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/), type them directly into the latitude and longitude fields. You can also use the buttons on the **Google map** to zoom in or out, and click and drag the marker against the boundary of the maps window to drag it to your location. **As you move the marker, the lat/lon values in the properties box will change.** (Note: If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.)
+
 * **IsVisible:** Yes for on, No to hide it, if it is not being used.
+
 * **Visibility in meter:** This is the radius in which the layer should be visible around its Lat/Lon. Given the inaccuracy of GPS, we have found that **200m~250m**, which is about 1/2 a block, is a good value. If it is too large, it is misleading as it can be seen far away from the site for which it is intended, but if it is too small it might not be visible at the actual site, as the smartphone GPS thinks you are several blocks away.
+
 * **Porpoise URL:** Required link to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
 External properties:
+
 * **Layer Title:** This name is shown on the **layer listing in the ARpoise app** (see screenshot of ARpoise app above). Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
 * **Line 2:** The second, smaller line in the layer entry in the ARpoise app (see screenshot of ARpoise app above).
 * **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
@@ -110,12 +116,19 @@ External properties:
 Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
 
 Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely.
+
 - Note the **GPS latitude and longitude where you placed the layer** (in ArpoiseDirectory layer list, or the layer properties).
+
 - If you input exactly that number, you will be right in the middle of the layer. If you want to be slight to one side, select a different position in google maps (see how to do this in the properties explanation above) and enter those values instead. Just remember the augments might be **behind** you!
+
 - Start the ARpoise app.
+
 - Double click on the **ARpoise logo menu button**.
+
 - Tap the Lat and Lon fields and enter the decimal values you want.
+
 - Click **Activate Fixed Position**.
+
 - Click **OK**.
 
 . 
