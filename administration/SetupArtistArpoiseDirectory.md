@@ -55,7 +55,7 @@ Note: The Google map only shows the GPS location of the very first layer in the 
 
 For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible.
 
-Now **click on the "ExampleLayer" Layer Name** to see the properties that are defined for this layer (see next image).
+Now **click on the "ExampleLayer" Layer Name** to see the properties that are defined for this layer.
 
 . 
 ## Arpoise Directory Service - layer properties
@@ -65,17 +65,17 @@ Now **click on the "ExampleLayer" Layer Name** to see the properties that are de
 ### Explanation:
 
 Internal properties:
-* **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST be the same as the .xml file that defines the layer.** More on that below.
+* **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST** be the same as the **artist's .xml file** that defines the layer and the **artist's config/config.xml entry** that registers their layers. See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist) on how to do this.
 * **Lat/Lon:** The base GPS location of the layer in decimal form. Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.
-* **IsVisible:** Yes for on, No if you want to hide it, if it is not being used.
+* **IsVisible:** Yes for on, No to hide it, if it is not being used.
 * **Visibility in meter:** This is the radius in which the layer should be visible around its Lat/Lon. Given the inaccuracy of GPS, we have found that 200m, which is about 1/2 a block, is a good value. If it is too large, it is misleading as it can be seen far away from the site for which it is intended, but if it is too small it might not be visible at the actual site, as teh smartphone GPS thinks you are several blocks away.
-* **Porpoise URL:** Link to the **artist's layer in the artist's folder**, e.g. https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
+* **Porpoise URL:** Link to the **artist's folder**, e.g. https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
 External properties:
 * **Layer Title:** This name is shown on the **layer listing in the ARpoise app** (see screenshot of ARpoise app above). Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
 * **Line 2:** The second, smaller line in the layer entry in the ARpoise app (see screenshot of ARpoise app above).
 * **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
-* **Icon Name:** The name of the icon shown in the layer entry in the ARpoise app. This has to be in an AssetBundle that is common to all layers world wide and can only be entered by the ARpoise adminstrators. We have entered the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
+* **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the laye's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have entered the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
 .
 ## Arpoise Directory Service - add a new layer
