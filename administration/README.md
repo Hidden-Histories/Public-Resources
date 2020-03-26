@@ -10,11 +10,9 @@ https://github.com/ARPOISE/ARpoise/blob/master/README.md
 For Hidden Histories, the admin will need to deal with the following two components, which we have already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
 
 **Hidden Histories porPOIse back end user interface**
-
 This is an online web interface that each artist (or helper) uses to set up and edit their own layers, whether geolocative or image trigger, for viewing on the ARpoise or the AR-vos client apps. The admin needs to set up separate copies of the porPOIse back end user interface for each and every artist and helper.
 
 **Hidden Histories ArpoiseDirectory Back End**
-
 Once the porPOIse account has been set up, the layers have to be registered in the Hidden Histories ArpoiseDirectory, which is managed only by the admin. This registry keeps track of all layers and makes them available within a general GPS defined area. Due to the coronavirus, this will be initially at the artist's home, and then moved to the proper location in San Jose Japantown once the artwork is developed. When a user is standing at the location of their artwork and starts the ARpoise or AR-vos apps, the ArpoiseDirectory reads their GPS location and then displays all layers available at that location in a list on their screen.
 
 **NOTE:** Intially, please use the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
