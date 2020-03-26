@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer>
+	<pois>
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>31</id><imageURL/><lat>37.348296</lat><lon>-121.893746</lon><title>BtS_kizuna_W</title><line1>Kizuna (Community ties)</line1><line2>Wesley United Methodist Church</line2><line3>566 N. 5th Street, San Jose</line3><line4>BtSicon_kizuna_64q</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>32</id><imageURL/><lat>37.349916</lat><lon>-121.894937</lon><title>BtS_kizuna_B</title><line1>Kizuna (Community ties)</line1><line2>Buddhist Church Betsuin</line2><line3>640 N. 5th Street</line3><line4>BtSicon_kizuna_64q</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>35</id><imageURL/><lat>37.349003</lat><lon>-121.894293</lon><title>BtS_monogatari_SJ</title><line1>Amerika</line1><line2>Heart of Japantown</line2><line3>5th &amp; Jackson, Japantown</line3><line4>BtSicon_amerika-monogatari_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>250</visibilityRange><id>37</id><imageURL/><lat>37.318897</lat><lon>-122.046806</lon><title>BtS_odoroku_DAC</title><line1>Odoroku - Astonishment</line1><line2>Planetarium, De Anza College</line2><line3/><line4>BtSicon_odoroku_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>39</id><imageURL/><lat>37.350714</lat><lon>-121.894293</lon><title>BtS_NaiGai_SJ</title><line1>Nai Gai</line1><line2>Former Ideal Laundry</line2><line3>665 N. 6th Street, San Jose</line3><line4>BtSicon_Nai-Gai_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>41</id><imageURL/><lat>37.347479</lat><lon>-121.893407</lon><title>BtS_kako-gendai-mirai_SJ</title><line1>Kako Gendai Mirai</line1><line2>Japanese American Museum</line2><line3>535 N. 5th Street San Jose</line3><line4>BtSicon_kako-gendai-mirai_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>250</visibilityRange><id>43</id><imageURL/><lat>37.321968</lat><lon>-122.043868</lon><title>BtS_Euphrat_DAC</title><line1>Euphrat Museum of Art</line1><line2>Brush the Sky</line2><line3>De Anza College, Cupertino</line3><line4>BtSicon_Euphrat_BrushTheSky_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>44</id><imageURL/><lat>37.429639</lat><lon>-121.979741</lon><title>ExampleLayer</title><line1>Example Layer</line1><line2>By Example Artist</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt></alt><transform><rel></rel><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/porpoise.php?</baseURL><line1></line1><line2></line2><line3></line3><line4></line4></object><relativeAlt></relativeAlt><attribution></attribution><distance></distance><visibilityRange>1500</visibilityRange><id>45</id><imageURL></imageURL><lat>37.429639</lat><lon>-121.979741</lon><title>ExampleLayer</title><line1>Example Layer Tamiko</line1><line2>By Tamiko Thiel</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type></type><doNotIndex></doNotIndex><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi></pois>
+
+	<refreshInterval>300</refreshInterval>
+	<refreshDistance>100</refreshDistance>
+	<fullRefresh>1</fullRefresh>
+	<showMessage/>
+
+	<bleachingValue>0</bleachingValue>
+	<redirectionLayer/>
+	<areaSize>0</areaSize>
+	<applyKalmanFilter>1</applyKalmanFilter>
+	<visibilityRange>1500</visibilityRange>
+	<areaWidth>0</areaWidth>
+	<noPoisMessage>Sorry, there is nothing to show!</noPoisMessage>
+	<showMenuButton>1</showMenuButton>
+	<redirectionUrl/>
+</layer>
