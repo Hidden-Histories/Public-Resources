@@ -95,13 +95,18 @@ External properties:
 * **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
 * **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the layer's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have set it to be the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
-. 
-Don't forget to click the **Save** button! ;-)
+**Don't forget to click the Save button!** ;-)
 
 .
-## Testing 
+## Testing the 2 Artist's Layers
 
-Stand at the GPS location where you set the new layer, open the ARpoise app and see if you can see it there. Make sure "Is visible" is YES! ;-)
+Assuming you set the positions of the new artist's layers at their house, if you simply start the ARpoise app, you will be too far away to see their new layers.
+
+Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely:
+
+### Debugging problems:
+- Is the property **IsVisible** set to **Yes** in the layer properties?
+- Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
 .
 ## Next Steps
