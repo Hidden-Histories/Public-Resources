@@ -1,8 +1,8 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories
-# -- Setup Artist in ArpoiseDirectory Back End --
+## Setup Artist in ArpoiseDirectory
 
-## Overview
+### Overview
 
 **ARpoise porPOIse** requires a directory back end as registry for all the AR projects ("layers") that it services. The directory keeps track of which layers exist, and where in the world they can be viewed.
 
@@ -12,7 +12,7 @@ The **Hidden Histories ARpoiseDirectory Back End Directory Service** is located 
 
 - A metalayer is made up of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
 
-## Functionality
+### Functionality
 
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter, e.g. where the viewer who just opened the app is standing in the world.
 
@@ -26,15 +26,12 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 ![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_1024w.png)
 
 . 
-## Documentation:
+### Documentation:
 
 . 
-## Arpoise Directory Service - metalayers list
+### Arpoise Directory Service - metalayers list
 
-When you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the **ARpoise 
-app**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. The older ARpoise 
-app runs on all iOS and Android smartphones, whereas the newer AR-vos app only runs on recent smartphones that support the 
-AR functionality of [Android ARCore](https://developers.google.com/ar/discover/supported-devices) or [Apple ARKit](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html). 
+When you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the **ARpoise app**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. The older ARpoise app runs on all iOS and Android smartphones, whereas the newer AR-vos app only runs on recent smartphones that support the AR functionality of [Android ARCore](https://developers.google.com/ar/discover/supported-devices) or [Apple ARKit](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html). 
 
 For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 We expect to merge the two apps in the future when the newer smartphone hardware is widespread.
@@ -42,7 +39,7 @@ We expect to merge the two apps in the future when the newer smartphone hardware
 ![DirectoryImg0](images/Directory0.png)
 
 .
-## Arpoise Directory Service - layers list
+### Arpoise Directory Service - layers list
 
 Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
 
@@ -53,14 +50,14 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 ![Arpoise-Directory metalayer list](images/Arpoise-Directory_metalayerList.png)
 
-### Explanation:
+#### Explanation:
 
 For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. See the section below for a description of the properties.
 
 (The Google map only shows the GPS location of the very first layer in the list.)
 
 . 
-## Arpoise Directory Service - add a new layer
+### Arpoise Directory Service - add a new layer
 
 Go Back to the Arpoise-Directory level.
 
@@ -83,11 +80,11 @@ Go Back to the Arpoise-Directory level.
 Enter the properties according to the example and the information below.
 
 . 
-## ARpoise Directory Service - enter layer properties following this example
+### ARpoise Directory Service - enter layer properties following this example
 
 ![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
 
-### Explanation:
+#### Explanation:
 
 Internal properties:
 
@@ -111,7 +108,7 @@ External properties:
 **Don't forget to click the Save button!** ;-)
 
 .
-## Testing the New Artist's Layers
+### Testing the New Artist's Layers
 
 Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
 
@@ -149,7 +146,7 @@ Select one of the layers ...
 ![Arpoise-Directory_stripedBox](images/Arpoise-Directory_stripedBox.png)
 
 . 
-### Troubleshooting:
+#### Troubleshooting:
 
 If the layers still do not appear:
 
@@ -158,16 +155,16 @@ If the layers still do not appear:
 - Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
 .
-## Next Steps
+### Next Steps
 
-### Admin tutorials: what you have done:
+#### Admin tutorials: what you have done:
 You should now have completed the following steps:
 
 1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
 3. **SetupArtistArpoiseDirectory**
 
-### Next steps: artist tutorials (under construction)
+#### Next steps: artist tutorials (under construction)
 - To learn what you can do in porPOIse, including animations, play around with your existing test layer using the tutorial on the ARpoise porPOISe Back End:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md
 
