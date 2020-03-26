@@ -75,20 +75,20 @@ External properties:
 * **Layer Title:** This name is shown on the **layer listing in the ARpoise app** (see screenshot of ARpoise app above). Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
 * **Line 2:** The second, smaller line in the layer entry in the ARpoise app (see screenshot of ARpoise app above).
 * **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
-* **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the laye's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have entered the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
+* **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the layer's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have set it to be the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
 .
 ## Arpoise Directory Service - add a new layer
 
 Go Back to the Arpoise-Directory level.
-- Add a new layer by clicking on the "New Layer" link above the layer list.
+- Add a new layer by clicking on the **New Layer** link above the layer list.
 - In the next screen ignore the warning message and just click on "Create" ...
 
 ![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
 
 ... and a new empty layer will be added to the directory.
 
-![DirectoryImg0c](images/Directory0c.png)
+![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
 
 Click on the new layer name "no title" to configure the new layer.
 
