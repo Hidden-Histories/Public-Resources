@@ -117,12 +117,18 @@ Therefore, ARpoise has a **Fixed Location** feature that allows you to test many
 . 
 The layers should then appear in the list of nearby augment layers.
 
-Select one **and look all around you, and above and below!**
+Select one of the layers ...
 
 . 
 ![Arpoise-Directory_ARpoiseLayersList](images/Arpoise-Directory_ARpoiseLayersList.png)
 
-.
+. 
+**... and look all around you, they are also above and below you!**
+
+. 
+![Arpoise-Directory_stripedBox](Arpoise-Directory_stripedBox.png)
+
+. 
 ### Troubleshooting:
 
 If the layers still do not appear:
