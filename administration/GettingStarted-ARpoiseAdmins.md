@@ -44,8 +44,8 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
 
 ## Next Steps
 
-### Admin tutorials: what you have done:
-You should now have completed the following steps:
+### Admin tutorials: Next steps
+Complete the following steps:
 
 1. **Getting Started: ARpoise Admins**
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
