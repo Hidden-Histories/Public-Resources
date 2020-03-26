@@ -6,7 +6,7 @@ This folder contains tutorials for administrators to set up **porPOIse accounts*
 
 Please go through the tutorials in the given order:
 
-1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md.md).
+1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
 
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
 
