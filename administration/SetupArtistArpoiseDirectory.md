@@ -57,15 +57,18 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. See the section below for a description of the properties.
 
-Note: The Google map only shows the GPS location of the very first layer in the list.
+(The Google map only shows the GPS location of the very first layer in the list.)
 
 . 
 ## Arpoise Directory Service - add a new layer
 
 Go Back to the Arpoise-Directory level.
+
 - Add a new layer by clicking on the **New Layer** link above the layer list.
+
 - In the next screen ignore the warning message and just click on "Create" ...
 
+. 
 ![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
 
 ... and a new empty layer will be added to the directory:
