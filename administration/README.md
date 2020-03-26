@@ -20,6 +20,8 @@ Once the porPOIse account has been set up, the layers have to be registered in t
 . 
 ## Admin workflow for each new artist (or helper):
 
+This workflow MUST be following in order to set up a porPOIse account correctly. The tutorials link to each other in the proper order, but here is an overview so you understand the steps in the process:
+
 ### With the artist, agree on:
 - A porPOIse **user name and password**. Ideally the same one as their FTP access to the hiddenhistories server, to make it easier for them to remember.
 - A **short form of their name** as unique, internal identifier for their layer name(s) for their artwork(s).
