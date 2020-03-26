@@ -4,10 +4,10 @@
 ## Overview   
 This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers.
 
-The [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (Note: the ARpoise administrators are managing the ARpoise Directory Front End component. Hidden Histories admins manage their own separate ARpoise Directory Back End component and porPOIse Back End User Interface components.)
+The [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (Note: the ARpoise administrators are managing the ARpoise Directory Front End component.)
 
 
-For Hidden Histories, the admin will need to deal with the following two components, which we have already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
+The Hidden Histories admin will manage the following two components, which are already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
 
 - **Hidden Histories porPOIse back end user interface**
 This is an online web interface that each artist (or helper) uses to set up and edit their own layers, whether geolocative or image trigger, for viewing on the ARpoise or the AR-vos client apps. The admin needs to set up separate copies of the porPOIse back end user interface for each and every artist and helper.
