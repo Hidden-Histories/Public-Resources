@@ -20,7 +20,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 
 - If there are no layers within range of the client's location, an empty list of layer definitions is returned.
 
-- NOTE: If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
+- If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
 
 . 
 ![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_1024w.png)
@@ -93,7 +93,7 @@ Internal properties:
 
 * **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST** be the same as the **artist's .xml file** that defines the layer and the **artist's config/config.xml entry** that registers their layers. See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist) on how to do this.
 
-* **Lat Lon:** The base GPS location of the layer in decimal form. If you already know the GPS coordinates you need [(read here how to find them)](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/), type them directly into the latitude and longitude fields. You can also use the buttons on the **Google map** to zoom in or out, and click and drag the marker against the boundary of the maps window to drag it to your location. **As you move the marker, the lat/lon values in the properties box will change.** (Note: If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.)
+* **Lat Lon:** The base GPS location of the layer in decimal form. If you already know the GPS coordinates you need [(read here how to find them)](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/), type them directly into the latitude and longitude fields. You can also use the buttons on the **Google map** to zoom in or out, and click and drag the marker against the boundary of the maps window to drag it to your location. **As you move the marker, the lat/lon values in the properties box will change.** (Note that if the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.)
 
 * **IsVisible:** Yes for on, No to hide it, if it is not being used.
 
