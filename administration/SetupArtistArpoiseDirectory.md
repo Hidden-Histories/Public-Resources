@@ -42,10 +42,10 @@ We expect to merge the two apps in the future when the newer smartphone hardware
 
 Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
 
-- All of Tamiko's Brush the Sky layers in San Jose Japantown.
+- Tamiko Thiel's Brush the Sky layers in San Jose Japantown.
 - The ExampleLayer template (please do NOT change or delete!)
-- Tamiko's ExampleLayer (please do NOT change or delete!)
-- When you add new layers, they will also appear in this list.
+- Tamiko Thiel's Example Layer and Artist Layer (please do NOT change or delete!)
+- Any new layers will then appear below.
 
 ![Hidden Histories Arpoise-Directory metalayer list](images/HH_Arpoise-Directory_metalayerList.png)
 
