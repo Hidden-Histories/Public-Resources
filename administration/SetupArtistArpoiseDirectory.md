@@ -100,11 +100,18 @@ External properties:
 .
 ## Testing the 2 Artist's Layers
 
-Assuming you set the positions of the new artist's layers at their house, if you simply start the ARpoise app, you will be too far away to see their new layers.
+Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
 
-Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely:
+Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely.
+- Start the ARpoise app.
+- Double click on the ARpoise logo menu button.
+
+![Arpoise-Directory_FixedPosition](images/Arpoise-Directory_FixedPosition.png)
+
 
 ### Debugging problems:
+- Is the GPS position you entered in the Fixed Position menu in the ARpoise app correct?
+- Is the 
 - Is the property **IsVisible** set to **Yes** in the layer properties?
 - Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
