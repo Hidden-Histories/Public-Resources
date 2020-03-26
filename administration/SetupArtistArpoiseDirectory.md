@@ -70,12 +70,13 @@ Go Back to the Arpoise-Directory level.
 ![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
 
 . 
+
 **Now click on the new layer name "no title" to configure the new layer**
 
 Enter the properties according to the example and the information below.
 
 . 
-## Arpoise Directory Service - enter layer properties following this example
+## ARpoise Directory Service - enter layer properties following this example
 
 ![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
 
@@ -94,26 +95,8 @@ External properties:
 * **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
 * **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the layer's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have set it to be the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
-.
-
-### Screen Shot: Configure new layer
-
-See the description of possible attributes beneath this example image.
-
-Enter the configuration for the new layers and then click the "Save" button
-
-![DirectoryImg1](images/Directory1.png)
-### Explanation:
-The following attributes of a layer can be edited.
-* **Layer Name**: The name of the layer, for internal purposes only.
-* **Lat/Lon**: The base GPS location of the layer **in decimal form only.** Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a separate copy of that layer needs to be created and placed at each of the desired GPS locations.
-* **Is visible**: Use this box to turn the augment on or off for testing purposes.
-* **Porpoise URL**: The URL of the ARpoise PorPOISe Back End serving the layer.
-* **Layer Title**: The title of the layer shown in the client application when a list of layers is displayed for selection. Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
-* **Line 2**: The second line of text shown in the client application when a list of layers is displayed for selection.
-* **Line 3**: The third line of text shown in the client application when a list of layers is displayed for selection.
-* **Icon name**: The name of the icon shown in the client application when a list of layers is displayed for selection. This can only be done by the ARpoise adminstrators - please contact us at public@arpoise.com.
-* **Save** button: Saves the layers's attributes to the ARpoise Directory's xml file.
+. 
+Don't forget to click the **Save** button! ;-)
 
 .
 ## Testing 
