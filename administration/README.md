@@ -40,9 +40,12 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
 - The 2 layers should then be fully functional, with assets (brightly colored primitive shapes, some with porPOIse animations) that give the artist an immediate check whether their account is working, and allow them to follow the artist's tutorials to learn how to use porPOIe to set up their augments.
 - Please follow the [**step by step admin SetupArtistArpoiseDirectory tutorial**](SetupArtistArpoiseDirectory.md)
 
-## Next steps: Hidden Histories Admin Tutorials
+. 
 
-Here is an overview of the tutorials mentioned in the text above. Please go through the tutorials in the following order:
+## Admin Workflow Overview: Hidden Histories Admin Tutorials
+
+Here is an overview of the tutorials mentioned in the text above. 
+Please go through the tutorials in the given order:
 
 1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
 
