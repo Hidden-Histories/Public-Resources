@@ -33,7 +33,7 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
 - Then **configure** various files for the artist, for instance their login name and password, etc.
 - Rename the ExampleLayer and create an ArtistLayer to include the artist's name.
 - Note: If the artist needs more layers in the future, the admin has to create them according to the same procedure, and also add them to the directory in the procedure described below.
-- Please follow the [**step by step admin SetupArtistPorpoise tutorial**](SetupArtistPorpoise.md)
+- Please follow the [**step by step admin SetupArtistPorpoise tutorial**](SetupArtistPorpoise.md). (It will also link to the ArpoiseDirectory tutorial mentioned below.)
 
 ### In the ArpoiseDirectory Back End registry, configure the new layers.
 - In order to be viewable in the ARpoise (or AR-vos) app, the layers need to be **geolocated** at a specific GPS location. Right now this should be at the artist's home so they can play around with them without leaving their house. This can be changed later for testing and final placement in Japantown.
