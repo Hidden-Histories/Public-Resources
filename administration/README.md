@@ -4,8 +4,8 @@
 ## Overview
 This folder contains tutorials for administrators to set up porPOIse accounts and layer for **Hidden Histories** artists and helpers.
 
-## Contents
-Please follow this order:
+## Hidden Histories Admin Tutorials
+Please go through the tutorials in the following order:
 
 1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
 
