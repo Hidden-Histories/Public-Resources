@@ -129,12 +129,16 @@ When you log in now to the new artist account (or just refresh the page) it shou
 ![SetupArtistPorpoise9_BruceLee](images/SetupArtistPorpoise9_BruceLee.png)
 
 Before we can start playing with these layers, they have to be registered in the ArpoiseDirectory. See the link to the tutorial in **Next Steps** below.
+
 .
 ## Next Steps
 
-The **admin** must now **register and configure the new artist's layers in the ArpoiseDirectory.** 
+### Admin tutorials:
+Complete the next step to register and configure the new artist's layers in the ArpoiseDirectory.
 
-For that tutorial, please see [**Setup Artist in ArpoiseDirectory Back End**](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md)
+1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
+2. **Setup Artist Porpoise**
+3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
 
 .
 ## Original porPOIse Documentation
