@@ -42,9 +42,9 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
 
 . 
 
-## Admin Workflow Overview: Hidden Histories Admin Tutorials
+## Admin Workflow Quicklinks: Hidden Histories Admin Tutorials
 
-Here is an overview of the tutorials mentioned in the text above. 
+Here are quick links to the tutorials described above. 
 Please go through the tutorials in the given order:
 
 1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
