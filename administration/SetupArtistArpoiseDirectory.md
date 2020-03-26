@@ -55,6 +55,23 @@ Note: The Google map only shows the GPS location of the very first layer in the 
 
 For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible.
 
+. 
+## Arpoise Directory Service - add a new layer
+
+Go Back to the Arpoise-Directory level.
+- Add a new layer by clicking on the **New Layer** link above the layer list.
+- In the next screen ignore the warning message and just click on "Create" ...
+
+![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
+
+... and a new empty layer will be added to the directory:
+
+. 
+![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
+
+Now click on the new layer name "<no title>" to configure the new layer:
+
+. 
 Now **click on the "ExampleLayer" Layer Name** to see the properties that are defined for this layer.
 
 . 
@@ -78,21 +95,6 @@ External properties:
 * **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the layer's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have set it to be the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
 
 .
-## Arpoise Directory Service - add a new layer
-
-Go Back to the Arpoise-Directory level.
-- Add a new layer by clicking on the **New Layer** link above the layer list.
-- In the next screen ignore the warning message and just click on "Create" ...
-
-![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
-
-... and a new empty layer will be added to the directory.
-
-![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
-
-Click on the new layer name "no title" to configure the new layer.
-
-![DirectoryImg0c](images/Directory0c.png)
 
 ### Screen Shot: Configure new layer
 
