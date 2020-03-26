@@ -47,7 +47,7 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 - Tamiko Thiel's Example Layer and Artist Layer (please do NOT change or delete!)
 - Any new layers will then appear below.
 
-![Hidden Histories Arpoise-Directory metalayer list](images/HH_Arpoise-Directory_metalayerList.png)
+![Arpoise-Directory metalayer list](images/Arpoise-Directory_metalayerList.png)
 
 ### Explanation:
 
