@@ -115,9 +115,15 @@ Therefore, ARpoise has a **Fixed Location** feature that allows you to test many
 ![Arpoise-Directory_FixedPosition](images/Arpoise-Directory_FixedPosition.png)
 
 . 
-The layers should then appear in the list of nearby 
+The layers should then appear in the list of nearby augment layers.
 
-### Debugging problems:
+![Arpoise-Directory_ARpoiseLayersList](images/Arpoise-Directory_ARpoiseLayersList.png)
+
+.
+### Troubleshooting:
+
+If the layers still do not appear:
+
 - Is the GPS position you entered in the Fixed Position menu in the ARpoise app correct?
 - Is the 
 - Is the property **IsVisible** set to **Yes** in the layer properties?
