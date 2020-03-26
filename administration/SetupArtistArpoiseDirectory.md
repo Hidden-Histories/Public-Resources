@@ -103,11 +103,19 @@ External properties:
 Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
 
 Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely.
+- Note the GPS latitude and longitude where you placed the layer (in ArpoiseDirectory layer list, or the layer properties).
+- If you input exactly that number, you will be right in the middle of the layer. If you want to be slight to one side, select a different position in google maps and enter that instead. Just remember the augments might be **behind** you!
 - Start the ARpoise app.
 - Double click on the ARpoise logo menu button.
+- Tap the Lat and Lon fields and enter the decimal values.
+- Click **Activate Fixed Position**
+- Click OK.
 
+. 
 ![Arpoise-Directory_FixedPosition](images/Arpoise-Directory_FixedPosition.png)
 
+. 
+The layers should then appear in the list of nearby 
 
 ### Debugging problems:
 - Is the GPS position you entered in the Fixed Position menu in the ARpoise app correct?
