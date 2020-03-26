@@ -138,25 +138,20 @@ If the layers still do not appear:
 - Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
 
 .
-## Admins Overview   
-This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers.
-
-Please go through the tutorials in the given order (they have internal links to each other in the proper sequence):
-
-1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
-
-2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
-
-3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
-
 ## Next Steps
 
-### Play around in porPOIse with the assets in your test layer
-To learn what you can do in porPOIse, including animations, play around with your existing test layer using the tutorial on the ARpoise porPOISe Back End:
+### Admin tutorials: what you have done:
+You should now have completed the following steps:
+
+1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
+2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
+3. SetupArtistArpoiseDirectory
+
+### Next steps: arrtist tutorials (under construction)
+- To learn what you can do in porPOIse, including animations, play around with your existing test layer using the tutorial on the ARpoise porPOISe Back End:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md
 
-### Exporting Unity assets into AssetBundles for ARpoise:
-To create a new AR experience for your layer, you need to set up the assets in Unity (2D and 3D objects, sounds) and then export them into asset bundles. Learning to use Unity goes beyond the scope of our tutorials, but here is our tutorial for turning Unity assets into AssetBundles:
+- To create a new AR experience for your layer, you need to set up the assets in Unity (2D and 3D objects, sounds) and then export them into asset bundles. Learning to use Unity goes beyond the scope of our tutorials, but here is our tutorial for turning Unity assets into AssetBundles:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md
 
 .
