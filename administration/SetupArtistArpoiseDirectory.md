@@ -60,7 +60,7 @@ Now **click on the "ExampleLayer" Layer Name** to see the properties that are de
 . 
 ## Arpoise Directory Service - layer properties
 
-![Arpoise-Directory ExampleLayer](images/Arpoise-Directory_ExampleLayer.png)
+![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
 
 ### Explanation:
 
