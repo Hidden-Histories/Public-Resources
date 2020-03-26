@@ -84,7 +84,7 @@ Enter the properties according to the example and the information below.
 
 Internal properties:
 * **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST** be the same as the **artist's .xml file** that defines the layer and the **artist's config/config.xml entry** that registers their layers. See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist) on how to do this.
-* **Lat/Lon:** The base GPS location of the layer in decimal form. Can be changed by typing in the latitude and longitude, or by dragging the layer's marker in the placement map. If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.
+* **Lat/Lon:** The base GPS location of the layer in decimal form. If you already [know the GPS coordinates you need](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/), type them directly into the latitude and longitude fields. You can also use the buttons on the Google map to zoom in or out, then click and drag the marker against the boundary of the maps window to drag it to your location. As you move the marker, the lat/lon values in the properties box will change. (Note: If the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.)
 * **IsVisible:** Yes for on, No to hide it, if it is not being used.
 * **Visibility in meter:** This is the radius in which the layer should be visible around its Lat/Lon. Given the inaccuracy of GPS, we have found that **200m~250m**, which is about 1/2 a block, is a good value. If it is too large, it is misleading as it can be seen far away from the site for which it is intended, but if it is too small it might not be visible at the actual site, as the smartphone GPS thinks you are several blocks away.
 * **Porpoise URL:** Required link to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
@@ -98,7 +98,7 @@ External properties:
 **Don't forget to click the Save button!** ;-)
 
 .
-## Testing the 2 Artist's Layers
+## Testing the New Artist's Layers
 
 Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
 
