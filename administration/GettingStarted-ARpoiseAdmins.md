@@ -42,11 +42,11 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
 
 . 
 
-## Admin Workflow Quicklinks: Hidden Histories Admin Tutorials
+## Next Steps
 
-Here are quick links to the tutorials described above. 
-Please go through the tutorials in the given order:
+### Admin tutorials: what you have done:
+You should now have completed the following steps:
 
-1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
-
-2. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
+1. **Getting Started: ARpoise Admins**
+2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
+3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
