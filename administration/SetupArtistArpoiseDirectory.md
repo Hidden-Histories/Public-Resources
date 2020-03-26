@@ -51,9 +51,9 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 ### Explanation:
 
-Note: The Google map only shows the GPS location of the very first layer in the list.
+For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. See the section below for a description of the properties.
 
-For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible.
+Note: The Google map only shows the GPS location of the very first layer in the list.
 
 . 
 ## Arpoise Directory Service - add a new layer
