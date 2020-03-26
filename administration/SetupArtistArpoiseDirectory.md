@@ -13,9 +13,13 @@ The **Hidden Histories ARpoiseDirectory Back End Directory Service** is located 
 - A metalayer is made up of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
 
 ## Functionality
+
 When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/master/ArpoiseDirectory#arpoisedirectory) receives a request from a client ARpoise or AR-vos app, it contacts the ARpoise Directory Back End web service with the client's GPS location as parameter, e.g. where the viewer who just opened the app is standing in the world.
+
 - The **ARpoiseDirectory Back End service** then returns a list of all layers within a specified range of the client's GPS location, and displays them in the app.
+
 - If there are no layers within range of the client's location, an empty list of layer definitions is returned.
+
 - NOTE: If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
 
 . 
