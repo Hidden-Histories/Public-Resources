@@ -37,34 +37,12 @@ This workflow MUST be following in order to set up a porPOIse account correctly.
         https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistPorpoise.md
 
 ### In the ArpoiseDirectory Back End registry, configure the new layers.
-- In order to be viewable in the ARpoise (or AR-vos) app, the layers need to be geolocated at a specific GPS location. Right now this should be at the artist's home so they can play around with them without leaving their house. This can be changed later for testing and final placement in Japantown.
+- In order to be viewable in the ARpoise (or AR-vos) app, the layers need to be **geolocated** at a specific GPS location. Right now this should be at the artist's home so they can play around with them without leaving their house. This can be changed later for testing and final placement in Japantown.
 - The 2 layers are fully functional with assets (brightly colored primitive shapes, some with porPOIse animations) that gives the artist an immediate check whether their account is working
-- Furthermore, by following the artists' tutorials  (to be provided), the artist can modify the layers immediately and learn what they can do in the interface.
-- This step by step admin tutorial to register the layers is on the Hidden Histories github page at
-
-Testing your new layers:
-- Access in ARpoise: the ExampleArtist folder contains an ExampleLayer which can be used immediately to test whether the layer is visible in the ARpoise app at the proper location.
-- NOTE: Please use the ARpoise app now for the initial set-up and testing, and we will get back to you soon with information on using AR-vos for both geolocative AR and image trigger AR.
-- Access to porPOIse:
-- have the artist log in to porPOIse with their username and password.
-- The artist should be able to access AND MODIFY the layers! Can they change the Layer Title that is shown in the ARpoise app list of available layers? (Of course they must be standing at the right location!)
-
-    OR: Testing layers from outside of the San Jose area using Fixed Position:
-        In the ARpoise app, double click on the ARpoise icon.
-        This brings up input fields for latitude and longitude.
-        Enter the desired values, click "Activate Fixed Position" and click OK.
-            If you enter the exact same coordinates as the layer, you will be right in the middle.
-            If you want to view it from a slight distance, you can go to google maps and right click/What's Here? (on Windows) or long touch and release (on mobiles) will give you the GPS coordinates in decimal form in the seach box.
-        REMEMBER TO TURN THIS OFF when testing on site! Real geolocative AR is (more or less) located at specific GPS coordinates. Using Fixed Position, when you walk around they will just moved with you.
-
-## Next steps:
-We have basic documents on using porPOIse and making asset bundles, but I want to go over them and link them from a similar "Getting Started for Artists" document that should be accessible on the Hidden Histories website.
 
 
+## Next steps: Hidden Histories Admin Tutorials
 
-
-
-## Hidden Histories Admin Tutorials
 Please go through the tutorials in the following order:
 
 1. [Setup Artist Porpoise](SetupArtistPorpoise.md).
