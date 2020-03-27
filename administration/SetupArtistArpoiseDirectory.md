@@ -23,7 +23,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 - If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
 
 . 
-![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_1024w.png)
+![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_800w.png)
 
 . 
 ### Documentation:
