@@ -3,7 +3,7 @@
 # -- Setup Artist Porpoise --
 ## Overview
 
-**NOTE** This tutorial is meant ONLY for the Hidden Histories admin who sets up accounts for the artists!!!
+This tutorial is meant ONLY for the **Hidden Histories admin** who sets up accounts for the artists!!!
 
 The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. We have set up a porPOIse service for Hidden Histories, and describe how to configure it here. (If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.)
 
