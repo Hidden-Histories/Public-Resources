@@ -1,22 +1,27 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories Artists: Getting Started with ARpoise 
 
-## Overview - What is ARpoise and why is Hidden Histories using it?
+## Overview
+
+### What is ARpoise and why is Hidden Histories using it?
 
 **TEXT**
 
 The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives a thorough overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it is  a good overview of how the system's components fit together. 
 
-This folder contains tutorials for **Hidden Histories artists and helpers** on how to use the **ARpoise Augmented Reality platform** to create artworks. In order to use it, you should have:
+## Artist workflow
 
-- An **ARpoise user account**, set up by the Hidden Histories administrator.
+This folder contains tutorials for **Hidden Histories artists and helpers** on how to use the **ARpoise Augmented Reality platform** to create artworks. 
+
+In order to use it, you should have the following. If you don't please contact the Hidden Histories administrator. 
 
 - Understand how to view augmented reality artworks with the ARpoise app.
 
-**NOTE** Intially, please use the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
+- Have an **ARpoise user account**, set up by the Hidden Histories administrator.
 
-. 
-## Admin workflow for each new artist (or helper):
+- Successfully been able to view your example layer and artist layer on ARpoise.
+
+**NOTE** Intially, please use the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
 
 This workflow MUST be following in order to set up a porPOIse account correctly. The tutorials link to each other in the proper order, but here is an overview so you understand the steps in the process:
 
