@@ -1,6 +1,9 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+
 # Hidden Histories
+
 # -- Setup Artist Porpoise --
+
 ## Overview
 
 This tutorial is meant ONLY for the **Hidden Histories admin** who sets up accounts for the artists!!!
