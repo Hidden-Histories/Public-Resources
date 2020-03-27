@@ -2,7 +2,7 @@
 # Public-Resources
 Public Resources of 'Hidden Histories of San Jose Japantown'.
 ## Documentation
-See the [documentation](/documentation/README.md) folder and read the [Creating Asset Bundles](/documentation/CreatingAssetBundles.md) document.
+Artists please see the [documentation](/documentation/README.md) folder.
 
-The [administration](/administration/README.md) folder contains documents for administrators.
+Admins, please see the [administration](/administration/README.md) folder.
 
