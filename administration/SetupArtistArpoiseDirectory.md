@@ -31,11 +31,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 . 
 ### Arpoise Directory Service - metalayers list
 
-When you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the 
-**ARpoiseapp**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. 
-The older ARpoise appruns on all iOS and Android smartphones, whereas the newer AR-vos app only runs on recent 
-smartphones that support theAR functionality of [Android ARCore](https://developers.google.com/ar/discover/supported-devices) 
-or [Apple ARKit](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html). 
+Once you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the **ARpoiseapp**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. The older ARpoise appruns on all iOS and Android smartphones, whereas the newer AR-vos app only runs on recent smartphones that support theAR functionality of [Android ARCore](https://developers.google.com/ar/discover/supported-devices) or [Apple ARKit](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html). 
 
 For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
 We expect to merge the two apps in the future when the newer smartphone hardware is widespread.
