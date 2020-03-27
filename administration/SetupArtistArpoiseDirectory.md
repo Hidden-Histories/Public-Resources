@@ -20,7 +20,7 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 
 - If there are no layers within range of the client's location, an empty list of layer definitions is returned.
 
-- If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
+If the same augment should be visible in different locations around the world, you need to create duplicate copies of that layer  and place one each at all the desired GPS locations.
 
 ![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_800w.png)
 
