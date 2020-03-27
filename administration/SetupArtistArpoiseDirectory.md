@@ -22,7 +22,6 @@ When the [ARpoise Directory Front End](https://github.com/ARPOISE/ARpoise/tree/m
 
 - If the same augment should be visible in different locations around the world, duplicate copies of that layer need to be created and placed at the desired GPS locations.
 
-. 
 ![ARpoise layer List JAMsj](images/ARpoise_layerList_JAMsj_800w.png)
 
 . 
@@ -65,12 +64,10 @@ Go Back to the Arpoise-Directory level.
 
 - In the next screen ignore the warning message and just click on "Create" ...
 
-. 
 ![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
 
 ... and a new empty layer will be added to the directory:
 
-. 
 ![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
 
 . 
@@ -107,7 +104,7 @@ External properties:
 
 **Don't forget to click the Save button!** ;-)
 
-.
+. 
 ### Testing the New Artist's Layers
 
 Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
@@ -128,7 +125,6 @@ Therefore, ARpoise has a **Fixed Location** feature that allows you to test many
 
 - Click **OK**.
 
-. 
 ![Arpoise-Directory_FixedPosition](images/Arpoise-Directory_FixedPosition.png)
 
 . 
@@ -136,13 +132,11 @@ The layers should then appear in the list of nearby augment layers.
 
 Select one of the layers ...
 
-. 
 ![Arpoise-Directory_ARpoiseLayersList](images/Arpoise-Directory_ARpoiseLayersList.png)
 
 . 
 **... and look all around you, they are also above and below you!**
 
-. 
 ![Arpoise-Directory_stripedBox](images/Arpoise-Directory_stripedBox.png)
 
 . 
