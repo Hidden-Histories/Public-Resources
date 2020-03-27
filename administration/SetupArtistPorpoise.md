@@ -10,27 +10,25 @@ This tutorial is meant ONLY for the **Hidden Histories admin** who sets up accou
 
 The **porPOIse Back End user interface** is an open source project we had used since 2010 with the defunct AR platform LAYAR, and then in 2018 created this modified **ARpoise porPOIse** version for use with ARpoise. We have set up a porPOIse service for Hidden Histories, and describe how to configure it here. (If you need to set up a version of porPOIse for yourself, see the [**Original porPOIse Documentation**](#original-porpoise-documentation) linked below at the end of this page.)
 
-Each artist (and helper) needs their **own copy of the porPOIse back end user interface** for managing their own layers for both 
-**ARpoise** and **AR-vos**. There are two steps to set up a new artist with porPOIse:
+Each artist (and helper) needs their **own copy of the porPOIse back end user interface** for managing their own
+layers for both **ARpoise** and **AR-vos**. There are two steps to set up a new artist with porPOIse:
 
 1. This tutorial shows how to create and configure a **porPOIse account** and layers for each artist.
 
-2. Afterwards, the admin has to register and configure the artist's layers in the **ArpoiseDirectory**. See link to that tutorial 
-in the [**Next Steps**](#next-steps) section at the bottom of this page.
+2. Afterwards, the admin has to register and configure the artist's layers in the **ArpoiseDirectory**. See link to
+that tutorial in the [**Next Steps**](#next-steps) section at the bottom of this page.
 
-We created a **template folder** for an example artist named ‘ExampleArtist’. In order to set up a real artist please follow the 
-steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use 
-the artist's real name whereever it says "TamikoThiel" below. 
+We created a **template folder** for an example artist named ‘ExampleArtist’. In order to set up a real artist please
+follow the steps below. In the tutorial we used screenshots of Tamiko Thiel's porPOIse as an example. When you set up for another artist, use the artist's real name whereever it says "TamikoThiel" below. 
 
 Please use only letters or a dash, and NO blanks in any file or folder names.
 
 ## Folder Structure
 
-You need ftp/sftp access to the hiddenhistoriesjtown.org server. We use the WinSCP FTP client on a Windows 10 machine to upload 
-files to the Hidden Histories server, but the setup using a different FTP client on a Mac, e.g. Cyberduck, should work the same.
+You need ftp/sftp access to the hiddenhistoriesjtown.org server. We use the WinSCP FTP client on a Windows 10
+machine to upload files to the Hidden Histories server, but the setup using a different FTP client on a Mac, e.g. Cyberduck, should work the same.
 
-Under **public_html** we created two folders, **ArpoiseDirectory** and **artists**. As mentioned above, this tutorial covers setting up a new artist in the **artists** folder. For the the **ArpoiseDirectory** tutorial, please see the 
-documentation linked from the section [**Next Steps**](#next-steps) below.
+Under **public_html** we created two folders, **ArpoiseDirectory** and **artists**. As mentioned above, this tutorial covers setting up a new artist in the **artists** folder. For the the **ArpoiseDirectory** tutorial, please see the documentation linked from the section [**Next Steps**](#next-steps) below.
 
 In **artists** we created a template folder called **ExampleArtist**. It contains three subfolders:
 
@@ -48,7 +46,7 @@ In **artists** we created a template folder called **ExampleArtist**. It contain
 
 Duplicate the entire contents of the **ExampleArtist** folder and rename it with the artist's name. In this example, we called it "TamikoThiel." 
 
-Please do NOT use blanks or other special characters in file or folder names.
+Please only use letters or a dash and do NOT use blanks in file or folder names.
 
 ### Image - Artist Folder:
 ![SetupArtistPorpoise2](images/SetupArtistPorpoise2.PNG)
