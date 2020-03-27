@@ -1,19 +1,17 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# Hidden Histories Admins: Getting Started with ARpoise 
+# Hidden Histories Artists: Getting Started with ARpoise 
 
-## Overview   
+## Overview - What is ARpoise and why is Hidden Histories using it?
 
-This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers. 
+**TEXT**
 
-The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (**Note** the ARpoise administrators are managing the ARpoise Directory Front End component.)
+The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives a thorough overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it is  a good overview of how the system's components fit together. 
 
-The Hidden Histories admin will manage the following two components, which are already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
+This folder contains tutorials for **Hidden Histories artists and helpers** on how to use the **ARpoise Augmented Reality platform** to create artworks. In order to use it, you should have:
 
-- **Hidden Histories porPOIse back end user interface**
-This is an online web interface that each artist (or helper) uses to set up and edit their own layers, whether geolocative or image trigger, for viewing on the ARpoise or the AR-vos client apps. The admin needs to set up separate copies of the porPOIse back end user interface for each and every artist and helper.
+- An **ARpoise user account**, set up by the Hidden Histories administrator.
 
-- **Hidden Histories ArpoiseDirectory Back End**
-Once the porPOIse account has been set up, the layers have to be registered in the Hidden Histories ArpoiseDirectory, which is managed only by the admin. This registry keeps track of all layers and makes them available within a general GPS defined area. Due to the coronavirus, this will be initially at the artist's home, and then moved to the proper location in San Jose Japantown once the artwork is developed. When a user is standing at the location of their artwork and starts the ARpoise or AR-vos apps, the ArpoiseDirectory reads their GPS location and then displays all layers available at that location in a list on their screen.
+- Understand how to view augmented reality artworks with the ARpoise app.
 
 **NOTE** Intially, please use the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
 
