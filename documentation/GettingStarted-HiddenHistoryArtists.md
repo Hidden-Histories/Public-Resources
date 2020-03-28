@@ -5,9 +5,6 @@
 
 ### What is ARpoise and why is Hidden Histories using it?
 
-**TEXT on AR and ARpoise, including ARpoise app and AR-voc app**???
-What is ARpoise/porPOIse/AR-vos:
-
 The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives a thorough overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it is  a good overview of how the system's components fit together. 
 
 ARpoise is an open-source Augmented Reality service environment that allows AR content designers to create and distribute AR experiences, and users to view location-based or image trigger AR content that is created in [Unity](http://unity3d.com). The goal of ARpoise is to provide an open-source, community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
