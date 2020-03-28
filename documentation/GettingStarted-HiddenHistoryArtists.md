@@ -3,14 +3,6 @@
 
 ## Overview
 
-### What is AR? LINK???
-
-- Image examples for Geolocative, Image Trigger, SLAM.
-- If you can program, you can do more complicated
-- Terminology
-
-Molly Hankwitz' video of my lecture??
-
 ### What is ARpoise and why is Hidden Histories using it?
 
 **TEXT on AR and ARpoise, including ARpoise app and AR-voc app**???
