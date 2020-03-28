@@ -22,7 +22,7 @@ As the ARpoise app will work on most smartphones, we will focus on using it firs
 
 In order to use ARpoise, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
-- See the [Using the ARpoise App](UsingARpoiseApp.md) tutorial to understand how to view augmented reality artworks with the ARpoise app. 
+- Please go through the [**Using the ARpoise App**](UsingARpoiseApp.md) tutorial to understand how to view augmented reality artworks with the ARpoise app. 
 
 - The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise app.
 
