@@ -7,7 +7,7 @@
 
 **TEXT on AR and ARpoise, including ARpoise app and AR-voc app**???
 
-What is AR?
+What is AR? LINK???
 
 - Image examples for Geolocative, Image Trigger, SLAM.
 - If you can program, you can do more complicated
