@@ -32,7 +32,7 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 ### Next Steps
 
-The tutorials link to each other in a specific order that should help you go progressively deeper into using APpoise.
+The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
 1. Modify your existing layers in the [porPOIse](UsingPorPOIse.md) tutorial.
 
