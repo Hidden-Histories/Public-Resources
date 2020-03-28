@@ -22,11 +22,12 @@ The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**er
 
 ### First Steps
 
-In order to use it, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
+In order to use ARpoise, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
-- Understand how to view augmented reality artworks with the ARpoise app.
+- Understand how to view augmented reality artworks with the ARpoise app. (LINK???)
 
-- Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse layers to set up your AR experiences.
+- Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your "AR experiences.
+- Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your **layers** (AR experiences).
 
 - Successfully been able to view your **example layer** and the duplicate **artist layer** on ARpoise. Testing:
 
