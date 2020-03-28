@@ -61,6 +61,9 @@ If you do not live near to the artwork locations in San Jose Japantown, and cann
 
 - Double click on the ARpoise logo menu button.
 
+![Arpoise Fixed Position Wesley United](images/Arpoise_FixedPositionWesleyUnited_800w.png)
+
+
 - Tap the Lat and Lon fields and enter the decimal values you found in Google Maps.
 
 - Click Activate Fixed Position.
