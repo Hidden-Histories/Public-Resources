@@ -38,9 +38,9 @@ The tutorials link to each other in a specific order that should help you go pro
 
 2. **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
 
-3. **AssetBundles:** Export the assets in a Unity asset bundle and upload to your porPOIse account for final set up of your AR layer. UNDER CONSTRUCTION
+3. **AssetBundles:** Export the assets in a Unity asset bundle and upload to your porPOIse account UNDER CONSTRUCTION
 
-4. Test, modify, repeat! ;-)
+4. Set up your final AR experience in porPOIse. Test, modify, repeat! ;-)
 
 5. Place AR artwork on site: Ask the admin to move your augment to the desired location for the final artwork. UNDER CONSTRUCTION
 
