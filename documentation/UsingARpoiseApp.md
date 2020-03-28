@@ -29,7 +29,7 @@ Start the app ...
 
 - Select one of them, and look around you.
 
-**Default layer: If there are no layers located near you**
+**Default layer: If there are NO layers located near you**
 
 - If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. 
 
