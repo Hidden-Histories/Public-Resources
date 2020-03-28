@@ -7,7 +7,7 @@
 
 **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) is an open-source Augmented Reality platform. It was developed by Peter Graf and Tamiko Thiel to provide an open source AR platform that they could keep alive as the underlying technology changes. Since Tamiko began creating AR artworks in 2010, she has used multiple AR platforms that now no longer exist. She and Peter will keep the platform alive as long as they live, but thhe goal of ARpoise is to foster it as a community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
 
-Two different client applications have both been implemented for Android and iOS. (Add a section explaining geolocative, image trigger and SLAM AR???)
+Two different client applications have both been implemented for Android and iOS. (Needs a section explaining geolocative, image trigger and SLAM AR.)
 
 - The **ARpoise** client is a geolocative AR app running on most available phones.
 The **ARpoise** app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise) Store and the Apple [App Store](https://itunes.apple.com/de/app/arpoise/id1451460843). ARpoise runs on most all iOS and Android smartphones.
@@ -28,15 +28,12 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 - You should be able to view the **example layer** and a (for now identical) **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
 
-**NOTE** Intially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
+**NOTE** that initially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while in social isolation due to the coronavirus. The procedure mentioned below also applies to the AR-vos, with a few extensions.
 
-Sue should have gotten information from you on the make and model of your device(s), so we know who might have problems, and can decide how to work around the problems. Now that we cannot meet in person it is of course more difficult.
-
+. 
+### Steps in learning to use porPOIse
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using APpoise.
-
-
-### Steps in learning to use porPOIse
 
 - Log in to your porPOIse account and practice modifying your ExampleLayer. LINK??? porPOIse POI set-up, animation
 
