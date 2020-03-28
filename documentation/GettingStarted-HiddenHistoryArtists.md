@@ -30,7 +30,6 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 **NOTE** that initially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while in social isolation due to the coronavirus. The procedure mentioned below also applies to the AR-vos, with a few extensions.
 
-. 
 ### Next Steps
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using APpoise.
