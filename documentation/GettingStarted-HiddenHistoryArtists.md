@@ -34,13 +34,13 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
-1. Modify your existing layers in the [porPOIse](UsingPorPOIse.md) tutorial.
+1. [**porPOIse**](UsingPorPOIse.md) tutorial: Modify your existing layers to learn how to use porPOIse.
 
-2. Unity 3D Editor Basics: Put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
+2. **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
 
-3. Export the assets in a Unity AssetBundle and upload to your porPOIse account. UNDER CONSTRUCTION
+3. **AssetBundles:** Export the assets in a Unity asset bundle and upload to your porPOIse account for final set up of your AR layer. UNDER CONSTRUCTION
 
 4. Test, modify, repeat! ;-)
 
-5. Ask the admin to move your augment to the desired location for the final artwork.
+5. Place AR artwork on site: Ask the admin to move your augment to the desired location for the final artwork. UNDER CONSTRUCTION
 
