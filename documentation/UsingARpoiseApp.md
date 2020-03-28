@@ -58,7 +58,7 @@ If you do not live near to the artwork locations in San Jose Japantown, and cann
 
 - Start the ARpoise app.
 
-- Double click on the **ARpoise logo menu button.**
+- **Double click** on the **ARpoise logo menu button.**
 
 ![Arpoise Fixed Position Wesley United](images/Arpoise_FixedPositionWesleyUnited_800w.png)
 
@@ -75,7 +75,13 @@ The layers should then appear in your list of nearby augment layers, even though
 
 ![Arpoise_ARpoiseLayersList_800w](images/Arpoise_ARpoiseLayersList_800w.png)
 
-Select one of the layers ...
+- Select one of the layers ...
 
-... and you should see the augments layered over your own surroundings!
+- ... and you should see the augments layered over your own surroundings!
+
+- To see a different layer, click the **ARpoise logo menu button** ONCE and you will get the layer list again. Select another one.
+
+Enjoy ...
+
+
 
