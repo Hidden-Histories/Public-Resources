@@ -1,8 +1,18 @@
-Remote Viewing: ARpoise’s “Fixed Position” feature
-Tamiko Thiel’s and Midori Kono Thiel’s “Brush the Sky” calligraphic AR artworks are already geolocated in San Jose Japantown. Here you can download a pdf “AR tour” of the artworks.
-If you do not live near to Japantown, when you start the ARpoise app you will be too far away to see any Hidden History layers that are located there.
-If you cannot go to Japantown because of the coronavirus lockdown, you can use ARpoise’s Fixed Location feature to view augments remotely. It will overlay the augments over your own immediate environment, which is not the same experience as seeing them at the “real” sites in Japantown. But during the corona virus crisis, it is a handy feature.
+![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+# Hidden Histories Artists: Using the ARpoise Augmented Reality App
+
+## Overview
+
+### Remote Viewing: ARpoise’s Fixed Position feature
+
+If there are no AR layers in your immediate vicinity, you can use the **Fixed Position** feature of the ARpoise app to view augment layers that are elsewhere.
+
+Tamiko Thiel’s and Midori Kono Thiel’s “Brush the Sky” calligraphic AR artworks are located in Japantown, San Jose, California. You can download a pdf of an [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
+
+If you do not live near to the artwork locations in San Jose Japantown, they will not show up in the ARpoise app list of layers near you. If you cannot physically go there, you can still use ARpoise’s Fixed Location feature to view augments remotely. It will overlay the augments over your own immediate environment, which is not the same experience as seeing them at the “real” sites in Japantown. But it is a handy feature that you can also use to test out changes to your artworks even if they are positioned somewhere in the world far away from you.
+
 To view the Brush the Sky augments at your own home:
+
 Look at the Brush the Sky AR tour pdf for the addresses of the different AR layers.
 
 
