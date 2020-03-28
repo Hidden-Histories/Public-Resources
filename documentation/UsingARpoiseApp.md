@@ -18,18 +18,27 @@ Start the app ...
 
 **If there are layers located near you**
 
-If there is only one layer located near you, you will immediately see it appear in your smartphone display. Look around, up and down - there may be augments all around you, as well as above and below.
+- If there is only one layer located near you, you will immediately see it appear in your smartphone display. 
+
+- Look around, up and down - there may be augments all around you, as well as above and below.
 
 **If there two or more layers located near you**
 
-If there are two or more layers located near you, you will see a list of available layers. Touch one of them, and look around you.
+- If there are two or more layers located near you, you will see a list of available layers. 
+
+- Select one of them, and look around you.
 
 
 **Default layer: If there are no layers located near you**
 
-If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. Right now, (March 2020), this is [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. It turns your surroundings into an underwater reef, filled with schools of fish. If you move your smartphone around, the fish will follow your lead - but the more you intervene in their virtual ecosystem, the more the fish will turn to plastic garbage. Give them a rest, hold the smartphone very still or it lay down, and they will slowly turn back into fish.
+- If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. 
 
-#### Remote Viewing: ARpoise’s Fixed Position feature
+- Right now, (March 2020), this is [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. 
+
+- It turns your surroundings into an underwater reef, filled with schools of fish. If you move your smartphone around, the fish will follow your lead - but the more you intervene in their virtual ecosystem, the more the fish will turn to plastic garbage. Give them a rest, hold the smartphone very still or it lay down, and they will slowly turn back into fish.
+
+. 
+### Remote Viewing: ARpoise’s Fixed Position feature
 
 If there are no AR layers in your immediate vicinity, you can use the **Fixed Position** feature of the ARpoise app to view augment layers that are elsewhere.
 
