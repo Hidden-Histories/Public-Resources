@@ -18,11 +18,14 @@ The **ARpoise** app can be downloaded from the [Google Play](https://play.google
 
 ### First Steps
 
+As the ARpoise app will work on most smartphones, we will focus on using it first, and deal with AR-vos later.
+
 In order to use ARpoise, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
-- Understand how to view augmented reality artworks with the ARpoise app. See the [Using the ARpoise App](UsingARpoiseApp.md) tutorial.
+- See the [Using the ARpoise App](UsingARpoiseApp.md) tutorial to understand how to view augmented reality artworks with the ARpoise app. 
 
-- Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your "AR experiences.
+- The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should know how to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise app.
+
 - Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your **layers** (AR experiences).
 
 - Successfully been able to view your **example layer** and the duplicate **artist layer** on ARpoise. **Testing: make sure the artist knows how to access the layers within the San Jose area and from outside of the San Jose area,**
