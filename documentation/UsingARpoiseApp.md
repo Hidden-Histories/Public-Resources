@@ -8,9 +8,9 @@
 
 - Download the ARpoise AR app from the http://arpoise.com/, which has links to both iOS and Android stores. (Notice the links to the brief list of ARpiose projects on that page - we will use them to learn how to use the ARpoise app.)
 
-- Install the app, and accept all permissions. 
+- Install the app, and **accept all permissions!**
 
-- You might need to go into your Settings / Privacy / and allow ARpoise to use your location data.
+- You might need to go into your Settings/Privacy settings  and allow ARpoise to use your location data.
 
 . 
 ### Viewing augments
@@ -23,13 +23,14 @@ Start the app ...
 
 - Look around, up and down - there may be augments all around you, as well as above and below.
 
+. 
 **If there two or more layers located near you**
 
 - If there are two or more layers located near you, you will see a list of available layers. 
 
 - Select one of them, and look around you.
 
-
+. 
 **Default layer: If there are no layers located near you**
 
 - If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. 
