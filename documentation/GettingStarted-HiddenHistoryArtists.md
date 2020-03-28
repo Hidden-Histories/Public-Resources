@@ -5,7 +5,7 @@
 
 ### What is ARpoise and why is Hidden Histories using it?
 
-**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) is an open-source Augmented Reality service environment that allows AR content designers to create and distribute AR experiences, and users to view location-based or image trigger AR content that is created in [Unity](http://unity3d.com). The goal of ARpoise is to provide an open-source, community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
+**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) is an open-source Augmented Reality platform. It was developed by Peter Graf and Tamiko Thiel to provide an open source AR platform that they could keep alive as the underlying technology changes. Since Tamiko began creating AR artworks in 2010, she has used multiple AR platforms that now no longer exist. The goal of ARpoise is to provide an open-source, community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
 
 Two different client applications have both been implemented for Android and iOS.
 
