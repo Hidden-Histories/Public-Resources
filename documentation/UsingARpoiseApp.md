@@ -7,7 +7,7 @@
 
 Download the ARpoise AR app from the http://arpoise.com/, which has links to both iOS and Android stores.
 
-Notice the links to the brief list of ARpiose projects below - we will use them for learned to use the ARpoise app.
+Notice the links to the brief list of ARpiose projects on that page - we will use them to learn how to use the ARpoise app.
 
 . 
 ### Viewing the default AR layer in the ARpoise app
