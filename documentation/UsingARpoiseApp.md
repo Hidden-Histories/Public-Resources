@@ -3,7 +3,16 @@
 
 ## Using the ARpoise Augmented Reality App
 
-### Overview
+### Download and install the ARpoise AR app
+
+Download the ARpoise AR app from the http://arpoise.com/, which has links to both iOS and Android stores.
+
+Notice the links to the brief list of ARpiose projects below - we will use them for learned to use the ARpoise app.
+
+. 
+### Viewing the default AR layer in the ARpoise app
+
+If there are no layers near you, you will see the default ARpoise layer. Right now, (March 2020), this is [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p.
 
 #### Remote Viewing: ARpoise’s Fixed Position feature
 
