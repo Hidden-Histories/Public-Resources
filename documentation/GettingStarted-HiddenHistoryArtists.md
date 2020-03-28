@@ -29,15 +29,7 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 - Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your "AR experiences.
 - Be able to access your own **ARpoise porPOIse user account**, set up by the Hidden Histories administrator. You will use porPOIse to set up your **layers** (AR experiences).
 
-- Successfully been able to view your **example layer** and the duplicate **artist layer** on ARpoise. Testing:
-
-    make sure the artist knows how to access the layers within the San Jose area.
-    make sure they know how to access the layers from outside of the San Jose area, if necessary
-
-- Successfully been able to upload files via **FTP access** to your artist's folder on the Hidden Histories server. FTP howto - can Sue help people who might not have an app? (Corinne, Susan, artists) FTP client set up:
-
-    make sure they have one that is properly configured, and know how to use it!
-    make sure they understand where to upload their AssetBundles
+- Successfully been able to view your **example layer** and the duplicate **artist layer** on ARpoise. **Testing: make sure the artist knows how to access the layers within the San Jose area and from outside of the San Jose area,**
 
 **NOTE** Intially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while having to do everything remotely. The procedure mentioned below also applies to AR-vos geolocative AND image trigger layers.
 
@@ -57,6 +49,7 @@ The tutorials link to each other in a specific order that should help you go pro
 
 - Use Unity to put the assets together into an AR experience, AssetBundle creation and upload
 
+- Successfully been able to upload files via **FTP access** to your artist's folder on the Hidden Histories server. FTP howto - can Sue help people who might not have an app? (Corinne, Susan, artists) FTP client set up:   make sure they have one that is properly configured, and know how to use it!     make sure they understand where to upload their AssetBundles
 
 
 ### In the ArpoiseDirectory Back End registry, configure the new layers.
