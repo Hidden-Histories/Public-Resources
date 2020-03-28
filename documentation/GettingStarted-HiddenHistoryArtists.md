@@ -20,9 +20,9 @@ The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**er
 
 ## Artist workflow
 
-This folder contains tutorials for **Hidden Histories artists and helpers** on how to use the **ARpoise Augmented Reality platform** to create artworks. 
+### First Steps
 
-In order to use it, you should have the following. If you don't, please contact the Hidden Histories administrator. 
+In order to use it, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
 - Understand how to view augmented reality artworks with the ARpoise app.
 
