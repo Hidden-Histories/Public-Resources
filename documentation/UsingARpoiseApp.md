@@ -12,6 +12,7 @@
 
 - You might need to go into your Settings / Privacy / and allow ARpoise to use your location data.
 
+. 
 ### Viewing augments
 
 Start the app ...
