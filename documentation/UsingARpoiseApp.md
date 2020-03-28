@@ -23,14 +23,12 @@ Start the app ...
 
 - Look around, up and down - there may be augments all around you, as well as above and below.
 
-. 
 **If there two or more layers located near you**
 
 - If there are two or more layers located near you, you will see a list of available layers. 
 
 - Select one of them, and look around you.
 
-. 
 **Default layer: If there are no layers located near you**
 
 - If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. 
