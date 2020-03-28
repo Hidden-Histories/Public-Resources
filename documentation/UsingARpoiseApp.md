@@ -1,9 +1,11 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# Hidden Histories Artists: Using the ARpoise Augmented Reality App
+# Hidden Histories Artists
 
-## Overview
+## Using the ARpoise Augmented Reality App
 
-### Remote Viewing: ARpoise’s Fixed Position feature
+### Overview
+
+#### Remote Viewing: ARpoise’s Fixed Position feature
 
 If there are no AR layers in your immediate vicinity, you can use the **Fixed Position** feature of the ARpoise app to view augment layers that are elsewhere.
 
