@@ -47,25 +47,19 @@ Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR art
 
 If you do not live near to the artwork locations in San Jose Japantown, and cannot physically go there, you can still use ARpoise’s Fixed Location feature to view augments remotely. It will make ARpoise think that you are stannding at that remote location, and you will see the augments overlaying your own immediate environment. This is of course not the same experience as seeing them at the “real” sites in Japantown, but it is a handy feature that you can also use to test out changes to your own artworks even if they are positioned somewhere in the world far away from you.
 
-To view the Brush the Sky augments at your own home:
+#### To view the Brush the Sky augments at your own home:
 
-Look at the Brush the Sky AR tour pdf for the addresses of the different AR layers.
+- Find an artwork you wish to view in the [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
 
+- Search for the address of that location in [Google Maps](https://www.google.com/maps/).
 
-Find one of the locations in Google Maps. 
+- Then get the decimal coordinates for that [GPS latitude and longitude](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
 
+- Start the ARpoise app.
 
-Then for the best experience, find out the decimal coordinates for the GPS latitude and longitude of where you would stand if you were at that location, i.e. perhaps not in the building, but standing in front of it!
- https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/
+- Double click on the ARpoise logo menu button.
 
-
-Start the ARpoise app.
-
-
-Double click on the ARpoise logo menu button.
-
-
-Tap the Lat and Lon fields and enter the decimal values you found in Google Maps.
+- Tap the Lat and Lon fields and enter the decimal values you found in Google Maps.
 
 
 Click Activate Fixed Position.
