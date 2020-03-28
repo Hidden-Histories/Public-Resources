@@ -65,7 +65,7 @@ If you do not live near to the artwork locations in San Jose Japantown, and cann
 
 - Tap the **Lat and Lon fields** and enter the decimal values you found in Google Maps.
 
-- Click **Activate Fixed Position.*
+- Click **Activate Fixed Position.**
 
 - Click **OK.**
 
