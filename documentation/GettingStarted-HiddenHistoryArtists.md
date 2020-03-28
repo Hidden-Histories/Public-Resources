@@ -3,11 +3,7 @@
 
 ## Overview
 
-### What is ARpoise and why is Hidden Histories using it?
-
-**TEXT on AR and ARpoise, including ARpoise app and AR-voc app**???
-
-What is AR? LINK???
+### What is AR? LINK???
 
 - Image examples for Geolocative, Image Trigger, SLAM.
 - If you can program, you can do more complicated
@@ -15,6 +11,9 @@ What is AR? LINK???
 
 Molly Hankwitz' video of my lecture??
 
+### What is ARpoise and why is Hidden Histories using it?
+
+**TEXT on AR and ARpoise, including ARpoise app and AR-voc app**???
 What is ARpoise/porPOIse/AR-vos:
 
 The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives a thorough overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it is  a good overview of how the system's components fit together. 
