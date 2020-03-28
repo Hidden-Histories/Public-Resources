@@ -1,0 +1,36 @@
+Remote Viewing: ARpoise’s “Fixed Position” feature
+Tamiko Thiel’s and Midori Kono Thiel’s “Brush the Sky” calligraphic AR artworks are already geolocated in San Jose Japantown. Here you can download a pdf “AR tour” of the artworks.
+If you do not live near to Japantown, when you start the ARpoise app you will be too far away to see any Hidden History layers that are located there.
+If you cannot go to Japantown because of the coronavirus lockdown, you can use ARpoise’s Fixed Location feature to view augments remotely. It will overlay the augments over your own immediate environment, which is not the same experience as seeing them at the “real” sites in Japantown. But during the corona virus crisis, it is a handy feature.
+To view the Brush the Sky augments at your own home:
+Look at the Brush the Sky AR tour pdf for the addresses of the different AR layers.
+
+
+Find one of the locations in Google Maps. 
+
+
+Then for the best experience, find out the decimal coordinates for the GPS latitude and longitude of where you would stand if you were at that location, i.e. perhaps not in the building, but standing in front of it!
+ https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/
+
+
+Start the ARpoise app.
+
+
+Double click on the ARpoise logo menu button.
+
+
+Tap the Lat and Lon fields and enter the decimal values you found in Google Maps.
+
+
+Click Activate Fixed Position.
+
+
+Click OK.
+
+ 
+The layers should then appear in your list of nearby augment layers.
+Select one of the layers ...
+
+ 
+. ... and you should see the augments layered over your own surroundings! Look all around you -  they are also above and below you!
+
