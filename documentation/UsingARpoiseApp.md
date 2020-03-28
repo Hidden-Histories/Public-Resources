@@ -59,21 +59,22 @@ If you do not live near to the artwork locations in San Jose Japantown, and cann
 
 - Start the ARpoise app.
 
-- Double click on the ARpoise logo menu button.
+- Double click on the **ARpoise logo menu button.**
 
 ![Arpoise Fixed Position Wesley United](images/Arpoise_FixedPositionWesleyUnited_800w.png)
 
 
-- Tap the Lat and Lon fields and enter the decimal values you found in Google Maps.
+- Tap the **Lat and Lon fields** and enter the decimal values you found in Google Maps.
 
-- Click Activate Fixed Position.
+- Click **Activate Fixed Position.*
 
-- Click OK.
+- Click **OK.**
 
- 
-The layers should then appear in your list of nearby augment layers.
+#### This layer should appear in the available layers list - with other nearby layers too
+
+The layers should then appear in your list of nearby augment layers. Since GPS is only accurate to about +/1 20 meters, you will see other layers that are nearby as well.
+
 Select one of the layers ...
 
- 
-. ... and you should see the augments layered over your own surroundings! Look all around you -  they are also above and below you!
+... and you should see the augments layered over your own surroundings!
 
