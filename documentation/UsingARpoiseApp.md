@@ -73,7 +73,7 @@ If you do not live near to the artwork locations in San Jose Japantown, and cann
 
 The layers should then appear in your list of nearby augment layers, even though you are not really standing there. Since GPS is only accurate to about +/1 20 meters, you will see other layers that are nearby as well.
 
-![Arpoise_ARpoiseLayersList_800w](Arpoise_ARpoiseLayersList_800w.png)
+![Arpoise_ARpoiseLayersList_800w](images/Arpoise_ARpoiseLayersList_800w.png)
 
 Select one of the layers ...
 
