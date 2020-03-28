@@ -31,33 +31,17 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 **NOTE** that initially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while in social isolation due to the coronavirus. The procedure mentioned below also applies to the AR-vos, with a few extensions.
 
 . 
-### Steps in learning to use porPOIse
+### Next Steps
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using APpoise.
 
-- Log in to your porPOIse account and practice modifying your ExampleLayer. LINK??? porPOIse POI set-up, animation
+1. Modify your existing layers in the [porPOIse](UsingPorPOIse.md) tutorial.
 
-- Test your changes/Troubleshooting
+2. Unity 3D Editor Basics: Put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
 
-- Unity Basics: Create or download assets in order to form your own ARpoise layer.
+3. Export the assets in a Unity AssetBundle and upload to your porPOIse account. UNDER CONSTRUCTION
 
-- Use Unity to put the assets together into an AR experience, AssetBundle creation and upload
+4. Test, modify, repeat! ;-)
 
-- Successfully been able to upload files via **FTP access** to your artist's folder on the Hidden Histories server. FTP howto - can Sue help people who might not have an app? (Corinne, Susan, artists) FTP client set up:   make sure they have one that is properly configured, and know how to use it!     make sure they understand where to upload their AssetBundles
+5. Ask the admin to move your augment to the desired location for the final artwork.
 
-
-### In the ArpoiseDirectory Back End registry, configure the new layers.
-- In order to be viewable in the ARpoise (or AR-vos) app, the layers need to be **geolocated** at a specific GPS location. Right now this should be at the artist's home so they can play around with them without leaving their house. This can be changed later for testing and final placement in Japantown.
-- The 2 layers should then be fully functional, with assets (brightly colored primitive shapes, some with porPOIse animations) that give the artist an immediate check whether their account is working, and allow them to follow the artist's tutorials to learn how to use porPOIe to set up their augments.
-- Please follow the [**step by step admin SetupArtistArpoiseDirectory tutorial**](SetupArtistArpoiseDirectory.md)
-
-. 
-
-## Next Steps
-
-### Admin tutorials: Next steps
-Complete the following steps:
-
-1. **Getting Started: ARpoise Admins**
-2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
-3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
