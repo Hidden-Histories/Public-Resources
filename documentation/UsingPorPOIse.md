@@ -236,7 +236,7 @@ Now click on **notitle** ...
 
 - Unity tutorials: UNDER CONSTRUCTION
 
-- If you already know how to use Unity, see our tutorial on [Creating AssetBundles](CreatingAssetBundles.md) for porPOIse.
+- [Creating AssetBundles](CreatingAssetBundles.md) for porPOIse: if you already know how to use create assets and use the Unity Editor, go through this tutorial to create your own AssetBundle, and you'll be off and running.
 
 . 
 ## Original Documentation - ONLY if you want to set up your own porPOIse!!!
