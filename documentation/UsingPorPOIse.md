@@ -139,13 +139,16 @@ You can edit the following properties of a POI:
 * **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
 * **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative locatino.
 * **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please! Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Prefab name**: The POI's geometry is loaded from the asset bundle with this prefab name.
+* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
 * **Layer name**: If this value is set, the entire layer will be loaded instead of the POI.
-* **Relative location**: The location of the POI relative to the user's device. Comma separated list of the X-east-west, Y-up-down, Z-north-south values.
-* **Scaling factor**: This values allows to scale the POI's geometry in all three dimensions.
-* **Vertical rotation**: This values allows to rotate the POI's geometry around the Y axis.
-* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the same side always faces the user.
+* **Relative location**: The location of the POI relative to the user's device. Comma separated list of the X-east-west, Y-up-down, Z-north-south values. These values override the Lat/Lon values and the Absolute altitude and Relative altitude values. See above for description of how these work.
+* **Scaling factor**: This value scales the POI's geometry in all three dimensions.
+* **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
+* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
+* **URL for trigger image:** Used only in AR-vos app. To be described later.
+* **Width of trigger image:** Used only in AR-vos app. To be described later.
 * Animation-list-**Remove**: Delete the animtion from the POI.
+
 * **New animation** button: Allows to add a new animation to the POI.
 * **Save** button: Saves the POI's attributes to the layer's xml file.
 
