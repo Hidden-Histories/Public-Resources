@@ -110,8 +110,8 @@ See the properties description below. If you can't find the StripesCube after ch
 
 Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
 
-- **Relative location:** you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
-- **Google Map:** Then delete the Relative location and change the Lat/Lon by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
+- **Relative location:** you yourself (or rather your smartphone) are at 0,0,0. The x value is side to side, y is + up/- down, z is closer/further away.
+- **Google Map:** After testing your changes, delete the Relative location completely - your layer will now be placed using the absolute location in the Lat/Lon fields. Change them by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
 - **Save, close and restart ARpoise app** and view your layer. If you moved it too far away, it might be invisible!
 - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
 - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
