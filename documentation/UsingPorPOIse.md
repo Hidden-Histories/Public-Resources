@@ -1,4 +1,4 @@
-![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+![Hidden Histories Logo](images/hiddenhistories-logo.png)
 # Hidden Histories
 # --ARpoise PorPOISe User Interface--
 
@@ -203,7 +203,7 @@ Now create a new POI, reusing one of the assets from the example asset bundle.
 - Click the **New POI** link above the POI list.
 - In the next screen, ignore the warning and click **Create.**
 
-![UsingPorpoise_NewPOI-Create](UsingPorpoise_NewPOI-Create.png)
+![UsingPorpoise_NewPOI-Create](images/UsingPorpoise_NewPOI-Create.png)
 
 
 
