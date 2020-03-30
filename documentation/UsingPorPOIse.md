@@ -178,7 +178,7 @@ NOTES: (This should be moved to the AssetBundle tutorial):
 - **Note: you HAVE to make assets for both Android and iOS, otherwise your layer will not work!**
 - **Note: The asset bundles and trigger images you make available on the web and reference in the POI definitions need to be accessable via https**.
 
-## Original Documentation
+## Original Documentation - ONLY if you want to set up your own porPOIse!!!
 
 ===PorPOISe for Layar===
 Portable Point-of-Interest Server for Layar
