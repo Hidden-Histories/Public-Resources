@@ -41,7 +41,7 @@ The layer configuration holds properties that apply to the entire layer.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer, and a **New POI** link with which you can add new POIs to the layer.
 
-![UsingPorpoise_ExampleLayerPOIlist](images/UsingPorpoise_ExampleLayerPOIlist.png)
+![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POIlist.png)
 
 ### Explanation:
 
