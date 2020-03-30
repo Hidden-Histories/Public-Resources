@@ -1,13 +1,15 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories
 # -- Creating Asset Bundles --
+
 ## Overview
+
 NOTE: this assumes prior knowledge of Unity!
 
 This is a step by step tutorial to create an asset bundle that can be used by **ARpoise** or **AR-vos**.
-The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
-The process for creating an iOS asset bundle on a Mac is similar.
-See the last section of this document for further information.
+- The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
+- The process for creating an iOS asset bundle on a Mac is similar.
+- See the last section of this document for further information.
 
 **Important Note**: 
 - In order for the assets to work in **ARpoise** and **AR-vos** you MUST create BOTH
@@ -17,7 +19,15 @@ the **Android** and the **iOS** asset bundles.
 
 
 ## Unity Install
-The tutorial uses Unity 2018.3.14.f1 on Windows 10.
+
+Use the free Unity version:
+- Download and install the [Unity Hub from this page](https://unity3d.com/get-unity/download).
+- Then download and install Unity3D Editor version **2018.3.14.f1** from the [Unity download archive](https://unity3d.com/get-unity/download/archive):
+  - Click on the Unity 2018x tab.
+  - Scroll down to Unity 2018.4.13 (22 Nov, 2019) and click on Unity Hub.
+  
+
+
 ### Image - Unity Install:
 ![CreateAssetBundle1](/documentation/images/CreateAssetBundle1.PNG)
 
