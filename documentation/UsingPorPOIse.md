@@ -203,18 +203,24 @@ Now create a new POI, reusing one of the assets from the example asset bundle.
 - Click the **New POI** link above the POI list.
 - In the next screen, ignore the warning and click **Create.**
 
+. 
 ![UsingPorpoise_NewPOI-Create](images/UsingPorpoise_NewPOI-Create.png)
 
+. 
 - A new, blank POI will be created at the end of the list.
+
+. 
+![UsingPorpoise_notitle](images/UsingPorpoise_notitle.png)
+
+. 
 - Leave the Title at **notitle** for now.
 - Move the POI to the same GPS as the other POIs:
   - Click in to the Lat field of the POI above it, copy the entire value and paste into the empty Lat field.
   - Repeat for the Lon. **Click Save**
 - Now click on **notitle** ...
 
-![UsingPorpoise_notitle](images/UsingPorpoise_notitle.png)
-
-
+. 
+![UsingPorpoise_NewPOI-properties](images/UsingPorpoise_NewPOI-properties.png)
 
 
 
