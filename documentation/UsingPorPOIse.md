@@ -151,44 +151,44 @@ You can edit the following properties of a POI:
 * **URL for trigger image:** Used only in AR-vos app. To be described later.
 * **Width of trigger image:** Used only in AR-vos app. To be described later.
 
-**Action properties**
-* **New action:** Create a new action form.
+* **New action:** Currently not in use.
 
 **Animation properties**
-* **New animation:** Create a new animation form.
+There can be multiple animations simultaneously, for instance you can scale the POI while rotate it as well.
+
+* **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Save** button: Saves the POI's attributes to the layer's xml file.
-
-The following properties of an animation can be edited:
-* **Name**: The name is optional, it is used when one animation specifies that it should be followed by other animations.
+* **Name**: The name is optional. If you have multiple animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
-  * **onFollow** - the animation is started when it's predecessor animation ends.
-  * **onClick** - the animation is started when the POI is clicked by the user; In order for the **onClick**, **onFocus**, and **inFocus** animations to work, the POI's Unity game object needs to include a Collider component.
-  * **onFocus** - the animation is started when the POI is looked at by the user;
-  * **inFocus** - the animation is started when the POI is looked at by the user and is stopped once the POI loses the focus;
+  * **onFollow** - the animation is started when its predecessor animation ends. Its name must be entered in the **Followed by** field fo the preceding animation.
+  * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
+  * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
+  * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   
 * **Type**: **rotate**, **transform**, **scale**.
 * **Length**: Length of the animation in seconds.
-* **Delay**: Delay of the animation in seconds, onCreate-animations will only start after this delay.
+* **Delay**: Delay of the animation in seconds. onCreate-animations will only start after this delay.
 * **Interpolation**:
-  * **linear** - the value is changed linearly from **From** to **To**;
-  * **cyclic** - the value is changed linearly from **From** to **To** and then back to **From**;
+  * **linear** - the value changes linearly from **From** to **To**;
+  * **cyclic** - the value changes linearly from **From** to **To** and then back to **From**;
   * **sine** - the value swings between **From** and **To** like a pendulum;
-  * **halfsine** - the value is changed from **From** to **To** and then back to **From**.
+  * **halfsine** - the value is changed from **From** to **To** and then back to **From,** but with a slowdown before changing.
 * **Persist**:
-  * **Yes** - at the end of the animation the POI will stay as the animation leaves it;
+  * **Yes** - at the end of the animation the POI will remain at the final value of the animation;
   * **No** - at the end of the animation the POI will snap back to its original state.
 * **Repeat**:
   * **Yes** - the animation is repeated forever;
   * **No** - the animation is only run once.
 * **From**: Start value of the animation.
 * **To**: End or middle value of the animation, depending on the **Interpolation**.
-* **Axis (x,y,z)**: Axis to apply the animation to. E.g.: A rotation with Axis 1,0,0 is only around the X axis.
-* **Followed by**: If one or more comma separated animation names are given in this field. The animations mentioned are started once this animation ends. Animation names are global for all POIs of a layer. So the end of an animation of one POI can start an animation of the same POI or of another POI.
+* **Axis (x,y,z)**: Axis to apply the animation to, e.g.: A rotation with Axis 1,0,0 is only around the X axis.
+* **Followed by**: If one or more comma separated animation names are given in this field, the animations mentioned are started once this animation ends. Animation names are global for all POIs of a layer. So the end of an animation of one POI can start an animation of the same POI or of another POI.
 
-If an animation is started and the Unity-prefab of the POI contains an AudioSource component, the audio source is played.
+NOTE: If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio source is played.
+
+* **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
 ## Next Steps
 
