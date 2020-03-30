@@ -92,7 +92,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 . 
 ## porPOIse POI Configuration
 
-We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have.
+We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. Scroll down for a description of the properties in your POI description page.
 
 ### Location properties of POI:
 
@@ -112,13 +112,13 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 
 - **Relative location:** you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
 - **Google Map:** Then delete the Relative location and change the Lat/Lon by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
-- **Save** and view in the ARpoise app. If you moved it too far away, it might be invisible!
-- In porPOIse, click Back to your ExampleLayer page: the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
-- Zoom out a bit and you should see two markers: before, they were all on top of each other.
+- **Save, close and restart ARpoise app** and view your layer. If you moved it too far away, it might be invisible!
+- In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
+- Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
 - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
-- Remember that if you  moved the marker of another POI that has its Relative location set, it will not have changed when you view it in the ARpoise app.
+- Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
 
-Other properties:
+#### Exercise: Change other properties:
 - Scaling factor: try 0.5 and then try 2.
 - Vertical rotation: try 30° (since they are cubes, 90° and 180° will look the same!)
 - Animation properties: read the properties list below!
