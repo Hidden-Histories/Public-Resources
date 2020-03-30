@@ -9,7 +9,9 @@ The [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**e
 
 The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning. 
 
-Due to a change in smartphone hardware that is happening right now, there are currently two different client applications implemented for Android and iOS. We expect to merge them in a year or so. (Needs a section explaining geolocative, image trigger and SLAM AR.)
+Due to a change in smartphone hardware that is happening right now, there are currently two different client applications implemented for Android and iOS. We expect to merge them in a year or so. 
+
+(Needs a section explaining geolocative, image trigger and SLAM AR.)
 
 - The **ARpoise app** is a geolocative AR app that runs on most available phones. Any AR artworks developed for this app can also run on the newer AR-vos app. It can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise) Store and the Apple [App Store](https://itunes.apple.com/de/app/arpoise/id1451460843). ARpoise runs on most all iOS and Android smartphones.
 
