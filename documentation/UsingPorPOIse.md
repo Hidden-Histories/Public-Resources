@@ -22,9 +22,11 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 . 
 ## porPOIse Layers List
 
-We will use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
+Log in  to your porPOIse account. The URL to access it has the form below, but replace ExampleArtist with your own full name (no blanks!):
 
-When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) 
+https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/dashboard/
+
+When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
 
 The **ExampleLayer** is meant as a test layer where you can play around and try out new features. The **ArtistLayer** is where you should slowly build up the final artwork, as you find assets and functionality to your liking.
 
