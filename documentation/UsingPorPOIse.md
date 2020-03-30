@@ -145,11 +145,19 @@ You can edit the following properties of a POI:
 * **Scaling factor**: This value scales the POI's geometry in all three dimensions.
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
+
+**Image trigger properties (for use with AR-vos only):**
+
 * **URL for trigger image:** Used only in AR-vos app. To be described later.
 * **Width of trigger image:** Used only in AR-vos app. To be described later.
-* Animation-list-**Remove**: Delete the animtion from the POI.
 
-* **New animation** button: Allows to add a new animation to the POI.
+**Action properties**
+* **New action:** Create a new action form.
+
+**Animation properties**
+* **New animation:** Create a new animation form.
+* **Remove:** Delete the animtion from the POI.
+
 * **Save** button: Saves the POI's attributes to the layer's xml file.
 
 The following properties of an animation can be edited:
