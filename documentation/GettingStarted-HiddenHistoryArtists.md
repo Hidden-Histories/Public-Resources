@@ -11,7 +11,7 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 Two different client applications have both been implemented for Android and iOS. (Needs a section explaining geolocative, image trigger and SLAM AR.)
 
-- The **ARpoise** client is a geolocative AR app running on most available phones.
+- The **ARpoise** client is a geolocative AR app that runs on most available phones.
 The **ARpoise** app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise) Store and the Apple [App Store](https://itunes.apple.com/de/app/arpoise/id1451460843). ARpoise runs on most all iOS and Android smartphones.
 
 - The **AR-vos** client app provides both geolocative and image trigger AR functionality, and will be extended to provide the newer SLAM AR functionality. To do this it must use [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html) and [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). We hope to merge the two client apps at some point, when the majority of smartphones support ARKit and ARCore technology. The **AR-vos** app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
