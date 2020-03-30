@@ -93,6 +93,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 ## porPOIse POI Configuration
 
 There are two ways you can place POIs in your layer:
+
 - **Absolute GPS (Lat/Lon fields):** theoretically this is at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
 - **Relative location (x,y,z):** This is relative to where the viewer is standing, and overrules the Lat/Lon (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to find it at all). If you use relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
 - With relative location, if the viewer goes for a walk with the ARpoise app on, the POIs go with them! The viewer has to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
@@ -101,14 +102,15 @@ There are two ways you can place POIs in your layer:
 
 ### Exercise: change the following values ONE AFTER ANOTHER:
 
-See the properties description below. If you can't find the StripesCube after changing values, change them back to as depiction below.
+See the properties description below. If you can't find the StripesCube after changing values, change them back to as depicted below.
 
 Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
 
-- Relative location: you are at 0,0,0. x is side to side, y is + up or - down, z is closer or further away.
-- Scaling factor 
-- Save!
-- Close and reopen ARpoise, and see how the StripesCube has changed:
+- Relative location: you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
+- Scaling factor: try 0.5 and then try 2.
+- Vertical rotation: try 30° (since they are cubes, 90° and 180° will look the same!)
+- **Save!**
+- **Close and reopen** ARpoise, and see how the StripesCube has changed.
 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
