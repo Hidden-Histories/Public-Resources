@@ -22,11 +22,13 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 . 
 ## porPOIse Layers List
 
+We will use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
+
 When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.)
 
 Click on the name of your example layer to open it for editing.
 
-![ExampleArtistStartPage_porPOIse](images/ExampleArtistStartPage_porPOIse.png)
+![UsingPorpoise_BruceLeeStartPage](images/UsingPorpoise_BruceLeeStartPage.png)
 
 . 
 ## porPOIse Layer Configuration
