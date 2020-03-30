@@ -22,9 +22,9 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 . 
 ## porPOIse Layers List
 
-When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you want more layers, please ask your admin to add them for you.)
+When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.)
 
-Click on the name of your test or example layer to open it for editing.
+Click on the name of your example layer to open it for editing.
 
 ![ExampleArtistStartPage_porPOIse](images/ExampleArtistStartPage_porPOIse.png)
 
@@ -32,7 +32,7 @@ Click on the name of your test or example layer to open it for editing.
 ## porPOIse Layer Configuration
 
 The layer configuration holds properties that apply to the entire layer. 
-- Feel free to change the **Layer title**, which is shown in the ARpoise app (click "Save" to save your changes). 
+- Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!)
 - Otherwise we recommend leaving these properties at the default values, or discussing with the admin before you change them.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer, and a **New POI** link with which you can add new POIs to the layer.
@@ -43,7 +43,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 **Layer configuration:**
 
-* **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app in the top center of the screen.
+* **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short, so keep your layer title short as well.
 * **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. (Mostly useful if a developer changes the POIs via code.)
 * **Redirect to layer**: The redirection layer is optional (default is no redirect). if given, the layer will redirected to a different layer. Currently not used.
 * **Visibility in meters**: The layer is visible only if a viewer is standing within this distance of the GPS position of one of the POIs. The maximum distance is 1500m = 1.5 kilometers 0 ~ 5000 feet, or almost a mile. (1 meter ~ 3 feet.) NOTE: Please discuss with the admin where you want the layer to appear, as they also need to set a GPS position and visibility range for your layer in an ARpoise directory. If your POIs are outside of the area set by the admin for your layer, they might not be visible. If you want the viewer to only see your layer when they are close to the actual location, you can set a smaller range in the POI configuration discussed below.
