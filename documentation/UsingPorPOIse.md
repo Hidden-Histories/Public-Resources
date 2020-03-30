@@ -92,6 +92,8 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 . 
 ## porPOIse POI Configuration
 
+### Location of POI:
+
 There are two ways you can place POIs in your layer:
 
 - **Absolute GPS (Lat/Lon fields):** theoretically this is at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
@@ -100,13 +102,11 @@ There are two ways you can place POIs in your layer:
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
-### Exercise: change the following values ONE AFTER ANOTHER:
+#### Exercise: change the following location values ONE AFTER ANOTHER:
 
-See the properties description below. If you can't find the StripesCube after changing values, change them back to as depicted below.
+See the properties description below, and play around with the location properties. If you can't find the StripesCube after changing values, change them back to as depicted below.
 
 Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
-
-Location:
 
 - Relative location: you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
 - Google Map: Then delete the Relative location and change the Lat/Lon by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
