@@ -7,11 +7,15 @@
 
 In this tutorial learn how to use porPOIse with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
 
-- Each individual AR experience or project exists on a separate ARpoise **layer.** In the ARpoise app, a single location in the real world can have multiple projects at exactly the same site, but if each one is in a separate layer, they will not interfere with each other and will show up in the ARpoise app as separate entries in a list of available projects.
+- **Layer:** Each individual AR experience or project exists on a separate ARpoise "layer." In the ARpoise app, a single location in the real world can have multiple projects at exactly the same site, but if each one is in a separate layer, they will not interfere with each other and will show up in the ARpoise app as separate entries in a list of available projects.
 
-- A **POI** (Point Of Interest) is an asset or a group of assets (such as 3D models, sounds etc.), that all together make up your AR experience.
+- **POI:** A "POI" (Point Of Interest) is an asset or a group of assets (such as 3D models, sounds etc.), that all together make up your AR experience.
 
-- You can use porPOIse on a PC, but also on site on your mobile device. If you are standing at the location where your layer is positioned, you can then immediately reopen the **ARpoise app** and you will see the changes in your AR experience.
+Workflow:
+
+- Do the main work of setting up, modifying and testing your layer in porPOIse at home on your PC. If your layer is positioned far away, using [remote testing with Fixed Location](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature) if needed to test it.
+
+- Then go to the site where your layer is positioned and test it on your smartphone (don't forget to **unclick Fixed Position** first!). If you call up your porPOIse account on your smartphone, you can makes changes on the spot, close and reopen the ARpoise app and immediately see the effects of the changes in your layer. See below for details on how to do this.
 
 - Once you understand how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
