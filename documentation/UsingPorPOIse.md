@@ -236,7 +236,9 @@ Now click on **notitle** ...
 
 - Unity tutorials: UNDER CONSTRUCTION
 
-- [Creating AssetBundles](CreatingAssetBundles.md) for porPOIse: if you already know how to use create assets and use the Unity Editor, go through this tutorial to create your own AssetBundle, and you'll be off and running.
+- [Creating AssetBundles](CreatingAssetBundles.md) for porPOIse:
+  - If you already know how to use create assets and use the Unity Editor, go through this tutorial to create your own AssetBundle.
+  - NOTEL You will have to use a Mac to make the iOS AssetBundle, and a Windows PC to make the Android AssetBundle. If you only have on PC, you will need to send your assets to the admin so they can make the other one.
 
 . 
 ## Original Documentation - ONLY if you want to set up your own porPOIse!!!
