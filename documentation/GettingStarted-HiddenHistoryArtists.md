@@ -37,7 +37,7 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
-1. [**porPOIse**](UsingPorPOIse.md) tutorial: Modify your existing layers to learn how to use porPOIse.
+1. [**porPOIse tutorial**](UsingPorPOIse.md): Modify your existing layers to learn how to use porPOIse.
 
 2. **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
 
