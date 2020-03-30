@@ -119,10 +119,10 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
 
 #### Exercise: Change other properties:
-- Scaling factor: try 0.5 and then try 2.
-- Vertical rotation: try 30° (since they are cubes, 90° and 180° will look the same!)
-- Animation properties: read the properties list below!
-- Once you understand the animation properties, select a different POI, click **Animation** and fill out the fields to animate it as well.
+- **Scaling factor:** try 0.5 and then try 2.
+- **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
+- **Animation properties:** read the properties list below!
+- **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
 
 **Save / close ARpoise app / restart ARpoise app** after every change!
 
