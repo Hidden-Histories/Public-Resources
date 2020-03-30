@@ -104,7 +104,7 @@ There are two ways you can place POIs in the real world:
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
-#### Exercise POI location: change the following values **one after another**, testing in between:
+#### EXERCISE POI location: change the following values **one after another**, testing in between:
 
 See the properties description below. If you can't find the StripesCube after changing values, change them back to as depicted in the image below, and try again.
 
@@ -119,13 +119,15 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
 - **Relative altitude:** This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location. Zero is at wherever your smartphone is - usually at your eye level! Plus values are above and minus values are below eye level.
 
-#### Exercise: Change other properties:
+#### EXERCISE: Change other properties:
 - **Scaling factor:** try 0.5 and then try 2.
 - **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
 - **Animation properties:** read the properties list below!
 - **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
 
 **Save / close ARpoise app / restart ARpoise app** after every change!
+
+**NEXT EXERCISE:** When you feel comfortable with these exercises, go to the [Create a NEW POI] section.
 
 . 
 
@@ -192,7 +194,12 @@ NOTE: If an animation is started and the Unity Prefab of the POI contains an Aud
 
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
-. 
+
+## Create a new POI
+
+
+
+
 ## Next Steps
 
 Creating new content for your layers:
