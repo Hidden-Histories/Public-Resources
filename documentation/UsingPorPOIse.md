@@ -197,6 +197,13 @@ NOTE: If an animation is started and the Unity Prefab of the POI contains an Aud
 
 ## Create a new POI
 
+Now create a new POI, reusing one of the assets from the example asset bundle.
+
+- Go **Back to the ExampleLayer.**
+- Click the **New POI** link above the POI list.
+- In the next screen, ignore the warning and click **Create.**
+
+![UsingPorpoise_NewPOI-Create](UsingPorpoise_NewPOI-Create.png)
 
 
 
