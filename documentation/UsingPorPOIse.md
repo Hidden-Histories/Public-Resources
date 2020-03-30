@@ -190,12 +190,16 @@ NOTE: If an animation is started and the Unity Prefab of the POI contains an Aud
 
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
+. 
 ## Next Steps
 
-- See our tutorial on creating AssetBundles for porPOIse here: https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md
+Creating new content for your layers:
 
+- Unity tutorials: UNDER CONSTRUCTION
 
+- Creating AssetBundles for porPOIse tutorial: https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md
 
+. 
 ## Original Documentation - ONLY if you want to set up your own porPOIse!!!
 
 ===PorPOISe for Layar===
