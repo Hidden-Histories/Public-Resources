@@ -127,20 +127,21 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 **Save / close ARpoise app / restart ARpoise app** after every change!
 
 . 
+
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
 ### Explanation:
 You can edit the following properties of a POI:
 * **Title**: Give the POI a title that helps you identify it in the layer's POI list.
-* **Lat/Lon**: Allows to change the latitude and longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
-* **Is visible**: This combo box defines whether the POI is visible.
-* **Absolute altitude**: Allows to set the absolute altitude of the POI.
-* **Relative altitude**: Allows to set the altitude of the POI relative to the user's device.
-* **URL of asset bundle**: The POI's geometry will be taken from a Unity asset bundle downloaded from this web location. One thing we found is, asset bundles created for either Android or iOS do not work on the "other" platform.
-Therefore you need to provide **two** asset bundles, one for Android and one for iOS.
+* **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
+* **Is visible**: This combo box defines whether the POI is visible. This will be useful when many people are testing their apps close together in Japantown! 
+* **Absolute altitude**: Set the absolute altitude of the POI in meters above sea level. This doesn't really work very well, as the GPS does not give good altitude values. This will be overruled if Relative location is set.
+* **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative locatino.
+* **URL of asset bundle**: The POI's geometry will be taken from a Unity asset bundle downloaded from this web location. It needs to have the form hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/hh_examples.ace (Note: NO "http://" please! One thing we found is, asset bundles created for either Android or iOS do not work on the "other" platform. Therefore you need to provide **two** asset bundles, one for Android and one for iOS.
 As you can only enter one asset bundle url in the ARpoise PorPOISe configuration, 
 ARpoise assumes that the asset bundle name given is the one of the Android asset bundle.
 The name of the iOS asset bundle has to be the Android name followed by 'i'.
+
 * **Prefab name**: The POI's geometry is loaded from the asset bundle with this prefab name.
 * **Layer name**: If this value is set, the entire layer will be loaded instead of the POI.
 * **Relative location**: The location of the POI relative to the user's device. Comma separated list of the X-east-west, Y-up-down, Z-north-south values.
