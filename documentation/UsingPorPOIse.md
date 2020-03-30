@@ -99,6 +99,17 @@ There are two ways you can place POIs in your layer:
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
+### Exercise: change the following values ONE AFTER ANOTHER:
+
+See the properties description below. If you can't find the StripesCube after changing values, change them back to as depiction below.
+
+Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
+
+- Relative location: you are at 0,0,0. x is side to side, y is + up or - down, z is closer or further away.
+- Scaling factor 
+- Save!
+- Close and reopen ARpoise, and see how the StripesCube has changed:
+
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
