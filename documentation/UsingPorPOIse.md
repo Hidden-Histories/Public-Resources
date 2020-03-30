@@ -109,8 +109,8 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 - Relative location: you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
 - Scaling factor: try 0.5 and then try 2.
 - Vertical rotation: try 30° (since they are cubes, 90° and 180° will look the same!)
-- **Save!**
-- **Close and reopen** ARpoise, and see how the StripesCube has changed.
+- Animation properties: read the properties list below!
+- **Save / close ARpoise app / restart ARpoise app** after every change!
 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
