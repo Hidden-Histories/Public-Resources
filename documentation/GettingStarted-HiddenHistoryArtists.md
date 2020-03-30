@@ -29,7 +29,7 @@ In order to use ARpoise, you should already have the following. If you don't, pl
 
 - The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise app.
 
-- You should be able to view the **example layer** and a (for now identical) **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
+- You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
 
 **NOTE** that initially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while in social isolation due to the coronavirus. The procedure mentioned below also applies to the AR-vos, with a few extensions.
 
