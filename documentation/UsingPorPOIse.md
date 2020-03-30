@@ -92,12 +92,19 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 . 
 ## porPOIse POI Configuration
 
+There are two ways you can place POIs in your layer:
+- Absolute GPS (Lat/Lon fields): theoretically this is at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
+- Relative location (x,y,z): This is relative to where the viewer is standing, and overrules the Lat/Lon. If you use this, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
+- With relative location, if the viewer goes for a walk with the ARpoise app on, the POIs go with them! The viewer has to refresh or restart the app to have the locations and availablity of the layer updated.
+
+We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are very, very close together, Brush the Sky also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
+
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
 ### Explanation:
 You can edit the following properties of a POI:
-* **Title**: The title is optional, it is not used by the client application.
+* **Title**: Give the POI a title that helps you identify it in the layer's POI list.
 * **Lat/Lon**: Allows to change the latitude and longitude of the POI. The POI's location can also be changed by dragging the POI's marker in the placement map.
 * **Is visible**: This combo box defines whether the POI is visible.
 * **Absolute altitude**: Allows to set the absolute altitude of the POI.
