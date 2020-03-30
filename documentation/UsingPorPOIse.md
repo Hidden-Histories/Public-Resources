@@ -156,6 +156,8 @@ You can edit the following properties of a POI:
 **Animation properties**
 There can be multiple animations simultaneously, for instance you can scale the POI while rotate it as well.
 
+**NOTE: Sound:** An audio file can be a Prefab by itself, or be part of a large Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
+
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
