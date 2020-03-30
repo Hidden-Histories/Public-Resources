@@ -92,9 +92,11 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 . 
 ## porPOIse POI Configuration
 
-### Location of POI:
+We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have.
 
-There are two ways you can place POIs in your layer:
+### Location properties of POI:
+
+There are two ways you can place POIs in the real world:
 
 - **Absolute GPS (Lat/Lon fields):** theoretically this is at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
 - **Relative location (x,y,z):** This is relative to where the viewer is standing, and overrules the Lat/Lon (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to find it at all). If you use relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
@@ -102,15 +104,15 @@ There are two ways you can place POIs in your layer:
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
-#### Exercise: change the following location values ONE AFTER ANOTHER:
+#### Exercise POI location: change the following values **one after another**, testing in between:
 
-See the properties description below, and play around with the location properties. If you can't find the StripesCube after changing values, change them back to as depicted below.
+See the properties description below. If you can't find the StripesCube after changing values, change them back to as depicted in the image below, and try again.
 
 Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
 
-- Relative location: you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
-- Google Map: Then delete the Relative location and change the Lat/Lon by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
-- Save and view in the ARpoise app. If you moved it too far away, it might be invisible!
+- **Relative location:** you are at 0,0,0. The x is side to side, y is + up/- down, z is closer/further away.
+- **Google Map:** Then delete the Relative location and change the Lat/Lon by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
+- **Save** and view in the ARpoise app. If you moved it too far away, it might be invisible!
 - In porPOIse, click Back to your ExampleLayer page: the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
 - Zoom out a bit and you should see two markers: before, they were all on top of each other.
 - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
