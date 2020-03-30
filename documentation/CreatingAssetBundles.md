@@ -12,7 +12,8 @@ See the last section of this document for further information.
 **Important Note**: 
 - In order for the assets to work in **ARpoise** and **AR-vos** you MUST create BOTH
 the **Android** and the **iOS** asset bundles.
-- The **iOS asset bundle must be made on a Mac,** and the **Android asset bundle on a Windows PC.** If you only have one type of PC, you will need to send your assets to the admin so they can make the other one. 
+- The **iOS asset bundle must be made on a Mac, and tested on an iOS device.** The **Android asset bundle must be made on a Windows PC and tested on an Android device.** 
+- If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
 
 
 ## Unity Install
