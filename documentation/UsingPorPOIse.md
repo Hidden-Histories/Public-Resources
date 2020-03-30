@@ -39,7 +39,7 @@ Click on the name of your example layer to open it for editing.
 ## porPOIse Layer Configuration
 
 The layer configuration holds properties that apply to the entire layer. 
-- Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!)
+- Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!) It is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short however!
 - Otherwise please leave these properties at the default values, or discuss with the admin before you change them.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you have created new assets for a completely new POI, you add it with the New POI link.
