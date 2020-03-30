@@ -89,10 +89,12 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 * **Save**: Save changes to the POI's location to the layer's xml file.
 * **DEL**: Delete the POI from the layer.
 
+. 
 ## porPOIse POI Configuration
 
-
+. 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
+
 ### Explanation:
 You can edit the following properties of a POI:
 * **Title**: The title is optional, it is not used by the client application.
