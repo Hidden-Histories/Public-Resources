@@ -117,6 +117,7 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
 - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
 - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
+- **Relative altitude:** This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location. Zero is at wherever your smartphone is - usually at your eye level! Plus values are above and minus values are below eye level.
 
 #### Exercise: Change other properties:
 - **Scaling factor:** try 0.5 and then try 2.
@@ -135,7 +136,7 @@ You can edit the following properties of a POI:
 * **Title**: Give the POI a title that helps you identify it in the layer's POI list.
 * **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
 * **Is visible**: This combo box defines whether the POI is visible. This will be useful when many people are testing their apps close together in Japantown! 
-* **Absolute altitude**: Set the absolute altitude of the POI in meters above sea level. This doesn't really work very well, as the GPS does not give good altitude values. This will be overruled if Relative location is set.
+* **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
 * **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative locatino.
 * **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name. (Note: NO "http://" please! Please see the tutorial on creating AssetBundles for more information.
 * **Prefab name**: The POI's geometry is loaded from the asset bundle with this prefab name.
