@@ -11,13 +11,25 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 
 - **POI:** A "POI" (Point Of Interest) is an asset or a group of assets (such as 3D models, images, sounds etc.), that all together make up your AR experience.
 
-### Workflow:
+### Workflow: (See below for details on how to do all of this!)
 
-- Do the main work of **setting up, modifying and testing** your layer in porPOIse at home on your PC. If your layer is positioned far away, use [remote testing with Fixed Location](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature) if needed to test it.
+Initial work at home:
 
-- Then **go to the site** where your layer is positioned and test it on your smartphone (don't forget to **unclick** Fixed Position first!). If you call up your porPOIse account on your smartphone, you can makes changes on the spot, close and reopen the ARpoise app and immediately see the effects of the changes in your layer. See below for details on how to do this.
+- Due to the coronavirus lockdown, we have positioned your layers **at your home,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse at home on your PC. 
 
-- Once you understand how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
+- Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
+
+Refining your layers once they are moved to Japantown:
+
+- When your layer is ready for testing, both you and the admin will need to move it to the desired position: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. More on this below.
+
+- Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature).
+
+- For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** it first!). 
+
+- Before you leave the house, make sure you can access your porPOIse account on your smartphone. Then you can make changes on site. Remember to save the changes, then **close and reopen the ARpoise app** in order to immediately see the effects of the changes in your layer. 
+
+
 
 . 
 ## porPOIse Layers List
