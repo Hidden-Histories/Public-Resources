@@ -45,7 +45,7 @@ Start out by creating a new Unity project:
 - Call the project **CreateAssetBundle**.
 - 
 
-![CreatingAssetBundle_NewProject](images/CreatingAssetBundle_NewProject.PNG)
+![CreateAssetBundle_NewProject](images/CreateAssetBundle_NewProject.png)
 
 . 
 ## Build Settings
