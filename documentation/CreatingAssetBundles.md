@@ -8,9 +8,9 @@ This is a step by step tutorial using our **custom Unity3D project templates** t
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar.
 
-Using Unity Editor: 
+**Unity Editor Interface tutorials:**
 
-This does NOT teach you to use Unity or create assets in Unity. If you are unfamiliar with Unity, here are tutorials to understand the Unity interface, which will be helpful in this tutorial:
+Our tutorial does NOT teach you to use Unity or create assets in Unity. If you are unfamiliar with Unity, here are tutorials on the Unity interface, which will help to understand this tutorial:
 - Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
 - Unity video tutorial: https://learn.unity.com/tutorial/using-the-unity-interface#     (note: for AR we will be making very simple things, nothing as complicated as the games they show!)
 
