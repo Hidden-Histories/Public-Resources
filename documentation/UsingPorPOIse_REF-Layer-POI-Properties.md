@@ -8,7 +8,7 @@ For the tutorial on how to use these properties to edit your layers, please see 
 ## porPOIse Layer Configuration
 
 .  
-![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POI-list.png)
+![UsingPorpoise_ExampleLayer_POIlist](./images/UsingPorpoise_ExampleLayer_POI-list.png)
 
 ### Explanation:
 
