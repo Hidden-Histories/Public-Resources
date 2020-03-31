@@ -139,15 +139,15 @@ NOTES:
 
 Now create a new POI, reusing a Prefab name from one of the POIs.
 
-- Go **Back to the ExampleLayer.**
-- Click the **New POI** link above the POI list.
-- In the next screen, ignore the warning and click **Create.**
+1. Go **Back to the ExampleLayer.**
+2. Click the **New POI** link above the POI list.
+3. In the next screen, ignore the warning and click **Create.**
 
 . 
 ![UsingPorpoise_NewPOI-Create](images/UsingPorpoise_NewPOI-Create.png)
 
 . 
-- A new, blank POI will be created at the end of the list.
+A new, blank POI will be created at the end of the list.
 
 . 
 
@@ -157,8 +157,8 @@ Now create a new POI, reusing a Prefab name from one of the POIs.
 1. Leave the Title at **notitle** for now.
 
 2. Move the POI to the same GPS as the other POIs, otherwise it will not be visible:
-  - Click on the Lat field of the POI above it, copy the entire value and paste into the empty Lat field.
-  - Repeat for the Lon. **Click Save**
+   - Click on the Lat field of the POI above it, copy the entire value and paste into the empty Lat field.
+   - Repeat for the Lon. **Click Save**
   
 3. Now click on **notitle** ...
 
@@ -169,11 +169,12 @@ Now create a new POI, reusing a Prefab name from one of the POIs.
 
 1. **URL for asset bundle** must be exactly the same as in the other POIs: 
    - ```hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace```
-   - ... but replace "ExampleArtist" with your own porPOIse account name.
+   - (NOTE there is NO https://)
+   - ... but **replace "ExampleArtist" with your own porPOIse account name.**
    
 2. **Prefab name:** choose one of the names from one of the other POIs.
 
-3. Now play around with the properties, placing it where there is no other POIs - otherwise you might not see it! 
+3. Play around with its properties, placing it where there are no other POIs - otherwise you might not see it! 
 
 
 ## Next Steps
@@ -183,13 +184,13 @@ Now create a new POI, reusing a Prefab name from one of the POIs.
 - Unity tutorials: UNDER CONSTRUCTION
 
 - [**Creating AssetBundles for porPOIse**](CreatingAssetBundles.md) tutorial:
-  - If you already know how to use create assets and use the Unity Editor, go through this tutorial to create your own AssetBundle.
+  - If you already know how to use create assets (3D models, images, sounds etc.) and how to use the Unity Editor, go through this tutorial to create your own AssetBundle.
   - You will need to use a Mac to make the iOS AssetBundle, and an iOS smartphone to test it.
   - You will need a Windows PC to make the Android AssetBundle, and an Android smartphone to test it.
   - If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
 
 . 
-## Original Documentation - ONLY if you want to set up your own porPOIse!!!
+## Original Documentation - ONLY to set up your own porPOIse!!!
 
 ===PorPOISe for Layar===
 Portable Point-of-Interest Server for Layar
