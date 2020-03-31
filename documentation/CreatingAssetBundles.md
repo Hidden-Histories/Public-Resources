@@ -40,9 +40,7 @@ Install Unity with the following modules:
   - iOS if you are working on a Mac.
 - Vuforia Augmented Reality Support.
 
-This will also install Microsoft Visual Studio automatically. The free version is good enough. 
-
-(If you are on a Mac, you will need xCode.)
+NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
 
 . 
 ![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
