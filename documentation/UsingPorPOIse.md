@@ -134,17 +134,10 @@ NOTES:
 
 **Remember to Save / close ARpoise app / restart ARpoise app after every change!**
 
-**NEXT EXERCISE:** When you feel comfortable with these exercises, go to the [Create a NEW POI] section.
-
-. 
-NOTE: If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio source is played.
-
-* **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
-
 . 
 ## Create a new POI
 
-Now create a new POI, reusing one of the assets from the example asset bundle.
+Now create a new POI, reusing a Prefab name from one of the POIs.
 
 - Go **Back to the ExampleLayer.**
 - Click the **New POI** link above the POI list.
@@ -160,21 +153,27 @@ Now create a new POI, reusing one of the assets from the example asset bundle.
 
 ![UsingPorpoise_notitle](images/UsingPorpoise_notitle.png)
 
-- Leave the Title at **notitle** for now.
-- Move the POI to the same GPS as the other POIs, otherwise it will not be visible:
+. 
+1. Leave the Title at **notitle** for now.
+
+2. Move the POI to the same GPS as the other POIs, otherwise it will not be visible:
   - Click on the Lat field of the POI above it, copy the entire value and paste into the empty Lat field.
   - Repeat for the Lon. **Click Save**
   
-Now click on **notitle** ...
+3. Now click on **notitle** ...
 
 . 
 ![UsingPorpoise_NewPOI-properties](images/UsingPorpoise_NewPOI-properties.png)
 
-**Required value for your new POI:**
+**Enter the required values for your new POI:**
 
-- **URL for asset bundle** must be exactly the same as in the other POIs.
-- **Prefab name:** choose one of the names from one of the other POIs.
-- Otherwise play around with the properties, placing it where there is no other POIs - otherwise you might not see it! 
+1. **URL for asset bundle** must be exactly the same as in the other POIs: 
+   - ```hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace```
+   - ... but replace "ExampleArtist" with your own porPOIse account name.
+   
+2. **Prefab name:** choose one of the names from one of the other POIs.
+
+3. Now play around with the properties, placing it where there is no other POIs - otherwise you might not see it! 
 
 
 ## Next Steps
