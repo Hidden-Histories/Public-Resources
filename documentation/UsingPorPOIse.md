@@ -98,41 +98,36 @@ NOTES:
 
 #### EXERCISES:
 
-- **Relative location:** 
+1. **Relative location:** 
   - You yourself (or rather your smartphone) are at 0,0,0. 
   - The x value is side to side, y is + up/- down, z is closer/further away.
 
-- **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
+2. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
   - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
   - Change them by clicking and dragging on the marker. 
   - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
+  - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
+  - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
+  - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
+  - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
 
-- In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
-
-- Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
-
-- Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
-
-- Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
-
-- **Relative altitude:** This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location. Zero is at wherever your smartphone is - usually at your eye level! Plus values are above and minus values are below eye level.
+3. **Relative altitude:** This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location. Zero is at wherever your smartphone is - usually at your eye level! Plus values are above and minus values are below eye level.
 
 #### EXERCISE: Change other properties:
-- **Scaling factor:** try 0.5 and then try 2.
-- **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
-- **Animation properties:** read the properties list below!
-- **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
+
+1. **Scaling factor:** try 0.5 and then try 2.
+
+2. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
+
+3. **Animation properties:** read the properties list below!
+
+4. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
 
 **Save / close ARpoise app / restart ARpoise app** after every change!
 
 **NEXT EXERCISE:** When you feel comfortable with these exercises, go to the [Create a NEW POI] section.
 
 . 
-
-
-
-
-
 NOTE: If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio source is played.
 
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
