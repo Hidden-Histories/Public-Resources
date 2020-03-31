@@ -41,7 +41,12 @@ This will also install Microsoft Visual Studio automatically. The free version i
 ![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
 
 . 
-## CreateAssetBundle Project
+## Download CreateAssetBundle Unity Project Template
+
+Download the Unity Project template:
+- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/CreateAssetBundle_Android_U2018_3.zip)
+- For iOS
+
 Start out by creating a new Unity project:
 - Use the **3D** template.
 - Call the project **CreateAssetBundle**.
