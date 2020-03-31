@@ -30,14 +30,18 @@ Use the free Unity version:
 Install Unity with the following modules:
 - Android Build Support if you are working on a Windows PC
 - iOS Build Support if you are working on a Mac.
-- In both cases, install Vuforia Augmented Reality Support.
+- In both cases, check Vuforia Augmented Reality Support.
+
+This will also install Microsoft Visual Studio automatically. The free version is good enough. 
+(If you are on a Mac, you will need xCode.)
 
 ![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
 
-This will also install Microsoft Visual Studio automatically. The free version is good enough. (If you are on a Mac, you will need xCode.)
-
+. 
 ## CreateAssetBundle Project
 Start out by creating a new Unity project, call the project **CreateAssetBundle**.
+
+.  
 ### Image - Unity Project:
 ![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
 
