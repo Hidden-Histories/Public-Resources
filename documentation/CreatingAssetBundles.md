@@ -16,7 +16,7 @@ This is a step by step tutorial to create an asset bundle that can be used by **
 - The **Android asset bundle must be made on a Windows PC and tested on an Android device.** 
 - If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
 
-
+. 
 ## Unity Install
 
 Use the free Unity version:
@@ -37,15 +37,16 @@ This will also install Microsoft Visual Studio automatically. The free version i
 
 (If you are on a Mac, you will need xCode.)
 
+. 
 ![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
 
 . 
 ## CreateAssetBundle Project
 Start out by creating a new Unity project:
-- Use the 3D template.
+- Use the **3D** template.
 - Call the project **CreateAssetBundle**.
 
-
+. 
 ![CreateAssetBundle_NewProject](images/CreateAssetBundle_NewProject.png)
 
 . 
@@ -54,7 +55,6 @@ It will automatically give you a SampleScene with Main Camera and Directional Li
 . 
 ![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
 
-. 
 ## Build Settings
 
 Change the build platform:
@@ -64,12 +64,22 @@ Change the build platform:
 - Click **Switch Platform**.
 
 This will take a while, afterwards you can simply close the Build Settings view by clicking on the X in the upper right corner.
+
 . 
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
 
 . 
 ## Folders
-In the Project panel right click on **Assets** and select **Create / Folder** from the context menu. Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
+In the Project panel
+- Select **Assets** and then select **Create / Folder** from the Create menu just under the Project tab. 
+- Click on the name to rename it.
+- Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
+
+![CreateAssetBundle_NewProject](images/CreateAssetBundle_Project-Assets.png)
+
+![CreateAssetBundle_NewProject](images/CreateAssetBundle_CreateFolder.png)
+
+. 
 ### Image - Assets Folders:
 ![CreateAssetBundle5](/documentation/images/CreateAssetBundle5.PNG)
 
