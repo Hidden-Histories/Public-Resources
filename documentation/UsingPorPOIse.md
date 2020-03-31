@@ -70,6 +70,10 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. Scroll down for a description of the properties in your POI description page.
 
+. 
+![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
+
+. 
 ### Location properties of POI:
 
 There are two ways you can place POIs in the real world:
@@ -107,64 +111,9 @@ Note: Solid forms have outsides but no insides: if you make the cube so big that
 
 . 
 
-![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
-### Explanation:
-You can edit the following properties of a POI:
-* **Title**: Give the POI a title that helps you identify it in the layer's POI list.
-* **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
-* **Is visible**: This combo box defines whether the POI is visible. This will be useful when many people are testing their apps close together in Japantown! 
-* **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
-* **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative locatino.
-* **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please! Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Layer name**: If this value is set, the entire layer will be loaded instead of the POI.
-* **Relative location**: The location of the POI relative to the user's device. Comma separated list of the X-east-west, Y-up-down, Z-north-south values. These values override the Lat/Lon values and the Absolute altitude and Relative altitude values. See above for description of how these work.
-* **Scaling factor**: This value scales the POI's geometry in all three dimensions.
-* **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
-* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
 
-**Image trigger properties (for use with AR-vos only):**
 
-* **URL for trigger image:** Used only in AR-vos app. To be described later.
-* **Width of trigger image:** Used only in AR-vos app. To be described later.
-
-* **New action:** Currently not in use.
-
-**Animation properties**
-There can be multiple animations simultaneously, for instance you can scale the POI while rotate it as well.
-
-**NOTE: Sound:** An audio file can be a Prefab by itself, or be part of a large Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
-
-* **New animation:** Create a new animation.
-* **Remove:** Delete the animtion from the POI.
-
-* **Name**: The name is optional. If you have multiple animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
-* **Event**: 
-  * **onCreate** - the animation is started when the POI is loaded;
-  * **onFollow** - the animation is started when its predecessor animation ends. Its name must be entered in the **Followed by** field fo the preceding animation.
-  * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  
-* **Type**: **rotate**, **transform**, **scale**.
-* **Length**: Length of the animation in seconds.
-* **Delay**: Delay of the animation in seconds. onCreate-animations will only start after this delay.
-* **Interpolation**:
-  * **linear** - the value changes linearly from **From** to **To**;
-  * **cyclic** - the value changes linearly from **From** to **To** and then back to **From**;
-  * **sine** - the value swings between **From** and **To** like a pendulum;
-  * **halfsine** - the value is changed from **From** to **To** and then back to **From,** but with a slowdown before changing.
-* **Persist**:
-  * **Yes** - at the end of the animation the POI will remain at the final value of the animation;
-  * **No** - at the end of the animation the POI will snap back to its original state.
-* **Repeat**:
-  * **Yes** - the animation is repeated forever;
-  * **No** - the animation is only run once.
-* **From**: Start value of the animation.
-* **To**: End or middle value of the animation, depending on the **Interpolation**.
-* **Axis (x,y,z)**: Axis to apply the animation to, e.g.: A rotation with Axis 1,0,0 is only around the X axis.
-* **Followed by**: If one or more comma separated animation names are given in this field, the animations mentioned are started once this animation ends. Animation names are global for all POIs of a layer. So the end of an animation of one POI can start an animation of the same POI or of another POI.
 
 NOTE: If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio source is played.
 
