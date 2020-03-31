@@ -9,8 +9,8 @@
 This is a step by step tutorial to create an asset bundle that can be used by **ARpoise** or **AR-vos**.
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar.
-- You can do all your testing on one platform, but need to have a copy of your assetbundle created for the other platform.
-- If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
+- You can do all your testing on one platform, but need to have a copy of your AssetBundle created for the other platform as well.
+- If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle made.
 
 **Important Note**: 
 - In order for the assets to work in **ARpoise** and **AR-vos** you MUST create BOTH
