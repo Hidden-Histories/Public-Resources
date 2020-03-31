@@ -122,11 +122,13 @@ NOTES:
 
 2. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
 
-3. **Animation properties:** read the properties list below!
+3. **Animation properties:** 
+   - Read the properties description at [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) and play around with the animation values.
+   - Sound: Right now there is no audio file in the example asset bundle, but you add one when you create your own asset bundle, it is treated as a Prefab just like any other asset. If it is including in a POI that has an animation, it will start when the first animation starts.
 
 4. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
 
-**Save / close ARpoise app / restart ARpoise app** after every change!
+**Remember to Save / close ARpoise app / restart ARpoise app after every change!**
 
 **NEXT EXERCISE:** When you feel comfortable with these exercises, go to the [Create a NEW POI] section.
 
