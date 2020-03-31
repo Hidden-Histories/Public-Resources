@@ -21,9 +21,9 @@ Initial work at home:
 
 Refining your layers once they are moved to Japantown:
 
-- When your layer is ready for testing, both you and the admin will need to move it to the desired position: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. More on this below.
+- When your layer is ready for testing, both you and the admin will need to move it to the desired position: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. 
 
-- Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature).
+- Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature). You should have already learned this in the [Using ARpoise App: Remote Viewing with Fixed Position](UsingARpoiseApp.md#remote-viewing-arpoises-fixed-position-feature) tutorial.
 
 - For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** it first!). 
 
