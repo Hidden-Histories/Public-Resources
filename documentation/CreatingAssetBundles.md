@@ -43,16 +43,17 @@ This will also install Microsoft Visual Studio automatically. The free version i
 . 
 ## Download CreateAssetBundle Unity Project Template
 
-Download the Unity Project template:
+Download the Unity Project template onto your hard drive:
 - For [Android](http://hiddenhistoriesjtown.org/documentation/templates/CreateAssetBundle_Android_U2018_3.zip)
 - For iOS
 
-Start out by creating a new Unity project:
-- Use the **3D** template.
-- Call the project **CreateAssetBundle**.
+Aways use the Unity Hub to open a project:
+- Click **ADD**
+- Select the  **project folder** CreateAssetBundle_Android_U2018_3 (or CreateAssetBundle_iOS_U2018_3) on your hard drive.
+- It will appear in the projects list. Click to open.
 
 . 
-![CreateAssetBundle_NewProject](images/CreateAssetBundle_NewProject.png)
+![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
 It will automatically give you a SampleScene with Main Camera and Directional Light
