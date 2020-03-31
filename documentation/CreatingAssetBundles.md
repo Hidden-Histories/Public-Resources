@@ -25,16 +25,16 @@ Use the free Unity version:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
 
-. 
+### Unity Modules:
+
 Install Unity with the following modules:
 - Android Build Support if you are working on a Windows PC
 - iOS Build Support if you are working on a Mac.
 - In both cases, install Vuforia Augmented Reality Support.
 
-### Image - Unity Modules:
 ![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
 
-This will also install Microsoft Visual Studio automatically. The free version is good enough.
+This will also install Microsoft Visual Studio automatically. The free version is good enough. (If you are on a Mac, you will need xCode.)
 
 ## CreateAssetBundle Project
 Start out by creating a new Unity project, call the project **CreateAssetBundle**.
