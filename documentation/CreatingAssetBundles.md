@@ -75,31 +75,6 @@ This will take a while, afterwards you can simply close the Build Settings view 
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
 
 . 
-## Folders
-
-**In the Project panel:**
-- Select **Assets** 
-- Then select **Create / Folder** from the Create menu just under the Project tab. 
-
-.
-![CreateAssetBundle_NewProject](images/CreateAssetBundle_Project-Assets.png)
-
-. 
-![CreateAssetBundle_NewProject](images/CreateAssetBundle_CreateFolder.png)
-
-. 
-- Click on the folder name to rename it.
-- Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
-- NOTE: the name **AssetBundles** must be spelled exactly like this, with the same capitalization and with "bundles" with an "s."
-
-. 
-![CreateAssetBundle_AssetBundlesFolder](images/CreateAssetBundle_AssetBundlesFolder.png)
-
-. 
-The new folders should be subfolders of the main Assets folder.
-
-. 
-![CreateAssetBundle5](images/CreateAssetBundle5.PNG)
 
 . 
 ## 3D Assets
