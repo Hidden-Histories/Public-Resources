@@ -63,11 +63,13 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
-In the template, we have three GameObjects
-- Hierarchy window: 
+In the template, we have created the following for you:
+- An ExampleArtistScene with camera, light, and three GameObjects. They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two.
+- An Editor folder with the scripts to make the asset bundles.
+- An ExampleArtist folder with subfolders for your AssetBundles, Materials, Prefabs and Scenes
 
 . 
-![CreateAssetBundle_ExampleArtistScene](images/CreateAssetBundle_ExampleArtistScene.png)
+![CreateAssetBundle_ExampleArtistScene 1](images/CreateAssetBundle_ExampleArtistScene1.png)
 
 ## Build Settings
 
