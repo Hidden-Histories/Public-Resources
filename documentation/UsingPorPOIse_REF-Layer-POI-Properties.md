@@ -1,6 +1,6 @@
 ![Hidden Histories Logo](images/hiddenhistories-logo.png)
 # Hidden Histories
-# --ARpoise PorPOISe REFERENCE: Layer and POI Properties--
+# PorPOISe Reference: Layer and POI Properties
 
 . 
 ## porPOIse Layer Configuration
