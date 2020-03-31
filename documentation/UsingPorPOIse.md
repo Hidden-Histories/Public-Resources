@@ -99,13 +99,13 @@ NOTES:
 #### EXERCISES:
 
 1. **Relative location:** 
-  - You yourself (or rather your smartphone) are at 0,0,0. 
-  - The x value is side to side, y is + up/- down, z is closer/further away.
+   - You yourself (or rather your smartphone) are at 0,0,0. 
+   - The x value is side to side, y is + up/- down, z is closer/further away.
 
 2. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
-  - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
-  - Change them by clicking and dragging on the marker. 
-  - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
+   a) Your layer will now be placed using the absolute location in the Lat/Lon fields. 
+   b) Change them by clicking and dragging on the marker. 
+   - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
   - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
   - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
   - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
