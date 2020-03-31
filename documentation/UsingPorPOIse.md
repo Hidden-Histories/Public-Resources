@@ -27,9 +27,7 @@ Refining your layers once they are moved to Japantown:
 
 - For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** it first!). 
 
-- Before you leave the house, make sure you can access your porPOIse account on your smartphone. Then you can make changes on site. Remember to save the changes, then **close and reopen the ARpoise app** in order to immediately see the effects of the changes in your layer. 
-
-
+- But **before you leave your house, make sure you can access your porPOIse account on your smartphone!** Then you can make changes on site. Remember to save the changes, then **close and reopen the ARpoise app** in order to immediately see the effects of the changes in your layer.
 
 . 
 ## porPOIse Layers List
