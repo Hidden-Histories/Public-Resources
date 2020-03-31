@@ -25,8 +25,12 @@ Use the free Unity version:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
 
+. 
+Install Unity with the following modules:
+- Android Build Support if you are working on a Windows PC
+- iOS Build Support if you are working on a Mac.
+- In both cases, install Vuforia Augmented Reality Support.
 
-Install Unity with the following modules.
 ### Image - Unity Modules:
 ![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
 
