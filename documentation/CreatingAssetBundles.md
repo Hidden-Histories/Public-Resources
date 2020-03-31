@@ -20,15 +20,11 @@ This is a step by step tutorial to create an asset bundle that can be used by **
 ## Unity Install
 
 Use the free Unity version:
-- Download and install the [Unity Hub from this page](https://unity3d.com/get-unity/download).
-- Then download and install Unity3D Editor version **2018.3.14.f1** from the [Unity download archive](https://unity3d.com/get-unity/download/archive):
-  - Click on the Unity 2018x tab.
-  - Scroll down to Unity 2018.4.13 (22 Nov, 2019) and click on Unity Hub.
-  
+- Download and install the [Unity Hub](https://unity3d.com/get-unity/download) on your PC.
+- Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
+  - Click on the **Unity 2018x** tab.
+  - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
 
-
-### Image - Unity Install:
-![CreateAssetBundle1](/documentation/images/CreateAssetBundle1.PNG)
 
 Install Unity with the following modules.
 ### Image - Unity Modules:
