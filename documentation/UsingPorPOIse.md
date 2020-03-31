@@ -95,6 +95,8 @@ NOTES:
 - If you can't find the StripesCube after changing values, change them back to the values in the image above, and try again!
 - Solid forms in computer graphics have outsides but no insides! If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
 
+**Exercises:**
+
 - **Relative location:** you yourself (or rather your smartphone) are at 0,0,0. The x value is side to side, y is + up/- down, z is closer/further away.
 - **Google Map:** After testing your changes, delete the Relative location completely - your layer will now be placed using the absolute location in the Lat/Lon fields. Change them by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
 - **Save, close and restart ARpoise app** and view your layer. If you moved it too far away, it might be invisible!
