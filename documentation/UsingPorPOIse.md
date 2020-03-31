@@ -1,6 +1,6 @@
 ![Hidden Histories Logo](images/hiddenhistories-logo.png)
 # Hidden Histories
-# --ARpoise PorPOISe User Interface--
+# ARpoise PorPOISe User Interface tutorial
 
 ## Overview
 
