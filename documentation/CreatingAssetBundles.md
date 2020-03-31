@@ -48,22 +48,26 @@ Start out by creating a new Unity project:
 
 ![CreateAssetBundle_NewProject](images/CreateAssetBundle_NewProject.png)
 
-It will automatically give you a SampleScene with MainCamera and DirectionalLight
+. 
+It will automatically give you a SampleScene with Main Camera and Directional Light
 
+. 
 ![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
+
 . 
 ## Build Settings
 
 Change the build platform:
-- Android on Windows, or iOS on a Mac.
-- Click: **File / Build Settings…**
-- Select the **Android** Platform and click **Switch Platform**.
 
-### Image - Android Platform:
+- Click: **File / Build Settings…**
+- Select the **Android** Platform on Windows, or **iOS** on a Mac.
+- Click **Switch Platform**.
+
+This will take a while, afterwards you can simply close the Build Settings view by clicking on the X in the upper right corner.
+. 
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
 
-This will take a while, afterwards you can end the Build Settings view.
-
+. 
 ## Folders
 In the Project panel right click on **Assets** and select **Create / Folder** from the context menu. Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
 ### Image - Assets Folders:
