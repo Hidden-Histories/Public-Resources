@@ -3,6 +3,7 @@
 # Creating porPOIse Asset Bundles in Unity
 
 # ------ UNDER CONSTRUCTION -------
+# PLEASE WAIT UNTIL WEDNESDAY !!!
 
 ## Overview
 
