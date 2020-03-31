@@ -44,8 +44,8 @@ This will also install Microsoft Visual Studio automatically. The free version i
 ## Download CreateAssetBundle Unity Project Template
 
 Download the Unity Project template onto your hard drive:
-- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/CreateAssetBundle_Android_U2018_3.zip)
-- For iOS
+- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/http://hiddenhistoriesjtown.org/documentation/templates/AndrCreateAssetBundleU2018_3.zip)
+- For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 
 Aways use the Unity Hub to open a project:
 - Click **ADD**
