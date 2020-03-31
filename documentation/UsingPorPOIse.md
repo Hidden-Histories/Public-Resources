@@ -87,7 +87,7 @@ There are two ways you can place POIs in the real world:
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
-### EXERCISE POI location: change these values **one after another**, testing in between:
+### POI location: change these values **one after another**, testing in between:
 
 If you want more information on the properties, see the [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
@@ -95,15 +95,22 @@ NOTES:
 - If you can't find the StripesCube after changing values, change them back to the values in the image above, and try again!
 - Solid forms in computer graphics have outsides but no insides! If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
 
-**Exercises:**
+#### EXERCISES:
 
 - **Relative location:** you yourself (or rather your smartphone) are at 0,0,0. The x value is side to side, y is + up/- down, z is closer/further away.
+
 - **Google Map:** After testing your changes, delete the Relative location completely - your layer will now be placed using the absolute location in the Lat/Lon fields. Change them by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
+
 - **Save, close and restart ARpoise app** and view your layer. If you moved it too far away, it might be invisible!
+
 - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
+
 - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
+
 - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
+
 - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
+
 - **Relative altitude:** This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location. Zero is at wherever your smartphone is - usually at your eye level! Plus values are above and minus values are below eye level.
 
 #### EXERCISE: Change other properties:
