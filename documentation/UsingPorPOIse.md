@@ -81,17 +81,19 @@ There are two ways you can place POIs in the real world:
 
 - **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
 - **Relative location (x,y,z):** 
-  - This is relative to where the viewer is standing, and overrules the Lat/Lon (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to see it at all). 
-  - If you use relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
-- With relative location, if the viewer goes for a walk with the ARpoise app on, the POIs go with them! The viewer has to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
+  - This is relative to where the viewer is standing, and **overrules the Lat/Lon** (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to see it at all!) 
+  - If you use Relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - the technology has no real control over this).
+- With Relative location, **if the viewer goes for a walk with the ARpoise app on, the POIs go with them!** The viewer has to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
-#### EXERCISE POI location: change the following values **one after another**, testing in between:
+### EXERCISE POI location: change these values **one after another**, testing in between:
 
-See the properties description below. If you can't find the StripesCube after changing values, change them back to as depicted in the image below, and try again.
+If you want more information on the properties, see the [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
-Note: Solid forms have outsides but no insides: if you make the cube so big that you are inside it, you will not see it anymore!
+NOTES: 
+- If you can't find the StripesCube after changing values, change them back to the values in the image above, and try again!
+- Solid forms in computer graphics have outsides but no insides! If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
 
 - **Relative location:** you yourself (or rather your smartphone) are at 0,0,0. The x value is side to side, y is + up/- down, z is closer/further away.
 - **Google Map:** After testing your changes, delete the Relative location completely - your layer will now be placed using the absolute location in the Lat/Lon fields. Change them by clicking and dragging on the marker. Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
