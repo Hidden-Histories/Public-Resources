@@ -42,11 +42,15 @@ This will also install Microsoft Visual Studio automatically. The free version i
 . 
 ## CreateAssetBundle Project
 Start out by creating a new Unity project:
+- Use the 3D template.
 - Call the project **CreateAssetBundle**.
-- 
+
 
 ![CreateAssetBundle_NewProject](images/CreateAssetBundle_NewProject.png)
 
+It will automatically give you a SampleScene with MainCamera and DirectionalLight
+
+![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
 . 
 ## Build Settings
 
