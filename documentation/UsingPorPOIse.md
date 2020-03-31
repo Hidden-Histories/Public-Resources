@@ -55,11 +55,12 @@ The layer configuration holds properties that apply to the entire layer.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you have created new assets for a completely new POI, you add it with the New POI link.
 
-```**For now however, let's modify our existing POIs:**
+**For now however, let's modify our existing POIs:**
 
 - Select the **StripesCube** POI.
 - Then skip to the next section [porPOIse POI Configuration](UsingPorPOIse.md#porpoise-poi-configuration), where you will change its properties.
-```
+
+. 
 ![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POI-list.png)
 
 ### Explanation:
