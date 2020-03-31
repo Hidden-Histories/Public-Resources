@@ -45,12 +45,12 @@ Start out by creating a new Unity project, call the project **CreateAssetBundle*
 ### Image - Unity Project:
 ![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
 
-## Android Build
-Change the build platform to Android.
+. 
+## Android / iOS Build
 
-Click: **File / Build Settings…**
-
-Select the **Android** Platform and click **Switch Platform**.
+Change the build platform to Android on Windows, or iOS on a Mac.
+- Click: **File / Build Settings…**
+- Select the **Android** Platform and click **Switch Platform**.
 
 ### Image - Android Platform:
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
