@@ -62,16 +62,15 @@ Download the Unity Project template onto your hard drive:
 . 
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
-. 
-In the template, we have created the following for you:
-- An ExampleArtistScene with camera, light, and three GameObjects. They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two.
-- An Editor folder with the scripts to make the asset bundles.
-- An ExampleArtist folder with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
+### In the template, we have created the following for you:
+- An **ExampleArtistScene** with camera, light, and three GameObjects. They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two.
+- An **Editor folder** with the scripts to make the asset bundles.
+- An **ExampleArtist folder** with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
 
 . 
 ![CreateAssetBundle_ExampleArtistScene 1](images/CreateAssetBundle_ExampleArtistScene1.png)
 
-Personalize the ExampleArtist folder and scene name to avoid conflicts in the future:
+### Personalize ExampleArtist folder and scene name to avoid conflicts:
 - In the Project window, click on the Assets folder, then in the subwindow click on the ExampleArtist folder name and enter your own porPOIse account name (e.g. as in the format "BruceLee").
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
 
