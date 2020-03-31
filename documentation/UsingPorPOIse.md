@@ -118,15 +118,19 @@ NOTES:
 
 #### EXERCISE: Change other properties:
 
-1. **Scaling factor:** try 0.5 and then try 2.
+1. **Prefab:** This is the name of the asset used in this POI. 
+   - Try replacing this Prefab name with one from another POIs. You will then have two of the same color, but of course one will have the properties of this POI.
+   - To avoid confusion, please replace the StripesCube Prefab name (and Save!) before you go on to the other properties.
 
-2. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
+2. **Scaling factor:** try 0.5 and then try 2.
 
-3. **Animation properties:** 
+3. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
+
+4. **Animation properties:** 
    - Read the properties description at [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) and play around with the animation values.
-   - Sound: Right now there is no audio file in the example asset bundle, but you add one when you create your own asset bundle, it is treated as a Prefab just like any other asset. If it is including in a POI that has an animation, it will start when the first animation starts.
+   - Sound: Right now there is no audio file in the example asset bundle, but you add one when you create your own asset bundle, it is treated as a Prefab just like any other asset. If it is including in a POI that has an animation, it will start when the first animation starts. More on this later.
 
-4. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
+5. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
 
 **Remember to Save / close ARpoise app / restart ARpoise app after every change!**
 
