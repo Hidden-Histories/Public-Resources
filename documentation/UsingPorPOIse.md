@@ -75,13 +75,14 @@ We will now practice changing the configuration of the POIs, and view the layer 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
-. 
 ### Location properties of POI:
 
 There are two ways you can place POIs in the real world:
 
-- **Absolute GPS (Lat/Lon fields):** theoretically this is at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
-- **Relative location (x,y,z):** This is relative to where the viewer is standing, and overrules the Lat/Lon (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to find it at all). If you use relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
+- **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
+- **Relative location (x,y,z):** 
+  - This is relative to where the viewer is standing, and overrules the Lat/Lon (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to see it at all). 
+  - If you use relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - we have no control over this).
 - With relative location, if the viewer goes for a walk with the ARpoise app on, the POIs go with them! The viewer has to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
