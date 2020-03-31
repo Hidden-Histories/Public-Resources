@@ -60,7 +60,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 **For now however, let's modify our existing POIs:**
 
 - Select the **StripesCube** POI.
-- Then go to the next section, porPOIse POI Configuration, where you will change the POI's properties.
+- Then go to the next section, where you will change the POI's properties.
 
 . 
 ![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POI-list.png)
