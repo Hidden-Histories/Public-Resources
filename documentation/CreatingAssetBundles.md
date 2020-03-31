@@ -67,7 +67,7 @@ In the template, we have three GameObjects
 - Hierarchy window: 
 
 . 
-![CreateAssetBundle_UnityTemplateSampleScene](images/CreateAssetBundle_UnityTemplateSampleScene.png)
+![CreateAssetBundle_ExampleArtistScene](images/CreateAssetBundle_ExampleArtistScene.png)
 
 ## Build Settings
 
