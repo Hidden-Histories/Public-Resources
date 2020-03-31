@@ -4,7 +4,7 @@
 
 ## Overview
 
-NOTE: this assumes prior knowledge of Unity!
+**NOTE: this tutorial assumes prior knowledge of Unity!** Unity tutorials will be linked from the [Hidden Histories documentation main page](README.md).
 
 This is a step by step tutorial to create an asset bundle that can be used by **ARpoise** or **AR-vos**.
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
