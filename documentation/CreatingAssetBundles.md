@@ -1,4 +1,4 @@
-![Hidden Histories Logo](/images/hiddenhistories-logo.png)
+![Hidden Histories Logo](images/hiddenhistories-logo.png)
 # Hidden Histories
 # -- Creating porPOIse Asset Bundles in Unity --
 
@@ -28,27 +28,30 @@ Use the free Unity version:
 ### Unity Modules:
 
 Install Unity with the following modules:
-- Android Build Support if you are working on a Windows PC
-- iOS Build Support if you are working on a Mac.
-- In both cases, check Vuforia Augmented Reality Support.
+- Build Support
+  - Android if you are working on a Windows PC
+  - iOS if you are working on a Mac.
+- Vuforia Augmented Reality Support.
 
 This will also install Microsoft Visual Studio automatically. The free version is good enough. 
+
 (If you are on a Mac, you will need xCode.)
 
-![CreateAssetBundle2](/documentation/images/CreateAssetBundle2.PNG)
+![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
 
 . 
 ## CreateAssetBundle Project
-Start out by creating a new Unity project, call the project **CreateAssetBundle**.
+Start out by creating a new Unity project:
+- Call the project **CreateAssetBundle**.
+- 
 
-.  
-### Image - Unity Project:
-![CreateAssetBundle3](/documentation/images/CreateAssetBundle3.PNG)
+![CreatingAssetBundle_NewProject](images/CreatingAssetBundle_NewProject.PNG)
 
 . 
-## Android / iOS Build
+## Build Settings
 
-Change the build platform to Android on Windows, or iOS on a Mac.
+Change the build platform:
+- Android on Windows, or iOS on a Mac.
 - Click: **File / Build Settings…**
 - Select the **Android** Platform and click **Switch Platform**.
 
