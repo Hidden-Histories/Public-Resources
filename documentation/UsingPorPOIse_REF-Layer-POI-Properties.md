@@ -2,7 +2,6 @@
 # Hidden Histories
 # PorPOISe Reference: Layer and POI Properties
 
-. 
 For the tutorial on how to use these properties to edit your layers, please see the [ARpoise PorPOISe User Interface tutorial](UsingPorPOIse.md)
 
 . 
