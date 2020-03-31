@@ -1,6 +1,6 @@
 ![Hidden Histories Logo](images/hiddenhistories-logo.png)
 # Hidden Histories
-# -- Creating porPOIse Asset Bundles in Unity --
+# Creating porPOIse Asset Bundles in Unity
 
 ## Overview
 
@@ -23,14 +23,14 @@ If you are unfamiliar with Unity, here are tutorials on the Unity interface, whi
 - If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
 
 . 
-## Unity Install
+## Unity Hub & Unity Editor Install
 
 Download the free Unity Editor version:
 - First download and install the [Unity Hub](https://unity3d.com/get-unity/download) on your PC.
 - Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
-- NOTE: We do NOT guarantee that ARpoise or AR-vos will work with any other version of the Unity Editor!
+- NOTE: We do NOT guarantee that ARpoise or AR-vos will work with other versions!
 
 ### Unity Modules:
 
@@ -46,14 +46,14 @@ NOTE: This will also install Microsoft Visual Studio automatically, on both Wind
 ![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
 
 . 
-## Download CreateAssetBundle Unity Project Template
+## Download CreateAssetBundle Project Template
 
 Download the Unity Project template onto your hard drive:
 - For [Android](http://hiddenhistoriesjtown.org/documentation/templates/AndrCreateAssetBundleU2018_3.zip)
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 - Unzip the file on your hard drive.
 
-**Aways use the Unity Hub to open a project!**
+**Aways use the Unity Hub to open a project,** so you can make sure the proper Unity Version is used to open it. 
 - Start the Unity Hub
 - Click **ADD**
 - Select the **project folder** of your unzipped template from your hard drive.
@@ -63,7 +63,7 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
-In the template, we have created the following:
+In the template, we have three GameObjects
 - Hierarchy window: 
 
 . 
