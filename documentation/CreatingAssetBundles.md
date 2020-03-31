@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is a step by step tutorial using our custom Unity3D project templates to create an asset bundle that can be used by the **ARpoise** or **AR-vos** AR apps. 
+This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar.
 - This does NOT teach you to use Unity or create assets in Unity. Those tutorials will be linked from the [Hidden Histories documentation main page](README.md).
@@ -23,6 +23,7 @@ Download the free Unity Editor version:
 - Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
+- NOTE: We do NOT guarantee that ARpoise or AR-vos will work with any other version of the Unity Editor!
 
 ### Unity Modules:
 
@@ -43,8 +44,8 @@ This will also install Microsoft Visual Studio automatically. The free version i
 ## Download CreateAssetBundle Unity Project Template
 
 Download the Unity Project template onto your hard drive:
-- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/http://hiddenhistoriesjtown.org/documentation/templates/AndrCreateAssetBundleU2018_3.zip)
-- For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
+- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/AndrCreateAssetBundleU2018_3.zip)
+- For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 
 Aways use the Unity Hub to open a project:
 - Click **ADD**
