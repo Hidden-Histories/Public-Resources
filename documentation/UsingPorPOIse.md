@@ -11,7 +11,7 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 
 - **POI:** A "POI" (Point Of Interest) is an asset or a group of assets (such as 3D models, images, sounds etc.), that all together make up your AR experience.
 
-### Workflow: (See below for details on how to do all of this!)
+### Workflow (see below for details on how to do all of this!):
 
 Initial work at home:
 
@@ -32,7 +32,7 @@ Refining your layers once they are moved to Japantown:
 . 
 ## porPOIse Layers List
 
-Log in  to your porPOIse account. The URL to access it has the form below, but replace ExampleArtist with your own full name (no blanks!):
+Log in  to your porPOIse account. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
 
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/dashboard/
 
