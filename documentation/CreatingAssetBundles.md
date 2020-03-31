@@ -70,18 +70,27 @@ This will take a while, afterwards you can simply close the Build Settings view 
 
 . 
 ## Folders
-In the Project panel
-- Select **Assets** and then select **Create / Folder** from the Create menu just under the Project tab. 
-- Click on the name to rename it.
-- Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
 
+In the Project panel:
+- Select **Assets** 
+- Then select **Create / Folder** from the Create menu just under the Project tab. 
+
+.
 ![CreateAssetBundle_NewProject](images/CreateAssetBundle_Project-Assets.png)
 
+. 
 ![CreateAssetBundle_NewProject](images/CreateAssetBundle_CreateFolder.png)
 
 . 
+- Click on the name to rename it.
+- Create the folders **AssetBundles**, **Editor**, **Materials**, and **Prefabs**.
+
+. 
+![CreateAssetBundle_AssetBundlesFolder](images/CreateAssetBundle_AssetBundlesFolder.png)
+. 
 ### Image - Assets Folders:
-![CreateAssetBundle5](/documentation/images/CreateAssetBundle5.PNG)
+![CreateAssetBundle5](images/CreateAssetBundle5.PNG)
+
 
 ## 3D Assets
 Create two game objects in the SampleScene, for instance a red cube and a blue sphere. (Sorry, this is not a Unity tutorial for creating 3D assets. Please refer to Unity's own tutorials.) 
