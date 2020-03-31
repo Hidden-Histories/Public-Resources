@@ -7,7 +7,12 @@
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar.
-- This does NOT teach you to use Unity or create assets in Unity. Those tutorials will be linked from the [Hidden Histories documentation main page](README.md).
+
+Using Unity Editor: 
+
+This does NOT teach you to use Unity or create assets in Unity. If you are unfamiliar with Unity, here are tutorials to understand the Unity interface, which will be helpful in this tutorial:
+- Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
+- Unity video tutorial: https://learn.unity.com/tutorial/using-the-unity-interface#     (note: for AR we will be making very simple things, nothing as complicated as the games they show!)
 
 **Important Notes**: 
 - You can do all your testing on one platform, but need to have a copy of your AssetBundle created for the other platform as well.
@@ -56,6 +61,10 @@ Download the Unity Project template onto your hard drive:
 
 . 
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
+
+. 
+In the template, we have created the following:
+- Hierarchy window: 
 
 . 
 ![CreateAssetBundle_UnityTemplateSampleScene](images/CreateAssetBundle_UnityTemplateSampleScene.png)
