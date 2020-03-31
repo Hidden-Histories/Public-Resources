@@ -2,6 +2,8 @@
 # Hidden Histories
 # Creating porPOIse Asset Bundles in Unity
 
+# ------ UNDER CONSTRUCTION -------
+
 ## Overview
 
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
