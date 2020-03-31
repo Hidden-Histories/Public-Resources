@@ -54,7 +54,6 @@ The layer configuration holds properties that apply to the entire layer.
 
 - Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!) It is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short however!
 - Otherwise please leave these properties at the default values, or discuss with the admin before you change them. 
-- Scroll down to read explanations of all the properties.
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you have created new assets for a completely new POI, you add it with the New POI link.
 
@@ -65,44 +64,6 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 . 
 ![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POI-list.png)
-
-### Explanation:
-
-**Layer configuration:**
-
-* **Layer title**: The layer title is optional (default is no title). If given, the title is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short, so keep your layer title short as well.
-* **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. NOTE: when you make a change in your layer with porPOIse, you MUST force close the ARpoise app completely by [swiping it out of the recent apps list](https://support.apple.com/en-us/HT201330) and restart ARpoise. Otherwise the change will not show!
-* **Redirect to layer**: Currently not used. The redirection layer is optional (default is no redirect). if given, the layer will redirected to a different layer. 
-* **Visibility in meters**: Please leave at 1500. The admin has probably set the visibility of your layer itself in the ARpoise directory to a distance of about 200-250 meters, or about 1/2 block. This value here does not have much of an effect, but if you set it to be small, the ARpoise app might not find it at all.
-* **Area size in meters**: Optional, please do not set without conferring with the admin. If the POIs are set at absolute GPS coordinates (see below), this value confines them to a north-south area around the viewer to which the POIs should be constrained if the viewer is walking around. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay at (more or less) at their set positions.
-* **Area width in meters**: Optional, please do not set without conferring with the admin. If the POIs are set at absolute GPS coordinates (see below), this value confines them to an east-west area around the viewer to which the POIs should be constrained if the viewer is walking around. If this is given, and the POIs are given an absolute geo-location in the POI settings, then as the viewer is moving the POIs are automatically reshuffled to fit inside the moving boundaries. If it is not set, the POIs stay more or less at their set positions.
-* **Show menu button**: Please leave on. This combo box defines whether the ARpoise logo menu button is shown in the app. If the logo menu button is on, the viewer can click on it to get out of a layer and back to the list of available layers, or click twice to enter a Fixed Position when they want to view a layer that is far away from them.
-* **Apply Kalman filter**: Currently not used.
-* **Is a default layer** Currently not used.
-* **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
-* **Action: Label**: Currently not used.
-* **Action: Show information**: Currently not used.
-* **Action: Information message**: Currently not used.
-* **Save** button: If you make changes to these properties, you MUST save them!
-
-**Google map box:** (Note: "Find place" field is defunct)
-
-- Each marker represents one POI. 
-- Mouse over a marker to see the Title of the POI it represents. Watch out: there may be several on top of each other!
-- Click and drag on a marker to change that POI's GPS position in the map. As you drag it, you will see the latitude and longitute (Lat/Lon) of that POI changing in the list as well. 
-- Note which POI was changing: if you move a marker, you MUST click **Save** in the POI list next to the POI you have moved, otherwise it will revert to its previous position!
-- If you move a marker but still see a marker in that location, there were more than one markers at the exact same locations.
-
-
-**POIs list:**
-
-* **New POI** link: Click to add a new POI to the layer.
-* **Id**: Internal number to identify the POI. 
-* **Title**: Name of the POI - click to open the POI and edit its properties. 
-* **Lat**: Allows you to change the latitude of the POI. 
-* **Lon**: Allows you to change the longitude of the POI. 
-* **Save**: Save changes to the POI's location to the layer's xml file.
-* **DEL**: Delete the POI from the layer.
 
 . 
 ## porPOIse POI Configuration
