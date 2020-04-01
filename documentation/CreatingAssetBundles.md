@@ -216,7 +216,16 @@ In order for ARpoise assets to be available to both Andorid *and* iOS users, we 
 ![CreateAssetBundle_RenameFolder-Scene](images/CreateAssetBundle_RenameFolder-Scene.png)
 
 . 
-## Personalize your asset bundle name: 
+## Personalize your asset bundle name
+
+- Select one of the prefabs you want to use in your personalized asset bundle.
+- Click on the AssetBundle name field and select **New**.
+- Use your name or nickname to identify it as your own asset bundle.
+- The name must be lower case, and please use ONLY dash (-) or underscore (_) as special characters.
+- Then select another prefab and assign it to your personalized asset bundle as well.
+
+. 
+![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
 
 . 
 ## 3D Assets
