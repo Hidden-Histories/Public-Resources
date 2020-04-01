@@ -203,20 +203,20 @@ Now test your new asset bundle in your ExampleLayer:
 - This might make for a long loading time for your layer, and a big hit on the viewer's data package.
 - **It is therefore best practice to put all assets you want to use in one single package, and leave out assets that are not used in your layer.**
 
-In the next step, we will personalize your Unity project so you export and share assets in order to build the asset bundle for the type of PC you do not have. To make it more fun, we will create a new prefab.
+In the next step, we will personalize your Unity project so you export and share assets in order to build the asset bundle for the type of PC you do not have.
   
 . 
 # Personalize and Export Assets as Unity Package
 
-In order for ARpoise assets to be available to both Andorid *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
+Remember that in order for ARpoise assets to be available to both Android *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
 - Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to **export all your prefabs in a Unity package.**
-- This package needs to be imported into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
-- During import, if Unity sees assets with the same path name, e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simple overwrite the existing one. (If you know how to rename assets at the time of import, please tell me!)
-- Therefore, you need to **personalize your asset bundle name, and your assets folder name.**
+- This package needs to be **imported** into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
+- During import, if Unity sees assets with the **same path name,** e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simply **overwrite the existing one.** (If you know how to rename assets at the time of import, please tell me!)
+- Therefore, you need to **personalize your asset bundle name,** and your **assets folder name.**
 
 ## Personalize ExampleArtist folder name and ExampleArtistScene name:
-- In the **Project window,** click on the **Assets/ExampleArtist folder** and replace it with your porPOIse account name (no spaces!)
-- Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your porPOIse account name (no spaces!)
+- In the **Project window,** click on the **Assets/ExampleArtist folder name** and replace it with your porPOIse account name (no spaces!)
+- Then click on your Scenes folder, and in the subwindow click on the **ExampleArtistScene** to rename it with your porPOIse account name (no spaces!)
 - Notice in the **Hierarchy window** that the name of your scene has changed there as well.
 - **SAVE!!!**
 
@@ -228,11 +228,9 @@ In order for ARpoise assets to be available to both Andorid *and* iOS users, we 
 
 Select one of the prefabs you want to use in your personalized asset bundle.
 - Click on the AssetBundle name field and select **New**.
-- Use your name or nickname to identify it as your own asset bundle.
-- The name must be lower case, and please use ONLY dash (-) or underscore (_) as special characters.
+- Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
+- The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
 - Then select the other prefab(s) and assign them to your personalized asset bundle as well.
-
-In the next step, we'll make a new prefab as well.
 
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
