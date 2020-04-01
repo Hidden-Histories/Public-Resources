@@ -2,9 +2,6 @@
 # Hidden Histories
 # Creating porPOIse Asset Bundles in Unity
 
-# ------ UNDER CONSTRUCTION -------
-# PLEASE WAIT UNTIL WEDNESDAY !!!
-
 ## Overview
 
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
@@ -74,7 +71,7 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_ExampleArtistScene 1](images/CreateAssetBundle_ExampleArtistScene1.png)
 
 . 
-### Personalize ExampleArtist folder name and Scene name:
+## Personalize ExampleArtist folder name and Scene name:
 - In the **Project window,** click on the **Assets folder** 
 - Then in the subwindow click on the **ExampleArtist folder name** and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
@@ -85,13 +82,12 @@ Download the Unity Project template onto your hard drive:
 . 
 ## Build Settings
 
-Check to make sure the correct build settings Change the build platform:
+Add your Scene to the build settings and make sure the correct platform is selected:
 
 - Click: **File / Build Settings…**
-- Select the **Android** Platform on Windows, or **iOS** on a Mac.
-- Click **Switch Platform**.
-
-This will take a while, afterwards you can simply close the Build Settings view by clicking on the X in the upper right corner.
+- Click **Add Open Scenes** - the Scene with your name should appear in the **Scenes In Build** list.
+- If you are working on Windows the **Platform** should be **Android;** if on a Mac, then **iOS.** If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
+- close the Build Settings view by clicking on the X in the upper right corner.
 
 . 
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
