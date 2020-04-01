@@ -261,8 +261,12 @@ You could just select your personalized assets folder, but I want you to see pra
 . 
 ![CreateAssetBundle_SelectAssetFolder](images/CreateAssetBundle_SelectAssetFolder.png)
 
+.
+### Select 
 
 
+. 
+![CreateAssetBundle_ExportPackage](images/CreateAssetBundle_ExportPackage.png)
 
 
 
