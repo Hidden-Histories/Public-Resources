@@ -144,10 +144,10 @@ Once you know that all your prefabs have the correct asset bundle name:
 
 Find your Unity project folder on your hard drive.
 - Go to the **Assets/AssetBundles folder.**
-- 
+- Find the exampleassetbundle
 
-
-![CreateAssetBundle_Rename-Upload-AssetBundle](images/CreateAssetBundle_Rename-Upload-AssetBundle.png)
+. 
+![CreateAssetBundle_add-ace-ending](images/CreateAssetBundle_add-ace-ending.png)
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
