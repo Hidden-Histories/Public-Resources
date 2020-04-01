@@ -147,10 +147,12 @@ Now right click on either of the prefabs we want to include in exampleassetbundl
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
 - Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
   - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
+- **SAVE!!!**
   
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
+. 
 ## Add .ace file ending to your exampleassetbundle file
 
 Now look at your **hard drive** and find your **Unity project folder.**
@@ -204,11 +206,11 @@ In order for ARpoise assets to be available to both Andorid *and* iOS users, we 
 - During import, if Unity sees assets with the same path name, e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simple overwrite the existing one. (If you know how to rename assets at the time of import, please tell me!)
 - Therefore, you need to **personalize your asset bundle name, and your assets folder name.**
 
-. 
 ## Personalize ExampleArtist folder name and ExampleArtistScene name:
 - In the **Project window,** click on the **Assets/ExampleArtist folder** and replace it with your porPOIse account name (no spaces!)
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your porPOIse account name (no spaces!)
 - Notice in the **Hierarchy window** that the name of your scene has changed there as well.
+- **SAVE!!!**
 
 . 
 ![CreateAssetBundle_RenameFolder-Scene](images/CreateAssetBundle_RenameFolder-Scene.png)
