@@ -178,10 +178,10 @@ Now test your new asset bundle in your ExampleLayer:
   - **URL for asset bundle:** This MUST be in this form (i.e. without "http://www.") **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/exampleassetbundle.ace** where "ExampleArtist" is the name of your porPOIse account.
   - **Prefab name:** Use one of the prefabs named in your **exampleassetbundle.manifest** file. NOTE: the spelling must be EXACTLY the same, including capital/lower case, etc., but without the .prefab ending.
   
-- If you now open the ARpoise app, you should see the capsule floating around you as well as the other POIs.
+- If you now open the **ARpoise app,** you should see the capsule floating around you as well as the other POIs.
   
 .
-![CreateAssetBundle_CapsulePOI](images/CreateAssetBundle_CapsulePOI.png)
+![CreateAssetBundle_CapsulePOIoffset](images/CreateAssetBundle_CapsulePOIoffset.png)
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
