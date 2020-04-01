@@ -141,6 +141,14 @@ Once you know that all your prefabs have the correct asset bundle name:
 . 
 ![CreateAssetBundle_BuildAssetBundle](images/CreateAssetBundle_BuildAssetBundle.png)
 
+## Rename and Upload exampleassetbundle to your porPOIse account
+
+Find your Unity project folder on your hard drive.
+- Go to the **Assets/AssetBundles folder.**
+- 
+
+
+![CreateAssetBundle_Rename-Upload-AssetBundle](images/CreateAssetBundle_Rename-Upload-AssetBundle.png)
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
