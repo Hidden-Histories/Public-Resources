@@ -65,13 +65,16 @@ Download the Unity Project template onto your hard drive:
 ## Template Structure and Prefabs
 
 In the template, we have created the following for you:
-- An **ExampleArtistScene** with camera, light, and three GameObjects. They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two.
+- An **ExampleArtistScene** 
+  - This includes a default camera and light, and three GameObjects. 
+  - They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two!
 - An **Editor folder** with the scripts to make the asset bundles.
 - An **ExampleArtist folder** with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
 
 Click on the **ExampleArtist/Prefabs** folder:
-- You see the same GameObjects listed here as are listed in the **Hierarchy window** above.
-- The **blue cubes** next to the names shows that they are **prefabs,** "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
+- You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
+- The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
+
 . 
 ![CreateAssetBundle_Prefabs](images/CreateAssetBundle_Prefabs.png)
 
