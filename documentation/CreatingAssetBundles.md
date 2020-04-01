@@ -185,19 +185,20 @@ Now test your new asset bundle in your ExampleLayer:
 
 # Personalize and Export Assets as Unity Package
 
-In order for ARpoise assets to be available to both Andorid AND iOS users, we need two separate asset bundles, one for iOS and one for Android.
-- Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to export all your prefabs in a Unity package. This package needs to be imported into the Unity project in other opposing type of PC, and then exported as an asset bundle.
-- During import, if Unity sees assets with the same pathname, e.g. Asset/exampleassetbundle, it will simple overwrite the existing one (or at least I don't know a way to rename assets at the time of import).
-- Therefore, you need to personalize your asset bundle name, and your assets folder name.
+In order for ARpoise assets to be available to both Andorid *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
+- Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to **export all your prefabs in a Unity package.**
+- This package needs to be imported into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
+- During import, if Unity sees assets with the same path name, e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simple overwrite the existing one. (If you know how to rename assets at the time of import, please tell me!)
+- Therefore, you need to **personalize your asset bundle name, and your assets folder name.**
 
 . 
-## Personalize ExampleArtist folder name and Scene name:
+## Personalize ExampleArtist folder name and ExampleArtistScene name:
 - In the **Project window,** click on the **Assets folder** 
 - Then in the subwindow click on the **ExampleArtist folder name** (or right click/Rename) and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
 
 . 
-![CreateAssetBundle_RenameExampleArtistScene](images/CreateAssetBundle_RenameExampleArtistScene.png)
+![CreateAssetBundle_RenameFolder-Scene](images/CreateAssetBundle_RenameFolder-Scene.png)
 
 . 
  
