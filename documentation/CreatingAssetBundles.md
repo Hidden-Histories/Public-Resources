@@ -244,13 +244,22 @@ Now your assets folder, your scene and your asset bundle name should be personal
 
 ## Export your assets as a .unitypackage
 
-We will export your scene and assets folder in a **Unity package.** This package can then be imported into a Unity project on the PC platform, and then your asset bundle exported for the other mobile platform.
+We will export your scene and assets folder in a **Unity package.** This package can then be imported into a Unity project on the other PC platform, and your asset bundle then exported for the other mobile platform.
 
 ### Check your Build Settings
 
-Check your Build Settings to make sure your personalized scene is included 
+Check your Build Settings to make sure your personalized scene is included.
+
 . 
 ![CreateAssetBundle_BuildSettingsScenes](images/CreateAssetBundle_BuildSettingsScenes.png)
+
+. 
+### Select Assets Folder
+
+You could just select your personalized assets folder, but I want you to see practice selecting the assets to be exported.
+
+. 
+![CreateAssetBundle_SelectAssetFolder](images/CreateAssetBundle_SelectAssetFolder.png)
 
 
 
