@@ -106,14 +106,14 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 
 Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. 
 
-**Remove just RedCube from exampleassetbundle:
+**Remove the RedCube prefab from exampleassetbundle:**
 - Click on **None** to exclude it from all asset bundles.
 - Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
 - Note the other options:
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
 
-
+. 
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
 ## Build exampleassetbundle
@@ -130,7 +130,7 @@ First let's make sure your build settings are correct:
 
 ![CreateAssetBundle4](images/CreateAssetBundle4.PNG)
 
-### Build Asset Bundle command in the context window
+### Call "Build Asset Bundle" command from the context window
 
 Once you know that all your prefabs have the correct asset bundle name:
 - Right click on one of the prefabs to get the context menu.
@@ -138,7 +138,7 @@ Once you know that all your prefabs have the correct asset bundle name:
 - Wait a bit - a window should pop up 
 
 . 
-![CreateAssetBundle_BuildAssetBundleMenu](images/CreateAssetBundle_BuildAssetBundleMenu.png)
+![CreateAssetBundle_BuildAssetBundle](images/CreateAssetBundle_BuildAssetBundle.png)
 
 
 . 
