@@ -85,7 +85,7 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
-### Prefabs Structure
+### Prefabs Folder
 
 Now click on the **ExampleArtist/Prefabs** folder:
 - You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
@@ -94,26 +94,26 @@ Now click on the **ExampleArtist/Prefabs** folder:
 . 
 ![CreateAssetBundle_Prefabs](images/CreateAssetBundle_Prefabs.png)
 
-. 
-Click on one of the prefabs in the Assets/Prefabs subwindow:
-- At the bottom of the Inspector window, you will see a depiction of the selected prefab.
-- Underneath it is the line **AssetBundle exampleassetbundle**, with a small arrow icon on the right.
+
+Click on the RedCube prefab in the Assets/Prefabs subwindow:
+- At the bottom of the Inspector window, you see a depiction of the selected prefab.
+- Underneath is the line **AssetBundle exampleassetbundle**, with a small arrow icon on the right.
 - Click on the arrow icon to open the dropdown menu for the AssetBundle name.
 - The name **exampleassetbundle** should be selected. 
 
 . 
 ![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
 
-If not, please select it now.
-- Notice the other options:
-  - **None** allows you to exclude a prefab from all asset bundles.
+Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. Let's remove it:
+- Click on **None** to exclude it from all asset bundles.
+- Note the other options:
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
-- Click on the other two prefabs and make sure they all have the same asset bundle name selected.
+- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
 
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
-## Build the exampleassetbundle
+## Build exampleassetbundle
 
 First let's make sure your build settings are correct:
 
