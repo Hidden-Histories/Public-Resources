@@ -193,15 +193,15 @@ In order for ARpoise assets to be available to both Andorid *and* iOS users, we 
 
 . 
 ## Personalize ExampleArtist folder name and ExampleArtistScene name:
-- In the **Project window,** click on the **Assets folder** 
-- Then in the subwindow click on the **ExampleArtist folder name** (or right click/Rename) and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
-- Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
+- In the **Project window,** click on the **Assets/ExampleArtist folder** and replace it with your porPOIse account name (no spaces!)
+- Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your porPOIse account name (no spaces!)
+- Notice in the **Hierarchy window** that the name of your scene has changed there as well.
 
 . 
 ![CreateAssetBundle_RenameFolder-Scene](images/CreateAssetBundle_RenameFolder-Scene.png)
 
 . 
- 
+## Personalize your asset bundle name: 
 
 . 
 ## 3D Assets
