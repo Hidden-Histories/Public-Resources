@@ -104,12 +104,15 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 . 
 ![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
 
-Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. Let's remove it:
+Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. 
+
+**Remove just RedCube from exampleassetbundle:
 - Click on **None** to exclude it from all asset bundles.
+- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
 - Note the other options:
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
-- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
+
 
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
