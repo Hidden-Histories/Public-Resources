@@ -39,7 +39,7 @@ Download the free Unity Editor version:
 
 - Install Unity with the following modules:
   - Build Support
-   - Android if you are working on a Windows PC
+    - Android if you are working on a Windows PC
     - iOS if you are working on a Mac.
   - Vuforia Augmented Reality Support.
   - NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
