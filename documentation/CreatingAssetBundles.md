@@ -151,13 +151,14 @@ Now look at your **hard drive** and find your **Unity project folder.**
 . 
 ## Upload exampleassetbundle files to your porPOIse account
 
-You should already have an FTP (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
+You should already have an **FTP** (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
 - If you do not know this information any more, please contact the Hidden Histories admin.
 - **Login with FTP to your https://hiddenhistoriesjtown.org/ account** (it might look rather different from the image below).
 - In your **AssetBundles folder**
   - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files.
   - Overwrite the ones that are already there.
-  - Afterwards, open the exampleassetbundle.manifest file and make sure it now only has the Capsule and the BlueSphere.
+  - Afterwards, open the exampleassetbundle.manifest file on the server and **make sure it now only has the Capsule and the BlueSphere.**
+  - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
 
 . 
 ![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
