@@ -144,12 +144,12 @@ Click: **File / Build Settings…**:
 
 ![CreateAssetBundle_BuildSettingsExampleArtist](images/CreateAssetBundle_BuildSettingsExampleArtist.png)
 
-### Call "Build Asset Bundle" command from the context window
+### Call "Build Asset Bundle" command
 
 Now right click on either of the prefabs we want to include in exampleassetbundle (i.e. NOT the RedCube!)
-- Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the Build iOS AssetBundles command.)
+- Select **Build AssetBundles** (or **Build iOS AssetBundles**) from the pop up menu.
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
-- Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
+- Open up the **AssetBundles folder** and click on the exampleassetbundle (or exampleassetbundlei) [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
   - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
 - **SAVE!!!**
   
@@ -161,21 +161,22 @@ Now right click on either of the prefabs we want to include in exampleassetbundl
 
 Now look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
-- Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server.
+- Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server. (On Mac, exampleassetbundlei.ace)
+
 
 . 
 ![CreateAssetBundle_add-ace-ending](images/CreateAssetBundle_add-ace-ending.png)
 
 . 
-## Upload exampleassetbundle files to your porPOIse account
+## Upload exampleassetbundle(i) files to your porPOIse account
 
 You should already have an **FTP** (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
-- If you do not know this information any more, please contact the Hidden Histories admin.
+- If you do not have this information, please contact the Hidden Histories admin.
 - **Login with FTP to your https://hiddenhistoriesjtown.org/ account** (it might look rather different from the image below).
 - In your **AssetBundles folder**
-  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files.
+  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files. (Mac files with "i".)
   - Overwrite the ones that are already there.
-  - Afterwards, open the exampleassetbundle.manifest file on the server and **make sure it now only has the Capsule and the BlueSphere.**
+  - Afterwards, open the exampleassetbundle.manifest (or exampleassetbundlei.manifest) file on the server and **make sure it now only has the Capsule and the BlueSphere.**
 
 . 
 ![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
@@ -207,18 +208,18 @@ Now test your new asset bundle in your ExampleLayer:
 - This might make for a long loading time for your layer, and a big hit on the viewer's data package.
 - **It is therefore best practice to put all assets you want to use in one single package, and leave out assets that are not used in your layer.**
 
-In the next step, we will personalize your Unity project so you export and share assets in order to build the asset bundle for the type of PC you do not have.
+In the next step, we will personalize your Unity project so you can export and share assets to someone who can build the other asset bundle type for you.
   
 . 
 # Personalize and Export Assets as Unity Package
 
-Remember that in order for ARpoise assets to be available to both Android *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
+Remember that in order for ARpoise assets to be visible for both Android *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
 - Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to **export all your prefabs in a Unity package.**
 - This package needs to be **imported** into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
 - During import, if Unity sees assets with the **same path name,** e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simply **overwrite the existing one.** (If you know how to rename assets at the time of import, please tell me!)
 - Therefore, you need to **personalize your asset bundle name,** and your **assets folder name.**
 
-## Personalize ExampleArtist folder name and ExampleArtistScene name:
+## Personalize *ExampleArtist* folder name and *ExampleArtistScene* name:
 - In the **Project window,** click on the **Assets/ExampleArtist folder name** and replace it with your porPOIse account name (no spaces!)
 - Then click on your Scenes folder, and in the subwindow click on the **ExampleArtistScene** to rename it with your porPOIse account name (no spaces!)
 - Notice in the **Hierarchy window** that the name of your scene has changed there as well.
@@ -238,110 +239,3 @@ Select one of the prefabs you want to use in your personalized asset bundle.
 
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
-
-.
-## Creating a New Prefab
-
-Since we already have a RedCube in the other asset bundle, let's reuse it here to make a different prefab.
-
-First we turn off the other two GameObjects:
-- In the Hierarchy window, select the BlueSphere.
-
-
-
-
-. 
-## 3D Assets
-Create two game objects in the SampleScene, for instance a red cube and a blue sphere. (Sorry, this is not a Unity tutorial for creating 3D assets. Please refer to Unity's own tutorials.) 
-### Image - Game Objects:
-![CreateAssetBundle6](/documentation/images/CreateAssetBundle6.PNG)
-
-## 3D Prefabs
-Turn the two objects into prefabs by dragging them one by one from the **SampleScene** panel to the **Prefabs** folder created above.
-### Image - Prefabs:
-![CreateAssetBundle7](/documentation/images/CreateAssetBundle7.PNG)
-
-Make sure both prefabs have zero transforms, e.g.:
-### Image - Transform:
-![CreateAssetBundle8](/documentation/images/CreateAssetBundle8.PNG)
-
-
-## Prefab - Context Menu Entries
-Now, when you right click on the **BlueSphere** prefab in the Prefabs folder you should see a context menu with the two entries
-**Build AssetBundles** and **Build iOSAssetBundles** at the bottom.
-### Image - Menu Options:
-![CreateAssetBundle10](/documentation/images/CreateAssetBundle10.PNG)
-
-## Create an Asset Bundle
-Select the **BlueSphere** prefab.
-
-On the bottom right of the Unity window you should see the label **AssetBundle** with **None** selected.
-Click on **None** and select **New** from the context menu. Enter the name of the new asset bundle,
-for the tutorial that is **exampleassetbundle**.
-### Image - Select Asset Bundle:
-![CreateAssetBundle11](/documentation/images/CreateAssetBundle11.PNG)
-
-Select the **RedCube** prefab and also select the **exampleassetbundle** for it.
-
-Select either of your prefabs, do a right click and select the **Build AssetBundles** option from the bottom of the context menu.
-
-### The asset bundle should be created!!!!!!!!
-
-Select the **AssetBundles** folder created earlier. You should see four entries.
-### Image - Asset Bundles:
-![CreateAssetBundle12](/documentation/images/CreateAssetBundle12.PNG)
-
-The first **exampleassetbundle** file is the actual asset bundle that needs to be made available on the web.
-The second file (with lines in the icon) is a manifest file describing what is in the bundle. If you double click on the file to open it, it should contain something like:
-```
-ManifestFileVersion: 0
-CRC: 1652422628
-Hashes:
-  AssetFileHash:
-    serializedVersion: 2
-    Hash: 912661529e9af10c64a43b680d62010f
-  TypeTreeHash:
-    serializedVersion: 2
-    Hash: 6597594720de07d06673fc08865c772c
-HashAppended: 0
-ClassTypes:
-- Class: 1
-  Script: {instanceID: 0}
-- Class: 4
-  Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
-- Class: 23
-  Script: {instanceID: 0}
-- Class: 33
-  Script: {instanceID: 0}
-- Class: 43
-  Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 65
-  Script: {instanceID: 0}
-- Class: 135
-  Script: {instanceID: 0}
-Assets:
-- Assets/Prefabs/BlueSphere.prefab
-- Assets/Prefabs/RedCube.prefab
-Dependencies: []
-```
-The two lines near the bottom listing your two assets, are important - you will need to enter these exact names (here BlueSphere and RedCube) into the porPOIse setup form in order to call them up as augments. Therefore always copy the manifest file to wherever you copy the asset bundle file, so you can find out what is in the bundle.
-
-Upload the asset bundle file and manifest file to the web in a folder that can be accessed via http.
-You will need to enter the URL of the asset bundle file into the porPOIse web form for the layer showing the red cube or the blue sphere as augments (or POIs, Points Of Interest). This is covered in a different tutorial. (LINK!!!)
-
-## iOS Asset Bundles
-In order to build an iOS asset bundle, you need to include the iOS Build Support module in your Unity project (see the second image from the top, "Image - Unity Modules:"). Then use right click / Build iOSAssetBundles to create the asset bundles for iOS.
-
-**Important Notes**: 
-
-- In order for the assets to work in **ARpoise** and **AR-vos** you MUST create and upload BOTH
-the **Android** and the **iOS** asset bundle to a web folder accessible via **http**.
-
-- You MUST use the following naming convention:
-If the name of the Android asset bundle is **exampleassetbundle**,
-the name of the iOS asset bundle needs to be **exampleassetbundlei**.
-(The same name followed by a lower case letter ‘**i**’.)
