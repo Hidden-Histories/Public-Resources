@@ -144,7 +144,7 @@ Once you know that all your prefabs have the correct asset bundle name:
 
 Find your Unity project folder on your hard drive.
 - Go to the **Assets/AssetBundles folder.**
-- Find the exampleassetbundle
+- Find the exampleassetbundle (NOT the manifest file!) and add the ending **.ace**
 
 . 
 ![CreateAssetBundle_add-ace-ending](images/CreateAssetBundle_add-ace-ending.png)
