@@ -193,6 +193,11 @@ Now test your new asset bundle in your ExampleLayer:
   
 - If you now open the **ARpoise app,** you should see the capsule floating around you as well as the other POIs.
 
+NOTE on multiple asset bundles in one layer:
+- You have seen that you can use various asset bundles in the same layer, each in a different POI. In this way you can easily share assets with other artists.
+- However, the asset bundles are downloaded to the smartphone right before you view them in the ARpoise app. Even if you do not use all the assets in a given asset bundle, they all have to be downloaded. This might make for a long loading time for your layer, and a big hit on the viewer's data package.
+- It is therefore best to put all assets you want to use in one single package, and leave out assets that are not used in your layer.
+
 In the next step, we will personalize your Unity project so you export and share assets in order to build the asset bundle for the type of PC you do not have. To make it more fun, we will create a new prefab.
   
 .
@@ -218,14 +223,23 @@ In order for ARpoise assets to be available to both Andorid *and* iOS users, we 
 . 
 ## Personalize your asset bundle name
 
-- Select one of the prefabs you want to use in your personalized asset bundle.
+Select one of the prefabs you want to use in your personalized asset bundle.
 - Click on the AssetBundle name field and select **New**.
 - Use your name or nickname to identify it as your own asset bundle.
 - The name must be lower case, and please use ONLY dash (-) or underscore (_) as special characters.
-- Then select another prefab and assign it to your personalized asset bundle as well.
+- Then select the other prefab(s) and assign them to your personalized asset bundle as well.
+
+In the next step, we'll make a new prefab as well.
 
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
+
+.
+## Creating a New Prefab
+
+Since we already have a RedCube, let's use
+
+
 
 . 
 ## 3D Assets
