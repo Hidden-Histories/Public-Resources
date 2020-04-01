@@ -87,15 +87,11 @@ Now click on the **AssetBundles** folder folder in the Project window:
 . 
 ![CreateAssetBundle_AssetBundles-example2](images/CreateAssetBundle_AssetBundles-example2.png)
 
-### Prefabs Folder
+### Prefabs
 
 Now click on the **ExampleArtist/Prefabs** folder:
 - You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
 - The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
-
-. 
-![CreateAssetBundle_Prefabs](images/CreateAssetBundle_Prefabs.png)
-
 
 Click on the RedCube prefab in the Assets/Prefabs subwindow:
 - At the bottom of the Inspector window, you see a depiction of the selected prefab.
@@ -104,7 +100,7 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 - The name **exampleassetbundle** should be selected. 
 
 . 
-![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
+![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
 
 Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. 
 
