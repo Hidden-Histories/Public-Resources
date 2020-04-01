@@ -83,7 +83,7 @@ Now click on the **ExampleArtist/AssetBundles** folder:
   - Notice that these are the same as the 3 GameObjects with blue cube icons listed in the **Hierarchy/ExampleArtistScene** window.
 
 . 
-![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
+![CreateAssetBundle_AssetBundles-example2](images/CreateAssetBundle_AssetBundles-example2.png)
 
 ### Prefabs Folder
 
