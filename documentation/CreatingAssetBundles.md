@@ -109,10 +109,22 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
-## Create the exampleassetsbundle
+## Build the exampleassetbundle
 
+First let's make sure your build settings are correct:
 
+### Build Settings
 
+- Click: **File / Build Settings…**
+- If you are working on Windows the **Platform** should be **Android.** 
+- If you are working on a Mac, the **Platform** should be **iOS.** 
+- If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
+- Close the Build Settings view by clicking on the X in the upper right corner.
+
+. 
+![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
+
+.
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
@@ -124,19 +136,7 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 ![CreateAssetBundle_RenameExampleArtistScene](images/CreateAssetBundle_RenameExampleArtistScene.png)
 
 . 
-## Build Settings
-
-Add your Scene to the build settings and make sure the correct platform is selected:
-
-- Click: **File / Build Settings…**
-- Click **Add Open Scenes** - the Scene with your name should appear in the **Scenes In Build** list.
-- If you are working on Windows the **Platform** should be **Android;** if on a Mac, then **iOS.** If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
-- Close the Build Settings view by clicking on the X in the upper right corner.
-
-. 
-![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
-
-. 
+ 
 
 . 
 ## 3D Assets
