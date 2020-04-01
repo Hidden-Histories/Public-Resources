@@ -86,9 +86,16 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 - There are two files called **exampleassetbundle.** 
   - The second one has an icon with lines on it - this is the **manifest file** containing a human readable description of the contents of the asset bundle. 
   - Click on it and you see its contents in the **Inspector window.**
-  - Towards the bottom under **Assets** is a list of the **Prefabs** that you can reference in a POI in porPOIse (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
+  - Towards the bottom of the file under **Assets** is a list of the **Prefabs** that you can reference in a POI in porPOIse (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
 
+. 
+## Create the exampleassets bundle
 
+Click on one of the prefabs in the Assets/Prefabs subwindow
+- 
+
+. 
+![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
