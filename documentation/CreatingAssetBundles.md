@@ -132,13 +132,15 @@ First let's make sure your build settings are correct:
 
 ### Build Settings
 
-- Click: **File / Build Settings…**
-- If you are working on Windows the **Platform** should be **Android.** 
-- If you are working on a Mac, the **Platform** should be **iOS.** 
-- If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
+Click: **File / Build Settings…**:
+- **Scenes In Build**: The current scene should be listed and checked. If not, click **Add Open Scenes.**
+- **Platform**
+  - If you are working on Windows this should be **Android.** 
+  - If you are working on a Mac, this should be **iOS.** 
+  - If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
 - Close the Build Settings view by clicking on the X in the upper right corner.
 
-![CreateAssetBundle4](images/CreateAssetBundle4.PNG)
+![CreateAssetBundle_BuildSettingsExampleArtist](images/CreateAssetBundle_BuildSettingsExampleArtist.PNG)
 
 ### Call "Build Asset Bundle" command from the context window
 
