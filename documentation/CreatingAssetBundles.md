@@ -133,9 +133,10 @@ First let's make sure your build settings are correct:
 
 Now right click on either of the prefabs we want to include in exampleassetbundle (i.e. NOT the RedCube!)
 - Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the iOS AssetBundles command.)
-- Wait a bit - a window should pop up at least briefly as the bundle is built.
+- Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
 - Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
-
+  - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
+  
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
@@ -158,7 +159,6 @@ You should already have an **FTP** (File Transfer Protocol) login for your porPO
   - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files.
   - Overwrite the ones that are already there.
   - Afterwards, open the exampleassetbundle.manifest file on the server and **make sure it now only has the Capsule and the BlueSphere.**
-  - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
 
 . 
 ![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
