@@ -102,9 +102,9 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 . 
 ![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
 
-#### Remove the RedCube prefab from exampleassetbundle
+### Remove the RedCube prefab from exampleassetbundle
 
-Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. 
+Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant and we will remove it.
 
 - Click on **None** to exclude it from all asset bundles.
 - Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
@@ -114,6 +114,16 @@ Since there is already a RedCube in the [**hh_examples** asset bundle we are usi
 
 . 
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
+
+ 
+### SAVE your scene! Often!
+
+If you make a lot of chnages, Unity is bound to crash, wiping them all out. If you save often, it is less likely to crash (because it realizes it is not as fun to crash if you only lose a little bit of your work). 
+
+SO SAVE!!! OFTEN!!!
+. 
+![CreateAssetBundle_SaveScene](images/CreateAssetBundle_SaveScene.png)
+
 
 ## Build exampleassetbundle
 
@@ -179,6 +189,8 @@ Now test your new asset bundle in your ExampleLayer:
   - **Prefab name:** Use one of the prefabs named in your **exampleassetbundle.manifest** file. NOTE: the spelling must be EXACTLY the same, including capital/lower case, etc., but without the .prefab ending.
   
 - If you now open the **ARpoise app,** you should see the capsule floating around you as well as the other POIs.
+
+In the next step, we will personalize your Unity project so you export and share assets in order to build the asset bundle for the type of PC you do not have. To make it more fun, we will create a new prefab.
   
 .
 ![CreateAssetBundle_CapsulePOIoffset](images/CreateAssetBundle_CapsulePOIoffset.png)
