@@ -122,9 +122,16 @@ First let's make sure your build settings are correct:
 - Close the Build Settings view by clicking on the X in the upper right corner.
 
 . 
-![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
+![CreateAssetBundle4](images/CreateAssetBundle4.PNG)
 
-.
+. 
+### Build Asset Bundle command in the context window
+
+
+
+. 
+![CreateAssetBundle_BuildAssetBundleMenu](images/CreateAssetBundle_BuildAssetBundleMenu.png)
+
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
