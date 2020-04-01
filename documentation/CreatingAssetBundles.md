@@ -268,7 +268,10 @@ You could just select your personalized assets folder, but I want you to see pra
 ![CreateAssetBundle_ExportPackage](images/CreateAssetBundle_ExportPackage.png)
 
 . 
-- Deselect everything except your personalized assets folder.
+- You only need to export your personalized assets folder. Deselect everything else, the AssetBundles folder and the Editor folder. The Unity template for the other platform requires other files in these folders anyway.
+- The Models and Textures folders are not selected because they are empty.
+- **Include dependencies** should be checked!
+- Click Export ...
 . 
 ![CreateAssetBundle_ItemsToExport](images/CreateAssetBundle_ItemsToExport.png)
 
