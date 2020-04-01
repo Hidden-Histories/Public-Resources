@@ -62,7 +62,7 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
-## Template Structure and Prefabs
+## Template Structure
 
 In the template, we have created the following for you:
 - An **ExampleArtistScene** 
@@ -71,31 +71,7 @@ In the template, we have created the following for you:
 - An **Editor folder** with the scripts to make the asset bundles.
 - An **ExampleArtist folder** with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
 
-Click on the **ExampleArtist/Prefabs** folder:
-- You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
-- The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
-
 . 
-![CreateAssetBundle_Prefabs](images/CreateAssetBundle_Prefabs.png)
-
-. 
-Click on one of the prefabs in the Assets/Prefabs subwindow:
-- At the bottom of the Inspector window, you will see a depiction of the selected prefab.
-- Underneath it is the line **AssetBundle exampleassetbundle**, with a small arrow icon on the right.
-- Click on the arrow icon to open the dropdown menu for the AssetBundle name.
-
-. 
-![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
-
-- The name **exampleassetbundle** should be selected. If not, please select it now.
-- Notice the other options:
-  - **None** allows you to exclude a prefab from all asset bundles.
-  - **New** allows you to create a new name for a new asset bundle. We will do this later.
-  - **Remove Unused Names** allows you to delete names you do not want to use anymore.
-- Click on the other two prefabs and make sure they all have the same asset bundle name selected.
-
-![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
-
 ## Asset Bundle Structure
 
 Now click on the **ExampleArtist/AssetBundles** folder:
@@ -109,6 +85,33 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
+. 
+Click on the **ExampleArtist/Prefabs** folder:
+- You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
+- The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
+
+. 
+![CreateAssetBundle_Prefabs](images/CreateAssetBundle_Prefabs.png)
+
+. 
+Click on one of the prefabs in the Assets/Prefabs subwindow:
+- At the bottom of the Inspector window, you will see a depiction of the selected prefab.
+- Underneath it is the line **AssetBundle exampleassetbundle**, with a small arrow icon on the right.
+- Click on the arrow icon to open the dropdown menu for the AssetBundle name.
+- The name **exampleassetbundle** should be selected. 
+
+. 
+![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
+
+If not, please select it now.
+- Notice the other options:
+  - **None** allows you to exclude a prefab from all asset bundles.
+  - **New** allows you to create a new name for a new asset bundle. We will do this later.
+  - **Remove Unused Names** allows you to delete names you do not want to use anymore.
+- Click on the other two prefabs and make sure they all have the same asset bundle name selected.
+
+![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
+
 ## Build the exampleassetbundle
 
 First let's make sure your build settings are correct:
@@ -121,13 +124,14 @@ First let's make sure your build settings are correct:
 - If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
 - Close the Build Settings view by clicking on the X in the upper right corner.
 
-. 
 ![CreateAssetBundle4](images/CreateAssetBundle4.PNG)
 
-. 
 ### Build Asset Bundle command in the context window
 
-
+Once you know that all your prefabs have the correct asset bundle name:
+- Right click on one of the prefabs to get the context menu.
+- Select "Build AssetBundles." (If you are on a Mac, select the iOS AssetBundles command.)
+- Wait a bit - a window should pop up 
 
 . 
 ![CreateAssetBundle_BuildAssetBundleMenu](images/CreateAssetBundle_BuildAssetBundleMenu.png)
