@@ -131,8 +131,7 @@ First let's make sure your build settings are correct:
 
 ### Call "Build Asset Bundle" command from the context window
 
-Once you know that all your prefabs have the correct asset bundle name:
-- Right click on any of the prefabs we want to include in exampleassetbundle - i.e. NOT the RedCube!
+Now right click on either of the prefabs we want to include in exampleassetbundle (i.e. NOT the RedCube!)
 - Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the iOS AssetBundles command.)
 - Wait a bit - a window should pop up at least briefly as the bundle is built.
 - Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
@@ -142,12 +141,27 @@ Once you know that all your prefabs have the correct asset bundle name:
 
 ## Rename and Upload exampleassetbundle to your porPOIse account
 
-Find your Unity project folder on your hard drive.
-- Go to the **Assets/AssetBundles folder.**
-- Find the exampleassetbundle (NOT the manifest file!) and add the ending **.ace**
+Now look at your hard drive and find your Unity project folder.
+- Go to the folder **Assets/AssetBundles.**
+- Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server.
 
 . 
 ![CreateAssetBundle_add-ace-ending](images/CreateAssetBundle_add-ace-ending.png)
+
+. 
+## Upload exampleassetbundle files to your porPOIse account
+
+The Hidden Histories admin has set up an FTP (File Transfer Protocol) login for you, and made sure you have set up an FTP client. 
+- If you do not know this information any more, please contact them.
+- Login to your FTP account (it might look rather different from the image below).
+- In your AssetBundles folder:
+  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files
+  - Overwrite the ones that are already there.
+  - Afterwards, open the exampleassetbundle.manifest file and make sure it now only has the Capsule and the BlueSphere.
+
+. 
+![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
+
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
