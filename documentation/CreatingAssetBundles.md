@@ -116,15 +116,16 @@ Since there is already a RedCube in the [**hh_examples** asset bundle we are usi
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
  
-### SAVE your scene! Often!
+### SAVE your changes!!! Often!!!
 
-If you make a lot of chnages, Unity is bound to crash, wiping them all out. If you save often, it is less likely to crash (because it realizes it is not as fun to crash if you only lose a little bit of your work). 
+If you make a lot of changes, Unity is bound to crash, wiping them all out. If you save often, it is less likely to crash (because it realizes it is not as fun to crash if you only lose a little bit of your work). 
 
-SO SAVE!!! OFTEN!!!
+**SO SAVE!!! OFTEN!!!**
+
 . 
 ![CreateAssetBundle_SaveScene](images/CreateAssetBundle_SaveScene.png)
 
-
+. 
 ## Build exampleassetbundle
 
 First let's make sure your build settings are correct:
