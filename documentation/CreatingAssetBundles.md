@@ -95,9 +95,11 @@ Now click on the **ExampleArtist/Prefabs** folder:
 
 Click on the RedCube prefab in the Assets/Prefabs subwindow:
 - At the bottom of the Inspector window, you see a depiction of the selected prefab.
-- Underneath is the line **AssetBundle exampleassetbundle**, with a small arrow icon on the right.
-- Click on the arrow icon to open the dropdown menu for the AssetBundle name.
-- The name **exampleassetbundle** should be selected. 
+- Underneath is the line **AssetBundle**
+    - If you are on Windows, the asset bundle name is **exampleassetbundle**.
+    - If you are on a Mac, the asset bundle name is **exampleassetbundlei** (with an "i" at the end).
+- Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
+- The name **exampleassetbundle** (or **exampleassetbundlei**) should be selected. 
 
 . 
 ![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
@@ -107,7 +109,7 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant and we will remove it.
 
 - Click on **None** to exclude it from all asset bundles.
-- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** selected. These are new assets so we want to include them in our asset bundle.
+- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** (or **exampleassetbundlei**) selected. These are new assets so we want to include them in our asset bundle.
 - Note the other options:
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
@@ -145,7 +147,7 @@ Click: **File / Build Settings…**:
 ### Call "Build Asset Bundle" command from the context window
 
 Now right click on either of the prefabs we want to include in exampleassetbundle (i.e. NOT the RedCube!)
-- Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the iOS AssetBundles command.)
+- Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the Build iOS AssetBundles command.)
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
 - Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
   - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
