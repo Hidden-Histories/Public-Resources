@@ -92,12 +92,10 @@ Click on one of the prefabs in the Assets/Prefabs subwindow:
   - **None** allows you to exclude a prefab from all asset bundles.
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
-  
-. 
+- Click on the other two prefabs and make sure they all have the same asset bundle name selected.
+
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
-
-. 
 ## Asset Bundle Structure
 
 Now click on the **ExampleArtist/AssetBundles** folder:
@@ -105,14 +103,16 @@ Now click on the **ExampleArtist/AssetBundles** folder:
 - There are two files called **exampleassetbundle.** 
   - The second one has an icon with lines on it - this is the **manifest file** containing a human readable description of the contents of the asset bundle. 
   - Click on it and you see its contents in the **Inspector window.**
-  - Towards the bottom of the file under **Assets** is a list of the **Prefabs** that you can reference in a POI in porPOIse (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
+  - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
+  - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
+
+. 
+![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
 ## Create the exampleassetsbundle
 
 
 
-. 
-![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
