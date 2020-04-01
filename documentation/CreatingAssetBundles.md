@@ -58,7 +58,7 @@ Download the Unity Project template onto your hard drive:
 **Aways use the Unity Hub to open a project,** so you can make sure the proper Unity Version is used to open it. 
 - Start the Unity Hub
 - Click **ADD**
-- Select the **project folder** of your unzipped template from your hard drive.
+- Select the **project folder** of your template from your hard drive.
 - It will appear in the projects list. Click to open.
 
 . 
@@ -74,8 +74,9 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_ExampleArtistScene 1](images/CreateAssetBundle_ExampleArtistScene1.png)
 
 . 
-### Personalize ExampleArtist folder and scene name to avoid conflicts:
-- In the Project window, click on the Assets folder, then in the subwindow click on the ExampleArtist folder name and enter your own porPOIse account name (e.g. as in the format "BruceLee").
+### Personalize ExampleArtist folder name and Scene name:
+- In the **Project window,** click on the **Assets folder** 
+- Then in the subwindow click on the **ExampleArtist folder name** and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
 
 . 
@@ -84,7 +85,7 @@ Download the Unity Project template onto your hard drive:
 . 
 ## Build Settings
 
-Change the build platform:
+Check to make sure the correct build settings Change the build platform:
 
 - Click: **File / Build Settings…**
 - Select the **Android** Platform on Windows, or **iOS** on a Mac.
@@ -112,52 +113,6 @@ Make sure both prefabs have zero transforms, e.g.:
 ### Image - Transform:
 ![CreateAssetBundle8](/documentation/images/CreateAssetBundle8.PNG)
 
-## CreateAssetBundles Script
-Right click on the **Editor** folder, from the context menu select **Create / C# Script**.
-Call the script **CreateAssetBundles**. Repeat the step and call the second script **CreateiOSAssetBundles**.
-### Image - Scripts:
-![CreateAssetBundle9](/documentation/images/CreateAssetBundle9.PNG)
-
-Double click on the **CreateAssetBundles** script. Visual Studio or your favorite C# editor should open.
-
-Delete the entire contents of the file, copy the following lines into the file and save it.
-```
-using System.IO;
-using UnityEditor;
-
-public class CreateAssetBundles
-{
-    [MenuItem("Assets/Build AssetBundles")]
-    static void BuildAllAssetBundles()
-    {
-        string assetBundleDirectory = "Assets/AssetBundles";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.Android);
-    }
-}
-```
-Copy the following lines into **CreateiOSAssetBundles** and save it.
-```
-using System.IO;
-using UnityEditor;
-
-public class CreateiOSAssetBundles
-{
-    [MenuItem("Assets/Build iOSAssetBundles")]
-    static void BuildAllAssetBundles()
-    {
-        string assetBundleDirectory = "Assets/AssetBundles";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.iOS);
-    }
-}
-```
 
 ## Prefab - Context Menu Entries
 Now, when you right click on the **BlueSphere** prefab in the Prefabs folder you should see a context menu with the two entries
