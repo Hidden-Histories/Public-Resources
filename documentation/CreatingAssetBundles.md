@@ -163,6 +163,19 @@ You should already have an **FTP** (File Transfer Protocol) login for your porPO
 . 
 ![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
 
+## TEST Capsule or BlueSphere prefabs in your porPOIse ExampleLayer
+
+Now test your new asset bundle in your ExampleLayer:
+- In your porPOIse account, create a new POI.
+  - If you don't remember how to do this, look at the [**Using PorPOIse tutorial**](UsingPorPOIse.md) again
+  - You can also just check the [porPOIse POI configuration reference](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
+- You MUST set the following:
+  - **Lat/Lon:** These should be the same as your other POIs, or very close by, otherwise ARpoise cannot find them.
+  - **URL for asset bundle:** This must be in the form of **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/exampleassetbundle.ace** where "ExampleArtist" is the name of your porPOIse account.
+  - **Prefab name:** Use one of the prefabs named in your **exampleassetbundle.manifest** file. NOTE: the spelling must be EXACTLY the same, including capital/lower case, etc., but without the .prefab ending.
+  
+.
+![CreateAssetBundle_CapsulePOI](images/CreateAssetBundle_CapsulePOI.png)
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
