@@ -139,9 +139,9 @@ Now right click on either of the prefabs we want to include in exampleassetbundl
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
-## Rename and Upload exampleassetbundle to your porPOIse account
+## Add .ace file ending to your exampleassetbundle file
 
-Now look at your hard drive and find your Unity project folder.
+Now look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
 - Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server.
 
@@ -151,11 +151,11 @@ Now look at your hard drive and find your Unity project folder.
 . 
 ## Upload exampleassetbundle files to your porPOIse account
 
-The Hidden Histories admin has set up an FTP (File Transfer Protocol) login for you, and made sure you have set up an FTP client. 
-- If you do not know this information any more, please contact them.
-- Login to your FTP account (it might look rather different from the image below).
-- In your AssetBundles folder:
-  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files
+You should already have an FTP (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
+- If you do not know this information any more, please contact the Hidden Histories admin.
+- **Login with FTP to your https://hiddenhistoriesjtown.org/ account** (it might look rather different from the image below).
+- In your **AssetBundles folder**
+  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files.
   - Overwrite the ones that are already there.
   - Afterwards, open the exampleassetbundle.manifest file and make sure it now only has the Capsule and the BlueSphere.
 
