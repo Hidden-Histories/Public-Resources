@@ -29,21 +29,20 @@ If you are unfamiliar with Unity, here are tutorials on the Unity interface, whi
 ## Unity Hub & Unity Editor Install
 
 Download the free Unity Editor version:
+
 - First download and install the [Unity Hub](https://unity3d.com/get-unity/download) on your PC.
+
 - Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
-- NOTE: We do NOT guarantee that ARpoise or AR-vos will work with other versions!
+  - NOTE: We do NOT guarantee that ARpoise or AR-vos will work with other versions!
 
-### Unity Modules:
-
-Install Unity with the following modules:
-- Build Support
-  - Android if you are working on a Windows PC
-  - iOS if you are working on a Mac.
-- Vuforia Augmented Reality Support.
-
-NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
+- Install Unity with the following modules:
+  - Build Support
+   - Android if you are working on a Windows PC
+    - iOS if you are working on a Mac.
+  - Vuforia Augmented Reality Support.
+  - NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
 
 . 
 ![CreateAssetBundle2](images/CreateAssetBundle2.PNG)
