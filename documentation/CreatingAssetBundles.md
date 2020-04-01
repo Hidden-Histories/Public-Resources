@@ -62,13 +62,17 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
-### In the template, we have created the following for you:
+## Template Structure
+
+In the template, we have created the following for you:
 - An **ExampleArtistScene** with camera, light, and three GameObjects. They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two.
 - An **Editor folder** with the scripts to make the asset bundles.
 - An **ExampleArtist folder** with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
 
-#### Click on the ExampleArtist/AssetBundles folder:
-- 
+Click on the **ExampleArtist/AssetBundles** folder:
+- There are two files called **exampleassetbundle.** It's hard to see, but the second one has an icon with lines on it - this is the **manifest file** containing a description of the contents of the asset bundle. 
+- Click on it and you see its contents in the **Inspector window.**
+- Towards the bottom under **Assets** is a list of the **Prefabs** that you can reference in a POI in porPOIse (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property.
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
