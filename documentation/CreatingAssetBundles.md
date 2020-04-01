@@ -237,5 +237,24 @@ Select one of the prefabs you want to use in your personalized asset bundle.
 - The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
 - Then select the other prefab(s) and assign them to your personalized asset bundle as well.
 
+Now your assets folder, your scene and your asset bundle name should be personalized with your name.
+
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
+
+## Export your assets as a .unitypackage
+
+We will export your scene and assets folder in a **Unity package.** This package can then be imported into a Unity project on the PC platform, and then your asset bundle exported for the other mobile platform.
+
+### Check your Build Settings
+
+Check your Build Settings to make sure your personalized scene is included 
+. 
+![CreateAssetBundle_BuildSettingsScenes](images/CreateAssetBundle_BuildSettingsScenes.png)
+
+
+
+
+
+
+
