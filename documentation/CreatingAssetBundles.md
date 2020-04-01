@@ -80,12 +80,14 @@ Now click on the **ExampleArtist/AssetBundles** folder:
   - Click on it and you see its contents in the **Inspector window.**
   - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
   - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
+  - Notice that these are the same as the 3 GameObjects with blue cube icons listed in the **Hierarchy/ExampleArtistScene** window.
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
-. 
-Click on the **ExampleArtist/Prefabs** folder:
+### Prefabs Structure
+
+Now click on the **ExampleArtist/Prefabs** folder:
 - You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
 - The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
 
