@@ -132,10 +132,10 @@ First let's make sure your build settings are correct:
 ### Call "Build Asset Bundle" command from the context window
 
 Once you know that all your prefabs have the correct asset bundle name:
-- Right click on one of the prefabs we want to include - NOT the RedCube!
-- Select "Build AssetBundles." (If you are on a Mac, select the iOS AssetBundles command.)
+- Right click on any of the prefabs we want to include in exampleassetbundle - i.e. NOT the RedCube!
+- Select **Build AssetBundles** from the context menu. (If you are on a Mac, select the iOS AssetBundles command.)
 - Wait a bit - a window should pop up at least briefly as the bundle is built.
-- Open up the AssetBundles folder and click on the exampleassetbundle [manifest file](CreatingAssetBundles.md#asset-bundle-structure): it should now only show two prefabs, Blue Sphere and Capsule.
+- Open up the **AssetBundles folder** and click on the exampleassetbundle [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
 
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
