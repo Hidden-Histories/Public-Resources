@@ -244,7 +244,7 @@ Now your assets folder, your scene and your asset bundle name should be personal
 
 ## Export your assets as a .unitypackage
 
-We will export your scene and assets folder in a **Unity package.** This package can then be imported into a Unity project on the other PC platform, and your asset bundle then exported for the other mobile platform.
+We will export your scene and assets folder in a **Unity package.** This package can then be imported into the Unity CreateAssetBundles template for a Mac, and from thence your asset bundle exported for iOS.
 
 ### Check your Build Settings
 
@@ -268,7 +268,8 @@ You could just select your personalized assets folder, but I want you to see pra
 ![CreateAssetBundle_ExportPackage](images/CreateAssetBundle_ExportPackage.png)
 
 . 
-- You only need to export your personalized assets folder. Deselect everything else, the AssetBundles folder and the Editor folder. The Unity template for the other platform requires other files in these folders anyway.
+You only need to export your personalized assets folder. 
+- Deselect everything else (the AssetBundles folder and the Editor folder). The Unity template for the other platform requires other versions of the files in these folders anyway.
 - The Models and Textures folders are not selected because they are empty.
 - **Include dependencies** should be checked!
 - Click **Export ...** and save the unitypackage file to somewhere convenient **outside of your Unity project folder.**
@@ -276,4 +277,5 @@ You could just select your personalized assets folder, but I want you to see pra
 . 
 ![CreateAssetBundle_ItemsToExport](images/CreateAssetBundle_ItemsToExport.png)
 
+## Import the unitypackage into the Unity CreateAssetBundles
 
