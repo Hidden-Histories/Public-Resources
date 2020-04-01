@@ -67,13 +67,20 @@ Download the Unity Project template onto your hard drive:
 - An **Editor folder** with the scripts to make the asset bundles.
 - An **ExampleArtist folder** with subfolders for your AssetBundles, Materials, Models, Prefabs, Scenes and Textures.
 
+#### Click on the ExampleArtist/AssetBundles folder:
+- 
+
 . 
-![CreateAssetBundle_ExampleArtistScene 1](images/CreateAssetBundle_ExampleArtistScene1.png)
+![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
+
+
+CreateAssetBundle_AssetBundlesFolder
+
 
 . 
 ## Personalize ExampleArtist folder name and Scene name:
 - In the **Project window,** click on the **Assets folder** 
-- Then in the subwindow click on the **ExampleArtist folder name** and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
+- Then in the subwindow click on the **ExampleArtist folder name** (or right click/Rename) and enter your own porPOIse account name (e.g. in the format "BruceLee" with no spaces).
 - Then click on your Scenes folder, and in the subwindow click on the ExampleArtistScene to rename it with your name, e.g. "BruceLeeScene."
 
 . 
@@ -87,7 +94,7 @@ Add your Scene to the build settings and make sure the correct platform is selec
 - Click: **File / Build Settings…**
 - Click **Add Open Scenes** - the Scene with your name should appear in the **Scenes In Build** list.
 - If you are working on Windows the **Platform** should be **Android;** if on a Mac, then **iOS.** If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
-- close the Build Settings view by clicking on the X in the upper right corner.
+- Close the Build Settings view by clicking on the X in the upper right corner.
 
 . 
 ![CreateAssetBundle4](/documentation/images/CreateAssetBundle4.PNG)
