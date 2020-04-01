@@ -183,6 +183,13 @@ Now test your new asset bundle in your ExampleLayer:
 .
 ![CreateAssetBundle_CapsulePOIoffset](images/CreateAssetBundle_CapsulePOIoffset.png)
 
+# Personalize and Export Assets as Unity Package
+
+In order for ARpoise assets to be available to both Andorid AND iOS users, we need two separate asset bundles, one for iOS and one for Android.
+- Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to export all your prefabs in a Unity package. This package needs to be imported into the Unity project in other opposing type of PC, and then exported as an asset bundle.
+- During import, if Unity sees assets with the same pathname, e.g. Asset/exampleassetbundle, it will simple overwrite the existing one (or at least I don't know a way to rename assets at the time of import).
+- Therefore, you need to personalize your asset bundle name, and your assets folder name.
+
 . 
 ## Personalize ExampleArtist folder name and Scene name:
 - In the **Project window,** click on the **Assets folder** 
