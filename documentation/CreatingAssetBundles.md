@@ -240,7 +240,11 @@ In the next step, we'll make a new prefab as well.
 .
 ## Creating a New Prefab
 
-Since we already have a RedCube, let's use
+Since we already have a RedCube in the other asset bundle, let's reuse it here to make a different prefab.
+
+First we turn off the other two GameObjects:
+- In the Hierarchy window, select the BlueSphere.
+
 
 
 
