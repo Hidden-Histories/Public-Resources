@@ -254,7 +254,7 @@ Check your Build Settings to make sure your personalized scene is included.
 ![CreateAssetBundle_BuildSettingsScenes](images/CreateAssetBundle_BuildSettingsScenes.png)
 
 . 
-### Select Assets Folder
+### Select the Assets Folder
 
 You could just select your personalized assets folder, but I want you to see practice selecting the assets to be exported.
 
@@ -262,12 +262,14 @@ You could just select your personalized assets folder, but I want you to see pra
 ![CreateAssetBundle_SelectAssetFolder](images/CreateAssetBundle_SelectAssetFolder.png)
 
 .
-### Select 
-
+- Then select Assets / Export Package ...
 
 . 
 ![CreateAssetBundle_ExportPackage](images/CreateAssetBundle_ExportPackage.png)
 
-
+. 
+- Deselect everything except your personalized assets folder.
+. 
+![CreateAssetBundle_ItemsToExport](images/CreateAssetBundle_ItemsToExport.png)
 
 
