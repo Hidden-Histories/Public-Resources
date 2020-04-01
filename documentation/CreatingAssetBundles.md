@@ -88,7 +88,11 @@ Click on one of the prefabs in the Assets/Prefabs subwindow:
 ![CreateAssetBundle_exampleAssetBundleName](images/CreateAssetBundle_exampleAssetBundleName.png)
 
 - The name **exampleassetbundle** should be selected. If not, please select it now.
-- Notice the 
+- Notice the other options:
+  - **None** allows you to exclude a prefab from all asset bundles.
+  - **New** allows you to create a new name for a new asset bundle. We will do this later.
+  - **Remove Unused Names** allows you to delete names you do not want to use anymore.
+  
 . 
 ![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
 
