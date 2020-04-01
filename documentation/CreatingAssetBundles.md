@@ -166,16 +166,18 @@ You should already have an **FTP** (File Transfer Protocol) login for your porPO
 ## TEST Capsule or BlueSphere prefabs in your porPOIse ExampleLayer
 
 Now test your new asset bundle in your ExampleLayer:
-- In your porPOIse account, create a new POI.
+- **In your porPOIse account, create a new POI.**
   - If you don't remember how to do this, look at the [**Using PorPOIse tutorial**](UsingPorPOIse.md) again
   - Or check the [porPOIse POI configuration reference](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
-- You MUST set the following:
-  - **Lat/Lon:** These should be the same as your other POIs, or very close by, otherwise ARpoise cannot find it.
-    - But either give it a Relative location that is offset a bit from 0,0,0 ...
-    - ... OR: use absolute GPS without a Relative location, but offset the GPS a bit from the base GPS of the layer.
+  
+- **You MUST set the following:**
+  - **Lat/Lon:** These should be the same as your other POIs, or very close by, otherwise ARpoise can't find it. 
+    - BUT EITHER: Give it a **Relative location** that is offset a bit from 0,0,0 ...
+    - ... OR: leave Relative location blank, in order to use absolute location, but make sure the POI's GPS is a bit away from the base GPS of the layer.
     - Otherwise, the Capsule or BlueSphere will be exactly on top of you, and since you are inside it, you won't see anything!
   - **URL for asset bundle:** This MUST be in this form (i.e. without "http://www.") **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/exampleassetbundle.ace** where "ExampleArtist" is the name of your porPOIse account.
   - **Prefab name:** Use one of the prefabs named in your **exampleassetbundle.manifest** file. NOTE: the spelling must be EXACTLY the same, including capital/lower case, etc., but without the .prefab ending.
+  
 - If you now open the ARpoise app, you should see the capsule floating around you as well as the other POIs.
   
 .
