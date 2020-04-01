@@ -102,7 +102,6 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
 . 
 ![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
 
-. 
 #### Remove the RedCube prefab from exampleassetbundle
 
 Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant. 
@@ -139,7 +138,7 @@ Once you know that all your prefabs have the correct asset bundle name:
 - Open up the AssetBundles folder and click on the exampleassetbundle [manifest file](CreatingAssetBundles.md#asset-bundle-structure): it should now only show two prefabs, Blue Sphere and Capsule.
 
 . 
-![CreateAssetBundle_BuildAssetBundle](images/CreateAssetBundle_BuildAssetBundle.png)
+![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
 ## Rename and Upload exampleassetbundle to your porPOIse account
 
