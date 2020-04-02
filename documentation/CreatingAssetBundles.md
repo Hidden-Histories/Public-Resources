@@ -107,18 +107,18 @@ Select the **ExampleArtist folder**:
 
 . 
 #### Link your materials to the GameObjects
-The materials still exist in your folder, but your GameObjects in your folder were linked to the materials in the ExampleArtist folder.
+The materials still exist in your folder, but your GameObjects in your folder were linked not to them, but to the materials in the ExampleArtist folder which is now gone.
 
 Open the Materials folder:
 - Drag the materials one by one onto the names of the corresponding GameObjects in the Hierarchy window. 
-- The colors should appear on the respective GameObjects in the Scene window.
+- The colors should appear on the respective GameObjects in the Scene window. 
 - Notice however that the colors of the Prefabs in the Inspector window are still fuschia. The prefabs are no longer "prefabrications" of the GameObjects. 
 - Since the asset bundle will consist only of prefabs, we have to replace them all with the new versions.
 
-Replace all the Prefabs:
+**Replace all the Prefabs:**
 - Open the Prefabs folder
 - **Delete all the prefabs.**
-- Now drag each of your GameObjects into the Prefabs folder one by one to recreate all the prefabs. (You have to drag them one by one, you can't drag them all at once.)
+- Now drag each of your GameObjects into the Prefabs folder one by one to recreate all the prefabs. (You can't drag them all at once.)
 
 . 
 ![CreateAssetBundle_dragMaterialToRedcube](images/CreateAssetBundle_dragMaterialToRedcube.png)
@@ -145,7 +145,7 @@ Now click on the **AssetBundles** folder in the Project window:
   - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
   - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. 
   - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. 
-- DON'T DELETE THE **AssetBundles** FILES!
+- DON'T DELETE THE TWO **AssetBundles** FILES!
 
 - **SAVE!!!**
 
@@ -155,12 +155,12 @@ Now click on the **AssetBundles** folder in the Project window:
 ### Setting up your own asset bundle
 
 In the **Prefabs** folder:
-- Click on the BlueSphere prefab:
+- Click on the BlueSphere prefab.
 - At the bottom of the Inspector window, you see a depiction of the selected prefab.
 - Underneath is the line **AssetBundle** and a field with **None**. This is because we deleted the prefabs that were linked to the exampleassetbundle.
-- Click **Remove Unused Names**, the name "exampleassetbundle" will disappear, as there are no prefabs using it right now.
 - Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
-- Select **New ...**
+- Click **Remove Unused Names**. The name "exampleassetbundle" will disappear from the list, as there are no prefabs using it anymore.
+- Now select **New ...**
     
 . 
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
@@ -176,6 +176,7 @@ This name will now appear as an option in the drop down window.
 - **Leave the RedCube at "None":** there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
 
 - **SAVE!!!**
+
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
 
@@ -183,7 +184,7 @@ This name will now appear as an option in the drop down window.
 . 
 ## Build Your New Asset Bundle
 
-First let's make sure your build settings are correct:
+First let's make sure your build settings are correct.
 
 ### Build Settings
 
@@ -204,8 +205,10 @@ Click: **File / Build Settings…**:
 Now bring up the pop up context menu with a **right click on either of the prefabs** we want to include in the asset bundle (i.e. NOT the RedCube!)
 - Select **Build AssetBundles** (or on a Mac, **Build iOS AssetBundles**) from the pop up menu.
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
-- Open up the **AssetBundles folder**: you should see two new files with the name of your asset bundle.
-- IF NOT: close the project, open it again.
+- Open up the **AssetBundles folder**: 
+  - You should see two new files with the name of your asset bundle.
+  - IF NOT: **save and close the entire project,** 
+- Then open it again
   - Are the files there now?
   - If not, try building the asset bundle again, and it should show up this time.
 - Click on your [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
