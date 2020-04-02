@@ -67,13 +67,20 @@ Download the Unity Project template onto your hard drive:
 In the template, we have created the following structure for you:
 
 In the **Hierarchy window,** an **ExampleArtistScene**.
-- This includes a default camera and light, and three GameObject assets. The three GameObjects are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two!
+- This includes a default camera and light, and three GameObject assets. 
+- The three GameObjects are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two!
 
 In the **Project window,**
 - An **AssetBundles** folder to contain your asset bundle(s). Please do not change, move or delete!
 - An **Editor folder** with the scripts to make the asset bundles.
-- An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene.
-  
+- An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene. We will duplicate and rename this folder, personalizing it with your own name.
+
+. 
+![CreateAssetBundle_BlueSphereTransform](images/CreateAssetBundle_BlueSphereTransform.png)
+
+### Asset Bundle Structure
+
+
 
 ### Asset Bundle Structure
 
