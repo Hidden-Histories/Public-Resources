@@ -146,7 +146,7 @@ Now click on the **AssetBundles** folder in the Project window:
   - Notice that these are the same as the 3 GameObjects with blue cube icons listed in the **Hierarchy/ExampleArtistScene** window.
 
 . 
-![CreateAssetBundle_AssetBundles-example2](images/CreateAssetBundle_AssetBundles-example2.png)
+![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
 ### Prefabs
 
