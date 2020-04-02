@@ -185,14 +185,16 @@ First let's make sure your build settings are correct:
 ### Build Settings
 
 Click: **File / Build Settings…**:
-- **Scenes In Build**: The ExampleArtistScene should be listed and **checked.** If not, click **Add Open Scenes.**
+- **Scenes In Build**: Your scene should be listed and **checked.** If not, click **Add Open Scenes.**
 - **Platform**
   - If you are working on Windows this should be **Android.** 
   - If you are working on a Mac, this should be **iOS.** 
   - If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
 - Close the Build Settings view by clicking on the X in the upper right corner.
 
-![CreateAssetBundle_BuildSettingsExampleArtist](images/CreateAssetBundle_BuildSettingsExampleArtist.png)
+. 
+![CreateAssetBundle_BuildSettingsScenes](images/CreateAssetBundle_BuildSettingsScenes.png)
+
 
 ### Call "Build Asset Bundle" command
 
@@ -271,13 +273,6 @@ Remember that in order for ARpoise assets to be visible for both Android *and* i
 ## Export your assets as a .unitypackage
 
 We will export your scene and assets folder in a **Unity package.** This package can then be imported into the Unity CreateAssetBundles template for a Mac, and from thence your asset bundle exported for iOS.
-
-### Check your Build Settings
-
-Check your Build Settings to make sure your personalized scene is included.
-
-. 
-![CreateAssetBundle_BuildSettingsScenes](images/CreateAssetBundle_BuildSettingsScenes.png)
 
 . 
 ### Select the Assets Folder
