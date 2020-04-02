@@ -340,7 +340,11 @@ Notice that the import list designates all the assets in our unitypackage as bei
 
 Check your prefabs to make sure they are properly included in your asset bundle. 
 
-[Then as before:](CreatingAssetBundles.md#build-your-new-asset-bundle)
+. 
+![CreateAssetBundle_ReadyForAssetBundleBuild](images/CreateAssetBundle_ReadyForAssetBundleBuild.png)
+
+. 
+Then [as you did above:](CreatingAssetBundles.md#build-your-new-asset-bundle)
 - Check File / Build Settings - but this time the other platform should be selected.
 - Right click on one of your prefabs, and select Build AssetBundles for the other platform.
 - Check the Project window folder Assets / AssetBundles to make sure your asset bundle files have been created.
@@ -349,7 +353,19 @@ Check your prefabs to make sure they are properly included in your asset bundle.
 - Add the new asset bundle URL and Prefab name to a POI and adjust the location.
 - Test on the ARpoise app!
 
-. 
-![CreateAssetBundle_ReadyForAssetBundleBuild](images/CreateAssetBundle_ReadyForAssetBundleBuild.png)
+# Next Steps - Artists Overview Documentation Link Page
+
+If you need to refresh any of the tutorials, they are all linked from: http://hiddenhistoriesjtown.org/documentation/
+
+- We will be adding to the Unity3D tutorials over time.
+- Further tutorials will be added on how to create different types of assets. This usually requires learning new applications, such as:
+  - 3D modeling and animation software (Blender, Maya, AutoCAD)
+  - Audio recording and editing (Audacity, GoldWave)
+  - 2D animation and greenscreening software (AfterEffects)
+  - Video editing and greenscreening to get cut-out animated videos (Premiere, AfterEffects)
+  - Photogrammetry / 3D scanning to make 3D models of real objects.
+  - etc. etc. etc. 
+
+
 
 
