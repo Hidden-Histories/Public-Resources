@@ -90,12 +90,19 @@ Select the ExampleArtist folder
 ![CreateAssetBundle_duplicateExampleArtistFolder](images/CreateAssetBundle_duplicateExampleArtistFolder.png)
 
 - Now open the **Scenes folder**, click on **ExampleArtistScene** and rename it with the same name.
-- The name of the scene also changes in the Hierarchy window. If it does not, double click on the new scene name to open it.
-
-**PLEASE DELETE THE ExampleArtist FOLDER.** This will avoid confusion between the assets.
+- Double click on the new scene name to open it. The name of the scene then appears in the Hierarchy window.
 
 . 
 ![CreateAssetBundle_RenameExampleArtist2](images/CreateAssetBundle_RenameExampleArtist2.png)
+
+### Delete *ExampleArtist* folder and Recreate Prefabs
+
+**Now DELETE the ExampleArtist foler.** This will avoid confusion between the assets.
+- BUT the GameObjects all turn fuscia!
+- Open the Prefabs folder and select one of them - the image of the prefab in the Inspector window is also fuscia.
+
+This is Unity's warning that a Material cannot be found.
+- 
 
 . 
 ### Asset Bundle Structure
