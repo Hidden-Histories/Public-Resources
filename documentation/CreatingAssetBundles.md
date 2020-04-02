@@ -73,14 +73,21 @@ In the **Hierarchy window,** an **ExampleArtistScene**.
 In the **Project window,**
 - An **AssetBundles** folder to contain your asset bundle(s). Please do not change, move or delete!
 - An **Editor folder** with the scripts to make the asset bundles.
-- An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene. We will duplicate and rename this folder, personalizing it with your own name.
+- An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene. 
+
+We will duplicate and rename the ExampleArtist folder, personalizing it with your own name.
 
 . 
 ![CreateAssetBundle_BlueSphereTransform](images/CreateAssetBundle_BlueSphereTransform.png)
 
-### Asset Bundle Structure
+### Duplicate and Rename the *ExampleArtist* folder and *ExampleArtistScene*
 
+Select the ExampleArtist folder 
+- Press Control D to make a copy.
+- Click into the name and rename it with your own porPOIse account name (or right click/Rename). (Some things in Unity you can duplicate with right click / Duplicate, other things do not have this option but can be duplicated with Control D.)
 
+. 
+![CreateAssetBundle_duplicateExampleArtistFolder](images/CreateAssetBundle_duplicateExampleArtistFolder.png)
 
 ### Asset Bundle Structure
 
