@@ -232,7 +232,7 @@ Look at your **hard drive** and find your **Unity project folder.**
 
 
 . 
-![CreateAssetBundle_addAceEnding2](images/CreateAssetBundle_addAceEnding2.png)
+![CreateAssetBundle_addAceEnding3](images/CreateAssetBundle_addAceEnding3.png)
 
 . 
 ## Upload exampleassetbundle(i) files to your porPOIse account
