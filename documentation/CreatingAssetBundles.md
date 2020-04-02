@@ -102,12 +102,18 @@ Select the ExampleArtist folder
 - Open the Prefabs folder and select one of them - the image of the prefab in the Inspector window is also fuschia.
 - This is Unity's warning that a Material cannot be found.
 
-Link your materials to the GameObjects
-- The materials still exist in your folder, but your GameObjects in your folder were linked to the materials in the ExampleArtist folder.
-- 
-
 . 
 ![CreateAssetBundle_LostMaterials](images/CreateAssetBundle_LostMaterials.png)
+
+. 
+#### Link your materials to the GameObjects
+- The materials still exist in your folder, but your GameObjects in your folder were linked to the materials in the ExampleArtist folder.
+- Open the Materials folder
+- Drag the materials one by one onto the names of the corresponding GameObjects in the Hierarch window. The color should appear in the Scene window.
+
+
+. 
+![CreateAssetBundle_dragMaterialToRedcube](images/CreateAssetBundle_dragMaterialToRedcube.png)
 . 
 ### Asset Bundle Structure
 
