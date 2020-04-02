@@ -147,6 +147,8 @@ Now click on the **AssetBundles** folder in the Project window:
   - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. 
 - DON'T DELETE THE **AssetBundles** FILES!
 
+- **SAVE!!!**
+
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
@@ -173,6 +175,7 @@ This name will now appear as an option in the drop down window.
 - Select the **Capsule** and add it to your new asset bundle too.
 - **Leave the RedCube at "None":** there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
 
+- **SAVE!!!**
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
 
@@ -198,11 +201,15 @@ Click: **File / Build Settings…**:
 
 ### Call "Build Asset Bundle" command
 
-Now right click on either of the prefabs we want to include in exampleassetbundle (i.e. NOT the RedCube!)
-- Select **Build AssetBundles** (or **Build iOS AssetBundles**) from the pop up menu.
+Now bring up the pop up context menu with a **right click on either of the prefabs** we want to include in the asset bundle (i.e. NOT the RedCube!)
+- Select **Build AssetBundles** (or on a Mac, **Build iOS AssetBundles**) from the pop up menu.
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
-- Open up the **AssetBundles folder** and click on the exampleassetbundle (or exampleassetbundlei) [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
-  - (If you're sure you did everything correctly but the RedCube is still showing, it (strangely) might need a minute or two to update the file in the Unity Editor, or closing and reopening the Unity project.)
+- Open up the **AssetBundles folder**: you should see two new files with the name of your asset bundle.
+- IF NOT: close the project, open it again.
+  - Are the files there now?
+  - If not, try building the asset bundle again, and it should show up this time.
+- Click on your [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
+
 - **SAVE!!!**
   
 . 
