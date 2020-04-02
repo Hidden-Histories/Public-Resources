@@ -143,14 +143,14 @@ Now click on the **AssetBundles** folder in the Project window:
   - Click on it and you see its contents in the **Inspector window.**
   - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
   - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
-  - Notice that these are the same as the 3 GameObjects with blue cube icons listed in the **Hierarchy/ExampleArtistScene** window.
+  - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. We want to create our own personalized asset bundle anyway.
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
 
-### Prefabs
+### Setting up your own asset bundle
 
-Now click on the **ExampleArtist/Prefabs** folder:
+In the **Prefabs** folder:
 - You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
 - The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
 
@@ -161,6 +161,9 @@ Click on the RedCube prefab in the Assets/Prefabs subwindow:
     - If you are on a Mac, the asset bundle name is **exampleassetbundlei** (with an "i" at the end).
 - Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
 - The name **exampleassetbundle** (or **exampleassetbundlei**) should be selected. 
+
+. 
+![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
 
 . 
 ![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
@@ -175,8 +178,7 @@ Since there is already a RedCube in the [**hh_examples** asset bundle we are usi
   - **New** allows you to create a new name for a new asset bundle. We will do this later.
   - **Remove Unused Names** allows you to delete names you do not want to use anymore.
 
-. 
-![CreateAssetBundle_assetbundleNameMenu](images/CreateAssetBundle_assetbundleNameMenu.png)
+
 
  
 
