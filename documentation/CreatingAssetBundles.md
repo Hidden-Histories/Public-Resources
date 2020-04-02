@@ -158,7 +158,7 @@ In the **Prefabs** folder:
 - Underneath is the line **AssetBundle** and a field with **None**. This is because we deleted the prefabs that were linked to the exampleassetbundle.
 - Click **Remove Unused Names**, the name "exampleassetbundle" will disappear, as there are no prefabs using it right now.
 - Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
-- Select **New ...*
+- Select **New ...**
     
 . 
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
