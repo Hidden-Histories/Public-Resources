@@ -317,3 +317,7 @@ You could just select your personalized assets folder, but I want you to see pra
 
 ## Import the unitypackage into the Unity CreateAssetBundles
 
+
+. 
+![CreateAssetBundle_ImportPackage](images/CreateAssetBundle_ImportPackage.png)
+
