@@ -151,19 +151,29 @@ Now click on the **AssetBundles** folder in the Project window:
 ### Setting up your own asset bundle
 
 In the **Prefabs** folder:
-- You see the same GameObjects listed here as are listed in the **Hierarchy/ExampleArtistScene window** above.
-- The **blue cube icons** next to the names show that they are **prefabs,** i.e. "prefabricated" GameObjects that are ready to be used as assets in your porPOIse layer.
 
-Click on the RedCube prefab in the Assets/Prefabs subwindow:
+Click on the BlueSphere prefab:
 - At the bottom of the Inspector window, you see a depiction of the selected prefab.
-- Underneath is the line **AssetBundle**
+- Underneath is the line **AssetBundle** and a field with **None*. This is because we deleted the prefabs that were linked to the exampleassetbundle.
+- Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
+- Select **New ...*
+
+- The name **exampleassetbundle** (or **exampleassetbundlei**) should be selected. 
     - If you are on Windows, the asset bundle name is **exampleassetbundle**.
     - If you are on a Mac, the asset bundle name is **exampleassetbundlei** (with an "i" at the end).
-- Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
-- The name **exampleassetbundle** (or **exampleassetbundlei**) should be selected. 
-
+    
 . 
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
+
+. 
+- Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
+- The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
+- Then select the other prefab(s) and assign them to your personalized asset bundle as well.
+
+. 
+![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
+
+
 
 . 
 ![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
@@ -266,37 +276,13 @@ Now test your new asset bundle in your ExampleLayer:
 In the next step, we will personalize your Unity project so you can export and share assets to someone who can build the other asset bundle type for you.
   
 . 
-# Personalize and Export Assets as Unity Package
+# Export Assets as Unity Package
 
 Remember that in order for ARpoise assets to be visible for both Android *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
 - Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to **export all your prefabs in a Unity package.**
 - This package needs to be **imported** into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
-- During import, if Unity sees assets with the **same path name,** e.g. Asset/ExampleArtist/Prefabs/Capsule, it will simply **overwrite the existing one.** (If you know how to rename assets at the time of import, please tell me!)
-- Therefore, you need to **personalize your asset bundle name,** and your **assets folder name.**
-
-## Personalize *ExampleArtist* folder name and *ExampleArtistScene* name:
-- In the **Project window,** click on the **Assets/ExampleArtist folder name** and replace it with your porPOIse account name (no spaces!)
-- Then click on your Scenes folder, and in the subwindow click on the **ExampleArtistScene** to rename it with your porPOIse account name (no spaces!)
-- Notice in the **Hierarchy window** that the name of your scene has changed there as well.
-- **SAVE!!!**
 
 . 
-![CreateAssetBundle_RenameFolder-Scene](images/CreateAssetBundle_RenameFolder-Scene.png)
-
-. 
-## Personalize your asset bundle name
-
-Select one of the prefabs you want to use in your personalized asset bundle.
-- Click on the AssetBundle name field and select **New**.
-- Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
-- The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
-- Then select the other prefab(s) and assign them to your personalized asset bundle as well.
-
-Now your assets folder, your scene and your asset bundle name should be personalized with your name.
-
-. 
-![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
-
 ## Export your assets as a .unitypackage
 
 We will export your scene and assets folder in a **Unity package.** This package can then be imported into the Unity CreateAssetBundles template for a Mac, and from thence your asset bundle exported for iOS.
