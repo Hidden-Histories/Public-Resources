@@ -69,15 +69,7 @@ In the template, we have created the following structure for you:
 In the **Hierarchy window,** an **ExampleArtistScene**.
 - This includes a default camera and light, and three GameObject assets. 
 - They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two!
-  - Click on the BlueSphere in the Hierarchy window to select it, then in the Scene window click and drag on the arrows that appear.
-  - Notice how the values in the Inspector Transform fields change as you drag it.
-  - When you make GameObjects, any **transforms** they have will also be embedded in the prefabs you use in porPOIse. 
-  - So if the GameObject in the scene is 2 meters to the right and rotated 30°, in porPOIse it will also have that same offset and rotation.
-- Click into the 
-. 
-![CreateAssetBundle_BlueSphereTransform](images/CreateAssetBundle_BlueSphereTransform.png)    
-    
-    
+
 - In the **Project window,**
   - An **AssetBundles** folder to contain your asset bundle(s). Please do not change, move or delete!
   - An **Editor folder** with the scripts to make the asset bundles.
