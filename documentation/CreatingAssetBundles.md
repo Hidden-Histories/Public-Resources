@@ -326,5 +326,30 @@ The person doing the conversion uses *their platform's version* of the **Unity t
 . 
 ![CreateAssetBundle_ImportPackage](images/CreateAssetBundle_ImportPackage.png)
 
+### Import Unity Package List
+
+Notice that the import list designates all the assets in our unitypackage as being "new" in the little green labels to the right.
+- This means Unity sees our assets as being completely different from the ones in the ExampleArtist folder, even though we started with that as a template. Our folder will be added parallel and in addition to the ExampleArtist folder. 
+- If we had simply renamed the ExampleArtist folder, even though we exported our folder with a completely different name, Unity would not recognize our assets as being different, and would either not import them, or overwrite them if we had made changes.
+
 . 
 ![CreateAssetBundle_ImportPackageList](images/CreateAssetBundle_ImportPackageList.png)
+
+. 
+### Ready For Asset Bundle Build
+
+Check your prefabs to make sure they are properly included in your asset bundle. 
+
+[Then as before:](CreatingAssetBundles.md#build-your-new-asset-bundle)
+- Check File / Build Settings - but this time the other platform should be selected.
+- Right click on one of your prefabs, and select Build AssetBundles for the other platform.
+- Check the Project window folder Assets / AssetBundles to make sure your asset bundle files have been created.
+- Check the manifest file to see that the your assets are listed as prefabs.
+- Upload the new asset bundle and its manifest file to your porPOIse account with FTP.
+- Add the new asset bundle URL and Prefab name to a POI and adjust the location.
+- Test on the ARpoise app!
+
+. 
+![CreateAssetBundle_ReadyForAssetBundleBuild](images/CreateAssetBundle_ReadyForAssetBundleBuild.png)
+
+
