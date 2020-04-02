@@ -235,7 +235,7 @@ Look at your **hard drive** and find your **Unity project folder.**
 ![CreateAssetBundle_addAceEnding3](images/CreateAssetBundle_addAceEnding3.png)
 
 . 
-## Upload exampleassetbundle(i) files to your porPOIse account on hiddenhistoriesjtown.org
+## Upload Your Asset Bundle files to your porPOIse account.
 
 You should already have an **FTP** (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
 - If you do not have this information, please contact the Hidden Histories admin.
