@@ -315,8 +315,14 @@ You could just select your personalized assets folder, but I want you to see pra
 . 
 ![CreateAssetBundle_ItemsToExport](images/CreateAssetBundle_ItemsToExport.png)
 
-## Import the unitypackage into the Unity CreateAssetBundles
+. 
+## Create the Unity Package for the Other Platform
 
+The person doing the conversion uses *their platform's version* of the **Unity template CreateAssetBundleU2018_3.**
+
+- Open the Unity template CreateAssetBundleU2018_3.
+- From the main menu, select **Assets / Import Package / Custom Package ...**
+- 
 
 . 
 ![CreateAssetBundle_ImportPackage](images/CreateAssetBundle_ImportPackage.png)
