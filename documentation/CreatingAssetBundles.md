@@ -220,7 +220,7 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
 . 
-# Upload Your Asset Bundle to Your porPOIse account
+# Uploading Your Asset Bundle to the Hidden Histories Server
 
 This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
 
@@ -235,18 +235,21 @@ Look at your **hard drive** and find your **Unity project folder.**
 ![CreateAssetBundle_addAceEnding3](images/CreateAssetBundle_addAceEnding3.png)
 
 . 
-## Upload exampleassetbundle(i) files to your porPOIse account
+## Upload exampleassetbundle(i) files to your porPOIse account on hiddenhistoriesjtown.org
 
 You should already have an **FTP** (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
 - If you do not have this information, please contact the Hidden Histories admin.
-- **Login with FTP to your https://hiddenhistoriesjtown.org/ account** (it might look rather different from the image below).
-- In your **AssetBundles folder**
-  - Upload the **exampleassetbundle.ace** file AND the **exampleassetbundle.manifest** files. (Mac files with "i".)
+- **Login with FTP to your https://hiddenhistoriesjtown.org/ account**
+  - In WinSCP, your hard drive is on the left and the hiddenhistories server on the right.
+  - Other FTP apps might look rather different from the image below.
+- In your AssetBundles folder **on your hard drive:**
+  - Select and upload **both your asset bundle file AND the manifest files.**
   - Overwrite the ones that are already there.
-  - Afterwards, open the exampleassetbundle.manifest (or exampleassetbundlei.manifest) file on the server and **make sure it now only has the Capsule and the BlueSphere.**
+  - You do NOT need to upload any of the meta files.
+  - Afterwards, open your manifest file on the server and **make sure it has the Capsule and the BlueSphere** in the prefab list.
 
 . 
-![CreateAssetBundle_upload-exampleassetbundle](images/CreateAssetBundle_upload-exampleassetbundle.png)
+![CreateAssetBundle_UploadAssetBundle](images/CreateAssetBundle_UploadAssetBundle.png)
 
 ## TEST Capsule or BlueSphere prefabs in your porPOIse ExampleLayer
 
