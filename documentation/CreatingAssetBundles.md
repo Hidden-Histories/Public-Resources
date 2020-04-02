@@ -143,7 +143,8 @@ Now click on the **AssetBundles** folder in the Project window:
   - Click on it and you see its contents in the **Inspector window.**
   - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
   - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
-  - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. We want to create our own personalized asset bundle anyway.
+  - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. 
+  - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. DON'T DELETE THE **AssetBundles** FILES!
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
@@ -151,46 +152,29 @@ Now click on the **AssetBundles** folder in the Project window:
 ### Setting up your own asset bundle
 
 In the **Prefabs** folder:
-
-Click on the BlueSphere prefab:
+- Click on the BlueSphere prefab:
 - At the bottom of the Inspector window, you see a depiction of the selected prefab.
-- Underneath is the line **AssetBundle** and a field with **None*. This is because we deleted the prefabs that were linked to the exampleassetbundle.
+- Underneath is the line **AssetBundle** and a field with **None**. This is because we deleted the prefabs that were linked to the exampleassetbundle.
+- Click **Remove Unused Names**, the name "exampleassetbundle" will disappear, as there are no prefabs using it right now.
 - Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
 - Select **New ...*
     
 . 
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
 
-- Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
+Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
 - If you are on Mac, the name must end in a lower case "i":
     - If you are on Windows, the asset bundle name has the form **mynameassetbundle**.
     - If you are on a Mac, the asset bundle name has the form **mynameassetbundlei** (with an "i" at the end).
 - The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
-- This name will now appear as an option in the drop down window.
+
+This name will now appear as an option in the drop down window.
 - Select the Capsule and add it to your new asset bundle.
-- Leave the RedCube at "None": there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
+- **Leave the RedCube at "None":** there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
 
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
 
-
-
-. 
-![CreateAssetBundle_exampleAssetBundleName2](images/CreateAssetBundle_exampleAssetBundleName2.png)
-
-### Remove the RedCube prefab from exampleassetbundle
-
-Since there is already a RedCube in the [**hh_examples** asset bundle we are using in porPOIse](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration), this is redundant and we will remove it.
-
-- Click on **None** to exclude it from all asset bundles.
-- Click on the other two prefabs and make sure they all have the name **exampleassetbundle** (or **exampleassetbundlei**) selected. These are new assets so we want to include them in our asset bundle.
-- Note the other options:
-  - **New** allows you to create a new name for a new asset bundle. We will do this later.
-  - **Remove Unused Names** allows you to delete names you do not want to use anymore.
-
-
-
- 
 
 . 
 ## Build exampleassetbundle
