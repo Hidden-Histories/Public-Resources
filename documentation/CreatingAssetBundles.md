@@ -48,7 +48,7 @@ Download the free Unity Editor version:
 ## Download CreateAssetBundle Project Template
 
 Download the Unity Project template onto your hard drive:
-- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/AndrCreateAssetBundleU2018_3.zip)
+- For [Android](http://hiddenhistoriesjtown.org/documentation/templates/Android-CreateAssetBundleU2018_3.zip)
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 - Unzip the file on your hard drive.
 
