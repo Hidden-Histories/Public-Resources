@@ -207,27 +207,32 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
 - Open up the **AssetBundles folder**: 
   - You should see two new files with the name of your asset bundle.
-  - IF NOT: **save and close the entire project,** 
+  - IF NOT: **SAVE and close the entire project,** 
 - Then open it again
   - Are the files there now?
   - If not, try building the asset bundle again, and it should show up this time.
 - Click on your [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
 
 - **SAVE!!!**
+- And close Unity. We now need to work directly with your hard drive and the Hidden Histories server.
   
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
 . 
+# Uploading Your Asset Bundle to Your porPOIse account
+
+This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
+
 ## Add .ace file ending to your exampleassetbundle file
 
-Now look at your **hard drive** and find your **Unity project folder.**
+Look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
 - Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server. (On Mac, exampleassetbundlei.ace)
 
 
 . 
-![CreateAssetBundle_add-ace-ending](images/CreateAssetBundle_add-ace-ending.png)
+![CreateAssetBundle_addAceEnding](images/CreateAssetBundle_addAceEnding.png)
 
 . 
 ## Upload exampleassetbundle(i) files to your porPOIse account
