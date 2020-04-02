@@ -157,18 +157,18 @@ Click on the BlueSphere prefab:
 - Underneath is the line **AssetBundle** and a field with **None*. This is because we deleted the prefabs that were linked to the exampleassetbundle.
 - Click on the little arrow after the name, and the dropdown menu for the AssetBundle name will open.
 - Select **New ...*
-
-- The name **exampleassetbundle** (or **exampleassetbundlei**) should be selected. 
-    - If you are on Windows, the asset bundle name is **exampleassetbundle**.
-    - If you are on a Mac, the asset bundle name is **exampleassetbundlei** (with an "i" at the end).
     
 . 
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
 
-. 
 - Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
+- If you are on Mac, the name must end in a lower case "i":
+    - If you are on Windows, the asset bundle name has the form **mynameassetbundle**.
+    - If you are on a Mac, the asset bundle name has the form **mynameassetbundlei** (with an "i" at the end).
 - The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
-- Then select the other prefab(s) and assign them to your personalized asset bundle as well.
+- This name will now appear as an option in the drop down window.
+- Select the Capsule and add it to your new asset bundle.
+- Leave the RedCube at "None": there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
 
 . 
 ![CreateAssetBundle_renameAssetbundle2](images/CreateAssetBundle_renameAssetbundle2.png)
