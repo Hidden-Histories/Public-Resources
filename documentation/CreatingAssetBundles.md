@@ -89,7 +89,8 @@ Select the ExampleArtist folder
 . 
 ![CreateAssetBundle_duplicateExampleArtistFolder](images/CreateAssetBundle_duplicateExampleArtistFolder.png)
 
-Now open the **Scenes folder**, click on **ExampleArtistScene** and rename it with the same name.
+- Now open the **Scenes folder**, click on **ExampleArtistScene** and rename it with the same name.
+- The name of the scene also changes in the Hierarchy window. If it does not, double click on the new scene name to open it.
 
 . 
 ![CreateAssetBundle_RenameExampleArtist2](images/CreateAssetBundle_RenameExampleArtist2.png)
