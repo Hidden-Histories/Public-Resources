@@ -89,6 +89,12 @@ Select the ExampleArtist folder
 . 
 ![CreateAssetBundle_duplicateExampleArtistFolder](images/CreateAssetBundle_duplicateExampleArtistFolder.png)
 
+Now open the **Scenes folder**, click on **ExampleArtistScene** and rename it with the same name.
+
+. 
+![CreateAssetBundle_RenameExampleArtist2](images/CreateAssetBundle_RenameExampleArtist2.png)
+
+. 
 ### Asset Bundle Structure
 
 Now click on the **AssetBundles** folder in the Project window:
