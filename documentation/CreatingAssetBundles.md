@@ -52,7 +52,7 @@ Download the Unity Project template onto your hard drive:
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 - Unzip the file on your hard drive.
 
-**Aways use the Unity Hub to open a project,** so you can make sure the proper Unity Version is used to open it. 
+**Best Practices: Aways use the Unity Hub to open a project.** Different versions are often incompatible. If we need to use a different version in the future, the Hub lets you decide which version to use to open which project.
 - Start the Unity Hub
 - Click **ADD**
 - Select the **project folder** of your template from your hard drive.
