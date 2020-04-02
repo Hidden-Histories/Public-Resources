@@ -224,11 +224,11 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 
 This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
 
-## Add .ace file ending to your exampleassetbundle file
+## Add .ace File Ending to Your Asset Bbundle File
 
 Look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
-- Find the **exampleassetbundle** (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server. (On Mac, exampleassetbundlei.ace)
+- Find your asset bundle file, e.g. tamikot-assetbundle (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server. (On Mac e.g. tamikot-assetbundle**i**.ace)
 
 
 . 
