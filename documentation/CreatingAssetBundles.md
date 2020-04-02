@@ -220,7 +220,7 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
 . 
-# Uploading Your Asset Bundle to porPOIse
+# Uploading Your Asset Bundle
 
 This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
 
@@ -235,18 +235,20 @@ Look at your **hard drive** and find your **Unity project folder.**
 ![CreateAssetBundle_addAceEnding3](images/CreateAssetBundle_addAceEnding3.png)
 
 . 
-## Upload Your Asset Bundle files to your porPOIse account.
+## Upload Your Asset Bundle files with FTP
 
 You should already have an **FTP** (File Transfer Protocol) login for your porPOIse account on **https://hiddenhistoriesjtown.org/**. 
 - If you do not have this information, please contact the Hidden Histories admin.
 - **Login with FTP to your https://hiddenhistoriesjtown.org/ account**
   - In WinSCP, your hard drive is on the left and the hiddenhistories server on the right.
   - Other FTP apps might look rather different from the image below.
-- In your AssetBundles folder **on your hard drive:**
+- Notice that in your porPOIse account on the server, you have 4 files for hh_examples, the asset bundle we used for the porPOIse tutorial. Two of them are Android, and the two ending in "i" are for iOS.
+
+Now in your AssetBundles folder **on your hard drive:**
   - Select and upload **both your asset bundle file AND the manifest files.**
   - Overwrite the ones that are already there.
   - You do NOT need to upload any of the meta files.
-  - Afterwards, open your manifest file on the server and **make sure it has the Capsule and the BlueSphere** in the prefab list.
+- Afterwards, open your manifest file on the server and **make sure it has the Capsule and the BlueSphere** in the prefab list.
 
 . 
 ![CreateAssetBundle_UploadAssetBundle](images/CreateAssetBundle_UploadAssetBundle.png)
@@ -263,6 +265,7 @@ Now test your new asset bundle in your ExampleLayer:
     - BUT EITHER: Give it a **Relative location** that is offset a bit from 0,0,0 ...
     - ... OR: leave Relative location blank, in order to use absolute location, but make sure the POI's GPS is a bit away from the base GPS of the layer.
     - Otherwise, the Capsule or BlueSphere will be exactly on top of you, and since you are inside it, you won't see anything!
+    - The example below has no Relative location entered. It therefore is using the absolute GPS position of the Lat/Lon, which I moved slightly away from its original position at the layer base GPS. 
   - **URL for asset bundle:** This MUST be in this form (i.e. without "http://www.") **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/exampleassetbundle.ace** where "ExampleArtist" is the name of your porPOIse account.
   - **Prefab name:** Use one of the prefabs named in your **exampleassetbundle.manifest** file. NOTE: the spelling must be EXACTLY the same, including capital/lower case, etc., but without the .prefab ending.
   
@@ -278,8 +281,7 @@ Now test your new asset bundle in your ExampleLayer:
 - This might make for a long loading time for your layer, and a big hit on the viewer's data package.
 - **It is therefore best practice to put all assets you want to use in one single package, and leave out assets that are not used in your layer.**
 
-In the next step, we will personalize your Unity project so you can export and share assets to someone who can build the other asset bundle type for you.
-  
+In the next step we will export your assets as a Unity package, so you can send it to someone who can make the asset bundle for the PC type that you do not have yourself.
 . 
 # Export Assets as Unity Package
 
@@ -288,15 +290,10 @@ Remember that in order for ARpoise assets to be visible for both Android *and* i
 - This package needs to be **imported** into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
 
 . 
-## Export your assets as a .unitypackage
-
-We will export your scene and assets folder in a **Unity package.** This package can then be imported into the Unity CreateAssetBundles template for a Mac, and from thence your asset bundle exported for iOS.
-
-. 
-### Select the Assets Folder
+## Selecting the Assets for Export
 
 You could just select your personalized assets folder, but I want you to see practice selecting the assets to be exported.
-
+- Select the Assets folder ...
 . 
 ![CreateAssetBundle_SelectAssetFolder](images/CreateAssetBundle_SelectAssetFolder.png)
 
@@ -307,8 +304,9 @@ You could just select your personalized assets folder, but I want you to see pra
 ![CreateAssetBundle_ExportPackage](images/CreateAssetBundle_ExportPackage.png)
 
 . 
-You only need to export your personalized assets folder. 
-- Deselect everything else (the AssetBundles folder and the Editor folder). The Unity template for the other platform requires other versions of the files in these folders anyway.
+### You only need to export your personalized assets folder. 
+
+- Deselect everything else, i.e. the AssetBundles folder and the Editor folder. (The Unity template for the other platform requires other versions of the files in these folders anyway.)
 - The Models and Textures folders are not selected because they are empty.
 - **Include dependencies** should be checked!
 - Click **Export ...** and save the unitypackage file to somewhere convenient **outside of your Unity project folder.**
