@@ -82,8 +82,8 @@ We will duplicate and rename the ExampleArtist folder, personalizing it with you
 
 ### Duplicate and Rename the *ExampleArtist* folder and *ExampleArtistScene*
 
-Select the ExampleArtist folder 
-- Press Control D to make a copy (Command D on a Mac). (Some things in Unity you can duplicate with right click / Duplicate, other things do not have this option but can be duplicated with Control D.)
+Select the **ExampleArtist folder**: 
+- Press **Control D** to make a copy (**Command D on a Mac**). (Some things in Unity you can duplicate with right click / Duplicate, other things do not have this option but can be duplicated with Control D.)
 - Click into the name and rename it with your own porPOIse account name (or right click/Rename). 
 
 . 
