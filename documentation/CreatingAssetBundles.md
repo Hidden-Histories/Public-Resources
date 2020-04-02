@@ -62,7 +62,7 @@ Download the Unity Project template onto your hard drive:
 ![CreateAssetBundle_UnityHubProject](images/CreateAssetBundle_UnityHubProject.png)
 
 . 
-## Template Structure
+## Personalizing Your Template
 
 In the template, we have created the following structure for you:
 
@@ -72,10 +72,10 @@ In the **Hierarchy window,** an **ExampleArtistScene**.
 
 In the **Project window,**
 - An **AssetBundles** folder to contain your asset bundle(s). Please do not change, move or delete!
-- An **Editor folder** with the scripts to make the asset bundles.
+- An **Editor folder** with the scripts to make the asset bundles. Please do not change, move or delete!
 - An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene. 
 
-We will duplicate and rename the ExampleArtist folder, personalizing it with your own name.
+We will duplicate and rename the ExampleArtist folder, personalizing it with your own name. This will help prevent confusion if you share assets with other people.
 
 . 
 ![CreateAssetBundle_BlueSphereTransform](images/CreateAssetBundle_BlueSphereTransform.png)
