@@ -109,11 +109,21 @@ Select the ExampleArtist folder
 #### Link your materials to the GameObjects
 - The materials still exist in your folder, but your GameObjects in your folder were linked to the materials in the ExampleArtist folder.
 - Open the Materials folder
-- Drag the materials one by one onto the names of the corresponding GameObjects in the Hierarch window. The color should appear in the Scene window.
-
+- Drag the materials one by one onto the names of the corresponding GameObjects in the Hierarch window. 
+- The colors should appear on the GameObjects in the Scene window.
+- Notice however that the colors of the Prefabs in the Inspector window are still fuschia. The prefabs are no longer "prefabrications" of the GameObjects. 
+- Since the asset bundle will consist only of prefabs, we have to replace them all with the new versions.
 
 . 
 ![CreateAssetBundle_dragMaterialToRedcube](images/CreateAssetBundle_dragMaterialToRedcube.png)
+
+. 
+#### Replace all the Prefabs
+
+
+
+
+
 . 
 ### Asset Bundle Structure
 
