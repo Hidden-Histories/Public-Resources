@@ -220,7 +220,7 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
 
 . 
-# Uploading Your Asset Bundle to the Hidden Histories Server
+# Uploading Your Asset Bundle to porPOIse
 
 This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
 
