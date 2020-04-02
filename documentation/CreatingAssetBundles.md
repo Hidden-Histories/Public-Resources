@@ -310,6 +310,7 @@ You could just select your personalized assets folder, but I want you to see pra
 - The Models and Textures folders are not selected because they are empty.
 - **Include dependencies** should be checked!
 - Click **Export ...** and save the unitypackage file to somewhere convenient **outside of your Unity project folder.**
+- Send it to whomever will do the conversion for you.
 
 . 
 ![CreateAssetBundle_ItemsToExport](images/CreateAssetBundle_ItemsToExport.png)
