@@ -52,7 +52,7 @@ Download the Unity Project template onto your hard drive:
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOSCreateAssetBundleU2018_3.zip)
 - Unzip the file on your hard drive.
 
-**Best Practices: Aways use the Unity Hub to open a project.** Different versions are often incompatible. If we need to use a different version in the future, the Hub lets you decide which version to use to open which project.
+**Best Practices: aways use the Unity Hub to open a project.** Different versions are often incompatible. If we need to use a different version in the future, the Hub lets you decide which version to use to open which project.
 - Start the Unity Hub
 - Click **ADD**
 - Select the **project folder** of your template from your hard drive.
@@ -64,14 +64,16 @@ Download the Unity Project template onto your hard drive:
 . 
 ## Template Structure
 
-In the template, we have created the following for you:
+In the template, we have created the following structure for you:
 - In the **Hierarchy window,** an **ExampleArtistScene**.
-  - This includes a default camera and light, and three GameObjects. 
+  - This includes a default camera and light, and three GameObject assets. 
   - They are all on top of each other at the origin 0,0,0, so the BlueSphere is hidden inside the other two!
+    - When you make GameObjects, any **transforms** they have will also be embedded in the prefabs you use in porPOIse. 
+    - So if the GameObject in the scene is 2 meters to the right and rotated 30°, in porPOIse it will also have that same offset and rotation.
 - In the **Project window,**
   - An **AssetBundles** folder to contain your asset bundle(s). Please do not change, move or delete!
   - An **Editor folder** with the scripts to make the asset bundles.
-  - An **ExampleArtist folder** with subfolders for your Materials, Models, Prefabs, Scenes and Textures.
+  - An **ExampleArtist folder** with subfolders for your Materials, Prefabs and Scene.
 
 ### Asset Bundle Structure
 
