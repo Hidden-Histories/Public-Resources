@@ -97,13 +97,17 @@ Select the ExampleArtist folder
 
 ### Delete *ExampleArtist* folder and Recreate Prefabs
 
-**Now DELETE the ExampleArtist foler.** This will avoid confusion between the assets.
-- BUT the GameObjects all turn fuscia!
-- Open the Prefabs folder and select one of them - the image of the prefab in the Inspector window is also fuscia.
+**Now DELETE the ExampleArtist folder.** This will avoid confusion between the assets.
+- BUT the GameObjects all turn fuschia!
+- Open the Prefabs folder and select one of them - the image of the prefab in the Inspector window is also fuschia.
+- This is Unity's warning that a Material cannot be found.
 
-This is Unity's warning that a Material cannot be found.
+Link your materials to the GameObjects
+- The materials still exist in your folder, but your GameObjects in your folder were linked to the materials in the ExampleArtist folder.
 - 
 
+. 
+![CreateAssetBundle_LostMaterials](images/CreateAssetBundle_LostMaterials.png)
 . 
 ### Asset Bundle Structure
 
