@@ -144,7 +144,8 @@ Now click on the **AssetBundles** folder in the Project window:
   - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
   - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
   - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. 
-  - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. DON'T DELETE THE **AssetBundles** FILES!
+  - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. 
+- DON'T DELETE THE **AssetBundles** FILES!
 
 . 
 ![CreateAssetBundle_AssetBundles-example](images/CreateAssetBundle_AssetBundles-example.png)
@@ -169,7 +170,7 @@ Type in a new name, using **your name or nickname** to identify it as your own a
 - The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
 
 This name will now appear as an option in the drop down window.
-- Select the Capsule and add it to your new asset bundle.
+- Select the **Capsule** and add it to your new asset bundle too.
 - **Leave the RedCube at "None":** there is already a RedCube in the hh_exampleassets bundle we used in the porPOIse tutorial, so this is how we can leave it out of our asset bundle.
 
 . 
@@ -177,7 +178,7 @@ This name will now appear as an option in the drop down window.
 
 
 . 
-## Build exampleassetbundle
+## Build Your New Asset Bundle
 
 First let's make sure your build settings are correct:
 
