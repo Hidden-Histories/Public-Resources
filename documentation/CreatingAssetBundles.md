@@ -322,8 +322,9 @@ The person doing the conversion uses *their platform's version* of the **Unity t
 
 - Open the Unity template CreateAssetBundleU2018_3.
 - From the main menu, select **Assets / Import Package / Custom Package ...**
-- 
 
 . 
 ![CreateAssetBundle_ImportPackage](images/CreateAssetBundle_ImportPackage.png)
 
+. 
+![CreateAssetBundle_ImportPackageList](images/CreateAssetBundle_ImportPackageList.png)
