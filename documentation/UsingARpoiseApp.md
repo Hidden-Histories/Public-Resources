@@ -42,7 +42,7 @@ Start the app ...
 . 
 ### Remote Viewing: ARpoise’s Fixed Position feature
 
-If there are no AR layers in your immediate vicinity, you can use the **Fixed Position** feature of the ARpoise app to view augment layers that are elsewhere.
+If there are no AR layers in your immediate vicinity, you can use the **Fixed Position** feature of the ARpoise app to view augment layers that are elsewhere. (After reading the tutorial, go to GPS 1, 1 and check out these too: [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples).)
 
 Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks are located in Japantown, San Jose, California. You can download a pdf of an [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
 
