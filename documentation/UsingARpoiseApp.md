@@ -19,19 +19,19 @@ Start the app ...
 
 **If there are layers located near you**
 
-- If there is only one layer located near you, you will immediately see it appear in your smartphone display. 
+- If there is only one layer located near you, it will **automatically appear in your smartphone display.**
 
 - Look around, up and down - there may be augments all around you, as well as above and below.
 
 **If there two or more layers located near you**
 
-- If there are two or more layers located near you, you will see a list of available layers. 
+- If there are two or more layers located near you, you will see a **list of available layers.**
 
 - Select one of them, and look around you.
 
 **Default layer: If there are NO layers located near you**
 
-- If there are NO layers near you, ARpoise will immediately start the default ARpoise layer. 
+- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layer.** 
 
 - Right now, (March 2020), this is [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. 
 
