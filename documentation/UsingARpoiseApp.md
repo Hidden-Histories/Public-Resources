@@ -3,7 +3,7 @@
 
 ## Using the ARpoise Augmented Reality App
 
-(Quick link: go to Lat = 1, Lon = 1 for more [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples). If you don't know what this means, read the tutorial, especially Remote Viewing: ARpoise’s Fixed Position feature below.)
+(Quick link: go to Lat = 1, Lon = 1 to view more [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples). If you don't know what this means, read the tutorial, especially Remote Viewing: ARpoise’s Fixed Position feature below.)
 
 . 
 ### Download and install the ARpoise AR app
