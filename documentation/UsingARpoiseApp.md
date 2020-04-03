@@ -3,7 +3,8 @@
 
 ## Using the ARpoise Augmented Reality App
 
-(Quick link: we have installed a number of [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples) at the GPS location Lat = 1, Lon = 1 in the Atlantic Ocean (actually on the Equator in the Gulf of Guinea) for your viewing pleasure. If you don't know how to use fixed position for remote viewing of augments, read **Remote Viewing: ARpoise’s Fixed Position feature** below.)
+Quick link: go to Lat = 1, Lon = 1 for more [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples) If you don't know what this means, read **Remote Viewing: ARpoise’s Fixed Position feature** below. ;-)
+
 . 
 ### Download and install the ARpoise AR app
 
