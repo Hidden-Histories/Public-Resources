@@ -1,7 +1,7 @@
 # ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories Artists' Overview:
 
 
-## Using the ARpoise Augmented Reality App
+## Using the ARpoise Augmented Reality App ![ARpoise Logo](/images/arpoise_logo_rgb-64.png)
 
 (Quick link: go to Lat = 1, Lon = 1 to view more [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples). If you don't know what this means, read the tutorial, especially "Remote Viewing: ARpoise’s Fixed Position Feature" below!)
 
