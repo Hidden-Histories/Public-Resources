@@ -1,5 +1,5 @@
-#![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories Artists
+![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 
 ## Using the ARpoise Augmented Reality App
 
