@@ -12,7 +12,7 @@ The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**er
 - The ARpoise app, which works on all iOS and Android smartphones, but only does geolocative AR.
 - The AR-vos app, which does both geolocative and image trigger AR, and will be extended to do SLAM AR as well. However, this only runs on iOS devices that can run ARKit, and Android devices that can run ARCore. When most all smartphones can run ARKit or ARCore, the two app will be merged.
 
-This is a VERY simplified description of how the various components work together (the ARPoise server front end and back end are simply referred to as the ARpoise server (director)).
+The following diagram is a VERY simplified description of how the various components work together (the ARPoise server front end and back end are simply referred to as the ARpoise server (director)).
 
 ![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_900w.png)
 
