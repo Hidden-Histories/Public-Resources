@@ -1,5 +1,7 @@
-![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# Hidden Histories Admins: Getting Started with ARpoise 
+
+# Hidden Histories Admins: ![Hidden Histories Logo](images/hiddenhistories-logo.png)
+
+# Getting Started with ARpoise 
 
 ## Overview   
 
