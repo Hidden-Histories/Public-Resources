@@ -8,15 +8,15 @@
 The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) is an open-source Augmented Reality service environment that allows AR content designers to create and distribute AR experiences, and users to view location-based or image trigger AR content that is created in Unity. The goal of ARpoise is to provide an open-source, community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
 
 The ARpoise system consists of:
-- An ARpoise server front end, maintained by Peter Graf and Tamiko Thiel in Germany.
-- An ARpoise server back end, on the Hidden Histories server.
-- The porPOIse server back end user interface, where artists set up their AR layers in their individual accounts
+- An ARpoiseDirectory server front end, maintained by Peter Graf and Tamiko Thiel in Germany.
+- An ARpoiseDirectory server back end, on the Hidden Histories server.
+- The porPOIse back end user interface, where artists set up their AR layers in their individual accounts
 - The ARpoise app, which works on all iOS and Android smartphones, but only does geolocative AR.
 - The AR-vos app, which does both geolocative and image trigger AR, and will be extended to do SLAM AR as well. However, this only runs on iOS devices that can run ARKit, and Android devices that can run ARCore. When most all smartphones can run ARKit or ARCore, the two app will be merged.
 
 The following diagram is a VERY simplified description of how the various components work together (the ARPoise server front end and back end are simply referred to as the ARpoise server).
 
-![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_900px.png)
+![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_850w.png)
 
 This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers. 
 
