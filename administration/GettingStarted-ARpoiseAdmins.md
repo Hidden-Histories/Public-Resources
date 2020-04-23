@@ -23,7 +23,7 @@ This folder contains tutorials for administrators to set up **porPOIse accounts*
 
 The ARpoise [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (**Note** the ARpoise administrators are managing the ARpoise Directory Front End component.)
 
-## This Document
+## Purpose of this Document
 
 The Hidden Histories admin will manage the following two components, which are already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
 
