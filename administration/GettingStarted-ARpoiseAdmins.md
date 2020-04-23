@@ -5,11 +5,23 @@
 
 ## Overview   
 
-This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers. 
+The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) consists of:
+- An ARpoise server front end, maintained by Peter Graf and Tamiko Thiel in Germany.
+- An ARpoise server back end, on the Hidden Histories server.
+- The porPOIse server back end user interface, where artists set up their AR layers in their individual accounts
+- The ARpoise app, which works on all iOS and Android smartphones, but only does geolocative AR.
+- The AR-vos app, which does both geolocative and image trigger AR, and will be extended to do SLAM AR as well. However, this only runs on iOS devices that can run ARKit, and Android devices that can run ARCore. When most all smartphones can run ARKit or ARCore, the two app will be merged.
 
-The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (**Note** the ARpoise administrators are managing the ARpoise Directory Front End component.)
+### This is a VERY simplified description of how the various components work together:
 
 ![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_900w.png)
+
+This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers. 
+
+
+The ARpoise [Overview Document](https://github.com/ARPOISE/ARpoise/blob/master/README.md) gives an overview of the functionality of the entire ARpoise platform. Some of the information is only of interest if you are setting up an ARpoise and porPOIse system of your own, but it gives a good overview of how the system's components fit together. (**Note** the ARpoise administrators are managing the ARpoise Directory Front End component.)
+
+
 
 The Hidden Histories admin will manage the following two components, which are already set up on the Hidden Histories web server hiddenhistoriesjtown.org.
 
