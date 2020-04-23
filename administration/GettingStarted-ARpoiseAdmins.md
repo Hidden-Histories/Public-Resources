@@ -14,7 +14,7 @@ The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**er
 
 The following diagram is a VERY simplified description of how the various components work together (the ARPoise server front end and back end are simply referred to as the ARpoise server (director)).
 
-![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_900w.png)
+![Hidden Histories Logo](images/GettingStartedARpoise_SystemDiagram_900px.png)
 
 This folder contains tutorials for administrators to set up **porPOIse accounts** and **layers** for **Hidden Histories** artists and helpers. 
 
