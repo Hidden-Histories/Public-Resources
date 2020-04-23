@@ -5,6 +5,8 @@
 
 ## Overview   
 
+ARpoise is an open-source Augmented Reality service environment that allows AR content designers to create and distribute AR experiences, and users to view location-based or image trigger AR content that is created in Unity. The goal of ARpoise is to provide an open-source, community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning.
+
 The **ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment) consists of:
 - An ARpoise server front end, maintained by Peter Graf and Tamiko Thiel in Germany.
 - An ARpoise server back end, on the Hidden Histories server.
