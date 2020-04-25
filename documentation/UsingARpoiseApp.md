@@ -8,7 +8,7 @@ This tutorial shows you how to use the ARpoise Augmented Reality App to view geo
 . 
 ### Download and install the ARpoise AR app
 
-- Download the ARpoise AR app from the http://arpoise.com/, which has links to both iOS and Android stores. (Notice the links to the brief list of ARpiose projects on that page - we will use them to learn how to use the ARpoise app.)
+- Download the ARpoise AR app from the http://arpoise.com/, which has links to both iOS and Android stores.
 
 - Install the app, and **accept all permissions!**
 
