@@ -61,6 +61,8 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 
 **But remember to turn off Fixed Position after viewing!** Otherwise, no matter where you are standing, your smartphone will think you are always at the same location!
 
+. 
+
 ### Exercise: Remote Viewing of Brush the Sky in San Jose Japantown
 
 As a more useful example, we will show you how to view Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks, which are located in San Jose Japantown. You can use the same technique to view your own AR artworks once you have moved them to Japantown.
