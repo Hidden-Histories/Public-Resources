@@ -50,7 +50,7 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 - Start the ARpoise app.
 - **Double click** on the **ARpoise logo menu button** ![ARpoise logo](images/ARpoise_logo_rgb_64.png) to get the Fixed Position menu:
 
-![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPosition1-1_800w.png)
+![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPosition1-1_white.png)
 
 
 - Tap the **Lat** and the **Lon** fields to enter 1 in each field, then click OK, Done etc. to save.
@@ -61,11 +61,11 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 
 You should get a list of the layers that we put at this position:
 
-![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionLayerList_800w.png)
+![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionLayerList_white.png)
 
 Select one of the layers and it should appear - look all around you!
 
-![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionReignOfGold_800w.png)
+![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionReignOfGold_white.png)
 
 **But remember to turn off Fixed Position after viewing!** Otherwise, no matter where you are standing, your smartphone will think you are always at the same location!
 
