@@ -83,7 +83,7 @@ As a more useful example, we will show you how to view Tamiko Thiel’s and Mido
 
 - Search for the address of that location in [Google Maps](https://www.google.com/maps/).
 
-- Then get the decimal coordinates for that [GPS latitude and longitude](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
+- Then get the decimal coordinates for that GPS latitude and longitude - [see instructions how to get the GPS coordinates here.](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
 
 #### Enter the GPS coodinates in the Fixed Position menu:
 
