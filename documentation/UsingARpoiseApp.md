@@ -75,7 +75,7 @@ You should get a list of the layers that we put at this position:
 
 As a more useful example, we will show you how to view Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks, which are located in San Jose Japantown. You can use the same technique to view your own AR artworks once you have moved them to Japantown.
 
-Download the [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf), so you can see where the various augments are located in Japantown.
+- **Download** the [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf), so you can see where the various augments are located in Japantown.
 
 #### Viewing Brush the Sky augments at home: first get GPS coordinates
 
