@@ -59,6 +59,15 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 
 - Click **OK.**
 
+.
+
+You should get a list of the layers that we put at this position:
+
+. 
+
+![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionLayerList_800w.png)
+
+
 **But remember to turn off Fixed Position after viewing!** Otherwise, no matter where you are standing, your smartphone will think you are always at the same location!
 
 . 
