@@ -48,7 +48,6 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 #### Enter the GPS coodinates 1, 1 in the Fixed Position menu:
 
 - Start the ARpoise app.
-
 - **Double click** on the **ARpoise logo menu button** ![ARpoise logo](images/ARpoise_logo_rgb_64.png) to get the Fixed Position menu:
 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPosition_1-1_800w.png)
