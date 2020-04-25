@@ -3,6 +3,8 @@
 
 ## Using the ARpoise Augmented Reality App ![ARpoise Logo](images/ARpoise_logo_rgb_64.png)
 
+This tutorial shows you how to use the ARpoise Augmented Reality App to view geolocative augmented reality, computer graphic artworks positioned at specific physical locations via their GPS coordinates. ARpoise should work on most iOS and Android smartphones. (At this time ARpoise has a sister app, AR-vos, that can view both geolocative AR and image trigger AR, but only on newer, higher end smartphones.)
+
 (Quick link: go to Lat = 1, Lon = 1 to view more [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples). If you don't know what this means, read the tutorial, especially "Remote Viewing: ARpoise’s Fixed Position Feature" below!)
 
 . 
@@ -15,7 +17,7 @@
 - You might need to go into your Settings/Privacy settings  and allow ARpoise to use your location data.
 
 . 
-### Viewing augments
+### Viewing augments depends on where you are physically located:
 
 Start the app ...
 
@@ -33,11 +35,10 @@ Start the app ...
 
 **Default layer: If there are NO layers located near you**
 
-- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layer.** 
-
-- Right now, (March 2020), this is [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. 
-
-- It turns your surroundings into an underwater reef, filled with schools of fish. If you move your smartphone around, the fish will follow your lead - but the more you intervene in their virtual ecosystem, the more the fish will turn to plastic garbage. Give them a rest, hold the smartphone very still or it lay down, and they will slowly turn back into fish.
+- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layers list.** Right now, (April 2020), these are the following. Click on the links to read what each one is about, and how to interact with it.
+  - [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. 
+  - [Lotus Meditation](http://tamikothiel.com/AR/lotus-meditation.html), by Tamiko Thiel and /p. 
+  - [Suspended Spring](https://youtu.be/4a4afq_DzE0), by Tamiko Thiel, 2020.
 
 . 
 ### Remote Viewing: ARpoise’s Fixed Position feature
