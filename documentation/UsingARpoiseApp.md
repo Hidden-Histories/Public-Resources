@@ -109,6 +109,8 @@ The layers should then appear in your list of nearby augment layers, even though
 - Select one of the layers ...
 
 - ... and you should see the augments layered over your own surroundings!
+![Arpoise_ARpoiseLayersList_800w](images/Arpoise_FixedPosition_KizunaWesleyUnited_900w.png)
+
 
 - To see a different layer, click the **ARpoise logo menu button** ONCE and you will get the layer list again. Select another one and it should appear around you.
 
