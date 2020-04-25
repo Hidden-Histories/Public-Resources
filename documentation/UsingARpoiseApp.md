@@ -63,11 +63,11 @@ You should get a list of the layers that we put at this position:
 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionLayerList_white.png)
 
-Select one of the layers and it should appear - look all around you!
+- Select one of the layers and it should appear - look all around you!
 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionReignOfGold_white.png)
 
-**But remember to turn off Fixed Position after viewing!** Otherwise, no matter where you are standing, your smartphone will think you are always at the same location!
+- **But remember to turn off Fixed Position after viewing!** Otherwise, no matter where you are standing, your smartphone will think you are always at the same location!
 
 . 
 
