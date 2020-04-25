@@ -108,13 +108,14 @@ The layers should then appear in your list of nearby augment layers, even though
 
 - Select one of the layers ...
 
-- ... and you should see the augments layered over your own surroundings!
+... and you should see the augments layered over your own surroundings!
+
 ![Arpoise_ARpoiseLayersList_800w](images/Arpoise_FixedPosition_KizunaWesleyUnited_900w.png)
 
 
 - To see a different layer, click the **ARpoise logo menu button** ONCE and you will get the layer list again. Select another one and it should appear around you.
 
-**REMEMBER to uncheck Activate Fixed Position** when you are done, otherwise you will not see any local augments, for instance if you create ones yourself in your own home!
+- **REMEMBER to uncheck Activate Fixed Position** when you are done, otherwise you will not see any local augments, for instance if you create ones yourself in your own home!
 
 
 
