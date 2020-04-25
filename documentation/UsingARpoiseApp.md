@@ -29,11 +29,11 @@ Start the app ...
 
 - If there are two or more layers located near you, you will see a **list of available layers.**
 
-- Select one of them, and look around you.
+- Select one of them, and look around you. To select another one, tap the ARpoise icon menu once to get the list again.
 
 **Default layer: If there are NO layers located near you**
 
-- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layers list.** Right now, (April 2020), these are the following AR layers. Click on the links to read what each one is about, and how to interact with it.
+- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layers list.** Right now, (April 2020), these are the following AR layers. Click on the links to read what each one is about, and how to interact with it. To select a different one, tap the ARpoise icon menu once to get the list again.
   - [Evolution of Fish](http://www.tamikothiel.com/evolutionoffish/), by Tamiko Thiel and /p. 
   - [Lotus Meditation](http://tamikothiel.com/AR/lotus-meditation.html), by Tamiko Thiel and /p. 
   - [Suspended Spring](https://youtu.be/4a4afq_DzE0), by Tamiko Thiel, 2020.
