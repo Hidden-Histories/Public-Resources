@@ -43,7 +43,7 @@ Start the app ...
 
 If you want to look at AR layers that are far away from your current position, you can use the **Fixed Position** feature of the ARpoise app to view them. This is also very useful for testing changes you make to your own layers, even if their final location is far away from your home. (After reading the tutorial, go to GPS 1, 1 and check out these [ARpoise artworks](https://github.com/ARPOISE/ARpoise#arpoise-examples) too.)
 
-Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks are located in Japantown, San Jose, California. You can download a pdf of an [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
+As an example, we will look at Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks, which are located in Japantown, San Jose, California. You can download a pdf of an [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
 
 If you do not live near to the artwork locations in San Jose Japantown, and cannot physically go there, you can still use ARpoise’s Fixed Position feature to view augments remotely. It will make ARpoise think that you are stannding at that remote location, and you will see the augments overlaying your own immediate environment. This is of course not the same experience as seeing them at the “real” sites in Japantown, but it is a handy feature that you can also use to test out changes to your own artworks even if they are positioned somewhere in the world far away from you.
 
