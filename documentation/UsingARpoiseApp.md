@@ -53,7 +53,7 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPosition_1-1_800w.png)
 
 
-- Tap the **Lat** and the **Lon** fields, enter the decimal values you found in Google Maps, then click OK or the check mark to save.
+- Tap the **Lat** and the **Lon** fields to enter 1 in each field, then click OK, Done etc. to save.
 
 - Click **Activate Fixed Position.**
 
