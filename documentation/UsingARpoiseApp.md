@@ -29,7 +29,8 @@ Start the app ...
 
 - If there are two or more layers located near you:
   - you will see a **list of available layers.**
-  - Select one of them, and look around you. To select another one, tap the ARpoise icon menu once to get the list again.
+  - Select one of them, and look around you. 
+  - To select another one, tap the ARpoise icon menu **once** to get the list again.
 
 **Default layer: If there are NO layers located near you**
 
