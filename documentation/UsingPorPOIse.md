@@ -50,7 +50,7 @@ Click on the name of your example layer to open it for editing.
 
 The layer configuration holds properties that apply to the entire layer. 
 
-**FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Properties](UsingPorPOIse_REF-Layer-POI-Properties#porpoise-layer-configuration)**
+**FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
 
 - Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!) It is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short however!
 - Otherwise please leave these properties at the default values [(as described in the layer properties reference)](UsingPorPOIse_REF-Layer-POI-Properties#porpoise-layer-configuration), or discuss with the admin before you change them. 
