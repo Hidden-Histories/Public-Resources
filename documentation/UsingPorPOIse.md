@@ -50,10 +50,10 @@ Click on the name of your example layer to open it for editing.
 
 The layer configuration holds properties that apply to the entire layer. 
 
-**FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
+**FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
 
 - Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!) It is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short however!
-- Otherwise please leave these properties at the default values [(as described in the layer properties reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists), or discuss with the admin before you change them. 
+- Otherwise please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists), or discuss with the admin before you change them. 
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you have created new assets for a completely new POI, you add it with the New POI link.
 
@@ -70,7 +70,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. 
 
-**FOR A DESCRIPTION OF ALL THE POI PROPERTIES see [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
+**FOR A DESCRIPTION OF ALL THE POI PROPERTIES see [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
@@ -89,7 +89,7 @@ There are two ways you can place POIs in the real world:
 
 ### POI location: change these values **one after another**, testing in between:
 
-If you want more information on the properties, see the [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
+If you want more information on the properties, see the [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
 NOTES: 
 - If you can't find the StripesCube after changing values, change them back to the values in the image above, and try again!
@@ -127,7 +127,7 @@ NOTES:
 3. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
 
 4. **Animation properties:** 
-   - Read the properties description at [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) and play around with the animation values.
+   - Read the properties description at [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) and play around with the animation values.
    - Sound: Right now there is no audio file in the example asset bundle, but you add one when you create your own asset bundle, it is treated as a Prefab just like any other asset. If it is including in a POI that has an animation, it will start when the first animation starts. More on this later.
 
 5. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
