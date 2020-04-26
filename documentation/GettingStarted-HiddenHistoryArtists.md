@@ -43,7 +43,7 @@ The tutorials link to each other in a specific order that should help you go pro
 
 4. Set up your final AR experience in porPOIse. Test, modify, repeat! ;-)
 
-**[Click here for a pdf of Corinne's quick, illustrated overview](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)**
+**Corinne's quick, illustrated overview [(Click here for a pdf version)](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf):**
 
 . 
 ![AR art creation overview  Corinne](images/hiddenhistories-art-asset-process_v2_1024w.jpg)
