@@ -1,5 +1,5 @@
-![Hidden Histories Logo](images/hiddenhistories-logo.png)
-# Hidden Histories
+# ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories Artists
+
 # ARpoise PorPOISe User Interface tutorial
 
 ## Overview
