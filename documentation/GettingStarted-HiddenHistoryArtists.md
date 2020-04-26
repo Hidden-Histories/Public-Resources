@@ -35,15 +35,13 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
-1. [**porPOIse tutorial**](UsingPorPOIse.md): Modify your existing layers to learn how to use porPOIse.
+1. [**porPOIse tutorial**](UsingPorPOIse.md): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
 2. **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
 
-3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account UNDER CONSTRUCTION
+3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account.
 
 4. Set up your final AR experience in porPOIse. Test, modify, repeat! ;-)
-
-5. Place AR artwork on site: Ask the admin to move your augment to the desired location for the final artwork. UNDER CONSTRUCTION
 
 **[Click here for a pdf of Corinne's quick, illustrated overview](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)**
 
