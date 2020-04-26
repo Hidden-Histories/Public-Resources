@@ -45,8 +45,6 @@ The tutorials link to each other in a specific order that should help you go pro
 
 5. Place AR artwork on site: Ask the admin to move your augment to the desired location for the final artwork. UNDER CONSTRUCTION
 
-**Hidden Histories AR art creation overview:**
-
-[Click here for a pdf of Corinne's quick, illustrated overview](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)
+**[Click here for a pdf of Corinne's quick, illustrated overview](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)**
 
 ![AR art creation overview  Corinne](images/hiddenhistories-art-asset-process_v2_1024w.jpg)
