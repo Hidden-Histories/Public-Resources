@@ -24,7 +24,7 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 If you haven't already, please go through the following tutorials to see how to use the ARpoise and AR-vos apps to view AR artworks:
 - [**Using the ARpoise App**](UsingARpoiseApp.md#-hidden-histories-artists-overview) to understand geolocative augmented reality artworks.
-- [**Using the AR-vos App**](AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand image trigger augmented reality artworks.
+- [**Using the AR-vos App**](https://github.com/ARPOISE/ARpoise/blob/master/unity/AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand image trigger augmented reality artworks.
 
 ### First Steps: make sure you can view your own example layers!
 
