@@ -48,5 +48,4 @@ The tutorials link to each other in a specific order that should help you go pro
 **[Click here for a pdf of Corinne's quick, illustrated overview](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)**
 
 . 
-
 ![AR art creation overview  Corinne](images/hiddenhistories-art-asset-process_v2_1024w.jpg)
