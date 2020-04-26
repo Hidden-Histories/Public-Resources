@@ -21,7 +21,7 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 Please go through the following tutorials to get familiar with the ARpoise and AR-vos apps:
 - [**Using the ARpoise App**](UsingARpoiseApp.md#-hidden-histories-artists-overview) to understand geolocative augmented reality artworks.
-- [**Using the AR-vos App**](AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand geolocative augmented reality artworks.
+- [**Using the AR-vos App**](AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand image trigger augmented reality artworks.
 
 In order to use ARpoise system with the ARpoise and AR-vos apps, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
