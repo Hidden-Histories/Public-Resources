@@ -70,7 +70,7 @@ Beneath the properties menu is a list of all the POIs that make up the AR experi
 
 We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. 
 
-**FOR A DESCRIPTION OF ALL THE POI PROPERTIES see [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration)**
+**FOR A DESCRIPTION OF ALL THE POI PROPERTIES see [porPOIse_Reference: POI Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
