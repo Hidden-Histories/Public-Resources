@@ -19,7 +19,7 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 ### First Steps
 
-As the ARpoise app will work on most smartphones, we will focus on using it first, and deal with AR-vos later.
+As the ARpoise app will work on most smartphones, we will focus on using it first, and discuss the small differences in AR-vos afterwards.
 
 In order to use ARpoise, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
