@@ -1,5 +1,5 @@
-![Hidden Histories Logo](/images/hiddenhistories-logo.png)
-# Hidden Histories Artists: Getting Started with ARpoise 
+# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories Artists: 
+# Getting Started with ARpoise 
 
 ## Overview
 
