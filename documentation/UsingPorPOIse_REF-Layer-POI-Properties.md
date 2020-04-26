@@ -72,8 +72,8 @@ You can edit the following properties of a POI:
 
 **Image trigger properties (for use with AR-vos only):**
 
-* **URL for trigger image:** Used only in AR-vos app. To be described later.
-* **Width of trigger image:** Used only in AR-vos app. To be described later.
+* **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account.
+* **Width of trigger image:** Used only in AR-vos app. This is an approximate with of your trigger image in real life (e.g. a poster might be 0.3 meters = 1 foot wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.)
 
 * **New action:** Currently not in use.
 
