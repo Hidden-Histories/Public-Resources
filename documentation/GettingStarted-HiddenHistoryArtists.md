@@ -19,11 +19,13 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 ### First Steps
 
-As the ARpoise app will work on most smartphones, we will focus on using it first, and discuss the small differences in AR-vos afterwards.
+Please go through the following tutorials to get familiar with the ARpoise and AR-vos apps:
+- [**Using the ARpoise App**](UsingARpoiseApp.md#-hidden-histories-artists-overview) to understand geolocative augmented reality artworks.
+- [**Using the AR-vos App**](AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand geolocative augmented reality artworks.
 
-In order to use ARpoise, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
+In order to use ARpoise system with the ARpoise and AR-vos apps, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
-- Please go through the [**Using the ARpoise App**](UsingARpoiseApp.md) tutorial to understand how to view augmented reality artworks with the ARpoise app. 
+
 
 - The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise app.
 
