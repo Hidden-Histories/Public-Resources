@@ -27,11 +27,9 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 
 
-- The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise app.
+- The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise and AR-vos apps.
 
 - You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
-
-**NOTE** that initially, we will only talk about the **ARpoise geolocative app**, as we know it will work on pretty much all smartphones. This makes it easier to do the initial testing and get everyone up and running while in social isolation due to the coronavirus. The procedure mentioned below also applies to the AR-vos, with a few extensions.
 
 ### Next Steps
 
@@ -47,3 +45,7 @@ The tutorials link to each other in a specific order that should help you go pro
 
 5. Place AR artwork on site: Ask the admin to move your augment to the desired location for the final artwork. UNDER CONSTRUCTION
 
+**Hidden Histories AR art creation overview:**
+[Click here for larger version of **Hidden Histories AR art augment asset creation process**](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf) - Corinne's quick, illustrated overview.
+
+![AR art creation overview  Corinne](hiddenhistories-art-asset-process_v2_1024w.jpg)
