@@ -17,21 +17,19 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 ## Artist workflow
 
-### First Steps
-
-Please go through the following tutorials to see how to use the ARpoise and AR-vos apps to view AR artworks:
+If you haven't already, please go through the following tutorials to see how to use the ARpoise and AR-vos apps to view AR artworks:
 - [**Using the ARpoise App**](UsingARpoiseApp.md#-hidden-histories-artists-overview) to understand geolocative augmented reality artworks.
 - [**Using the AR-vos App**](AR-vos-examples.md#-ar-vos-augmented-reality-app) to understand image trigger augmented reality artworks.
 
+### First Steps: make sure you can view your own example layers!
+
 In order to work with your own augments on the ARpoise and AR-vos apps, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
-
-
 
 - The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise and AR-vos apps.
 
 - You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
 
-### Next Steps
+### Next Steps: learn how to adjust those layers, and create your own content
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
