@@ -17,12 +17,12 @@ Due to a change in smartphone hardware that is happening right now, there are cu
 
 - The **AR-vos app** provides both geolocative and image trigger AR functionality. 
   - **Image trigger AR** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. The functionality will be extended to the newer SLAM functionality (Simultaneous Localization and Mapping) that automatically on the fly creates a 3D model of your surroundings in the smartphone and places augments in this space. 
+  - The **AR-vos** app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444).
+  
 - **Please check these links to see if your smartphone works with the AR-vos app, and let us know if it does NOT work!** 
   - On iPhones, it only works on the iPhone SE or iPhone **6s** (NOT iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices).
-  - We expect to merge the two client apps soon, as the older smartphones become defunct. 
-
-- The **AR-vos** app can be downloaded from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
+  - We expect to merge the two client apps at some time when the older smartphones become defunct. 
 
 ## Artist workflow
 
