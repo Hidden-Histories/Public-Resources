@@ -9,11 +9,11 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 ## Components of the ARpoise Augmented Reality platform
 
-The ARpoise system consists of:
+### The ARpoise system consists of:
 
-- ARpoiseDirector server that keeps track of what AR layers are where
-- porPOIse interface where you set up your augment layers
-- ARpoise app (for geolocative AR) and AR-vos app (for geolocative and image trigger AR) on your smartphone
+- **ARpoiseDirector server** that keeps track of what AR layers are where.
+- **porPOIse** interface where you set up your augment layers
+- **ARpoise app** (for geolocative AR) and **AR-vos app** (for geolocative and image trigger AR) on your smartphone.
 
 This is how the three components work together when you view an augment layer:
 
