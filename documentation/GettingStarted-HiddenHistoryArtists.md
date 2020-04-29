@@ -17,7 +17,7 @@ The ARpoise system consists of:
 
 This is how the three components work together when you view an augment layer:
 
-![Corinne's overview of viewing AR with ARpoise]()
+![Corinne's overview of viewing AR with ARpoise](images/Hidden-Histories-ARviewingWorkflow_v3_1024w.png)
 
 Due to a change in smartphone hardware that is happening right now, there are currently two different client applications implemented for Android and iOS. We expect to merge them in a year or so. 
 
