@@ -19,7 +19,7 @@ This is how the three components work together when you view an augment layer:
 
 ![Corinne's overview of viewing AR with ARpoise](images/hiddenhistories-ARviewingWorkflow_v3a_1024w.png)
 
-**Why TWO apps??? :-(** Due to a change in smartphone hardware that is slowing happening right now, there are currently two different client applications implemented for Android and iOS. We expect to merge them in a year or so. 
+**Why TWO apps???** Due to a change in smartphone hardware that is slowing happening right now, there are currently two different client applications implemented for Android and iOS. We are asking you to tell us what make and model smartphone you have, so we can see if we can just use the more advanced one, AR-vos. But we will start with the ARpoise geolocative app, and everything you learn applies exactly to the AR-vos app as well.
 
 - The **ARpoise app** is a geolocative AR app that runs on most available iOS and Android smartphones. 
   - **Geolocative** augments are placed in the real world using GPS coordinates and seem to float around in space. Any AR artworks developed for this app can also run on the newer AR-vos app. 
