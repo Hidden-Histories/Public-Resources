@@ -7,6 +7,18 @@ The [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**e
 
 The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning. 
 
+## Components of the ARpoise Augmented Reality platform
+
+The ARpoise system consists of:
+
+- ARpoiseDirector server that keeps track of what AR layers are where
+- porPOIse interface where you set up your augment layers
+- ARpoise app (for geolocative AR) and AR-vos app (for geolocative and image trigger AR) on your smartphone
+
+This is how the three components work together when you view an augment layer:
+
+![Corinne's overview of viewing AR with ARpoise]()
+
 Due to a change in smartphone hardware that is happening right now, there are currently two different client applications implemented for Android and iOS. We expect to merge them in a year or so. 
 
 - The **ARpoise app** is a geolocative AR app that runs on most available iOS and Android smartphones. 
