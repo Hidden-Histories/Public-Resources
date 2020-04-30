@@ -15,13 +15,13 @@ In this tutorial learn how to use porPOIse with your own AR **layers** to place 
 
 ### Workflow (see below for details on how to do all of this!):
 
-Initial work at home:
+#### Initial work at home:
 
 - Due to the coronavirus lockdown, we have positioned your layers **at your home,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse at home on your PC. 
 
 - Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
-Refining your layers once they are moved to Japantown:
+#### Refining your layers once they are moved to Japantown:
 
 - When your layer is ready for testing, both you and the admin will need to move it to the desired position: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. 
 
@@ -30,6 +30,11 @@ Refining your layers once they are moved to Japantown:
 - For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** it first!). 
 
 - But **before you leave your house, make sure you can access your porPOIse account on your smartphone!** Then you can make changes on site. Remember to save the changes, then **close and reopen the ARpoise app** in order to immediately see the effects of the changes in your layer.
+
+#### Visualization of how you work in porPOIse - at home and on site
+
+![porPOIse workflow](images/hiddenhistories-porPOIseWorkflow_v3_1024w.png)
+
 
 . 
 ## porPOIse Layers List
