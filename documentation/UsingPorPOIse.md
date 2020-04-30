@@ -7,6 +7,8 @@
 
 In this tutorial learn how to use porPOIse with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
 
+### Some terminology:
+
 - **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. When you stand at that site, the ARpoise app will show you a list of layers available for you there.
 
 - **POI:** A "POI" (Point Of Interest) is an asset or a group of assets (such as 3D models, images, sounds etc.), that all together make up your AR experience.
