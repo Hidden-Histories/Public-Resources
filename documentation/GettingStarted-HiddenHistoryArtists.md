@@ -15,9 +15,10 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 - **porPOIse** interface where you set up your augment layers
 - **ARpoise app** (for geolocative AR) and **AR-vos app** (for geolocative and image trigger AR) on your smartphone.
 
-This is how the three components work together when you view an augment layer:
+#### Viewing an AR layer: how ARpoiseDirectory, porPOIse and the AR apps work together
 
-![Corinne's overview of viewing AR with ARpoise](images/hiddenhistories-ARviewingWorkflow_v3a_1024w.png)
+
+![Corinne's overview of viewing AR with ARpoise](images/hiddenhistories-ARviewingWorkflow_v3b1_1024w.png)
 
 **Why TWO apps???** Due to a change in smartphone hardware that is slowing happening right now, there are currently two apps, ARpoise that works on pretty much all phones, and AR-vos that is more restrictive but also has more functionality. We are asking you to tell us what make and model smartphone you have, so we can see if we can just use the more advanced one, AR-vos. But we will start with the ARpoise geolocative app, and everything you learn applies exactly to the AR-vos app as well.
 
