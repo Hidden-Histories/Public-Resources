@@ -23,7 +23,9 @@ This tutorial shows you how to use the ARpoise Augmented Reality App to view geo
 
 Start the app ...
 
-**If there are layers located near you**
+**If there are layers located near you** 
+
+(NOTE: During the coronavirus lockdown we have located your two layers at your house, so at home you should see a list with both your ExampleLayer and your ArtistLayer.)
 
 - If there is only one layer located near you, it will **automatically appear in your smartphone display.**
 
