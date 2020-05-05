@@ -187,13 +187,13 @@ A new, blank POI will be created at the end of the list.
 
 ## Review of how ARpoise positions layers and POIs
 
-The GPS position and the "Visibility in meters" are required for all geolocative layers and POIs in, whether they use an absolute GPS position, or Relative position with respect to the user. 
+The **GPS Latitute and Longitude positions** and the **Visibility in meters** are required for all geolocative layers and POIs, whether they use an absolute GPS position, or Relative position with respect to the user. 
 
-These properties are used by ARpoise in two steps:
+**These properties are used by ARpoise in two steps:**
 
-- Where is the user standing, and is there anything near them to show to the user at all?
+1. Where is the user standing, and is there anything near them to show to the user at all?
 
-- IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
+2. IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
 
 In the ARpoiseDirectory, the sysadmin sets for each layer:
 
