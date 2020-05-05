@@ -206,15 +206,18 @@ In the **ARpoiseDirectory,** the **admin** sets for each layer:
 
 The **artist** then defines in **porPOIse**:
 
-- At the layer level, the "Visibility in meters" for the POIs in that layer. This we suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+- **At the layer level:** the "Visibility in meters" for the **POIs in that layer**. This we suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
 
-- At the POI level, for both absolute and relative positioning:
+- **At the POI level** (for both absolute and relative positioning):
 
-  - The GPS and "Visibility in meters" for that specific POI. This we also suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+  - The GPS and "Visibility in meters" **for that specific POI.** This we also suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
 
-  - Even if the artist then decides to use "Relative location (x,y,z)" the GPS position is still used to decide whether or not to show the POI at all. If it is close enough to be shown at all, it is shown at the relative position, not the GPS position.
+  - Even if the artist then decides to use "Relative location (x,y,z)" the ARpoise server stills needs the POIs GPS position to decide whether or not to show the POI at all. (If it is close enough to be shown, it is then shown at the relative position, not the GPS position.)
 
-- This is why if for instance the artist lives in Oakland and wants to move theirs POIs to Japantown, they have to ask the admin to move the entire layer to Japantown first. Otherwise, ARpoise says, the layer is in Oakland. The POIs are all in Japantown. Japantown is over 200 meters away from Oakland, so I won't show anything at all.
+- So if for instance the artist lives in Oakland and wants to move their POIs to Japantown, they have to ask the admin to move the entire layer to Japantown first. Otherwise, ARpoise thinks:
+  - The layer is in Oakland.
+  - The POIs are all in Japantown.
+  - Japantown is over 200 meters away from Oakland, so I won't show anything at all!
 
 .
 
