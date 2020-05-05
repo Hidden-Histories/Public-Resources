@@ -187,24 +187,24 @@ A new, blank POI will be created at the end of the list.
 
 ## Review of how ARpoise positions layers and POIs
 
-The **GPS Latitute and Longitude positions** and the **Visibility in meters** are REQUIRED for all geolocative layers and POIs, whether they use an absolute GPS position, or Relative position with respect to the user. 
+The **GPS Latitute and Longitude positions** and the **Visibility in meters** are REQUIRED for ALL geolocative layers and POIs, whether they use an absolute GPS position, or Relative position with respect to the user. 
 
 **These properties are used by ARpoise in two steps:**
 
-1. Where is the user standing, and is there anything near them to show to the user at all?
+1. Where is the user standing? Is there anything near them to show to the user at all?
 
 2. IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
 
-In the ARpoiseDirectory, the sysadmin sets for each layer:
+In the **ARpoiseDirectory,** the **admin** sets for each layer:
 
-- The "Lat/Lon" GPS position that is the center for that layer.
+- The "Lat/Lon" GPS position that is the **center** for that layer.
 
-- The "Visibility in meters," that defines an area around this center in which the layer can be found at all by the ARpoise app in order to be shown in the list of layers.
+- The "Visibility in meters," that defines an **area around this center.** If the user is not standing in this area, they will not see the layer in the list of the ARpoise app.
 
-- For Hidden Histories, the visibility range is set at 200 Meters, about half a block, so you don‘t get confused by seeing too many layers in the list (especially in Japantown) all at once.
+- For Hidden Histories, the visibility range is set at 200 Meters from the layer center position. This is only about half a block, so in Japantown you don‘t get confused by seeing too many layers in the list all at once.
 
 
-The artist then defines in porPOIse:
+The **artist** then defines in **porPOIse**:
 
 - At the layer level, the "Visibility in meters" for the POIs in that layer. This we suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
 
