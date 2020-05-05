@@ -183,6 +183,40 @@ A new, blank POI will be created at the end of the list.
 
 3. Play around with its properties, placing it where there are no other POIs - otherwise you might not see it! 
 
+. 
+
+## Review of how ARpoise positions layers and POIs
+
+The GPS position and the "Visibility in meters" are required for all geolocative layers and POIs in, whether they use an absolute GPS position, or Relative position with respect to the user. 
+
+These properties are used by ARpoise in two steps:
+
+- Where is the user standing, and is there anything near them to show to the user at all?
+
+- IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
+
+In the ARpoiseDirectory, the sysadmin sets for each layer:
+
+- The "Lat/Lon" GPS position that is the center for that layer.
+
+- The "Visibility in meters," that defines an area around this center in which the layer can be found at all by the ARpoise app in order to be shown in the list of layers.
+
+- For Hidden Histories, the visibility range is set at 200 Meters, about half a block, so you don‘t get confused by seeing too many layers in the list (especially in Japantown) all at once.
+
+
+The artist then defines in porPOIse:
+
+- At the layer level, the "Visibility in meters" for the POIs in that layer. This we suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+
+- At the POI level, for both absolute and relative positioning:
+
+  - The GPS and "Visibility in meters" for that specific POI. This we also suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+
+  - Even if the artist then decides to use "Relative location (x,y,z)" the GPS position is still used to decide whether or not to show the POI at all. If it is close enough to be shown at all, it is shown at the relative position, not the GPS position.
+
+- This is why if for instance the artist lives in Oakland and wants to move theirs POIs to Japantown, they have to ask the admin to move the entire layer to Japantown first. Otherwise, ARpoise says, the layer is in Oakland. The POIs are all in Japantown. Japantown is over 200 meters away from Oakland, so I won't show anything at all.
+
+.
 
 ## Next Steps
 
