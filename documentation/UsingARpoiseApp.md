@@ -66,7 +66,10 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPosition1-1_white.png)
 
-You should get a list of the layers that we put at this position:
+. 
+
+You should get a list of the layers that we put at this position.
+- If you **don't** get this list, please follow the [troubleshooting instructions above](UsingARpoiseApp.md#troubleshooting-force-closing-the-app) to force close the app and restart it!
 
 ![Arpoise Fixed Position Lat 1 Lon 1](images/Arpoise_FixedPositionLayerList_white.png)
 
