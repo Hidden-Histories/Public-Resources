@@ -49,13 +49,13 @@ Start the app ...
   - [Suspended Spring](https://youtu.be/4a4afq_DzE0), by Tamiko Thiel, 2020.
 
 . 
-### Exercise: Remote Viewing with ARpoise’s Fixed Position feature
+## Exercise1: Remote Viewing with ARpoise’s Fixed Position feature
 
 If you want to look at AR layers that are far away from your current position, you can use the **Fixed Position** feature of the ARpoise app to view them. This is also very useful for testing changes you make to your own layers, even if their final location is far away from your home.
 
 To practice this quickly, we have set a couple of AR layers at the GPS position Latitude 1, Longitude 1 (which is in the Gulf of Guinea, West Africa!)
 
-#### Enter the GPS coodinates 1, 1 in the Fixed Position menu:
+### Enter the GPS coodinates 1, 1 in the Fixed Position menu:
 
 - Start the ARpoise app.
 - **Double click** on the **ARpoise logo menu button** ![ARpoise logo](images/ARpoise_logo_rgb_64.png) in the top left corner to get the Fixed Position menu:
@@ -78,13 +78,13 @@ You should get a list of the layers that we put at this position:
 
 . 
 
-### Exercise: Remote Viewing of Brush the Sky in San Jose Japantown
+## Exercise2: Remote Viewing of Brush the Sky in San Jose Japantown
 
 As a more useful example, we will show you how to view Tamiko Thiel’s and Midori Kono Thiel’s **Brush the Sky** calligraphic AR artworks, which are located in San Jose Japantown. You can use the same technique to view your own AR artworks once you have moved them to Japantown.
 
 - **Download** the [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf), so you can see where the various augments are located in Japantown.
 
-#### Viewing Brush the Sky augments at home: first get GPS coordinates
+### Viewing Brush the Sky augments at home: first get GPS coordinates
 
 - Find an artwork you wish to view in the [AR tour of the artworks](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf).
 
@@ -92,7 +92,7 @@ As a more useful example, we will show you how to view Tamiko Thiel’s and Mido
 
 - Then get the decimal coordinates for that GPS latitude and longitude - [see instructions how to get the GPS coordinates here.](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
 
-#### As above, enter the GPS coodinates in the Fixed Position menu:
+### As above, enter the GPS coodinates in the Fixed Position menu:
 
 - Start the ARpoise app.
 
@@ -107,7 +107,7 @@ As a more useful example, we will show you how to view Tamiko Thiel’s and Mido
 
 - Click **OK.**
 
-#### This layer should appear in the available layers list - with other nearby layers too
+### This layer should appear in the available layers list - with other nearby layers too
 
 The layers should then appear in your list of nearby augment layers, even though you are not really standing there. Since GPS is only accurate to about +/- 20 meters, you will see other layers that are nearby as well.
 
