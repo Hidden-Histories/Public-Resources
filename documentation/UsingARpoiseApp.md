@@ -24,7 +24,7 @@ If the app ever does not work as it should, try force closing and restarting it.
   
   
 . 
-### Viewing augments depends on where you are physically located:
+## Viewing augments depends on where you are physically located:
 
 Start the app ...
 
