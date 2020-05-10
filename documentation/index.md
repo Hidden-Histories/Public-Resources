@@ -5,4 +5,5 @@
 This folder contains documentation for **Hidden Histories**.
 
 ## Contents
-[Creating Asset Bundles](/documentation/index.html#!CreatingAssetBundles.md).
+Please go to the [Hidden Histories documentation overview](http://hiddenhistoriesjtown.org/documentation) and select a tutorial. 
+
