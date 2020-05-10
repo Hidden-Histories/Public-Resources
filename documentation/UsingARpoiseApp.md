@@ -14,7 +14,8 @@ This tutorial shows you how to use the ARpoise Augmented Reality App to view geo
 
 - You might need to go into your Settings/Privacy settings  and allow ARpoise to use your location data.
 
-### Troubleshooting: if the app does not work as it should, try force closing it and restarting it.
+### Troubleshooting: Force closing the app
+If the app ever does not work as it should, try force closing and restarting it.
   - How to [force close iPhone/iPad apps](https://support.apple.com/en-us/HT201330)
   - How to [force close Android apps](https://www.tomsguide.com/us/close-android-apps,news-21281.html).
   - If you have successfully force closed the app, when you start it again the Unity start screen appears: 
