@@ -95,7 +95,7 @@ As a more useful example, we will show you how to view Tamiko Thiel’s and Mido
 
 - Then get the decimal coordinates for that GPS latitude and longitude - [see instructions how to get the GPS coordinates here.](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
 
-### As above, enter the GPS coodinates in the Fixed Position menu:
+### Enter the GPS coodinates in the Fixed Position menu:
 
 - Start the ARpoise app.
 
