@@ -34,7 +34,7 @@ class LayarResponse {
 	/** @var int Refresh interval in seconds */
 	public $refreshInterval = 300;
 	/** @var int Visibility range in meters */
-	public $visibilityRange = 1500;
+	public $visibilityRange = 200;
 	/** @var int Area size in meters */
 	public $areaSize = 0;
 	/** @var int Area width in meters */

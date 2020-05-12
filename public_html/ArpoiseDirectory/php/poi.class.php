@@ -384,7 +384,7 @@ abstract class POI extends Arrayable {
 	/** @var int Distance in meters between the user and this POI */
 	public $distance = NULL;
 	/** @var int Visibility Range in meters of this POI */
-	public $visibilityRange = 1500;
+	public $visibilityRange = 200;
 	/** @var string Identifier for this POI */
 	public $id = NULL;
 	/** @var string URL of an image to show for this POI */
