@@ -1,47 +1,391 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layer>
-	<pois>
+  <pois>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>01</id>
+      <imageURL/>
+      <lat>37.348296</lat>
+      <lon>-121.893746</lon>
+      <title>BtS_kizuna_W</title>
+      <line1>Kizuna (Community ties)</line1>
+      <line2>Wesley United Methodist Church</line2>
+      <line3>566 N. 5th Street, San Jose</line3>
+      <line4>BtSicon_kizuna_64q</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>02</id>
+      <imageURL/>
+      <lat>37.349916</lat>
+      <lon>-121.894937</lon>
+      <title>BtS_kizuna_B</title>
+      <line1>Kizuna (Community ties)</line1>
+      <line2>Buddhist Church Betsuin</line2>
+      <line3>640 N. 5th Street</line3>
+      <line4>BtSicon_kizuna_64q</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>03</id>
+      <imageURL/>
+      <lat>37.349003</lat>
+      <lon>-121.894293</lon>
+      <title>BtS_monogatari_SJ</title>
+      <line1>Amerika</line1>
+      <line2>Heart of Japantown</line2>
+      <line3>5th &amp; Jackson, Japantown</line3>
+      <line4>BtSicon_amerika-monogatari_64sq</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>250</visibilityRange>
+      <id>04</id>
+      <imageURL/>
+      <lat>37.318897</lat>
+      <lon>-122.046806</lon>
+      <title>BtS_odoroku_DAC</title>
+      <line1>Odoroku - Astonishment</line1>
+      <line2>Planetarium, De Anza College</line2>
+      <line3/>
+      <line4>BtSicon_odoroku_64sq</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>05</id>
+      <imageURL/>
+      <lat>37.350714</lat>
+      <lon>-121.894293</lon>
+      <title>BtS_NaiGai_SJ</title>
+      <line1>Nai Gai</line1>
+      <line2>Former Ideal Laundry</line2>
+      <line3>665 N. 6th Street, San Jose</line3>
+      <line4>BtSicon_Nai-Gai_64sq</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>06</id>
+      <imageURL/>
+      <lat>37.347479</lat>
+      <lon>-121.893407</lon>
+      <title>BtS_kako-gendai-mirai_SJ</title>
+      <line1>Kako Gendai Mirai</line1>
+      <line2>Japanese American Museum</line2>
+      <line3>535 N. 5th Street San Jose</line3>
+      <line4>BtSicon_kako-gendai-mirai_64sq</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>250</visibilityRange>
+      <id>07</id>
+      <imageURL/>
+      <lat>37.321968</lat>
+      <lon>-122.043868</lon>
+      <title>BtS_Euphrat_DAC</title>
+      <line1>Euphrat Museum of Art</line1>
+      <line2>Brush the Sky</line2>
+      <line3>De Anza College, Cupertino</line3>
+      <line4>BtSicon_Euphrat_BrushTheSky_64sq</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>10</id>
+      <imageURL/>
+      <lat>37.429639</lat>
+      <lon>-121.979741</lon>
+      <title>ExampleLayer</title>
+      <line1>Example Layer</line1>
+      <line2>By Example Artist</line2>
+      <line3>Hidden Histories Project</line3>
+      <line4>HiddenHistoriesSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/porpoise.php?</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>20</id>
+      <imageURL/>
+      <lat>37.429639</lat>
+      <lon>-121.979741</lon>
+      <title>TamikoT-ExampleLayer</title>
+      <line1>TamikoT Example Layer</line1>
+      <line2>By Tamiko Thiel</line2>
+      <line3>Hidden Histories Project</line3>
+      <line4>HiddenHistoriesSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/porpoise.php?</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>200</visibilityRange>
+      <id>21</id>
+      <imageURL/>
+      <lat>37.429639</lat>
+      <lon>-121.979741</lon>
+      <title>TamikoT-ArtistLayer</title>
+      <line1>TamikoT Artist Layer</line1>
+      <line2>By Tamiko Thiel</line2>
+      <line3>Hidden Histories Project</line3>
+      <line4>HiddenHistoriesSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
 
-		
 
-		
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/CurtFukuda/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>22</id><imageURL/><lat>37.386541</lat><lon>-122.078655</lon><title>CurtF-ExampleLayer</title><line1>CurtF ExampleLayer</line1><line2>By Curt Fukuda</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/CurtFukuda/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>23</id><imageURL/><lat>37.386541</lat><lon>-122.078655</lon><title>CurtF-ArtistLayer</title><line1>CurtF ArtistLayer</line1><line2>By Curt Fukuda</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
 
-		
 
-		
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/RhondaHolberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>24</id><imageURL/><lat>37.816677</lat><lon>-122.28988</lon><title>RhondaH-ExampleLayer</title><line1>RhondaH ExampleLayer</line1><line2>By Rhonda Holberton</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/RhondaHolberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>25</id><imageURL/><lat>37.816677</lat><lon>-122.28988</lon><title>RhondaH-ArtistLayer</title><line1>RhondaH ArtistLayer</line1><line2>By Rhonda Holberton</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi>
 
-		
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/CorinneOkadaTakara/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>26</id><imageURL/><lat>37.317374</lat><lon>-122.070554</lon><title>CorinneOT-ExampleLayer</title><line1>CorinneOT ExampleLayer</line1><line2>By Corinne Okada Takara</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/CorinneOkadaTakara/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>27</id><imageURL/><lat>37.317374</lat><lon>-122.070554</lon><title>CorinneOT-ArtistLayer</title><line1>CorinneOT ArtistLayer</line1><line2>By Corinne Okada Takara</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	<poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>01</id><imageURL/><lat>37.348296</lat><lon>-121.893746</lon><title>BtS_kizuna_W</title><line1>Kizuna (Community ties)</line1><line2>Wesley United Methodist Church</line2><line3>566 N. 5th Street, San Jose</line3><line4>BtSicon_kizuna_64q</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>02</id><imageURL/><lat>37.349916</lat><lon>-121.894937</lon><title>BtS_kizuna_B</title><line1>Kizuna (Community ties)</line1><line2>Buddhist Church Betsuin</line2><line3>640 N. 5th Street</line3><line4>BtSicon_kizuna_64q</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>03</id><imageURL/><lat>37.349003</lat><lon>-121.894293</lon><title>BtS_monogatari_SJ</title><line1>Amerika</line1><line2>Heart of Japantown</line2><line3>5th &amp; Jackson, Japantown</line3><line4>BtSicon_amerika-monogatari_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>250</visibilityRange><id>04</id><imageURL/><lat>37.318897</lat><lon>-122.046806</lon><title>BtS_odoroku_DAC</title><line1>Odoroku - Astonishment</line1><line2>Planetarium, De Anza College</line2><line3/><line4>BtSicon_odoroku_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>05</id><imageURL/><lat>37.350714</lat><lon>-121.894293</lon><title>BtS_NaiGai_SJ</title><line1>Nai Gai</line1><line2>Former Ideal Laundry</line2><line3>665 N. 6th Street, San Jose</line3><line4>BtSicon_Nai-Gai_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>06</id><imageURL/><lat>37.347479</lat><lon>-121.893407</lon><title>BtS_kako-gendai-mirai_SJ</title><line1>Kako Gendai Mirai</line1><line2>Japanese American Museum</line2><line3>535 N. 5th Street San Jose</line3><line4>BtSicon_kako-gendai-mirai_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>250</visibilityRange><id>07</id><imageURL/><lat>37.321968</lat><lon>-122.043868</lon><title>BtS_Euphrat_DAC</title><line1>Euphrat Museum of Art</line1><line2>Brush the Sky</line2><line3>De Anza College, Cupertino</line3><line4>BtSicon_Euphrat_BrushTheSky_64sq</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>10</id><imageURL/><lat>37.429639</lat><lon>-121.979741</lon><title>ExampleLayer</title><line1>Example Layer</line1><line2>By Example Artist</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>20</id><imageURL/><lat>37.429639</lat><lon>-121.979741</lon><title>TamikoT-ExampleLayer</title><line1>TamikoT Example Layer</line1><line2>By Tamiko Thiel</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/TamikoThiel/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>21</id><imageURL/><lat>37.429639</lat><lon>-121.979741</lon><title>TamikoT-ArtistLayer</title><line1>TamikoT Artist Layer</line1><line2>By Tamiko Thiel</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi></pois>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/KevinTsukii/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>28</id><imageURL/><lat>37.332197</lat><lon>-122.06458</lon><title>KevinT-ExampleLayer</title><line1>KevinT ExampleLayer</line1><line2>By Kevin Tsukii</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/KevinTsukii/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>29</id><imageURL/><lat>37.332197</lat><lon>-122.06458</lon><title>KevinT-ArtistLayer</title><line1>KevinT ArtistLayer</line1><line2>By Kevin Tsukii</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
 
-	<refreshInterval>300</refreshInterval>
-	<refreshDistance>100</refreshDistance>
-	<fullRefresh>1</fullRefresh>
-	<showMessage/>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/KraigFujii/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>30</id><imageURL/><lat>34.069472</lat><lon>-118.306694</lon><title>KraigF-ExampleLayer</title><line1>KraigF ExampleLayer</line1><line2>By Kraig Fujii</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/KraigFujii/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>31</id><imageURL/><lat>34.069472</lat><lon>-118.306694</lon><title>KraigF-ArtistLayer</title><line1>KraigF ArtistLayer</line1><line2>By Kraig Fujii</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
 
-	<bleachingValue>0</bleachingValue>
-	<redirectionLayer/>
-	<areaSize>0</areaSize>
-	<applyKalmanFilter>1</applyKalmanFilter>
-	<visibilityRange>1500</visibilityRange>
-	<areaWidth>0</areaWidth>
-	<noPoisMessage>Sorry, there is nothing to show!</noPoisMessage>
-	<showMenuButton>1</showMenuButton>
-	<redirectionUrl/>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/SusanHayase/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>32</id><imageURL/><lat>37.347341</lat><lon>-121.877285</lon><title>SusanH-ExampleLayer</title><line1>SusanH ExampleLayer</line1><line2>By Susan Hayase</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://hiddenhistoriesjtown.org/artists/SusanHayase/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>33</id><imageURL/><lat>37.347341</lat><lon>-121.877285</lon><title>SusanH-ArtistLayer</title><line1>SusanH ArtistLayer</line1><line2>By Susan Hayase</line2><line3>Hidden Histories Project</line3><line4>HiddenHistoriesSprite</line4><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi>
+    
+  <poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/LaurenChun/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>34</id><imageURL/><lat>37.3350357</lat><lon>-121.877577</lon><title>LaurenChunExampleLayer</title><line1>Lauren Chun Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/LaurenChun/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>35</id><imageURL/><lat>37.3350357</lat><lon>-121.877577</lon><title>LaurenChunArtistLayer</title><line1>Lauren Chun Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/TamakiFujino/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>36</id><imageURL/><lat>37.351293</lat><lon>-122.015613</lon><title>TamakiFujinoExampleLayer</title><line1>Tamaki Fujino Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/TamakiFujino/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>37</id><imageURL/><lat>37.351293</lat><lon>-122.015613</lon><title>TamakiFujinoArtistLayer</title><line1>Tamaki Fujino Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/AnnaWong/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>38</id><imageURL/><lat>37.3488811</lat><lon>-121.8904064</lon><title>AnnaWongExampleLayer</title><line1>Anna Wong Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/AnnaWong/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>39</id><imageURL/><lat>37.3488811</lat><lon>-121.8904064</lon><title>AnnaWongArtistLayer</title><line1>Anna Wong Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/KikiWu/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>40</id><imageURL/><lat>37.350101</lat><lon>-121.894633</lon><title>KikiWuExampleLayer</title><line1>Kiki Wu Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/KikiWu/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>41</id><imageURL/><lat>37.350101</lat><lon>-121.894633</lon><title>KikiWuArtistLayer</title><line1>Kiki Wu Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>42</id><imageURL/><lat>37.816677</lat><lon>-122.28988</lon><title>rholbertonExampleLayer</title><line1>rholberton Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>43</id><imageURL/><lat>37.816677</lat><lon>-122.28988</lon><title>rholbertonArtistLayer</title><line1>rholberton Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/SabrinaKwong/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>44</id><imageURL/><lat>37.416489</lat><lon>-122.073147</lon><title>SabrinaKwongExampleLayer</title><line1>Sabrina Kwong Example Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/SabrinaKwong/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>45</id><imageURL/><lat>37.416489</lat><lon>-122.073147</lon><title>SabrinaKwongArtistLayer</title><line1>Sabrina Kwong Artist Layer</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>46</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-AngelabelleAbarientos</title><line1>Angelabelle Abarientos</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>47</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-ZainibAhmed</title><line1>Zainib Ahmed</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>48</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-SarahiCuevas</title><line1>Sarahi Cuevas</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><page>poi</page></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>1500</visibilityRange><id>49</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-KrystalDeh</title><line1>Krystal Deh</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>50</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-RachelMorales</title><line1>Rachel Morales</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>1500</visibilityRange><id>51</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-JasmineZamora</title><line1>Jasmine Zamora</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>52</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-DanBalducci</title><line1>Dan Balducci</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi><poi><dimension>3</dimension><alt/><transform><rel/><angle>0</angle><scale>1</scale></transform><object><baseURL>https://projects.cadre.sjsu.edu/arpoise/artists/rholberton/php/web/porpoise.php?</baseURL><line1/><line2/><line3/><line4/></object><relativeAlt/><attribution/><distance/><visibilityRange>200</visibilityRange><id>53</id><imageURL/><lat>37</lat><lon>-122</lon><title>rh-MartinGuevara</title><line1>Martin Guevara</line1><line2/><line3/><line4/><type/><doNotIndex/><showSmallBiw>1</showSmallBiw><showBiwOnClick>1</showBiwOnClick><isVisible>1</isVisible><showLayer>showLayer</showLayer></poi></pois>
+
+  <refreshInterval>300</refreshInterval>
+  <refreshDistance>100</refreshDistance>
+  <fullRefresh>1</fullRefresh>
+  <showMessage/>
+
+  <bleachingValue>0</bleachingValue>
+  <redirectionLayer/>
+  <areaSize>0</areaSize>
+  <applyKalmanFilter>1</applyKalmanFilter>
+  <visibilityRange>1500</visibilityRange>
+  <areaWidth>0</areaWidth>
+  <noPoisMessage>Sorry, there is nothing to show!</noPoisMessage>
+  <showMenuButton>1</showMenuButton>
+  <redirectionUrl/>
 </layer>

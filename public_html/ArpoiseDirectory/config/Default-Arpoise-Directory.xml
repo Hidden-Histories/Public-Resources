@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer>
+  <pois>
+
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>1500</visibilityRange>
+      <id>1</id>
+      <imageURL/>
+      <lat>0</lat>
+      <lon>0</lon>
+      <title>Default-AbEvolutionOfFish</title>
+      <line1>Evolution of Fish</line1>
+      <line2>by Tamiko Thiel and /p</line2>
+      <line3>for Digital Graffiti</line3>
+      <line4>EoFSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>1500</visibilityRange>
+      <id>2</id>
+      <imageURL/>
+      <lat>0</lat>
+      <lon>0</lon>
+      <title>Default-lotus-meditation</title>
+      <line1>Lotus Meditation</line1>
+      <line2>by Tamiko Thiel and /p</line2>
+      <line3/>
+      <line4>LotusSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+
+    <poi>
+      <dimension>3</dimension>
+      <alt/>
+      <transform>
+        <rel/>
+        <angle>0</angle>
+        <scale>1</scale>
+      </transform>
+      <object>
+        <baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+        <line1/>
+        <line2/>
+        <line3/>
+        <line4/>
+      </object>
+      <relativeAlt/>
+      <attribution/>
+      <distance/>
+      <visibilityRange>1500</visibilityRange>
+      <id>3</id>
+      <imageURL/>
+      <lat>0</lat>
+      <lon>0</lon>
+      <title>Default-SuspendedSpring</title>
+      <line1>Suspended Spring</line1>
+      <line2>by Tamiko Thiel</line2>
+      <line3>for Nantesbuch Foundation</line3>
+      <line4>SakuraPetalSprite</line4>
+      <type/>
+      <doNotIndex/>
+      <showSmallBiw>1</showSmallBiw>
+      <showBiwOnClick>1</showBiwOnClick>
+      <isVisible>1</isVisible>
+      <page>poi</page>
+    </poi>
+    
+  </pois>
+
+  <refreshInterval>300</refreshInterval>
+  <refreshDistance>100</refreshDistance>
+  <fullRefresh>1</fullRefresh>
+  <showMessage/>
+
+  <bleachingValue>0</bleachingValue>
+  <redirectionLayer/>
+  <areaSize>0</areaSize>
+  <applyKalmanFilter>1</applyKalmanFilter>
+  <visibilityRange>1500</visibilityRange>
+  <areaWidth>0</areaWidth>
+  <noPoisMessage>Sorry, there is nothing to show!</noPoisMessage>
+  <showMenuButton>1</showMenuButton>
+  <redirectionUrl/>
+</layer>

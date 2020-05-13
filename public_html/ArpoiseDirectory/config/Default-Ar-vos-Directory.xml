@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layer>
-
 	<pois>
 
 		<poi>
@@ -22,21 +21,21 @@
 			<attribution />
 			<distance />
 			<visibilityRange>2000</visibilityRange>
-			<id>10</id>
+			<id>1</id>
 			<imageURL />
-			<lat>0</lat>
+			<lat>0.0001</lat>
 			<lon>0</lon>
 			<title>Default-ImageTrigger</title>
-			<line1>Tamiko Thiel</line1>
-			<line2>Image Trigger Layers</line2>
-			<line3>by /p and Tamiko Thiel</line3>
-			<line4>TTSprite</line4>
+			<line1>ExampleTriggers</line1>
+			<line2>Example Image Trigger layers</line2>
+			<line3>by AR-vos</line3>
+			<line4>ArvosLogoSprite</line4>
 			<type />
 			<doNotIndex />
 			<showSmallBiw>1</showSmallBiw>
 			<showBiwOnClick>1</showBiwOnClick>
 			<isVisible>1</isVisible>
-			<showLayer>showLayer</showLayer>
+			<page>poi</page>
 		</poi>
 
 		<poi>
@@ -57,16 +56,88 @@
 			<relativeAlt />
 			<attribution />
 			<distance />
-			<visibilityRange>1500</visibilityRange>
-			<id>11</id>
+			<visibilityRange>2000</visibilityRange>
+			<id>2</id>
 			<imageURL />
-			<lat>37.147814</lat>
-			<lon>-122.086035</lon>
-			<title>ReignOfGold</title>
-			<line1>Reign of Gold</line1>
-			<line2>Geolocative Layer</line2>
+			<lat>0.0003</lat>
+			<lon>0.0003</lon>
+			<title>Default-lotus-meditation</title>
+			<line1>Lotus Meditation</line1>
+			<line2>Location Based AR</line2>
+			<line3>by Tamiko Thiel and /p</line3>
+			<line4>LotusSprite</line4>
+			<type />
+			<doNotIndex />
+			<showSmallBiw>1</showSmallBiw>
+			<showBiwOnClick>1</showBiwOnClick>
+			<isVisible>1</isVisible>
+			<page>poi</page>
+		</poi>
+
+		<poi>
+			<dimension>3</dimension>
+			<alt />
+			<transform>
+				<rel />
+				<angle>0</angle>
+				<scale>1</scale>
+			</transform>
+			<object>
+				<baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+				<line1 />
+				<line2 />
+				<line3 />
+				<line4 />
+			</object>
+			<relativeAlt />
+			<attribution />
+			<distance />
+			<visibilityRange>2000</visibilityRange>
+			<id>3</id>
+			<imageURL />
+			<lat>0.0002</lat>
+			<lon>0.0002</lon>
+			<title>Default-SuspendedSpring</title>
+			<line1>Suspended Spring</line1>
+			<line2>Location Based AR</line2>
 			<line3>by Tamiko Thiel</line3>
-			<line4>GoldCoinSprite</line4>
+			<line4>SakuraPetalSprite</line4>
+			<type />
+			<doNotIndex />
+			<showSmallBiw>1</showSmallBiw>
+			<showBiwOnClick>1</showBiwOnClick>
+			<isVisible>1</isVisible>
+			<page>poi</page>
+		</poi>
+
+		<poi>
+			<dimension>3</dimension>
+			<alt />
+			<transform>
+				<rel />
+				<angle>0</angle>
+				<scale>1</scale>
+			</transform>
+			<object>
+				<baseURL>www.arpoise.com/cgi-bin/ArpoiseDirectory.cgi</baseURL>
+				<line1 />
+				<line2 />
+				<line3 />
+				<line4 />
+			</object>
+			<relativeAlt />
+			<attribution />
+			<distance />
+			<visibilityRange>2000</visibilityRange>
+			<id>4</id>
+			<imageURL />
+			<lat>0.0001</lat>
+			<lon>0.0001</lon>
+			<title>Default-SlamBoxes</title>
+			<line1>Slam Boxes</line1>
+			<line2>SLAM Layer</line2>
+			<line3>by /p and Tamiko Thiel</line3>
+			<line4>SlamBoxesSprite</line4>
 			<type />
 			<doNotIndex />
 			<showSmallBiw>1</showSmallBiw>
@@ -93,14 +164,14 @@
 			<attribution />
 			<distance />
 			<visibilityRange>2000</visibilityRange>
-			<id>13</id>
+			<id>5</id>
 			<imageURL />
-			<lat>37.147814</lat>
-			<lon>-122.086035</lon>
-			<title>Tamiko-ImageTrigger</title>
-			<line1>Tamiko Thiel</line1>
-			<line2>Image Trigger</line2>
-			<line3 />
+			<lat>0</lat>
+			<lon>0</lon>
+			<title>Default-TamikoThiel</title>
+			<line1>Tamiko Thiel AR</line1>
+			<line2>Image Trigger Layers</line2>
+			<line3>by Tamiko Thiel and /p</line3>
 			<line4>TTSprite</line4>
 			<type />
 			<doNotIndex />

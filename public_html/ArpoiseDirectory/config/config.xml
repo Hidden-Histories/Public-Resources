@@ -17,7 +17,6 @@ Sample XML layer configuration
   </layer>
  -->
 
-  
   <layer>
    <name>Arpoise-Directory</name>
    <connector>XMLPOIConnector</connector>
@@ -28,6 +27,18 @@ Sample XML layer configuration
    <name>AR-vos-Directory</name>
    <connector>XMLPOIConnector</connector>
    <source>AR-vos-Directory.xml</source>
+  </layer>
+
+  <layer>
+   <name>Default-Arpoise-Directory</name>
+   <connector>XMLPOIConnector</connector>
+   <source>Default-Arpoise-Directory.xml</source>
+  </layer>
+
+  <layer>
+   <name>Default-Ar-vos-Directory</name>
+   <connector>XMLPOIConnector</connector>
+   <source>Default-Ar-vos-Directory.xml</source>
   </layer>
 
  </layers>
