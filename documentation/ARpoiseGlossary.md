@@ -12,9 +12,7 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 ## AR-vos app
 
-The AR-vos app is part of the [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment)](http://arpoise.com/) open-source Augmented Reality platform.
-
-It can do **geolocative**, **SLAM** and **image trigger** AR, but only runs on recent model iOS and Android devices.
+The AR-vos app is part of the [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment)](http://arpoise.com/) open-source Augmented Reality platform. It can do **geolocative**, **SLAM** and **image trigger** AR, but only runs on recent model iOS and Android devices. The AR-vos and ARpoise apps will be merged in the future, when the older devices are not common anymore.
 
 **Download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
