@@ -9,6 +9,10 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 ## Components of the ARpoise Augmented Reality platform
 
+### Terminology:
+
+- An **augment layer** (also called "layer" or "augment" in these tutorials) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
+
 ### The ARpoise system consists of:
 
 - **ARpoiseDirector server** that keeps track of what AR layers are where.
@@ -60,9 +64,13 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
+Terminology:
+
+An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc.
+
 1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
-2. UNDER CONSTRUCTION **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. 
+2. UNDER CONSTRUCTION **Unity 3D Editor:** Learn to put together your own assets  in the Unity3D Editor to construct the basics of your AR experience. 
 
 3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account.
 
