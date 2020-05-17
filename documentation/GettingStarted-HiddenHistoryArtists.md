@@ -72,11 +72,7 @@ The tutorials link to each other in a specific order that should help you go pro
 
 . 
 
-Click on the image for a larger version:
-
-
-[![Artist + Helper](images/hiddenhistories-artist_modeler_choreographer.jpg)](
-https://raw.githubusercontent.com/Hidden-Histories/Public-Resources/master/documentation/images/hiddenhistories-artist_modeler_choreographer.jpg)
+![Artist + Helper](images/hiddenhistories-artist_modeler_choreographer.jpg)
 
 . 
 
