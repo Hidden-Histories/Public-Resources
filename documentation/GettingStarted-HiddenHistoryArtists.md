@@ -13,7 +13,7 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 - **ARpoiseDirector server** that keeps track of what AR layers are where.
 - **porPOIse** interface where you set up your augment layers
-- **ARpoise app** (for geolocative AR) and **AR-vos app** (for geolocative, image trigger and SLAM AR) on your smartphone.
+- **ARpoise app** (for geolocative AR, runs on most all iOS and Android devices) and **AR-vos app** (for geolocative, image trigger and SLAM AR, runs only on newer model iOS and Android) on your smartphone.
 
 #### Viewing an AR layer: how ARpoiseDirectory, porPOIse and the AR apps work together
 
