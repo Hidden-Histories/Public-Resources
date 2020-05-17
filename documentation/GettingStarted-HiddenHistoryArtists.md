@@ -9,7 +9,7 @@ The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-suppor
 
 ## Components of the ARpoise Augmented Reality platform
 
-### Terminology:
+#### Terminology:
 
 - An **augment layer** (also called "layer" or "augment" in these tutorials) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
 
