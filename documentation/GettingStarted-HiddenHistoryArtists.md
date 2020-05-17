@@ -62,7 +62,7 @@ The tutorials link to each other in a specific order that should help you go pro
 
 1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
-2. **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. UNDER CONSTRUCTION
+2. UNDER CONSTRUCTION **Unity 3D Editor:** Learn to put together your own assets (3D models, images, sound files etc.) in the Unity3D Editor to construct the basics of your AR experience. 
 
 3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account.
 
