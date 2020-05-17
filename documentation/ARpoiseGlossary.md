@@ -19,10 +19,23 @@ Download the AR-vos app from the [Google Play](https://play.google.com/store/app
 ## Asset
 An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
 
+. 
+
+
+## Asset Bundle
+An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
+
+.
 
 ## Augment
 (See also **layer**) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
 
+.
+
+## FTP (File Transfer Protocol)
+This is an program that runs on your PC and allows you to upload files to your porPOIse account.
+
+.
 
 ## Geofencing
 On the ARpoise platform, all forms of AR can be restricted to a certain area if desired. Therefore both the ARpoise app and the AR-vos app always check your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
@@ -51,10 +64,21 @@ An ARpoise "layer" is an individual AR experience or project. A single location 
 ## Manifest
 In the ARpoise system, a manifest is a file showing the entire list of **assets** in an **asset bundle.** This is a term taking from shipping terminology: a "ship's manifest" is a list of all the goods being transported by a ship, to be shown to the customs officer in port.
 
+.
+
 ## POI (Point Of Interest):
 A "POI" is a component of an AR layer that contains a **prefab** that are all positioned together as part of the total AR experience. An AR **layer** can be made up of one or more POIs. Each POI can be positioned independently of other POIs.
 
 . 
+
+## Prefab
+Unity terminology for a "prefabricated" object that you can use in porPOIse.
+. 
+
+## Server
+A computer on the Internet that "serves" you files in web browser on your PC or mobile device, or in an app.
+
+.
 
 ## SLAM [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping):
 SLAM based AR (only in AR-vos)** uses the newest form of A.I. computer vision technology, , to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
@@ -62,3 +86,17 @@ SLAM based AR (only in AR-vos)** uses the newest form of A.I. computer vision te
 - SLAM **only** run on newer iOS and Android devices, as they use Apple's ARKit and Google Android's ARCore technologies.
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
+
+. 
+
+## Unity (Unity3D Editor)
+Unity is one of the main programs used today to develop computer games, virtual reality and augmented reality. In the ARpoise platform, we use Unity to put together the assets we need for a specific AR experience or layer. These are exported into an asset bundle, which you then upload and link to your porPOIse account in order to create your layer.
+
+.
+
+## Unity Hub
+Unity is constantly updating its Editor, but does not maintain very good backward compatibility between browser versions. If you have more than one version on your PC, and open your Unity project in the wrong one, is might not work anymore! The Hub helps you keep track of which version you download, and if you have multiple versions, shows you which version will be used to open each project. Currently we are using Unity3D Editor Version 2018.3.14.
+
+.
+
+
