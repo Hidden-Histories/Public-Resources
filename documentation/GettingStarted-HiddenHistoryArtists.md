@@ -83,5 +83,5 @@ If you are not used to working in digital media, please ask the Hidden Histories
 . 
 
 [Corinne's quick, illustrated overview (click here for a pdf version)](http://hiddenhistoriesjtown.org/wp-content/uploads/Hidden-Histories-art-asset-process-revised-process_v2.pdf)
-. 
+
 ![AR art creation overview  Corinne](images/hiddenhistories-art-asset-process_v2_1024w.jpg)
