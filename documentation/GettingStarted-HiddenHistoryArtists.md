@@ -66,9 +66,9 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 ### Next Steps: learn how to adjust those layers, and create your own content
 
-The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
+NOTE: An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc. For a visual diagrams of the entire process, see the images below.
 
-NOTE: An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc.
+The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise:
 
 1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
