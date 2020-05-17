@@ -16,6 +16,14 @@ Download the AR-vos app from the [Google Play](https://play.google.com/store/app
 
 . 
 
+## Asset
+An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
+
+
+## Augment
+(See also **layer**) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
+
+
 ## Geofencing
 On the ARpoise platform, all forms of AR can be restricted to a certain area if desired. Therefore both the ARpoise app and the AR-vos app always check your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
 
@@ -40,8 +48,11 @@ An ARpoise "layer" is an individual AR experience or project. A single location 
 
 . 
 
+## Manifest
+In the ARpoise system, a manifest is a file showing the entire list of **assets** in an **asset bundle.** This is a term taking from shipping terminology: a "ship's manifest" is a list of all the goods being transported by a ship, to be shown to the customs officer in port.
+
 ## POI (Point Of Interest):
-A "POI" is an asset or a group of assets (such as 3D models, images, sounds etc.), that all together make up your AR experience.
+A "POI" is a component of an AR layer that contains a **prefab** that are all positioned together as part of the total AR experience. An AR **layer** can be made up of one or more POIs. Each POI can be positioned independently of other POIs.
 
 . 
 
