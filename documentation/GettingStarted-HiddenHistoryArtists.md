@@ -7,11 +7,11 @@ The [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**e
 
 The goal of [ARpoise](http://arpoise.com/) is to foster it as a community-supported AR app for artists and other people who might not be able to develop their own apps, and as an alternative to commercial AR platforms that may go out of business at any time without warning. 
 
+NOTE: For a list of terms, see the [ARpoise Glossary](ARpoiseGlossary.md#-hidden-histories-artists).
+
 ## Components of the ARpoise Augmented Reality platform
 
-#### Terminology (see the [ARpoise Glossary](ARpoiseGlossary.md#-hidden-histories-artists) for a complete list of terms):
-
-- An **augment layer** (also called "layer" or "augment" in these tutorials) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
+An **augment layer** (also called "layer" or "augment" in these tutorials) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
 
 ![ARpoise app Layer List](images/ARpoise_layerList_JAMsj_800w.png)
 
@@ -68,9 +68,7 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
-#### Terminology (see the [ARpoise Glossary](ARpoiseGlossary.md#-hidden-histories-artists) for a complete list of terms):
-
-An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc.
+NOTE: An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc.
 
 1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
