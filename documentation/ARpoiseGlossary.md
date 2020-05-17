@@ -39,3 +39,6 @@ It can do **geolocative**, **SLAM** and **image trigger** AR, but only runs on r
 
 - **Geofencing:** all these forms of AR can be restricted to a certain area if desired. Therefore both the ARpoise app and the AR-vos app always check your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
 
+- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. When you stand at that site, the ARpoise app will show you a list of layers available for you there.
+
+- **POI:** A "POI" (Point Of Interest) is an asset or a group of assets (such as 3D models, images, sounds etc.), that all together make up your AR experience.
