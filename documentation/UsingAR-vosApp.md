@@ -7,41 +7,45 @@
 
 **Download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
-- **Image trigger AR** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
-  - It uses Apple's ARKit and Google Android's ARCore technologies, which only run on newer models.
-  - For iPhones, it only works on the iPhone SE or iPhone **6s** (NOT iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
-  - For Android it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices).
-  - Note that if lighting conditions vary, for instance cast shadows on outside trigger images, you should set up the same augment with multiple trigger images for the different lighting conditions.
+- **Image trigger AR (only in AR-vos)** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
+  - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
 
-- **SLAM based AR** employs [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) technology to discover planes in the physical space around the user, and then  place augments on these planes. The augments will pretty much stay in place, and the user can then walk around them in 3D space.
-  - It uses Apple's ARKit and Google Android's ARCore technologies, which only run on newer models.
-  - For iPhones, it only works on the iPhone SE or iPhone **6s** (NOT iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
-  - For Android it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices).
-  
-- **Geolocative AR** is an simpler technology that uses the GPS coordinates of the augments as the sole way to determine where an augment is viewable. Due to the imprecision of civilian GPS systems in smartphones, the location and orientation of the augments can vary by +/- 20 meters. The ARpoise app can only do geolocative AR, but runs on a very large variety of older smartphones. We expect to merge the two client apps soon, as the older smartphones become defunct. 
+- **SLAM based AR (only in AR-vos)** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
 
-- **Geofencing:** Image trigger and SLAM augments can be restricted to a certain area if desired. Therefore the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
+- **Image trigger and SLAM (and therefore the AR-vos app) *only* run on newer models,** as they use Apple's ARKit and Google Android's ARCore technologies.
+  - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
+  - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
+    
+- **Geolocative AR (in both the AR-vos app and the ARpoise app)** is a simpler technology that uses the GPS coordinates of the augments as the sole way to determine whether and where an augment is viewable. Due to the imprecision of civilian GPS systems in smartphones, the location and orientation of the augments can vary by +/- 20 meters. The AR-vos app can do geolocative AR as well as image trigger and SLAM. The ARpoise app can only do geolocative AR, but runs on a very large variety of older smartphones. We expect to merge the two client apps soon, as the older smartphones become defunct. 
+
+- **Geofencing:** all these forms of AR can be restricted to a certain area if desired. Therefore both the ARpoise app and the AR-vos app always check your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
 
 ## Example Image Triggers
 
-In order to see the triggered augment layers, start **AR-vos** and select "Tamiko Thiel's AR" layer with the example triggers. You should then get a frame as in the image below:
+In order to see the triggered augment layers, start **AR-vos** and select the "Example Triggers" layer with the example triggers. You should then get a frame as in the image below:
 
 . 
 
-![AR-vosExamples1](/images/AR-vosExamples1a_800w.png)
+![AR-vosExamples1](/images/AR-vosExamples1b_800w.jpg)
 
 . 
 
 - Now point your device at the **AR-vos** logo, which we have set up as an example trigger.
 
-![AR-vos Logo](/images/AR-vosExamples2a_logo800x600.png)
+. 
 
-The following example augment should appear - some colorful animated cubes:
+![AR-vos Logo](/images/arvos_logo_rgb-weiss512.png)
+
+. 
+
+The following example augment should appear - some colorful animated cubes. Click on the yellow cube in the center to set the cubes spinning!
 
 ![AR-vosExamples2](/images/AR-vosExamples2a_800w.png)
 
 . 
 
+Close the layer by clicking once on the AR-vos logo menu (upper left in our example). This takes you back to the menu of available layers.
+- Click the "Example Triggers" layer again.
 - Now point your device at this example trigger, the Japanese character for "Zen":
 
 .
@@ -56,9 +60,12 @@ A mandala with [Eisai](https://en.wikipedia.org/wiki/Eisai) should appear: the J
 
 . 
 
-- Now try this doorway, which we set as a trigger image for King Ludwig II of Bavaria. 
-  - Note that this is a north-facing facade, and therefore has constant lighting with no shadows. 
-  - Also, although there are reflections on the glass panes, they are small relative to the rest of the doorway and therefore should not disturb the overall reading of the trigger image.
+Close and reopen the layer again.
+
+Now try this photo of a doorway below, which we set as a trigger image for King Ludwig II of Bavaria. Of course the photo is always the same and should always work. But the real life doorway is trickier:
+- Note that this is a north-facing facade, and therefore has constant lighting with no shadows. 
+- Also, although there are reflections on the glass panes, they are small relative to the rest of the doorway and therefore should not disturb the overall reading of the trigger image. A glass door - or even worse, a glass facade - makes for very difficult trigger image, as the reflections change constantly.
+- This trigger image will probably only work during the day. To also use this doorway as a trigger during the night, we would have to set up another layer with a photo of the doorway under those lighting conditions.
 
 . 
 
@@ -66,40 +73,43 @@ A mandala with [Eisai](https://en.wikipedia.org/wiki/Eisai) should appear: the J
 
 . 
 
-The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) should appear, larger than life! 
+The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) should appear, larger than life! Notice he hops around a little - when you create your own image trigger layers you need watch out for this and take it into consideration.
 
 . 
 
 ![AR-vosExamples4](/images/AR-vosExamples4a_800h.png)
 
+. 
 
 ## SLAM Example
-The layer 'SLAM Boxes' is currently one of the default AR-vos layers.
+- Tap the AR-vos logo once to go back to the layers list. (If you ever have problems getting a new layer try closing the app completely and restarting.)
 
-- Tap the AR-vos logo once to go back to the layers list, or restart **AR-vos** completely and let the default layer list load.
-
-- From the layer list select 'SLAM Boxes' and let it load, your screen should look like this:
-
-![AR-vosExamples1](/images/SLAM_1_800h.PNG)
+- From the layer list select 'Example SLAM Boxes' and let it load. Your screen should look like this:
 
 . 
 
-- Now move your device until it detects a plane. (If you are on Android, it might look slightly different - a grid without the blue frame.)
-
-![AR-vos Logo](/images/SLAM_2_800h.PNG)
+![AR-vos SLAM Examples1a](/images/SLAM_1a_800h.png)
 
 . 
 
-- Every time you tap on a plane, more colorful animated cubes appear.
-- If you instead tap on the yellow center cube of a group of cubes, the group will start to spin.
+- Now scan your room with your device until it detects a plane. (If you are on Android, the scan screen might look slightly different.) Note that if it can't find a plane within 30 seconds, it will stop trying.
+- Once it detects a plane, in this example you can tap a location on that plane in the display, and it will fix an augment at that place. (In other SLAM layers, the creator might have the augments place themselves automatically on the planes.)
 
-![AR-vosExamples2](/images/SLAM_3_800h.PNG)
+. 
+
+![AR-vos Logo](/images/SLAM_2a_800h.png)
+
+. 
+
+- If you tap on the yellow center cube of any group of cubes, the group will start to spin.
+- In the SLAM Boxes example, every time you tap somewhere on a plane, more colorful animated cubes appear.
+
+. 
+
+![AR-vosExamples2](/images/SLAM_3a_800h.png)
 
  .
 
-The SLAM technology will make sure the boxes stay where you put them by tapping. So you can walk around the cubes and see them from the other side.
+The SLAM technology will make sure the boxes stay where you put them, and you can walk around the cubes and see them from the other side. 
 
-
-
-
-
+So for instance you can make a 3D sculpture, place it life sized as an augment in the room, and then walk around it and see it from all sides.
