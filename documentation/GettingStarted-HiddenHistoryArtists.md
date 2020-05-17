@@ -54,7 +54,7 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 - The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise and AR-vos apps.
 
-- You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your home so when you are there, you see them immediately when you open up the ARpoise app.
+- You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your "home base" (where you are likely to work on them most of the time) so when you are there, you see them immediately when you open up the ARpoise app. When you are at some other location, you can still work on them using the [Fixed Position feature described in the ARpoise app tutorial](UsingARpoiseApp.md#exercise1-remote-viewing-with-arpoises-fixed-position-feature).
 
 ### Next Steps: learn how to adjust those layers, and create your own content
 
