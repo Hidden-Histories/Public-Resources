@@ -3,7 +3,7 @@
 
 ## Using the ARpoise Augmented Reality App ![ARpoise Logo](images/ARpoise_logo_rgb_64.png)
 
-This tutorial shows you how to use the ARpoise Augmented Reality App to view geolocative augmented reality, computer graphic artworks positioned at specific physical locations via their GPS coordinates. ARpoise should work on most iOS and Android smartphones. (At this time ARpoise has a sister app, AR-vos, that can view both geolocative AR and image trigger AR, but only on newer, higher end smartphones.)
+This tutorial shows you how to use the ARpoise Augmented Reality App to view geolocative augmented reality, computer graphic artworks positioned at specific physical locations via their GPS coordinates. ARpoise should work on most iOS and Android smartphones. (At this time ARpoise has a sister app, [AR-vos](UsingAR-vosApp.md#-ar-vos-augmented-reality-app), that can view geolocative, image trigger and SLAM AR, but only on newer, higher end smartphones.)
 
 . 
 ### Download and install the ARpoise AR app
