@@ -70,6 +70,8 @@ The tutorials link to each other in a specific order that should help you go pro
 
 ### Overviews of the AR art creation process with the ARpoise platform:
 
+If you are not used to working in digital media, please ask the Hidden Histories coordinators for assistance. Below we list the steps of two pathways, one with assistance from a Hidden Histories helper, and the other if you can create all your own material and go through the entire process by yourself.
+
 . 
 
 ![Artist + Helper](images/hiddenhistories-artist_modeler_choreographer.jpg)
