@@ -68,7 +68,7 @@ In order to work with your own augments on the ARpoise and AR-vos apps, you shou
 
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise.
 
-Terminology:
+#### Terminology (see the [ARpoise Glossary](ARpoiseGlossary.md#-hidden-histories-artists) for a complete list of terms):
 
 An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc.
 
