@@ -1,4 +1,4 @@
-# ![ARpoise Logo](/images/arvos_logo-sprite_rounded128sq.png) AR-vos Augmented Reality App
+# ![ARpoise Logo](images/arvos_logo-sprite_rounded128sq.png) AR-vos Augmented Reality App
 # Image Trigger and SLAM AR Examples
 
 ## Overview
@@ -26,7 +26,7 @@ In order to see the triggered augment layers, start **AR-vos** and select the "E
 
 . 
 
-![AR-vosExamples1](/images/AR-vosExamples1b_800w.jpg)
+![AR-vosExamples1](images/AR-vosExamples1b_800w.jpg)
 
 . 
 
@@ -34,13 +34,13 @@ In order to see the triggered augment layers, start **AR-vos** and select the "E
 
 . 
 
-![AR-vos Logo](/images/arvos_logo_rgb-weiss512.png)
+![AR-vos Logo](images/arvos_logo_rgb-weiss512.png)
 
 . 
 
 The following example augment should appear - some colorful animated cubes. Click on the yellow cube in the center to set the cubes spinning!
 
-![AR-vosExamples2](/images/AR-vosExamples2a_800w.png)
+![AR-vosExamples2](images/AR-vosExamples2a_800w.png)
 
 . 
 
@@ -50,13 +50,13 @@ Close the layer by clicking once on the AR-vos logo menu (upper left in our exam
 
 .
 
-![Zen Kanji](/images/AR-vosExamples3a_Zen800x600.png)
+![Zen Kanji](images/AR-vosExamples3a_Zen800x600.png)
 
 .
 
 A mandala with [Eisai](https://en.wikipedia.org/wiki/Eisai) should appear: the Japanese monk who brought Zen (and green tea!) to Japan.
 
-![AR-vosExamples3](/images/AR-vosExamples3a_800w.png)
+![AR-vosExamples3](images/AR-vosExamples3a_800w.png)
 
 . 
 
@@ -69,7 +69,7 @@ Now try this photo of a doorway below, which we set as a trigger image for King 
 
 . 
 
-![doorwayExample4](/images/AR-vosExamples4a_doorTrigger_800h.png)
+![doorwayExample4](images/AR-vosExamples4a_doorTrigger_800h.png)
 
 . 
 
@@ -77,7 +77,7 @@ The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) sho
 
 . 
 
-![AR-vosExamples4](/images/AR-vosExamples4a_800h.png)
+![AR-vosExamples4](images/AR-vosExamples4a_800h.png)
 
 . 
 
@@ -88,7 +88,7 @@ The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) sho
 
 . 
 
-![AR-vos SLAM Examples1a](/images/SLAM_1a_800h.png)
+![AR-vos SLAM Examples1a](images/SLAM_1a_800h.png)
 
 . 
 
@@ -97,7 +97,7 @@ The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) sho
 
 . 
 
-![AR-vos Logo](/images/SLAM_2a_800h.png)
+![AR-vos Logo](images/SLAM_2a_800h.png)
 
 . 
 
@@ -106,7 +106,7 @@ The [Mad King Ludwig II](https://en.wikipedia.org/wiki/Ludwig_II_of_Bavaria) sho
 
 . 
 
-![AR-vosExamples2](/images/SLAM_3a_800h.png)
+![AR-vosExamples2](images/SLAM_3a_800h.png)
 
  .
 
