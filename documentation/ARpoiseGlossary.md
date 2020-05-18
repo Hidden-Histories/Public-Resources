@@ -67,7 +67,8 @@ Geolocation is a simpler technology that uses the GPS coordinates of the augment
 
 . 
 
-## GPS
+## GPS ([Global Positioning System](https://en.wikipedia.org/wiki/Global_Positioning_System))
+A global navigation satellite systems developed and owned by the US military. This is the same technology used in Google or Apple maps and in car navigation systems. The civilian version that ARpoise can access has a +/- accuracy of at the best 20 meters (66 feet). When you enable Location Services on your mobile, you are consenting to allow it to read and use your phone's GPS position data in apps on your smartphone.
 
 . 
 
