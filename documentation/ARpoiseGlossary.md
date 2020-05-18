@@ -48,7 +48,7 @@ View augment layers in the **ARpoise** or **AR-vos** apps on an iOS or Android s
 .
 
 ## Augmented Reality (AR)
-Augmented reality is a technology that overlays the live camera view on a mobile smartphone with computer graphic artworks, so the artworks seem to be part of the surrounding environment. 
+Augmented reality is a technology for mobile devices that, when seen in the device's display, seems to overlay your surroundings with computer graphic artworks, such that the artworks seem to be part of your surrounding environment.
 
 . 
 
