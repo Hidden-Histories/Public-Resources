@@ -1,6 +1,9 @@
-# ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories Artists
+# ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
 # ARpoise PorPOISe User Interface tutorial
+<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
+
+.
 
 ## Overview
 
