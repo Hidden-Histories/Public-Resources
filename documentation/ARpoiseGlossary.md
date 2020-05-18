@@ -40,7 +40,7 @@ An asset bundle is **Unity3D Editor** terminology for a single file that, simila
 .
 
 ## Augment
-The term augment is a general term that can refer to a single augmented reality artwork installation, also called a **layer**, or to a component of such an installation, also called a **POI**. View augment layers in the **ARpoise** or **AR-vos** apps on an iOS or Android smartphone by clicking on the name of the layer  in the list shown when you start the app.
+The term augment is a general term that can refer to a single augmented reality artwork installation, also called a **layer**, or to a component of such an installation, also called a **POI** (Point Of Interest). View augment layers in the **ARpoise** or **AR-vos** apps on an iOS or Android smartphone by clicking on the name of the layer  in the list shown when you start the app.
 
 .
 
