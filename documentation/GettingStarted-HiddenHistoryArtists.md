@@ -1,5 +1,9 @@
-# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories Artists
+# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories
+
 # Getting Started with ARpoise 
+<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
+
+. 
 
 ## ARpoise Augmented Reality platform
 
