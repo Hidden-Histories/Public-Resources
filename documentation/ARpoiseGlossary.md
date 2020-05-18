@@ -5,7 +5,7 @@
 ## ARpoise app
 The ARpoise app is a geolocative AR only app that is part of the **ARpoise** open-source Augmented Reality platform. It runs on pretty much all iOS and Android smartphones and tablets. It will be merged with its newer sister app **AR-vos** at some point in the near future.
 
-Download the ARpoise app from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise&hl=en) Store and the Apple [App Store](https://apps.apple.com/de/app/arpoise/id1451460843). 
+Download the ARpoise app from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise&hl=en) Store or the Apple [App Store](https://apps.apple.com/de/app/arpoise/id1451460843). 
 
 . 
 
@@ -38,6 +38,11 @@ An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
 (See also **layer**) is a single augmented reality artwork installation. It can be displayed in the ARpoise or AR-vos apps on your smartphone by clicking on the name of the artwork in the list of layers shown when you start the app.
 
 .
+
+## Augmented Reality (AR)
+Augmented reality is a technology that overlays the live camera view on a mobile smartphone with computer graphic artworks, so the artworks seem to be part of the surrounding environment. 
+
+. 
 
 ## FTP (File Transfer Protocol)
 This is an program that runs on your PC and allows you to upload files to your porPOIse account.
