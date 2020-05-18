@@ -82,8 +82,9 @@ Image trigger AR uses A.I. computer vision technology to recognize images (e.g. 
 . 
 
 ## Layer:
-An **ARpoise** layer is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. 
-- When you stand at that site, the **ARpoise** and **AR-vos** apps will show you a list of layers available for you there.
+An **ARpoise** layer is an individual AR experience or project. 
+- A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. 
+- When you stand at that site, the **ARpoise** and **AR-vos** apps will show you a list of layers available for you there. You select one from the list to view it.
 - Artists set up and edit their AR layers in the **porPOIse** user interface.
 
 . 
@@ -97,28 +98,28 @@ In the ARpoise system, a manifest is a file showing the entire list of available
 A POI is one of the components that make up an AR **layer**. 
 - A single layer can have one or more POIs. 
 - You can have many different POIs, but also multiple POIs of the same type.
-- In each POI you can define 
-- The actual artwork content of a POI is the **prefab** linked to the POI definition via the URL (website address) of an **asset bundle**. 
+- In each POI you can define multiple properties such as its scale, location, elevation, simple animations and some simple interactions. These are the properties that you are changing when you edit your layer in porPOIse.
+- The actual artwork content of a POI is the **prefab** linked to the POI definition via the **URL** of an **asset bundle**. 
 
 . 
 
 ## porPOIse user interface
-porPOIse is the web interface that artists use to set up and edit their AR **layers.** Within porPOIse, you can do simple interactions and animations. Changes to porPOIse update instantanenously so you can check your revised layer immediately. porPOIse works both on PCs and on mobile smartphones and tablets, so you can stand on site "in the field" and make last minute adjustments to your layers on the spot.
+porPOIse is the web interface that artists use to set up and edit their **ARpoise** **layers.** Within porPOIse, you can do simple interactions and animations. Changes to porPOIse update instantanenously so you can check your revised layer immediately. porPOIse works both on PCs and on mobile smartphones and tablets, so you can stand on site "in the field" and make last minute adjustments to your layers on the spot.
 
 .
 
 ## Prefab
-Unity terminology for a "prefabricated" object that you can link to and reference from porPOIse.
+Unity terminology for a "prefabricated object" that you can link to and reference from porPOIse. A prefab can itself be a 3D object or a 2D image that may or may not be animated, a sound, a video, etc.
 
 . 
 
 ## Server
-A computer on the Internet that "serves" you files in web browser on your PC or mobile device, or in an app.
+A computer on the Internet that "serves" you files in a web browser on your PC or mobile device, or "serves" content to you in an app.
 
 .
 
 ## SLAM [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping):
-SLAM based AR (only in AR-vos)** uses the newest form of A.I. computer vision technology, , to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
+SLAM based AR (only in **AR-vos**) uses the newest form of A.I. computer vision technology to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
 
 - SLAM **only** run on newer iOS and Android devices, as they use Apple's ARKit and Google Android's ARCore technologies.
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
@@ -127,17 +128,17 @@ SLAM based AR (only in AR-vos)** uses the newest form of A.I. computer vision te
 . 
 
 ## Unity (Unity3D Editor)
-Unity is one of the main programs used today to develop computer games, virtual reality and augmented reality. In the ARpoise platform, we use Unity to put together the assets we need for a specific AR experience or layer. These are exported into an asset bundle, which you then upload and link to your porPOIse account in order to create your layer.
+The [Unity3D Editor](https://unity.com/) is one of the main programs used today to develop computer games, virtual reality and augmented reality. For the ARpoise platform, we use Unity to turn the individual **assets** for an AR experience (**layer**) into **prefabs** and then combine them into a single **asset bundle** file. You then upload the asset bundle file to your **porPOIse** account and reference the prefabs in it from a specific **POI** in order for them to be shown in a specific **layer**.
 
 .
 
 ## Unity Hub
-Unity is constantly updating its Editor, but does not maintain very good backward compatibility between browser versions. If you have more than one version on your PC, and open your Unity project in the wrong one, is might not work anymore! The Hub helps you keep track of which version you download, and if you have multiple versions, shows you which version will be used to open each project. Currently we are using Unity3D Editor Version 2018.3.14.
+Unity is constantly updating its Editor, but does not maintain very good backward compatibility between Editor versions. If you have more than one version of the Editor on your PC, and open a Unity project in the wrong version, the project might not work anymore! The Hub helps you keep track of which Editor version you download, and if you have multiple versions, shows you which Editor version should be used to open each project. **Currently we are using Unity3D Editor Version 2018.3.14.**
 
 .
 
-URL ([Uniform Resource Locator](https://en.wikipedia.org/wiki/URL))
-The technical term for a website address, such as https://hiddenhistories.org.
+##URL ([Uniform Resource Locator](https://en.wikipedia.org/wiki/URL))
+The technical term for a website address, such as https://hiddenhistoriesjtown.org/.
 
 . 
 
