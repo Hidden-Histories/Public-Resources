@@ -1,6 +1,9 @@
-![Hidden Histories Logo](images/hiddenhistories-logo.png)
-# Hidden Histories
+# ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
+
 # Creating porPOIse Asset Bundles in Unity
+<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
+
+.
 
 ## Overview
 
