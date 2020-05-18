@@ -77,24 +77,28 @@ Image trigger AR uses A.I. computer vision technology to recognize images (e.g. 
   - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
   - **Image trigger and SLAM (and therefore the AR-vos app) *only* run on newer models,** as they use Apple's ARKit and Google Android's ARCore technologies.
     - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
-  - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0. 
+    - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0. 
 
 . 
 
 ## Layer:
-An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. When you stand at that site, the ARpoise app will show you a list of layers available for you there.
+An **ARpoise** layer is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. 
+- When you stand at that site, the **ARpoise** and **AR-vos** apps will show you a list of layers available for you there.
+- Artists set up and edit their AR layers in the **porPOIse** user interface.
 
 . 
 
 ## Manifest
-In the ARpoise system, a manifest is a file showing the entire list of **assets** in an **asset bundle.** This is a term taking from shipping terminology: a "ship's manifest" is a list of all the goods being transported by a ship, to be shown to the customs officer in port.
+In the ARpoise system, a manifest is a file showing the entire list of available **prefabs** in an **asset bundle.** This is a term taking from shipping terminology: a "ship's manifest" is a list of all the goods being transported by a ship, to be shown to the customs officer in port.
 
 .
 
 ## POI (Point Of Interest):
-A "POI" is a component of an AR layer that contains a **prefab** that are all positioned together as part of the total AR experience. An AR **layer** can be made up of one or more POIs. Each POI can be positioned independently of other POIs.
-
-. 
+A POI is one of the components that make up an AR **layer**. 
+- A single layer can have one or more POIs. 
+- You can have many different POIs, but also multiple POIs of the same type.
+- In each POI you can define 
+- The actual artwork content of a POI is the **prefab** linked to the POI definition via the URL (website address) of an **asset bundle**. 
 
 ## porPOIse user interface
 porPOIse is the web interface that artists use to set up and edit their AR **layers.** Within porPOIse, you can do simple interactions and animations. Changes to porPOIse update instantanenously so you can check your revised layer immediately. porPOIse works both on PCs and on mobile smartphones and tablets, so you can stand on site "in the field" and make last minute adjustments to your layers on the spot.
@@ -127,4 +131,8 @@ Unity is constantly updating its Editor, but does not maintain very good backwar
 
 .
 
+URL ([Uniform Resource Locator](https://en.wikipedia.org/wiki/URL))
+The technical term for a website address, such as https://hiddenhistories.org.
+
+. 
 
