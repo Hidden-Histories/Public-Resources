@@ -100,11 +100,16 @@ A POI is one of the components that make up an AR **layer**.
 - In each POI you can define 
 - The actual artwork content of a POI is the **prefab** linked to the POI definition via the URL (website address) of an **asset bundle**. 
 
+. 
+
 ## porPOIse user interface
 porPOIse is the web interface that artists use to set up and edit their AR **layers.** Within porPOIse, you can do simple interactions and animations. Changes to porPOIse update instantanenously so you can check your revised layer immediately. porPOIse works both on PCs and on mobile smartphones and tablets, so you can stand on site "in the field" and make last minute adjustments to your layers on the spot.
 
+.
+
 ## Prefab
 Unity terminology for a "prefabricated" object that you can link to and reference from porPOIse.
+
 . 
 
 ## Server
