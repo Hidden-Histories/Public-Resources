@@ -24,7 +24,7 @@ Download the AR-vos app from the [Google Play](https://play.google.com/store/app
 . 
 
 ## Asset
-An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
+An asset is **Unity** terminology for the individual digital files that together make up an AR experience. These can be a 3D model, a 2D image, a sound file, a movie file etc.
 
 . 
 
