@@ -159,11 +159,15 @@ You should now have completed the following steps:
 3. **SetupArtistArpoiseDirectory**
 
 #### Next steps: artist tutorials
+Please see the overview link page for all the tutorials on using porPOIse to set up and modify layers, creating Unity asset bundles with your own content, etc.
+http://hiddenhistoriesjtown.org/documentation
+
+<!--
 - To learn what you can do in porPOIse, including animations, play around with your existing test layer using the tutorial on the ARpoise porPOISe Back End:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md
 
 - To create a new AR experience for your layer, you need to set up the assets in Unity (2D and 3D objects, sounds) and then export them into asset bundles. Learning to use Unity goes beyond the scope of our tutorials, but here is our tutorial for turning Unity assets into AssetBundles:
 https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md
-
+-->
 .
 
