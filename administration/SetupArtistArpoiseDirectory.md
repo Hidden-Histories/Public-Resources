@@ -158,7 +158,7 @@ You should now have completed the following steps:
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
 3. **SetupArtistArpoiseDirectory**
 
-#### Next steps: artist tutorials
+#### Artist tutorials
 Please see the overview link page for all the tutorials on using porPOIse to set up and modify layers, creating Unity asset bundles with your own content, etc.
 http://hiddenhistoriesjtown.org/documentation
 
