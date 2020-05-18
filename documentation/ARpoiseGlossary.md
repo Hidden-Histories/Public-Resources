@@ -1,6 +1,10 @@
 # ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories Artists
 # ARpoise Glossary of Terms
 
+These terms are used in the Hidden History technical AR documentation. Please go to this page for links to all the documentation:
+http://hiddenhistoriesjtown.org/documentation
+
+. 
 
 ## ARpoise app
 The ARpoise app is a geolocative AR only app that is part of the **ARpoise** open-source Augmented Reality platform. It runs on pretty much all iOS and Android smartphones and tablets. It will be merged with its newer sister app **AR-vos** at some point in the near future.
@@ -24,13 +28,13 @@ Download the AR-vos app from the [Google Play](https://play.google.com/store/app
 . 
 
 ## Asset
-An asset is **Unity** terminology for the individual digital files that together make up an AR experience. These can be a 3D model, a 2D image, a sound file, a movie file etc.
+An asset is **Unity3D Editor** terminology for the individual digital files that together make up an AR experience. These can be a 3D model, a 2D image, a sound file, a movie file etc.
 
 . 
 
 
 ## Asset Bundle
-An asset can be a 3D model, a 2D images, a sound file, a movie files etc.
+An asset bundle is **Unity3D Editor** terminology for a single file that, similar to a zip file, contains multiple **prefabs,** prefabricated **assets** or collections of assets that can be referenced by an artist's **porPOIse** account to provide an AR experience. The asset bundle has to be on a **server** accessible through the web.
 
 .
 
@@ -83,8 +87,11 @@ A "POI" is a component of an AR layer that contains a **prefab** that are all po
 
 . 
 
+## porPOIse user interface
+porPOIse is the web interface that artists use to set up and edit their AR **layers.** Within porPOIse, you can do simple interactions and animations. Changes to porPOIse update instantanenously so you can check your revised layer immediately. porPOIse works both on PCs and on mobile smartphones and tablets, so you can stand on site "in the field" and make last minute adjustments to your layers on the spot.
+
 ## Prefab
-Unity terminology for a "prefabricated" object that you can use in porPOIse.
+Unity terminology for a "prefabricated" object that you can link to and reference from porPOIse.
 . 
 
 ## Server
