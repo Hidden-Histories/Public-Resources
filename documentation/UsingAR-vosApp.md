@@ -1,5 +1,7 @@
-# ![ARpoise Logo](images/arvos_logo-sprite_rounded128sq.png) AR-vos Augmented Reality App
-# Image Trigger and SLAM AR Examples
+# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories 
+
+# AR-vos Augmented Reality App - Image Trigger and SLAM AR Examples
+<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 ## Overview
 
