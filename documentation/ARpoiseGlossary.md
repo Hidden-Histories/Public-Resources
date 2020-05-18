@@ -2,6 +2,7 @@
 # ARpoise Glossary of Terms
 
 These terms are used in the Hidden History technical AR documentation. 
+
 (Go to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).)
 
 . 
