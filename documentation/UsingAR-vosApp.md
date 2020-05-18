@@ -1,6 +1,6 @@
 # ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories 
 
-# AR-vos App - Image Trigger and SLAM
+# AR-vos App - Image Trigger and SLAM AR
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 . 
