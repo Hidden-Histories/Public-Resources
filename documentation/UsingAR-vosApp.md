@@ -1,8 +1,9 @@
 # ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories 
 
-# AR-vos Augmented Reality App - Image Trigger and SLAM AR Examples
+# AR-vos App - Image Trigger and SLAM Examples
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
+. 
 ## Overview
 
 **AR-vos** is an open source app that can do **geolocative**, **SLAM** and **image trigger** AR. It is part of the [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment)](http://arpoise.com/) open-source Augmented Reality platform.
