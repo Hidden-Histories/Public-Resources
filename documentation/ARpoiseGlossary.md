@@ -1,4 +1,4 @@
-# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories Artists
+# [![Hidden Histories Logo](/images/hiddenhistories-logo.png)](http://hiddenhistoriesjtown.org/documentation) Hidden Histories Artists
 # ARpoise Glossary of Terms
 
 These terms are used in the Hidden History technical AR documentation. Please go to this page for links to all the documentation:
