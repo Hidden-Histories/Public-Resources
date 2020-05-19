@@ -41,11 +41,13 @@ Whether you create your own digital assets for your AR artwork, or work together
 
 
 . 
-## porPOIse Layers List
+## Log in to your porPOIse account
 
-Log in  to your porPOIse account. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
+Log in to your porPOIse account in a web browser on your PC. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
 
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/dashboard/
+
+## porPOIse Layers List
 
 When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
 
