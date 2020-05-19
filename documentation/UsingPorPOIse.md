@@ -94,7 +94,10 @@ We will now practice changing the configuration of the POIs, and view the layer 
 
 There are two ways you can place POIs in the real world:
 
-- **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time.
+- **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time. It does two things:
+  - The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value here + Visibility means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
+  - Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how large the POI should be, and in what direction (but be warned, both can be inaccurate.)
+
 - **Relative location (x,y,z):** 
   - This is relative to where the viewer is standing, and **overrules the Lat/Lon** (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to see it at all!) 
   - If you use Relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - the technology has no real control over this).
