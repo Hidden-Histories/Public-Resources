@@ -13,7 +13,7 @@ Whether you create your own digital assets for your AR artwork, or work together
 
 ### Some terminology:
 
-- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
+- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
 - **POI:** A "POI" (Point Of Interest) are the components that all together make up your AR experience (your layer). These can include 3D models, images, sounds etc.
 
@@ -49,7 +49,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/dashboard/
 
 ## porPOIse Layers List
 
-When you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
+Once you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
 
 - The **ExampleLayer** is meant as a test layer where you can play around and try out new features. 
 - The **ArtistLayer** is where you should slowly build up the final artwork, as you find assets and functionality to your liking.
@@ -65,10 +65,10 @@ The layer configuration holds properties that apply to the entire layer.
 
 **FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
 
-- Feel free to change the **Layer title**, which is shown in the ARpoise app (don't forget to click "Save" to save your changes!) It is displayed by the ARpoise app on a white background in the top center of the screen. The white background is very short however!
+- Feel free to change the **Layer title**, which you will see on screen in the ARpoise app when you open your layer. (Don't forget to click "Save" to save your changes!) It is displayed on a rather short white background in the top center of the screen.
 - Otherwise please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists), or discuss with the admin before you change them. 
 
-Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you have created new assets for a completely new POI, you add it with the New POI link.
+Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you want to create a completely new POI, you add it with the New POI link - more about this later.
 
 **For now however, let's modify our existing POIs:**
 
