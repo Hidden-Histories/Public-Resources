@@ -3,6 +3,8 @@
 
 Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#-hidden-histories-artists).
 
+.
+
 # AR-vos App - Image Trigger and SLAM AR
 
 ## Overview
