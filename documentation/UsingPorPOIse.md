@@ -9,7 +9,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-In this tutorial learn how to use porPOIse with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
+In this tutorial learn how to use the **porPOIse** user interface with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
 
 ### Some terminology:
 
