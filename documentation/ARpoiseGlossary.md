@@ -1,4 +1,4 @@
-# [![Hidden Histories Logo](/images/hiddenhistories-logo.png)](http://hiddenhistoriesjtown.org/documentation) Hidden Histories Artists
+# [![Hidden Histories Logo](/images/hiddenhistories-logo.png)](http://hiddenhistoriesjtown.org/documentation) Hidden Histories
 
 # ARpoise Glossary of Terms
 
