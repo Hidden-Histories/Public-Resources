@@ -95,13 +95,14 @@ We will now practice changing the configuration of the POIs, and view the layer 
 There are two ways you can place POIs in the real world:
 
 - **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time. It does two things:
-  - The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value here + Visibility means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
-  - Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how large the POI should be, and in what direction (but be warned, both can be inaccurate.)
+  - The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value  + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
+  - Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how large the POI should be, and in what direction you should see it  (but be warned, both can be inaccurate.)
 
 - **Relative location (x,y,z):** 
-  - This is relative to where the viewer is standing, and **overrules the Lat/Lon** (unless you put it too far away from the GPS position of the layer, in which case ARpoise will not be able to see it at all!) 
+  - If you set a valued here, it **overrules the Lat/Lon** (unless you put it too far away, making it too small to be seen!) 
+  - This is the distance in meters relative to your body position (or actually to your smartphone). 
   - If you use Relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - the technology has no real control over this).
-- With Relative location, **if the viewer goes for a walk with the ARpoise app on, the POIs go with them!** The viewer has to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
+  - With Relative location, **if you go for a walk with the ARpoise app on, the POIs go with you!** You have to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
