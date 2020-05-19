@@ -6,10 +6,8 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 .
 
 # ARpoise PorPOISe User Interface tutorial
-<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 ## Overview
-
 
 In this tutorial learn how to use porPOIse with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
 
