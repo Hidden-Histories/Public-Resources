@@ -9,7 +9,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-In this tutorial learn how to use the **porPOIse** user interface with your own AR **layers** to place and adjust the **POI**s making up the AR experience.
+Whether you create your own digital assets for your AR artwork, or work together with a helper to turn your drawings, sculptures or videos into digital assets, it is easy to "choreograph" them together into your AR experience in porPOIse. This is a web-based interface that allows you to edit and adjust your own AR experience either while working from your home base, or standing at your artwork site in Japantown.
 
 ### Some terminology:
 
