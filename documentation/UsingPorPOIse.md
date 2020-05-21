@@ -150,10 +150,10 @@ NOTES:
 #### EXERCISE: Change other properties:
 
 1. **Prefab:** This is the name of the asset used in this POI. 
-   - Try replacing this Prefab name with one from another POIs. You will then have two of the same color, but of course one will have the properties of this POI.
-   - To avoid confusion, please replace the StripesCube Prefab name (and Save!) before you go on to the other properties.
+   - Try replacing a Prefab name with one from another POIs. You will then have two of the same color, but of course one will have the properties of this POI.
+   - To avoid confusion from having two POIs that look exactly the same, we recommend setting the Prefab name (and Save!) back to the original before you go on to try other properties.
 
-2. **Scaling factor:** try 0.5 and then try 2.
+2. **Scaling factor:** try 0.5, and view the layer to see how that looks. Then try 2.
 
 3. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
 
@@ -215,11 +215,11 @@ The **GPS Latitude and Longitude positions** and the **Visibility in meters** ar
 
 **These properties are used by ARpoise in two steps:**
 
-1. Where is the user standing? Is there anything near them to show to the user at all?
+1. **Geofencing:** Where is the user standing? Is there anything near them to show to the user at all?
 
-2. IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
+2. **Drawing the POI:** IF (and only IF) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc., and then draws it using rules of perspective so it looks like a real object with the same properties would look at that distance and orientation.
 
-In the **ARpoiseDirectory,** the **admin** has set for each of your layers:
+In the **ARpoiseDirectory,** the **admin** has set **geofencing** for each of your layers:
 
 - The "Lat/Lon" GPS position that is the **center** for that layer. This is why we asked for the street address of your "home base." Later, the admin will move it to its proper "home" in Japantown.
 
@@ -234,14 +234,14 @@ The **artist** then defines in **porPOIse**:
 
 - **At the POI level** (for both absolute and relative positioning):
 
-  - The GPS and "Visibility in meters" **for that specific POI.** This we also suggest leaving at 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+  - **Geofencing:** The GPS position and "Visibility in meters" of a POI is used to geofence that specific POI.
+  - We suggest leaving Visibility at the default value of 1500 meters, about a mile, so that it can be found even if the GPS signal is way off.
+  - Then depending on whether you use "Relative location (x,y,z)" to position the POI, or leave it blank so the GPS position is used to determine its absolute position to the viewer, the app draws the POI at the correct perspective and size.
 
-  - Even if the artist then decides to use "Relative location (x,y,z)" the ARpoise server stills needs the POIs GPS position to decide whether or not to show the POI at all. (If it is close enough to be shown, it is then shown at the relative position, not the GPS position.)
-
-- So if for instance the artist lives in Oakland and wants to move their POIs to Japantown, they have to ask the admin to move the entire layer to Japantown first. Otherwise, ARpoise thinks:
+- So if for instance an artist lives in Oakland and wants to move their POIs to Japantown, they have to ask the admin to move the entire layer to Japantown first. Otherwise, ARpoise thinks:
   - The layer is in Oakland.
   - The POIs are all in Japantown.
-  - Japantown is over 200 meters away from Oakland, so I won't show anything at all!
+  - Japantown is over 200 meters away from Oakland, and would be too small to see, so I won't show anything at all!
 
 .
 
