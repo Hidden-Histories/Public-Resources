@@ -126,9 +126,10 @@ NOTES:
    - The y value is + up/- down. 
    - Theoretically the x value is east-west, and z is north-south, but since the POIs will appear at different rotations around you, this will actually vary. 
    - When you are changing these values, it is very helpful to note which POI is theoretically north of you (x=0, z is a positive value), make a graph with x and Z axes and then only change one value of any POI at a time, checking to see if your change made the desired effect.
-   - **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
 
-2. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
+2. **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
+
+3. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
    - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
    - Change them by clicking and dragging on the marker. 
    - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
@@ -137,7 +138,7 @@ NOTES:
    - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
    - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
 
-3. **Relative altitude:** 
+4. **Relative altitude:** 
    - This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location.   
    - Zero is at wherever your smartphone is - usually at your eye level! 
    - Plus values are above and minus values are below eye level.
