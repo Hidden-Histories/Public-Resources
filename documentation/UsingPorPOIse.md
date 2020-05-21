@@ -100,7 +100,7 @@ There are two ways you can place POIs in the real world:
 
 - **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time. It does two things:
   1. **Geofencing: is the POI visible at all?** The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value  + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
-  2. **Where and how big is the POI?** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how large the POI should be, and in what direction you should see it  (but be warned, both can be inaccurate.) This is exactly what you do when you use the rules of perspective to draw an object!
+  2. **Where and how big is the POI?** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how large the POI should be, and in what direction you should see it  (but be warned, both can be inaccurate.) By the way, here the app is doing exactly what *you* do when you use the rules of perspective to draw an object!
 
 - **Relative location (x,y,z):** 
   - If you set a valued here, it **overrules the Lat/Lon** (unless you put it too far away, making it too small to be seen!) 
