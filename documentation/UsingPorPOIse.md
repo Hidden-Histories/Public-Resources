@@ -124,7 +124,7 @@ NOTES:
 
 1. **Relative location:** 
    - You yourself (or rather your smartphone) are at 0,0,0. 
-   - The y value is + = up / - = down. 
+   - The y value is + up / - down. 
    - Theoretically the x value is + east / - west, and z is + north / - south, but since the POIs will appear at different rotations around you, this will actually seem to vary when you view the layer in the app. 
    - Therefore when you want to modify these values, it is very helpful to:
     - note which POI is theoretically north of you (x=0, z is a positive value), 
