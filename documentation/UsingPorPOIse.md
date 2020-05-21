@@ -199,7 +199,7 @@ A new, blank POI will be created at the end of the list.
 
 ## Review of how ARpoise positions layers and POIs
 
-The **GPS Latitute and Longitude positions** and the **Visibility in meters** are REQUIRED for ALL geolocative layers and POIs, whether they use an absolute GPS position, or Relative position with respect to the user. 
+The **GPS Latitude and Longitude positions** and the **Visibility in meters** are REQUIRED for ALL layers and POIs, whether they use an absolute GPS position, or Relative position with respect to the user. 
 
 **These properties are used by ARpoise in two steps:**
 
@@ -207,13 +207,13 @@ The **GPS Latitute and Longitude positions** and the **Visibility in meters** ar
 
 2. IF (and only if) there is something to see nearby, then the ARpoise system goes into the details needed for each case: where is it exactly, does it use absolute or relative position, etc.?
 
-In the **ARpoiseDirectory,** the **admin** sets for each layer:
+In the **ARpoiseDirectory,** the **admin** has set for each of your layers:
 
-- The "Lat/Lon" GPS position that is the **center** for that layer.
+- The "Lat/Lon" GPS position that is the **center** for that layer. This is why we asked for the street address of your "home base." Later, the admin will move it to its proper "home" in Japantown.
 
 - The "Visibility in meters," that defines an **area around this center.** If the user is not standing in this area, they will not see the layer in the list of the ARpoise app.
 
-- For Hidden Histories, the visibility range is set at 200 Meters from the layer center position. This is only about half a block, so in Japantown you don‘t get confused by seeing too many layers in the list all at once.
+- For Hidden Histories, the visibility range is set at 200 Meters from the layer center position. This is only about half a block, so when it is in Japantown you don‘t get confused by seeing too many layers in the list all at once.
 
 
 The **artist** then defines in **porPOIse**:
