@@ -27,7 +27,7 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 #### Initial work at home:
 
-- Due to the coronavirus lockdown, we have positioned your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
+- Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
 
 - Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
@@ -37,7 +37,7 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 - Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#exercise2-remote-viewing-of-brush-the-sky-in-san-jose-japantown), as you already learned in the [Using ARpoise App: Remote Viewing with Fixed Position](UsingARpoiseApp.md#-hidden-histories) tutorial.
 
-- For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** it first!). 
+- For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** Fixed Position first! Otherwise you might think you're seeing your layer properly, but if you want to go to view another Hidden Histories site, you will not see any new layers because your app sees only the Fixed Position!) 
 
 - But **before you leave your house, make sure you can access your porPOIse account on a browser in your smartphone!** The easiest way to do this is to mail yourself the link to your porPOIse account login page (you'll learn about this below), and then you can just click the link when you are standing on site in Japantown. Then you can make changes to your layer while standing on site, and see the changes immediately. (Remember to save the changes, then **close and reopen the ARpoise app** - otherwise you will NOT see the changes in your layer!
 
