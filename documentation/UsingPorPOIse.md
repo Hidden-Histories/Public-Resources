@@ -123,7 +123,8 @@ NOTES:
 
 1. **Relative location:** 
    - You yourself (or rather your smartphone) are at 0,0,0. 
-   - The x value is side to side, y is + up/- down, z is closer/further away.
+   - The y value is + up/- down. 
+   - Theoretically the x value is east-west, and z is north-south, but since the POIs will appear at different rotations around you, this will actually vary. When you are changing these values, it is very helpful to note which POI is theoretically north of you (x=0, z is a positive value), make a graph with x and Z axes and then only change one value of any POI at a time, checking to see if your change made the desired effect.
 
 2. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
    - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
