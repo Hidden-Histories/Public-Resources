@@ -103,10 +103,11 @@ There are two ways you can place POIs in the real world:
   2. **The app draws the POI in perspective:** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how to depict the POI in your app display, using the rules of perspective to draw it just like you would: how large should it be, and  how should it look in perspective if it were really there in real life? 
 
 - **Relative location (x,y,z):** 
-  - If you set a valued here, the GPS is still used to do geofencing, but Relative location (x,y,z)  **overrules the Lat/Lon** in deciding where the POI is relative to where you are standing, and therefore how to draw it properly in perspective. 
+  - If you set values here, the GPS is still needed and used to do **geofencing.**
+  - But Relative location (x,y,z)  **overrules the Lat/Lon** in deciding where the POI should be depicted   relative to where you are standing. 
   - The x, y and z values are the distances in meters relative to your body position (or actually to your smartphone position). 
   - If you use Relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - the technology has no real control over this).
-  - With Relative location, **if you go for a walk with the ARpoise app on, the POIs go with you!** You have to refresh or restart the app to have the locations and availablity of the layer updated to their changed location.
+  - **This means if you go for a walk with the ARpoise app on, the POIs go with you!** You have to refresh or restart the app to have your location and availablity of layers updated to your current location.
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
@@ -115,18 +116,19 @@ There are two ways you can place POIs in the real world:
 If you want more information on the properties, see the [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
 NOTES: 
-- If you can't find the StripesCube after changing values, change them back to the values in the image above, and try again!
-- Solid forms in computer graphics have outsides but no insides! If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
-- **Save the changes in porPOIse, then close and restart the ARpoise app** to see the changes you have made in your layer.
+- If you can't find any of the cubes after changing values, reset them by looking at the values in the image above, and try again!
+- **Seeming solid forms in computer graphics usually have outsides but no insides!** If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
+- When you make any changes in porPOIse, then **close and restart the ARpoise app** to see the changes you have made in your layer.
 
 #### EXERCISES:
 
 1. **Relative location:** 
    - You yourself (or rather your smartphone) are at 0,0,0. 
-   - The y value is + up/- down. 
-   - Theoretically the x value is east-west, and z is north-south, but since the POIs will appear at different rotations around you, this will actually vary. 
-   - Change the values and view your layer in the app.
-   - When you are changing these values, it is very helpful to note which POI is theoretically north of you (x=0, z is a positive value), make a graph with x and Z axes and then only change one value of any POI at a time, checking to see if your change made the desired effect.
+   - The y value is + = up / - = down. 
+   - Theoretically the x value is + east / - west, and z is + north / - south, but since the POIs will appear at different rotations around you, this will actually seem to vary when you view the layer in the app. 
+   - Therefore when you want to modify these values, it is very helpful to:
+    - note which POI is theoretically north of you (x=0, z is a positive value), 
+    - sketch a graph (by hand on notepaper!) with x and Z axes and then only change one value of any POI at a time, viewing the layer after each change in the app to see if your change made the desired effect.
 
 2. **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
 
