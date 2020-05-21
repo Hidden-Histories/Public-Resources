@@ -19,6 +19,10 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 - **POI:** A "POI" (Point Of Interest) are the components that all together make up your AR experience (your layer). These can include 3D models, images, sounds etc.
 
+- **Geofencing:** Restricting the area in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in Japantown.
+
+.
+
 ### Workflow (see below for details on how to do all of this!):
 
 #### Initial work at home:
