@@ -99,8 +99,8 @@ We will now practice changing the configuration of the POIs, and view the layer 
 There are two ways you can place POIs in the real world:
 
 - **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time. It does two things:
-  1. **Geofencing: is the POI visible at all?** The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value  + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
-  2. **Draw the POI in perspective:** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how to depict the POI in your app display, using the rules of perspective to draw it just like you would: how large should it be, and  how should it look in perspective if it were really there in real life? 
+  1. **Geofencing: is the POI visible in the app at all?** The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value  + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
+  2. **The app draws the POI in perspective:** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how to depict the POI in your app display, using the rules of perspective to draw it just like you would: how large should it be, and  how should it look in perspective if it were really there in real life? 
 
 - **Relative location (x,y,z):** 
   - If you set a valued here, the GPS is still used to do geofencing, but Relative location (x,y,z)  **overrules the Lat/Lon** in deciding where the POI is relative to where you are standing, and therefore how to draw it properly in perspective. 
@@ -129,7 +129,7 @@ NOTES:
 
 2. **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
 
-3. **Google Map:** *After* testing your changes in Relative location, now delete the Relative location completely.
+3. **Google Map:** *After* testing your changes in Relative location, now delete the Relative locations of all the POIs completely.
    - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
    - Change them by clicking and dragging on the marker. 
    - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
