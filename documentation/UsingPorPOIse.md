@@ -125,6 +125,7 @@ NOTES:
    - You yourself (or rather your smartphone) are at 0,0,0. 
    - The y value is + up/- down. 
    - Theoretically the x value is east-west, and z is north-south, but since the POIs will appear at different rotations around you, this will actually vary. 
+   - Change the values and view your layer in the app.
    - When you are changing these values, it is very helpful to note which POI is theoretically north of you (x=0, z is a positive value), make a graph with x and Z axes and then only change one value of any POI at a time, checking to see if your change made the desired effect.
 
 2. **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
