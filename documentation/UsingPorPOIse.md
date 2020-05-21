@@ -130,13 +130,14 @@ NOTES:
 2. **BEFORE YOU DO THE NEXT EXERCISE: if you want to come back to these values, write them down, because in the next step you will delete them all!**
 
 3. **Google Map:** *After* testing your changes in Relative location, now delete the Relative locations of all the POIs completely.
-   - Your layer will now be placed using the absolute location in the Lat/Lon fields. 
-   - Change them by clicking and dragging on the marker. 
-   - Note that when you mouse over the marker, a pop up window tells you the name of the POI, and that as you drag the marker, the Lat/Lon values in the form change too. 
-   - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page will be the same as  the StripesCube, because the first POI in the list defines what is shown on that map.
+   - All POIs will now be placed using *only* the absolute locations in the Lat/Lon fields. Unless you changed the Lat/Lon yourself, we set them up to be all on top of each other at exactly the same value.
+   - In porPOIse, click **Back to your ExampleLayer page:** the Google Map on that page should show only one marker, because all POIs in the list are on top of each other.
+   - Now mouse over the marker: a pop up window tells you the name of the POI, which should be the Stripes Cube because it is the first one in the POI list.
+   - Drag the marker, and note that the Lat/Lon values for the Stripes Cube change too. CLICK SAVE, otherwise when you leave this page, it'll jump back to the original value! 
    - Zoom out a bit and you should see two markers now. Before, they were all on top of each other.
-   - Drag the markers around and note that the Lat and Lon in the POI list change as you drag. If you reposition a POI here, you MUST click Save for that POI, otherwise the change will be lost.
-   - Remember however if you moved the marker of another POI that had a Relative location set, that overrules the Lat/Lon and it will not have changed in the ARpoise app!
+   - Drag all the markers around. **Don't forget to save the changed position before going to the next POI!**
+   - Remember however if you moved the marker of a POI that had a Relative location set, that overrules the Lat/Lon and even though the marker is at a new position, the POI will not have changed when you view it in the ARpoise app!
+   - Take a look at the layer now in the ARpoise app. If you can go outside, try walking around and see if you can actually walk up to a POI (it will disappear if you are inside of it, but then reappear behind you if you keep on going.
 
 4. **Relative altitude:** 
    - This only works if you are using absolute location as well, otherwise it is overruled by the y value in Relative location.   
