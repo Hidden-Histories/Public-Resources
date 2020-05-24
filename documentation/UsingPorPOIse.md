@@ -91,7 +91,7 @@ Let's modify our existing POIs:
 . 
 ## porPOIse POI Configuration
 
-We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. 
+We will now practice changing the configuration of the POIs, and view the layer in the ARpoise app to see what effect they have. (Remember: you have to force close and restart your app to see any changes!)
 
 **FOR A DESCRIPTION OF ALL THE POI PROPERTIES see [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration)**
 
