@@ -77,7 +77,7 @@ Click on the name of your example layer to open it for editing.
 . 
 ## porPOIse Layer Configuration
 
-The layer configuration holds properties that apply to the entire layer. Please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists). (Yes, we know the map covers some properties, but they shouldn't be changed anyway.)
+The layer configuration holds properties that apply to the entire layer. Please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories). Yes, we know the map covers some properties, but they shouldn't be changed anyway! ;-)
 
 Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. 
 
