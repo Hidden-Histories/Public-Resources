@@ -77,17 +77,11 @@ Click on the name of your example layer to open it for editing.
 . 
 ## porPOIse Layer Configuration
 
-The layer configuration holds properties that apply to the entire layer. 
+The layer configuration holds properties that apply to the entire layer. Please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists). (Yes, we know the map covers some properties, but they shouldn't be changed anyway.)
 
-**FOR A DESCRIPTION OF ALL THE PROPERTIES SEE [porPOIse_Reference: Layer Properties](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists)**
+Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. 
 
-- Feel free to change the **Layer title**, which you will see on screen in the ARpoise app when you open your layer. (Don't forget to click "Save" to save your changes!) It is displayed on a rather short white background in the top center of the screen.
-- Otherwise please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories-artists), or discuss with the admin before you change them. 
-
-Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. If you want to create a completely new POI, you add it with the New POI link - more about this later.
-
-**For now however, let's modify our existing POIs:**
-
+Let's modify our existing POIs:
 - Select the **StripesCube** POI.
 - Then go to the next section, where you will change the POI's properties.
 
