@@ -47,7 +47,7 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 . 
 
-## Force close and restart app to see changes!
+## Remember: Force close - restart app to see changes!
 In the exercises below, remember that in order to see any changes you make in porPOIse, you have to force close and restart the app.
   - How to [force close iPhone/iPad apps](https://support.apple.com/en-us/HT201330)
   - How to [force close Android apps](https://www.tomsguide.com/us/close-android-apps,news-21281.html).
