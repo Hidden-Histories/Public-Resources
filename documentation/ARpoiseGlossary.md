@@ -112,7 +112,7 @@ porPOIse is the web interface that artists use to set up and edit their **ARpois
 .
 
 ## Prefab
-Unity terminology for a "prefabricated object" that you can link to and reference from porPOIse. A prefab can itself be a 3D object or a 2D image that may or may not be animated, a sound, a video, etc.
+Unity terminology for a "prefabricated object" that you can link to and reference from porPOIse. A prefab can itself be an asset or a group of assets (3D objects or a 2D images that may or may not be animated, a sound, a video, etc.).
 
 . 
 
