@@ -120,7 +120,9 @@ There are two ways you can place POIs in the real world:
 If you want more information on the properties, see the [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
 NOTES: 
-- If you can't find any of the cubes after changing values, reset them by looking at the values in the image above, and try again!
+- If you can't find any of the cubes after changing any of the values, reset them by looking at the original values in the image above - except the Lat/Lon values, which need to be the values that correspond to your "home base."
+
+
 - **Seeming solid forms in computer graphics usually have outsides but no insides!** If you make the cube so big that you are inside it, you will not see it anymore, as it is invisible from the inside!
 - When you make any changes in porPOIse, then **close and restart the ARpoise app** to see the changes you have made in your layer.
 
@@ -153,7 +155,7 @@ NOTES:
 
 #### EXERCISE: Change other properties:
 
-1. **Prefab:** This is the name of the asset used in this POI. 
+1. **Prefab:** This is the name of the asset or group of assets used in this POI. 
    - Try replacing a Prefab name with one from another POIs. You will then have two of the same color, but of course one will have the properties of this POI.
    - To avoid confusion from having two POIs that look exactly the same, we recommend setting the Prefab name (and Save!) back to the original before you go on to try other properties.
 
