@@ -45,9 +45,10 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 ![porPOIse workflow](images/hiddenhistories-porPOIseWorkflow_v3_1024w.png)
 
+. 
 
-## In exercises below, force close and restart app to see changes!
-In order to see any changes you make in porPOIse, force close and restart the app.
+## Force close and restart app to see changes!
+In the exercises below, remember that in order to see any changes you make in porPOIse, you have to force close and restart the app.
   - How to [force close iPhone/iPad apps](https://support.apple.com/en-us/HT201330)
   - How to [force close Android apps](https://www.tomsguide.com/us/close-android-apps,news-21281.html).
   - If you have successfully force closed the app, when you start it again the Unity start screen appears: 
