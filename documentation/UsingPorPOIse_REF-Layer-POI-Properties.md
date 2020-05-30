@@ -100,11 +100,11 @@ There can be multiple animations simultaneously, for instance you can scale the 
   * **scale**, scale the size of the POI.
   * **fade**, fade the POI between full visibility and invisibility, e.g. the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
   
-  ![FadeAnimation](/images/UsingPorpoise_FadeAnimation.PNG)
+  ![FadeAnimation](images/UsingPorpoise_FadeAnimation.PNG)
   
   **Note:** In order for a fade animation to work, the rendering mode of the material of the POI's Unity game object needs to be set to 'Fade'.
   
-  ![RenderingModeFade](/images/UsingPorpoise_RenderingModeFade.PNG)
+  ![RenderingModeFade](images/UsingPorpoise_RenderingModeFade.PNG)
   * **destroy**, destroy the POI.
 * **Length**: Length of the animation in seconds.
 * **Delay**: Delay of the animation in seconds. onCreate-animations will only start after this delay.
