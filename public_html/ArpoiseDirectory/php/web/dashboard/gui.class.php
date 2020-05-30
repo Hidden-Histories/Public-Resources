@@ -967,10 +967,10 @@ HTML;
         foreach (array(
 
             "scale",
-
             "rotate",
-
-            "transform"
+            "transform",
+            "fade",
+            "destroy"
 
         ) as $animationType) {
 
