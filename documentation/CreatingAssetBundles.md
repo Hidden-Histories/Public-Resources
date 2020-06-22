@@ -232,7 +232,14 @@ This requires accessing your Unity project folder on your hard drive, and your p
 
 Look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
-- Find your asset bundle file, e.g. tamikot-assetbundle (NOT the manifest file, and NOT any of the meta files!) and add the ending **.ace** so it can be found by the ARpoise server. (On Mac e.g. tamikot-assetbundle**i**.ace)
+- You should see:
+  - Your new asset bundle file, e.g. tamikot-assetbundle **without** any file type. 
+  - A file of the same name, but file type .manifest.
+  - The meta files for both the asset bundle file and the manifest file.
+  - If you have already created an asset bundle of this name before:
+    - You will also see the a file of typ ace.
+    - **Delete** this old .ace file!
+- Now add the file ending **.ace** to your new asset bundle file so it can be found by the ARpoise server. (On Mac remember you should have added an "i" at the end of the file name in Unity! So the file name will be e.g. tamikot-assetbundle**i**.ace.)
 
 
 . 
