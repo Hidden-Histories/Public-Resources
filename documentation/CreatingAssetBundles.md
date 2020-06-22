@@ -146,10 +146,10 @@ Now click on the **AssetBundles** folder in the Project window:
   - The second one has an icon with lines on it - this is the **manifest file** containing a human readable description of the contents of the asset bundle. 
   - Click on it and you see its contents in the **Inspector window.**
   - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
-  - **These are the name that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
+  - **These are the names that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
   - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. 
   - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. 
-- DON'T DELETE THE TWO **AssetBundles** FILES!
+- DON'T DELETE THE TWO **AssetBundles** FILES! They are needed for ARpoise - if you delete them, you'll have to unzip the template file again and start all over again.
 
 - **SAVE!!!**
 
