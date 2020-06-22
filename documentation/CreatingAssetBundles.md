@@ -228,7 +228,7 @@ Now bring up the pop up context menu with a **right click on either of the prefa
 
 This requires accessing your Unity project folder on your hard drive, and your porPOIse account on the Hidden Histories server.
 
-## Add .ace File Ending to Your Asset Bbundle File
+## Add .ace File Ending to Your Asset Bundle File
 
 Look at your **hard drive** and find your **Unity project folder.**
 - Go to the folder **Assets/AssetBundles.**
