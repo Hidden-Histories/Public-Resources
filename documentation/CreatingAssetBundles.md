@@ -35,7 +35,7 @@ Download the free Unity Editor version:
 
 - Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
   - Click on the **Unity 2018x** tab.
-  - Scroll down to Unity **2018.4.13 (22 Nov, 2019)** and click on **Unity Hub.**
+  - Scroll down to Unity **2018.3.14 (22 Nov, 2019)** and click on **Unity Hub.**
   - NOTE: We do NOT guarantee that ARpoise or AR-vos will work with other versions!
 
 - Install Unity with the following modules:
