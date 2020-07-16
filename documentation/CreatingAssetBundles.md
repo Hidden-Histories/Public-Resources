@@ -47,8 +47,8 @@ Download the free Unity Editor version:
 - Install Unity with the following modules:
   - Build Support
     - Android if you are working on a Windows PC
-    - iOS if you are working on a Mac.
-    - Both if you have a Mac and want to try making both versions yourself.
+    - iOS and Mac build support if you are working on a Mac.
+    - All the above if you have a Mac and want to try making both versions yourself.
   - Vuforia Augmented Reality Support.
   - NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
 
@@ -58,12 +58,11 @@ Download the free Unity Editor version:
 . 
 ## Download CreateAssetBundle Project Template
 
-Download the Unity Project template onto your hard drive:
+Download and unzip the Unity Project template onto your hard drive:
 - For [Android](http://hiddenhistoriesjtown.org/documentation/templates/Android-CreateAssetBundleU2018_3.zip) if you are working on a Windows PC.
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOsCreateAssetBundleU2018_3.zip) if you are working on a Mac.
-- Unzip the file on your hard drive.
 
-**Best Practices: aways use the Unity Hub to open a project.** Different versions are often incompatible. If we need to use a different version in the future, the Hub lets you decide which version to use to open which project.
+**Best Practices: aways use the Unity Hub to open a project.** Different versions are often incompatible, but the Hub allows you to see which version you are using when you open a project. If we need to use a different version in the future, the Hub lets you select which version to use.
 - Start the Unity Hub
 - Click **ADD**
 - Select the **project folder** of your template from your hard drive.
