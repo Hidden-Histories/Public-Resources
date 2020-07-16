@@ -61,6 +61,7 @@ Download the free Unity Editor version:
 Download and unzip the Unity Project template onto your hard drive:
 - For [Android](http://hiddenhistoriesjtown.org/documentation/templates/Android-CreateAssetBundleU2018_3.zip) if you are working on a Windows PC.
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOsCreateAssetBundleU2018_3.zip) if you are working on a Mac.
+- We will add another template soon that can generate both, for people who have Macs and want to try making both asset bundles.
 
 **Best Practices: aways use the Unity Hub to open a project.** Different versions are often incompatible, but the Hub allows you to see which version you are using when you open a project. If we need to use a different version in the future, the Hub lets you select which version to use.
 - Start the Unity Hub
