@@ -10,19 +10,21 @@
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar, and we indicate the differences.
+- If you have a Mac+Android or a WindowsPC+iPhone, please contact Hidden Histories for help!
 - On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS.
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
+. 
 
 **This tutorial assumes you are familiar with the Unity Editor and can already create assets in Unity!**
 
 If you are unfamiliar with Unity, please go to the:
-- [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation) **How to create your own AR artworks** and go through Professor Rhonda's slide deck and Corinne's videos first.
+- [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation) **"How to create your own AR artworks"** section and go through Professor Rhonda's slide deck and Corinne's videos first.
 - See also the Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
 
 
 **Important Notes**: 
-- You can do all your testing on one platform, but need to have a copy of your AssetBundle created for the other platform as well.
+- You can do all your testing on one platform, but when it is finished, you'll need to have a version of your AssetBundle created for the other platform as well.
 - The **iOS asset bundle must be made on a Mac, and tested on an iOS device.** 
 - The **Android asset bundle must be made on a Windows PC and tested on an Android device.** 
 - If you only have one type of PC, you will need to send your assets to the admin or team up with another artist to get the other asset bundle.
