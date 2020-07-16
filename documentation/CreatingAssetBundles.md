@@ -9,16 +9,17 @@
 
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
-- The process for creating an iOS asset bundle on a Mac is similar.
+- The process for creating an iOS asset bundle on a Mac is similar, and we indicate the differences.
+- On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS.
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
-**Unity Editor Interface tutorials:**
 
-Our tutorial does NOT teach you to use Unity or create assets in Unity. Those will be linked from the [documentation link page](README.md).
+**This tutorial assumes you are familiar with the Unity Editor and can already create assets in Unity!**
 
-If you are unfamiliar with Unity, here are tutorials on the Unity interface, which will help to understand this tutorial:
-- Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
-- Unity video tutorial: https://learn.unity.com/tutorial/using-the-unity-interface#     (note: for AR we will be making very simple things, nothing as complicated as the games they show!)
+If you are unfamiliar with Unity, please go to the:
+- [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation) **How to create your own AR artworks** and go through Professor Rhonda's slide deck and Corinne's videos first.
+- See also the Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
+
 
 **Important Notes**: 
 - You can do all your testing on one platform, but need to have a copy of your AssetBundle created for the other platform as well.
