@@ -151,7 +151,7 @@ Now click on the **AssetBundles** folder in the Project window:
 - There are two files called **exampleassetbundle.** 
   - The second one has an icon with lines on it - this is the **manifest file** containing a human readable description of the contents of the asset bundle. 
   - Click on it and you see its contents in the **Inspector window.**
-  - Towards the bottom of the file under **Assets** is a list of the three prefabs in this bundle.
+  - Towards the bottom of the file under **Assets** is a list of the three prefabs (with the file extension ".prefab" in this bundle.
   - **These are the names that you reference in the POI configuration in porPOIse** (if and only if you link the POI to this asset bundle in the [**URL for asset bundle**](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) property!)
   - Since we deleted the original prefabs, however, our current prefabs are not in this asset bundle anymore. 
   - Select both **exampleassetbundle** files and delete them from the AssetBundles folder. 
@@ -176,10 +176,11 @@ In the **Prefabs** folder:
 ![CreateAssetBundle_assetbundleNameMenu2](images/CreateAssetBundle_assetbundleNameMenu2.png)
 
 Type in a new name, using **your name or nickname** to identify it as your own asset bundle.
-- If you are on Mac, the name must end in a lower case "i":
-    - If you are on Windows, the asset bundle name has the form **mynameassetbundle**.
-    - If you are on a Mac, the asset bundle name has the form **mynameassetbundlei** (with an "i" at the end).
-- The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.
+- If you are creating the asset bundle for Android, its name has the form **mynameassetbundle**. This is the version you will type into porPOIse.
+- If you are creating the asset bundle for iOS, its name has the form **mynameassetbundlei** (with an **"i"** at the end). ARpoise will automatically look for the "i" when called by an iOS device.
+- **The name must be lower case, and please use ONLY dash "-" or underscore "_" as special characters.**
+
+.
 
 This name will now appear as an option in the drop down window.
 - Select the **Capsule** and add it to your new asset bundle too.
