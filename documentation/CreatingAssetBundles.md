@@ -13,10 +13,11 @@ This is a step by step tutorial using our **custom Unity3D project templates** t
 - On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS.
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
-NOTE: 
+**NOTES: please ask Hidden Histories for help if:**
 - You can do all your testing on one platform, but when it is finished, you'll need to have a version of your AssetBundle created for the other platform as well.
-- If you have a Mac+Android, or a WindowsPC+iPhone, or are using a Linux PC, please ask Hidden Histories for help.
+- If you have a Mac+Android, or a WindowsPC+iPhone, or are using a Linux PC, 
 
+. 
 **This tutorial assumes you are familiar with the Unity Editor and can already create assets in Unity!**
 
 If you are unfamiliar with Unity, please go to the:
