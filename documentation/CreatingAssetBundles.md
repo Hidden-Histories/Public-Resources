@@ -263,10 +263,10 @@ You should already have an **FTP** (File Transfer Protocol) login for your porPO
 - Notice that in your porPOIse account on the server, you have 4 files for hh_examples, the asset bundle we used for the porPOIse tutorial. Two of them are Android, and the two ending in "i" are for iOS.
 
 Now in your AssetBundles folder **on your hard drive:**
-  - Select and upload **both your asset bundle file AND the manifest files.**
+  - Select and upload **both your asset bundle file AND the manifest file.**
   - Overwrite the ones that are already there.
   - You do NOT need to upload any of the meta files.
-- Afterwards, open your manifest file on the server and **make sure it has the Capsule and the BlueSphere** in the prefab list.
+- Afterwards, open your manifest file on the server and **make sure it has the Capsule.prefab and the BlueSphere.prefab** in the prefab list.
 
 . 
 ![CreateAssetBundle_UploadAssetBundle](images/CreateAssetBundle_UploadAssetBundle.png)
@@ -295,17 +295,17 @@ Now test your new asset bundle in your ExampleLayer:
 . 
 ### NOTE on multiple asset bundles in one layer:
 - You have seen that you can use various asset bundles in the same layer, each in a different POI. In this way you can easily share assets with other artists.
-- However, the asset bundles are downloaded to the smartphone right before you view them in the ARpoise app. Even if you do not use all the assets in a given asset bundle, they all have to be downloaded. 
-- This might make for a long loading time for your layer, and a big hit on the viewer's data package.
-- **It is therefore best practice to put all assets you want to use in one single package, and leave out assets that are not used in your layer.**
+- However, the asset bundles are downloaded to the smartphone right before you view them in the ARpoise app. Even if you do not use all the assets in a given asset bundle, they all have to be downloaded. This might make for a long loading time for your layer, and a big hit on the viewer's data package.
+- **Also, if the same name appears in more than one asset bundle, only one of them will be found.**
+- It is therefore best practice to put **all assets you want to use in one single package, and leave out assets that are not used in your layer.**
 
 In the next step we will export your assets as a Unity package, so you can send it to someone who can make the asset bundle for the PC type that you do not have yourself.
 . 
 # Export Assets as Unity Package
 
 Remember that in order for ARpoise assets to be visible for both Android *and* iOS users, we need two separate asset bundles, one for iOS and one for Android.
-- Whether you have both Windows and Mac PCs and can create both bundles yourself, or whether the admin or a colleague needs to create this for you, you will have to **export all your prefabs in a Unity package.**
-- This package needs to be **imported** into the Unity project on the other type of PC, and then built as an asset bundle on that PC.
+- If you can't create both bundles yourself, and therefore need to send your assets to the admin or a colleague, you will have to **export all your prefabs in a Unity package.**
+- Your helper will **import** your Unity package into their Unity project, and then built the asset bundle for you.
 
 . 
 ## Selecting the Assets for Export
@@ -363,7 +363,8 @@ Check your prefabs to make sure they are properly included in your asset bundle.
 
 . 
 Then [as you did above:](CreatingAssetBundles.md#build-your-new-asset-bundle)
-- Check File / Build Settings - but this time the other platform should be selected.
+- Set up the name for the asset bundle, remembering that the iOS needs an "i" on the end, but the Android asset bundle should NOT have the "i".
+- Check File / Build Settings - but this time of course select the other platform.
 - Right click on one of your prefabs, and select Build AssetBundles for the other platform.
 - Check the Project window folder Assets / AssetBundles to make sure your asset bundle files have been created.
 - Check the manifest file to see that the your assets are listed as prefabs.
