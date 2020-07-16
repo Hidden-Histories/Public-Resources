@@ -23,7 +23,7 @@ This is a step by step tutorial using our **custom Unity3D project templates** t
 
 If you are unfamiliar with Unity, please go to the:
 - [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation) **"How to create your own AR artworks"** section and go through Professor Rhonda's slide deck and Corinne's videos first.
-- See also the Unity Manual: https://docs.unity3d.com/Manual/UsingTheEditor.html
+- See also the [Unity Manual for version 2018.3.14](https://docs.unity3d.com/2018.3/Documentation/Manual/UsingTheEditor.html)
 
 . 
 ## Unity Hub & Unity Editor Install
