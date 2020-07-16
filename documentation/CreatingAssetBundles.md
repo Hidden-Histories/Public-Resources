@@ -8,24 +8,25 @@
 ## Overview
 
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
-- The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
-- The process for creating an iOS asset bundle on a Mac is similar, and we indicate the differences.
+- The tutorial shows how to create an asset bundle for **Android, on a Windows 10 PC.**
+- The process for creating an **iOS asset bundle on a Mac** is similar, and we indicate the differences.
+- You will need both versions in order for your layer to work successfully on both Android and iOS. If you can't create both versions yourself, please ask Hidden Histories for help.
 
-**NOTE on building both version on a Mac:**
+**NOTE on building both versions on a Mac:**
 - On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS. 
-- The only way you can find out is to:
-  - Build your iOS asset bundle on a Mac and upload it to your poiPOIse account.
+- If you want to do this, please follow this procedure:
+  - Build your iOS asset bundle on a Mac and upload it to your porPOIse account.
   - Successfully get it to work in the ARpoise app on an iPhone or iPad. 
-  - Then build the Android asset bundle, upload it to your poiPOIse account and try it out on an Android smartphone. 
+  - Then build the Android asset bundle, upload it to your porPOIse account and try it out on an Android smartphone. 
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
 **Please ask Hidden Histories for help if:**
-- You can do all your testing on one platform, but when it is finished, you'll need to have a version of your AssetBundle created for the other platform as well.
+- You have successfully gotten your asset bundle to work on one platform, but need a version created for the other platform as well.
 - If you have a Mac+Android, or a WindowsPC+iPhone, or are using a Linux PC, 
 
 . 
 
-**This tutorial assumes you are familiar with the Unity Editor and can already create assets in Unity!**
+**NOTE: This tutorial assumes you are familiar with the Unity Editor and can already create assets in Unity!**
 
 If you are unfamiliar with Unity, please go to the:
 - [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation) **"How to create your own AR artworks"** section and go through Professor Rhonda's slide deck and Corinne's videos first.
