@@ -10,6 +10,8 @@
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar, and we indicate the differences.
+
+**NOTE on building both version on a Mac:**
 - On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS. 
 - The only way you can find out is to:
   - Build your iOS asset bundle on a Mac and upload it to your poiPOIse account.
@@ -17,7 +19,7 @@ This is a step by step tutorial using our **custom Unity3D project templates** t
   - Then build the Android asset bundle, upload it to your poiPOIse account and try it out on an Android smartphone. 
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
-**NOTES: please ask Hidden Histories for help if:**
+**Please ask Hidden Histories for help if:**
 - You can do all your testing on one platform, but when it is finished, you'll need to have a version of your AssetBundle created for the other platform as well.
 - If you have a Mac+Android, or a WindowsPC+iPhone, or are using a Linux PC, 
 
