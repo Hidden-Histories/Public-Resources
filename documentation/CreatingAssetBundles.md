@@ -202,8 +202,8 @@ First let's make sure your build settings are correct.
 Click: **File / Build Settings…**:
 - **Scenes In Build**: Your scene should be listed and **checked.** If not, click **Add Open Scenes.**
 - **Platform**
-  - If you are working on Windows this should be **Android.** 
-  - If you are working on a Mac, this should be **iOS.** 
+  - If you are working on Windows creating an asset bundle for Android, this should be **Android.** 
+  - If you are working on a Mac, this should be **iOS** if you are creating the iOS bundle, and **Android** if you are creating an Android bundle. 
   - If you need to switch, select the correct platform and click **Switch Platform**. (This will take a while!)
 - Close the Build Settings view by clicking on the X in the upper right corner.
 
@@ -214,18 +214,18 @@ Click: **File / Build Settings…**:
 ### Call "Build Asset Bundle" command
 
 Now bring up the pop up context menu with a **right click on either of the prefabs** we want to include in the asset bundle (i.e. NOT the RedCube!)
-- Select **Build AssetBundles** (or on a Mac, **Build iOS AssetBundles**) from the pop up menu.
+- From the pop up menu, select **Build AssetBundles** for an Android asset bundle, or **Build iOS AssetBundles** for an iOS asset bundle.
 - Wait a bit - a window should pop up at least briefly as the bundle is built, saying "Building asset bundle ..."
 - Open up the **AssetBundles folder**: 
   - You should see two new files with the name of your asset bundle.
   - IF NOT: **SAVE and close the entire project,** 
-- Then open it again
+- ... then open the project again:
   - Are the files there now?
   - If not, try building the asset bundle again, and it should show up this time.
-- Click on your [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, Blue Sphere and Capsule.
+- Click on your [**manifest file**](CreatingAssetBundles.md#asset-bundle-structure): it should now only show *two* prefabs, BlueSphere.prefab and Capsule.prefab.
 
 - **SAVE!!!**
-- And close Unity. We now need to work directly with your hard drive and the Hidden Histories server.
+- Then close Unity. We now need to work directly with your hard drive and the Hidden Histories server.
   
 . 
 ![CreateAssetBundle_BuildAssetBundle2](images/CreateAssetBundle_BuildAssetBundle2.png)
