@@ -10,7 +10,11 @@
 This is a step by step tutorial using our **custom Unity3D project templates** to create an **asset bundle** that can be used by the **ARpoise** or **AR-vos** AR apps. (Assets include 3D models, sounds, images etc. that make up your AR experience or "layer.")
 - The tutorial shows how to create an asset bundle for Android, on a Windows 10 PC.
 - The process for creating an iOS asset bundle on a Mac is similar, and we indicate the differences.
-- On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS.
+- On a Mac you might be able to create an asset bundle for Android as well. Windows PCs however do not seem to be able to create asset bundles for iOS. 
+- The only way you can find out is to:
+  - Build your iOS asset bundle on a Mac and upload it to your poiPOIse account.
+  - Successfully get it to work in the ARpoise app on an iPhone or iPad. 
+  - Then build the Android asset bundle, upload it to your poiPOIse account and try it out on an Android smartphone. 
 - If you want the script or more technical details behind the asset bundle feature, see the [ARpoise version of this tutorial](https://github.com/ARPOISE/ARpoise/blob/master/documentation/CreatingAssetBundles.md).
 
 **NOTES: please ask Hidden Histories for help if:**
@@ -35,12 +39,13 @@ Download the free Unity Editor version:
 - Then go to the [Unity download archive](https://unity3d.com/get-unity/download/archive) and install Unity3D Editor version **2018.3.14.f1**:
   - Click on the **Unity 2018x** tab.
   - Scroll down to Unity **2018.3.14 (22 Nov, 2019)** and click on **Unity Hub.**
-  - NOTE: We do NOT guarantee that ARpoise or AR-vos will work with other versions!
+  - NOTE: The asset bundles can ONLY be created with this version!
 
 - Install Unity with the following modules:
   - Build Support
     - Android if you are working on a Windows PC
     - iOS if you are working on a Mac.
+    - Both if you have a Mac and want to try making both versions yourself.
   - Vuforia Augmented Reality Support.
   - NOTE: This will also install Microsoft Visual Studio automatically, on both Windows and Mac. The free version is fine. 
 
