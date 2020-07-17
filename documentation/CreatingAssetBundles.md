@@ -61,9 +61,7 @@ Download the free Unity Editor version:
 Download and unzip the Unity Project template onto your hard drive:
 - For [Android](http://hiddenhistoriesjtown.org/documentation/templates/Android-CreateAssetBundleU2018_3.zip) if you are working on a Windows PC.
 - For [iOS](http://hiddenhistoriesjtown.org/documentation/templates/iOsCreateAssetBundleU2018_3.zip) if you are working on a Mac.
-- Here is an [iOSAndroid template](hiddenhistoriesjtown.org/documentation/templates/iOSAndroid_CreateAssetBundle_U2018_3.zip) from Prof Rhonda, if you have a Mac and want to try to make both asset bundles.
-  - Create and fully test the iOS asset bundle first, so you know it works, before creating the Android bundle. 
-  - If you do not have both iOS and Android devices, ask someone to test your layer on the device you do not own.
+- Here is an [iOSAndroid template](hiddenhistoriesjtown.org/documentation/templates/iOSAndroid_CreateAssetBundle_U2018_3.zip) from Prof Rhonda, if you have a Mac and want to try to make both asset bundles. Create and fully test the iOS asset bundle first, so you know it works, before creating the Android bundle.
 
 **Best Practices: aways use the Unity Hub to open a project.** Different versions are often incompatible, but the Hub allows you to see which version you are using when you open a project. If we need to use a different version in the future, the Hub lets you select which version to use.
 - Start the Unity Hub
