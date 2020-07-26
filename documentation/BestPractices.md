@@ -1,14 +1,14 @@
 
 # ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
-# Best Practices for creating AR content
+# Best Practices/Troublingshooting for creating AR content
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 .
 
 ## Overview
 
-In this document we suggest best practices to follow in both your workflow creating AR artworks, and in creating content for the artwork itself. 
+In this document we suggest best practices to follow in both your workflow creating AR artworks, and in creating content for the artwork itself. These notes can apply to the entire workflow, from creating your assets, to putting them together in Unity to create a prefab, to setting them up as POIs in porPOIse.
 - Remember: computers and smartphones are stupid, you have to think for them!
 - One misplaced letter/number/space can make your artwork fail to work. Read the directions carefully!
 
@@ -77,5 +77,16 @@ A deleted asset in Unity is forever gone:
   - It might be so far away that you can't see it.
   - Did you remember to zero it in Unity? If not, it might be somewhere else than where you thought it would be!
   
+### porPOIse troubleshooting
 
+- If ARpoise can't find your asset bundle, make sure:
+ - You named the asset bundle name correctly (Android: just the name; iOS: the same name but with an "i" on the end).
+ - You have uploaded asset bundles for both Android and iOS.
+ - You spelled the name of the asset bundle URL correctly in porPOIse (without "http://", your account not the Hidden Histories ExampleLayer account, the Android version of the name e.g. without the "i" ...)
+ - You spelled the name of the prefab correctly - check the manifest file!
+ 
+ - The POI is not in the right place:
+  - Did you zero the assets in Unity?
+  - Are you using absolute GPS position, in which you place the POI exactly at the GPS position your want?
+  - Or are you using relative position, in which the POI is at an x,y,z offset from where the user is standing?
 
