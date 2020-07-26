@@ -67,6 +67,15 @@ A deleted asset in Unity is forever gone:
   - We need low polygon models created for games - but look at the size of it in MB, and use that as your metric.
   - There are programs that reduce high poly models to lower poly versions (to be researched ...)
   
+### Units/Scaling/Transform/Rotation problems: 
+ - Unity uses meters, whereas many 3D modeling systems use inches or centimeters
+ - Use scale consciously: Can you see the whole object in the ARpoise app? Do you want to see all of it? If not, scale it!
+ - Does it rotate in a funny way? Then either you did not zero it in Unity, or the pivot point is in the wrong place.
+ 
+- If you can't see it at all:
+  - You might be *inside* it - "solid" objects are invisible if you are inside them.
+  - It might be so far away that you can't see it.
+  - Did you remember to zero it in Unity? If not, it might be somewhere else than where you thought it would be!
   
 
 
