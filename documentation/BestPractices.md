@@ -1,16 +1,15 @@
 
 # ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
-# Best Practices for created AR content
+# Best Practices for creating AR content
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 .
 
 ## Overview
 
-In this document we suggest best practices to follow in both your workflow creating AR artworks, and in creating content for the artwork itself.
-
-Computers and smartphones are stupid! ;-)
+In this document we suggest best practices to follow in both your workflow creating AR artworks, and in creating content for the artwork itself. 
+- Remember: computers and smartphones are stupid, you have to think for them!
 - One misplaced letter/number/space can make your artwork fail to work. Read the directions carefully!
 
 ## Workflow
