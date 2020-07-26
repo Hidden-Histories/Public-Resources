@@ -1,7 +1,7 @@
 
 # ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
-# Best Practices/Troublingshooting for creating AR content
+# Best Practices/Troublingshooting
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 .
