@@ -79,11 +79,11 @@ A deleted asset in Unity is forever gone:
   
 ### porPOIse troubleshooting
 
-- If ARpoise can't find your asset bundle, make sure:
- - You named the asset bundle name correctly (Android: just the name; iOS: the same name but with an "i" on the end).
- - You have uploaded asset bundles for both Android and iOS.
- - You spelled the name of the asset bundle URL correctly in porPOIse (without "http://", your account not the Hidden Histories ExampleLayer account, the Android version of the name e.g. without the "i" ...).
- - You spelled the name of the prefab correctly - check the manifest file!
+* If ARpoise can't find your asset bundle, make sure:
+ * You named the asset bundle name correctly (Android: just the name; iOS: the same name but with an "i" on the end).
+ * You have uploaded asset bundles for both Android and iOS.
+ * You spelled the name of the asset bundle URL correctly in porPOIse (without "http://", your account not the Hidden Histories ExampleLayer account, the Android version of the name e.g. without the "i" ...).
+ * You spelled the name of the prefab correctly - check the manifest file!
  
 
 - The POI is not in the right place:
