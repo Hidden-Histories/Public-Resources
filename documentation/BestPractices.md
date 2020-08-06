@@ -61,7 +61,8 @@ A deleted asset in Unity is forever gone:
   - Do they even have their sound turned up? What if they don't - do they miss the point of your artwork completely?
 
 ### Models/geometry:
-- Use **fbx.** If you have an obj, convert it to fbx.
+- An **fbx** model can contain "internal" animations that can't be done in porPOIse, for instance the way a fish or dragon bends its body while moving. An **obj** cannot, and in general is larger in size than an fbx version of the same model. If your obj is larger than 1 MB, try converting it to fbx.
+- Mapping a texture to a complex model has to be done in a 3rd party program (Blender, Maya, etc.). When you import the model, the texture mapping coordinates will be preserved, so when you drag the texture onto it in Unity, it should map correctly. 
 - How large is it? 
   - Many models gotten from the web have been modeled at maximum resolution for use in films.
   - We need low polygon models created for games - but look at the size of it in MB, and use that as your metric.
