@@ -326,7 +326,8 @@ You could just select your personalized assets folder, but I want you to see pra
 ### You only need to export your personalized assets folder. 
 
 - Deselect everything else, i.e. the AssetBundles folder and the Editor folder. (The Unity template for the other platform requires other versions of the files in these folders anyway.)
-- The Models and Textures folders are not selected because they are empty.
+- Deselect any extraneous prefabs, models, textures etc. that you are not finished with - you will be asking the helper to recreate your assets, and want to make it clear and easy for them to do so!
+- The Models and Textures folders in this case are not selected because they are empty.
 - **Include dependencies** should be checked!
 - Click **Export ...** and save the unitypackage file to somewhere convenient **outside of your Unity project folder.**
 - Send it to whomever will do the conversion for you.
