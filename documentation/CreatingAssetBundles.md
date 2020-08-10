@@ -117,7 +117,13 @@ Select the **ExampleArtist folder**:
 ![CreateAssetBundle_LostMaterials](images/CreateAssetBundle_LostMaterials.png)
 
 . 
-#### Link your materials to the GameObjects
+### First, zero your GameObject!
+- The GameObjects in your folder should already be zeroed (i.e. the Postition Transform should be 0,0,0). Check and make sure - if they are not zeroed, you will have wierd offsets in their positions and it will make them very hard to place in porPOIse!
+- If you create a new GameObject, this is your last chance to make sure that you zeroed their Position Transform! Once you turn it into a Prefab, those offsets will be baked in.
+- Zeroing the GameObjects means of course that they will be on top of each other and might hide each other. You can unclick the others in their Inspector windows, so you see only the GameObject that you are dealing with right now. Just remember to click them back on before you turn them into Prefabs!
+
+.
+### Link your materials to the GameObjects
 The materials still exist in your folder, but your GameObjects in your folder were linked not to them, but to the materials in the ExampleArtist folder which is now gone.
 
 Open the Materials folder:
