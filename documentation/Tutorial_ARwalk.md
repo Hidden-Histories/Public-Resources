@@ -34,7 +34,7 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
 ### Which layer properties to set
 
 First set the Lat/Lon for each POI to the GPS position you want.
-  - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
+  - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to click **Save** for each POI entry after you move it!)
   - I set these with one at each street corner around my block. The narrow side of my block is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
   - Visibility in meters: at the layer level, make sure this is aroun 1500, so when the ARpoise app looks for the POIs, it'll find all of them.
   
