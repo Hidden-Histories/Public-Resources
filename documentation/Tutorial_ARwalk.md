@@ -24,10 +24,10 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
-- If you want to use the assets, here is the unitypackage (with 4 numbered fence exclosures and one unnumbered, plain fence element).
+- If you want to use the assets, here is the **unitypackage** (with 4 numbered fence exclosures and one unnumbered, plain fence element).
 http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
 
-- If you want to use the prefabs in your own POI, here are links to the asset bundle and manifest file:
+- If you want to use the prefabs in your own POI, here are links to the **asset bundle and manifest files:**
   - URL for asset bundle: www.arpoise.com/AB/fencetest.ace
   - URL for manifest file: www.arpoise.com/AB/fencetest.manifest
 
