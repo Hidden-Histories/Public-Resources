@@ -12,7 +12,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 Several artists have talked about wanting to set up a walk through Japantown, in which the user encounters various artworks as they walk around a block or down the street.
 
-Here is how to set up an AR walk at your home base, to test out how it looks and acts while you are walking around the block. Afterwards you can decide if it works for your content, despite the inaccuracy of the positions and orientations of the POIs.
+Here is how to set up an AR walk at your home base. Once you set it up around your own block, walk around the block and see if it works for you artistically, despite the inaccuracy of the positions and orientations of the POIs.
 
 - This can be done using **Lat/Lon** (Latitude and Longitude) to set the **absolute GPS position of each POI.** (You MUST leave the Relative position x,y,z field blank - otherwise the relative position overrules the absolute positions!)
 
