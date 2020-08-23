@@ -20,7 +20,7 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 
 .
 
-## How to set up the POIs
+## On the layer webpage:
 
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
@@ -31,20 +31,20 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
   - URL for asset bundle: www.arpoise.com/AB/fencetest.ace
   - URL for manifest file: www.arpoise.com/AB/fencetest.manifest
 
-.
-### Which POI properties to set
-
-You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
+### Which layer properties to set
 
 First set the Lat/Lon for each POI to the GPS position you want.
   - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
   - I set these with one at each street corner around my block. The narrow side of my block is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
+  - Visibility in meters: at the layer level, make sure this is aroun 1500, so when the ARpoise app looks for the POIs, it'll find all of them.
   
 .
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
 
+### Which POI properties to set
 
-  - Visibility in meters:
+You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
+
   - Set Relative altitude if desired to raise or lower the height of the POI (remember 0 is eye level).
 
   - Relative location x,y,z HAS TO BE EMPTY!!! If you put in a value here, that overrides everything else, and the POI just moves with you when you walk.
