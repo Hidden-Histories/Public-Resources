@@ -36,12 +36,14 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
 
 You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
 
+First set the Lat/Lon for each POI to the GPS position you want.
+  - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
+  - I set these with one at each street corner around my block. The narrow side of my block is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
+  
 .
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
 
-- Set the Lat/Lon for the POI to the GPS position you want.
-  - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
-  - I set these around my block - the narrow side is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
+
   - Visibility in meters:
   - Set Relative altitude if desired to raise or lower the height of the POI (remember 0 is eye level).
 
