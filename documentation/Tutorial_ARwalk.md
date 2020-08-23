@@ -22,7 +22,7 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 
 ## How to set up the POIs
 
-- I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
+I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
 
