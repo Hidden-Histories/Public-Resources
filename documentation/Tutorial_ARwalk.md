@@ -43,9 +43,9 @@ First set the **Lat/Lon for each POI to the GPS position** you want.
 .
 ## For each POI, set these properties:
 
-You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
-
   - Check the position of the POI on the googlemap, to make sure it is where you want it to be.
+  
+  - **Visibility in meters:** IMPORTANT: set this to around 20 meters, so (ideally) it will not interfere with the other POIs!
   
   - Set **Relative altitude** if desired to raise or lower the height of the POI (remember 0 is eye level).
 
