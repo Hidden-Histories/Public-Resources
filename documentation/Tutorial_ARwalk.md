@@ -14,7 +14,7 @@ Several artists have talked about wanting to set up a walk through Japantown, in
 
 Here is how to set up an AR walk at your home base, to test out how it looks and acts while you are walking around the block. Afterwards you can decide if it works for your content, despite the inaccuracy of the positions and orientations of the POIs.
 
-- This can be done using **Lat/Lon** (Latitude and Longitude) to set the **absolute GPS position of each POI.** You MUST leave the Relative position x,y,z field blank - otherwise the relative position overrules the absolute positions!
+- This can be done using **Lat/Lon** (Latitude and Longitude) to set the **absolute GPS position of each POI.** (You MUST leave the Relative position x,y,z field blank - otherwise the relative position overrules the absolute positions!)
 
 - Because both **position and orientation can vary from minute to minute,** however, there is a certain amount of randomness in where you will see both the POI whose area you are in at the moment, and the other POIs you have set nearby. That may or may not bother you or your user, depending a bit on what your artwork is about! ;-)
 
