@@ -24,9 +24,6 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
-.
-
-
 - If you want to use the assets, here is the unitypackage (with both numbered fence textures and one unnumbered, plain fence texture).
 
 - If you want to use the prefabs in your own POI, here are links to the asset bundle and manifest file:
