@@ -32,7 +32,7 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
 
 ## On the layer webpage:
 
-First set the Lat/Lon for each POI to the GPS position you want.
+First set the **Lat/Lon for each POI to the GPS position** you want.
   - The easiest way to do this is to **drag the marker for each POI** to the location you want on the googlemap. (Remember to click **Save** for each POI entry after you move it!)
   - I set one POI at each street corner around my block. The narrow side of my block is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
   - **Visibility in meters:** at the layer level, make sure this is around 1500, so when the ARpoise app looks for the POIs, it'll find all of them.
@@ -40,11 +40,16 @@ First set the Lat/Lon for each POI to the GPS position you want.
 .
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
 
-## On each POI webpage:
+.
+## For each POI, set these properties:
 
 You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
 
-  - Set Relative altitude if desired to raise or lower the height of the POI (remember 0 is eye level).
+  - Check the position of the POI on the googlemap, to make sure it is where you want it to be.
+  
+  - Set **Relative altitude** if desired to raise or lower the height of the POI (remember 0 is eye level).
 
   - Relative location x,y,z HAS TO BE EMPTY!!! If you put in a value here, that overrides everything else, and the POI just moves with you when you walk.
 
+.
+![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIproperties.jpg)
