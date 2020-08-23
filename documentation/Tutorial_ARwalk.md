@@ -12,11 +12,15 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 Various artists have talked about wanting to set up a walk through Japantown, in which the user encounters various content as they walk around a block or down the street.
 
+Here is how to set up an AR walk at your home base, to test out how it looks and acts while you are walking around the block. Afterwards you can decide if it works for your content, despite the inaccuracy of the positions and orientations of the POIs.
+
 - This can be done using **Lat/Lon** (Latitude and Longitude) to set the **absolute GPS position of each POI.**
 
 - Because both **position and orientation can vary from minute to minute,** however, there is a certain amount of randomness in where you will see both the POI whose area you are in at the moment, and the other POIs you have set nearby. That may or may not bother you or your user, depending a bit on what your artwork is about! ;-)
 
-Here is how to set up an AR walk at your home base, to test out how it looks and acts while you are walking around the block. Afterwards you can decide if it works for your content, despite the inaccuracy of the positions and orientations of the POIs.
+.
+
+## How to set up the POIs
 
 - I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
@@ -27,3 +31,17 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 - If you want to use the prefabs in your own POI, here are links to the asset bundle and manifest file:
   - URL for asset bundle: www.arpoise.com/AB/fencetest.ace
   - URL for manifest file: www.arpoise.com/AB/fencetest.manifest
+
+.
+### Which POI properties to set
+
+You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). This means:
+
+- Set the Lat/Lon for the POI to the GPS position you want.
+  - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
+  - I set these around my block - the narrow side is about 100 meters long, the long side is about 200 meters long. This is actually pretty equivalent to the size of the Heinleinville block, although the orientation is east-west whereas the Heinleinville block is north-side.
+  - Visibility in meters:
+  - Set Relative altitude if desired to raise or lower the height of the POI (remember 0 is eye level).
+
+  - Relative location x,y,z HAS TO BE EMPTY!!! If you put in a value here, that overrides everything else, and the POI just moves with you when you walk.
+
