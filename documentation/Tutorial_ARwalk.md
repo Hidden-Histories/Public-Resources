@@ -49,7 +49,9 @@ First set the **Lat/Lon for each POI to the GPS position** you want.
   
   - Set **Relative altitude** if desired to raise or lower the height of the POI (remember 0 is eye level).
 
-  - Relative location x,y,z HAS TO BE EMPTY!!! If you put in a value here, that overrides everything else, and the POI just moves with you when you walk.
+  - **Relative location (x,y,z) MUST BE EMPTY!!!** If you put in a value here, that overrides everything else, and the POI just moves with you when you walk.
+  
+  - **Scaling factor:** I found that 5 was a good value so that the nearest POI enclosed me when I came near the street corner, but the next farthest away did not.
 
 .
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIproperties.jpg)
