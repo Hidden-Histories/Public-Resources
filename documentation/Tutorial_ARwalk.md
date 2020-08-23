@@ -25,7 +25,7 @@ Here is how to set up an AR walk at your home base, to test out how it looks and
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
 .
-![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
+
 
 - If you want to use the assets, here is the unitypackage (with both numbered fence textures and one unnumbered, plain fence texture).
 
@@ -36,7 +36,10 @@ I created 4 prefabs, each of them being a fenced in area of the same proportions
 .
 ### Which POI properties to set
 
-You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). This means:
+You MUST use absolute position (so they are more or less at the GPS location where you put them) as opposed to using Relative locations x,y, z (with which they are centered around the viewer and will always maintain the same distance to the viewer). 
+
+.
+![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIs-4Corners.jpg)
 
 - Set the Lat/Lon for the POI to the GPS position you want.
   - The easiest way to do this is to drag the marker for that POI to the location you want on the googlemap. (Remember to SAVE!)
