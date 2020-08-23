@@ -30,6 +30,14 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
 
 .
 
+## Find the scale that you need:
+
+Riffing on Takeshi Moro's concept, say I want to enclose the user in a fence on each of the street corners of Heinleinville. I can't get to San Jose Japantown right now, so how do I know that I am creating a test that would accurately simulate the experience on site?
+
+.
+![Googlemaps Heinleinville scale](images/googlemaps_Heinleinville_scale.jpg)
+
+.
 ## On the layer webpage:
 
 First set the **Lat/Lon for each POI to the GPS position** you want.
