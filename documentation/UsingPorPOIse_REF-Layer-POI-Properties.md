@@ -89,7 +89,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
 * **Name**: The name is optional. If you have multiple animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
-  * **onFollow** - the animation is started when its predecessor animation ends. Its name must be entered in the **Followed by** field fo the preceding animation.
+  * **onFollow** - the animation is started when its predecessor animation ends. Its name must be entered in the **Followed by** field of the preceding animation.
   * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
@@ -99,6 +99,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
   * **transform**, transform the POI to another location.
   * **scale**, scale the size of the POI.
   * **fade**, fade the POI between full visibility and invisibility, e.g. the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
+  * **destroy**, delete the POI entirely. Don't worry, when you force close the app and then restart it, it will be there again!
   
   ![FadeAnimation](images/UsingPorpoise_FadeAnimation.PNG)
   
