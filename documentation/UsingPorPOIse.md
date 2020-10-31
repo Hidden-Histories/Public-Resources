@@ -255,7 +255,8 @@ The **artist** then defines in **porPOIse**:
 
 ### Creating new content for your layers:
 
-- Unity tutorials: UNDER CONSTRUCTION
+- Unity tutorials: see "How to create your own AR artworks" on the main Hidden Histories documentation page
+http://hiddenhistoriesjtown.org/documentation/
 
 - [**Creating AssetBundles for porPOIse**](CreatingAssetBundles.md) tutorial:
   - If you already know how to use create assets (3D models, images, sounds etc.) and how to use the Unity Editor, go through this tutorial to create your own AssetBundle.
