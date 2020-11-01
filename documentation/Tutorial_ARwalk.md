@@ -10,7 +10,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-Several artists have talked about wanting to set up a walk through Japantown, in which the user encounters various artworks as they walk around a block or down the street.
+Several artists have talked about wanting to set up a walk through Japantown, in which the user encounters various artworks as they walk around a block or down the street. I developed this tutorial while talking with Takeshi Moro about his concept of following the fence around Heinleinville, and he graciously allowed me to share it with you all.
 
 Here is how to set up an AR walk at your home base. Once you set it up around your own block, walk around the block and see if it works for you artistically, despite the inaccuracy of the positions and orientations of the POIs.
 
