@@ -29,19 +29,6 @@ http://hiddenhistoriesjtown.org/documentation/templates/FenceTest.unitypackage
   - URL for manifest file: www.arpoise.com/AB/fencetest.manifest
 
 .
-
-## Find the scale that you need:
-
-Riffing on Takeshi Moro's concept, say I want to enclose the user in a fence on each of the street corners of Heinleinville. I can't get to San Jose Japantown right now, so how do I know that I am creating a test that would accurately simulate the experience on site?
-
-If you look in the lower right corner of googlemaps, you see a scale indicator (that changes as you zoom in and out). Looking at the outline of the Heinleinville block, you see the short side is about 100 meters, and the long side about 250 meters.
-
-.
-![Googlemaps Heinleinville scale](images/googlemaps_Heinleinville_scale.jpg)
-
-Now if I look at my own area, I see that my own block is somewhat similar in dimensions. The Orientation is different - mine is roughly east-west whereas the Heinleinville block is northwest-southeast. But we know that the orientation will float around anyway, so that doesn't matter so much. We want to test the distance between POIs and see how that affects our relationship to our artwork.
-
-.
 ## On the layer webpage:
 
 First set the **Lat/Lon for each POI to the GPS position** you want.
@@ -67,3 +54,16 @@ First set the **Lat/Lon for each POI to the GPS position** you want.
 
 .
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIproperties.jpg)
+
+.
+## How to test remotely at the scale that you need for Japantown:
+
+Riffing on Takeshi Moro's concept, say I want to enclose the user in a fence on each of the street corners of Heinleinville. I can't get to San Jose Japantown right now, so how do I know that I am creating a test that would accurately simulate the experience on site?
+
+If you look in the lower right corner of googlemaps, you see a scale indicator (that changes as you zoom in and out). Looking at the outline of the Heinleinville block, you see the short side is about 100 meters, and the long side about 250 meters.
+
+.
+![Googlemaps Heinleinville scale](images/googlemaps_Heinleinville_scale.jpg)
+
+Now look at your own area, and choose landmarks (a street corner, a store) that are similar distances apart, and place them there!
+
