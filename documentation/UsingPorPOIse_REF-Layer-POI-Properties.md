@@ -86,10 +86,10 @@ There can be multiple animations simultaneously, for instance you can scale the 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Name**: The name is optional. If you have multiple animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
+* **Name**: The name is optional. If you have chains of animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
-  * **onFollow** - the animation is started when its predecessor animation ends. Its name must be entered in the **Followed by** field of the preceding animation.
+  * **onFollow** - This is for chains of animations - when the preceeding animation is finished, the following animation will start. 1) Give your following animation a name in its **Name** field. 2) Then enter the name of this following animation in the "Followed by" field of your preceeding animation. 
   * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
