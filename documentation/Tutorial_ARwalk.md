@@ -6,7 +6,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 .
 
-# Tutorial: Creating an AR walk
+# Tutorial: Creating an AR walking tour
 
 ## Overview
 
