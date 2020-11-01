@@ -52,6 +52,15 @@ First set the **Lat/Lon for each POI to the GPS position** you want.
 ![ARwalkExample_POIs-4Corners](images/ARwalkExample_POIproperties.jpg)
 
 .
+## Testing
+
+Now go outside and walk around the block between the four places where you placed the four fence POIs.
+
+- When you are standing right at a spot where you know you placed a POI, are you inside the fence? If not, you can try to increase the scale. It will look the same size, but it will be more likely to be surrounding you when you are standing at your chosen GPS location.
+
+- Note where the other POIs are. It is quite possible that the orientation of the others will be wrong - e.g. the one that should be north of you is actually in the south, east or west. This is often different for different types of smartphones, and you have to assume that you can't control it for all smartphones. :-(
+
+.
 ## How to test remotely at the scale that you need for Japantown:
 
 Riffing on Takeshi Moro's concept, say I want to enclose the user in a fence on each of the street corners of Heinleinville. I can't get to San Jose Japantown right now, so how do I know that I am creating a test that would accurately simulate the experience on site?
