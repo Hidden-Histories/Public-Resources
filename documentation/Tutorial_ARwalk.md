@@ -18,7 +18,7 @@ Here is how to set up an AR walk at your home base. Once you set it up around yo
 
 - Because both **position and orientation can vary from minute to minute,** however, there is a certain amount of randomness in where you will see both the POI whose area you are in at the moment, and the other POIs you have set nearby. That may or may not bother you or your user, depending a bit on what your artwork is about! ;-)
 
-### Assets and prefabs for this example
+### Prefabs for this example
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number (1, 2, 3, 4) on the fence, so I could tell them apart.
 
 - URL for asset bundle: www.arpoise.com/AB/fencetest.ace
