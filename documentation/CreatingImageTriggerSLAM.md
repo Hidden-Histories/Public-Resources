@@ -9,16 +9,16 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-You learned to use **AR-vos** in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories). AR-vos can do geolocative AR, and can do geofencing to "fence in" the availability of layers, in exactly the same way as the ARpoise app, as we described in the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories). 
+You learned to use **AR-vos** in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories). AR-vos can do geolocative AR, and can do geofencing to "fence in" the availability of layers, in exactly the same way as the ARpoise app, as described in the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories). 
 
 Since AR-vos uses newer technology, however, it can also use the newer **SLAM** and **image trigger** AR as well. To review:
 
-- **Image trigger AR uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
+- **Image trigger AR** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
   - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
 
-- **SLAM based AR uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
+- **SLAM based AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
 
-- **Image trigger and SLAM (and therefore the AR-vos app) *only* run on newer models,** as they use Apple's ARKit and Google Android's ARCore technologies.
+- **Image trigger and SLAM** (and therefore the AR-vos app) *only* run on newer models,** as they use Apple's ARKit and Google Android's ARCore technologies.
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
 
