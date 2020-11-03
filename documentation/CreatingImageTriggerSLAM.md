@@ -9,9 +9,9 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-You learned to use **AR-vos** in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories). AR-vos can do geolocative AR, and can do geofencing to "fence in" the availability of layers, in exactly the same way as the ARpoise app. As it uses newer technology, it can do the newer **SLAM** and **image trigger** AR as well, but might not run on older model smartphones.
+You learned to use **AR-vos** in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories). AR-vos can do geolocative AR, and can do geofencing to "fence in" the availability of layers, in exactly the same way as the ARpoise app, as we described in the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories). 
 
-To review:
+Since AR-vos uses newer technology, however, it can also use the newer **SLAM** and **image trigger** AR as well. To review:
 
 - **Image trigger AR uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
   - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
