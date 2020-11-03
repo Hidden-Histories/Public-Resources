@@ -5,13 +5,11 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 .
 
-# ARpoise PorPOISe - Image Trigger and SLAM tutorial
+# Image Trigger and SLAM tutorial
 
 ## Overview
 
-Whether you create your own digital assets for your AR artwork, or work together with a helper to turn your drawings, sculptures or videos into digital assets, it is easy to "choreograph" them together into your AR experience in porPOIse. This is a web-based interface that allows you to edit and adjust your own AR experience either while working from your home base, or standing at your artwork site in Japantown.
-
-This tutorial gives you the basics for working with **geolocative AR,** which works on both the **ARpoise app** and the **AR-vos app** in exactly the same way. A subsequent tutorial will cover the image trigger and SLAM AR that can only be done by the AR-vos app.
+You learned to use **AR-vos** in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories). AR-vos can do geolocative AR in exactly the same way as the ARpoise app, but additionally it can do **SLAM** and **image trigger** AR as well. 
 
 ### Some terminology ([See also Glossary of Terms >>>](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#-hidden-histories-artists)):
 
