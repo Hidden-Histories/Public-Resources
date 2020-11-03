@@ -5,7 +5,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 .
 
-# Image Trigger and SLAM tutorial
+# Creating Image Trigger and SLAM layers
 
 ## Overview
 
