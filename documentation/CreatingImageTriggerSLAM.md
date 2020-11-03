@@ -18,29 +18,24 @@ Since AR-vos uses newer technology, however, it can also use the newer **SLAM** 
 
 - **SLAM based AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
 
-- **Image trigger and SLAM** (and therefore the AR-vos app) *only* run on newer models,** as they use Apple's ARKit and Google Android's ARCore technologies.
+- **Image trigger and SLAM (and therefore the AR-vos app)** *only* run on newer models, as they use Apple's ARKit and Google Android's ARCore technologies.
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
 
 .
-
-### Workflow (see below for details on how to do all of this!):
-
-
-
-. 
 ## Log in to your porPOIse account
 
 Log in to your porPOIse account in a web browser on your PC. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
 
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/dashboard/
 
-## porPOIse Layers List
+## Youe porPOIse layers now include layers named 'ImageTrigger' and 'SLAM'
 
-Once you log in to your porPOIse account, you will see a list of the layers that the Hidden Histories admin has set up for you. (If you ever need more layers, please ask your admin to add them for you.) Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
+Once you log in to your porPOIse account, you will see we have added two new layers to your account. Here we  use the fictitous artist Bruce Lee for the example images. Your own pages will show your assigned nickname.
 
-- The **ExampleLayer** is meant as a test layer where you can play around and try out new features. 
-- The **ArtistLayer** is where you should slowly build up the final artwork, as you find assets and functionality to your liking.
+**These layers will only show up in the AR-vos app.**
+
+The only difference between them  - we have simply labeled them this way to help you keep them apart while you are learning the system.
 
 Click on the name of your example layer to open it for editing.
 
