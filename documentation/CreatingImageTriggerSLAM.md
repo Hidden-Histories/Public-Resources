@@ -26,36 +26,7 @@ To review:
 
 ### Workflow (see below for details on how to do all of this!):
 
-#### Initial work at home:
 
-- Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
-
-- Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
-
-#### Refining your layers once they are moved to Japantown:
-
-- When your layer is ready for testing, both you and the admin will need to move it to the desired location in Japantown: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. 
-
-- Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#exercise2-remote-viewing-of-brush-the-sky-in-san-jose-japantown), as you already learned in the [Using ARpoise App: Remote Viewing with Fixed Position](UsingARpoiseApp.md#-hidden-histories) tutorial.
-
-- For the real testing, **go to the site** where your layer is positioned and view it on your smartphone. (If you have been using Fixed Position to test from home, don't forget to **unclick** Fixed Position first! Otherwise you might think you're seeing your layer properly, but if you want to go to view another Hidden Histories site, you will not see any new layers because your app sees only the Fixed Position!) 
-
-- But **before you leave your house, make sure you can access your porPOIse account on a browser in your smartphone!** The easiest way to do this is to mail yourself the link to your porPOIse account login page (you'll learn about this below), and then you can just click the link when you are standing on site in Japantown. Then you can make changes to your layer while standing on site, and see the changes immediately. (Remember to save the changes, then **close and reopen the ARpoise app** - otherwise you will NOT see the changes in your layer!
-
-#### Visualization of how you work in porPOIse - at home and on site
-
-![porPOIse workflow](images/hiddenhistories-porPOIseWorkflow_v3_1024w.png)
-
-. 
-
-## Remember: Force close - restart app to see changes!
-In the exercises below, remember that in order to see any changes you make in porPOIse, you have to force close and restart the app.
-  - How to [force close iPhone/iPad apps](https://support.apple.com/en-us/HT201330)
-  - How to [force close Android apps](https://www.tomsguide.com/us/close-android-apps,news-21281.html).
-  - If you have successfully force closed the app, when you start it again the Unity start screen appears: 
-  
-  - ![Unity start screen](images/Unity_startScreen.png)
-  
 
 . 
 ## Log in to your porPOIse account
