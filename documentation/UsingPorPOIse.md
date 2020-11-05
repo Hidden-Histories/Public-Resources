@@ -15,11 +15,11 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 ### Some terminology ([See also Glossary of Terms >>>](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#-hidden-histories-artists)):
 
-- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR experience. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
+- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
-- **POI:** A "POI" (Point Of Interest) are the components that all together make up your AR experience (your layer). These can include 3D models, images, sounds etc.
+- **POI:** A layer consists of one or more "POIs" (Point Of Interest), the **prefabs** (prefabricated objects) and their settings that all together make up your AR experience. The prefabs can be 3D models, images, sounds etc. and their settings, such as location, scale, animations, etc.
 
-- **Geofencing:** Restricting the area in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in Japantown.
+- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in San Jose Japantown.
 
 .
 
