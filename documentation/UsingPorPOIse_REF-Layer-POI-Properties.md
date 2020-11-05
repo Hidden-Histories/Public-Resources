@@ -3,7 +3,7 @@
 # PorPOISe Reference: Layer and POI Properties
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
-For the tutorial on how to use these properties to edit your layers, please see the [ARpoise PorPOISe User Interface tutorial](UsingPorPOIse.md)
+For the tutorial on how to use these settings to edit your layers, please see the [ARpoise PorPOISe User Interface tutorial](UsingPorPOIse.md)
 
 . 
 ## porPOIse Layer Configuration
@@ -60,12 +60,12 @@ For the tutorial on how to use these properties to edit your layers, please see 
 You can edit the following properties of a POI:
 * **Title**: Give the POI a title that helps you identify it in the layer's POI list.
 * **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
-* **Is visible**: This combo box defines whether the POI is visible. This will be useful when many people are testing their apps close together in Japantown! 
+* **Is visible**: This combo box defines whether the POI is visible. If you have a lot of POIs and want to turn off some of them to make it easier to work on the others. Just remember to turn it back on!
 * **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
-* **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative locatino.
+* **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative location.
 * **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please! Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Layer name**: If this value is set, the entire layer will be loaded instead of the POI.
+* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. (Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**)
+* **Layer name**: If you type in a valid layer name here, that entire layer will be show in addition to the prefab you specified above. That layer will also be subject to the settings of this POI (GPs location, scale, animations, etc.) This enables you to create more complex POIs more easily. (Tutorial under construction.)
 * **Relative location**: The location of the POI relative to the user's device. Comma separated list of the X-east-west, Y-up-down, Z-north-south values. **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.**
 * **Scaling factor**: This value scales the POI's geometry in all three dimensions.
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
