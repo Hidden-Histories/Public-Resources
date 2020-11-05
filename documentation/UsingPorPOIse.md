@@ -17,7 +17,7 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 - **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
-- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in San Jose Japantown.
+- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. For the Hidden History layers this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move your layer to a location in San Jose Japantown.
 
 When you look at an ARpoise layer, you might see for instance colored or textured 3D objects that are positioned at a particular GPS location, are interactive, are animated, have sound, etc. This AR experience is composed of:
 
