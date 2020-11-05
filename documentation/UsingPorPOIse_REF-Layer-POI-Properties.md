@@ -73,7 +73,9 @@ You can edit the following properties of a POI:
 
 **Image trigger properties (for use with AR-vos only):**
 
-* **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account. If the URL of an image file is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the environment. If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected in the enviroment.
+- **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account. 
+ - If the URL of an image file is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the environment. 
+  - If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected in the enviroment.
 * **Width of trigger image:** Used only in AR-vos app. This is an approximate with of your trigger image in real life (e.g. a poster might be 0.3 meters = 1 foot wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.)
 
 * **New action:** Currently not in use.
