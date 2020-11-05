@@ -94,7 +94,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
 
 * **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. The following animation needs to have a name, which you then enter in the **Followed by** field of the preceding animation. **The named following animations can be in other POIs in the same layer!"**
 
-![ChainedAnimations](images/UsingPorpoise_ChainedAnimations.PNG)
+![ChainedAnimations](images/UsingPorpoise_ChainedAnimations.png)
 
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
@@ -110,7 +110,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
   * **fade**, fade the POI between full visibility and invisibility, e.g. the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
   * **destroy**, delete the POI entirely. Don't worry, when you force close the app and then restart it, it will be there again!
   
-  ![FadeAnimation](images/UsingPorpoise_ChainedAnimations.png)
+  ![FadeAnimation](images/UsingPorpoise_FadeAnimation.png)
   
   **Note:** In order for a fade animation to work, the rendering mode of the material of the POI's Unity game object needs to be set to 'Fade'.
   
