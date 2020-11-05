@@ -17,19 +17,26 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 - **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
-- **POI:** A layer consists of one or more "POIs" (Point Of Interest), the **prefabs** (prefabricated objects) and their settings that all together make up your AR experience. The prefabs can be 3D models, images, sounds etc. and their settings, such as location, scale, animations, etc.
+When you look at an ARpoise layer, you might see for instance colored or textured 3D objects that are positioned at a particular GPS location, are interactive, are animated, have sound, etc. This AR experience is composed of:
+
+- **Assets:** 3D models, materials, textures, images, sounds etc.
+- These assets are packaged (using the Unity3D Editor) into **prefabs** that are linked to the ARpoise system via a setting in porPOIse.
+- In porPOIse you also define other **settings** for the prefabs, such as GPS location, interactivity, animation.
+- These settings are all defined in porPOIse in a **POI** (Point Of Interest).
+- A set of POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you start the layer.
 
 - **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in San Jose Japantown.
 
 .
 
-### Workflow (see below for details on how to do all of this!):
+### Workflow: How to create site specific works for Japantown during Coronavirus lockdowns???
+(see below for details on *how* to do all of this!):
 
-#### Initial work at home:
+#### Do the initial work at home:
 
 - Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
 
-- Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page. to learn how to add new **assets** (2d images, 3D models, sounds, etc.) to your layer.
+- Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page for links to tutorials on adding new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
 #### Refining your layers once they are moved to Japantown:
 
