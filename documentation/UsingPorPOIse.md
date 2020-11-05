@@ -77,13 +77,13 @@ Click on the name of your example layer to open it for editing.
 . 
 ## porPOIse Layer Configuration
 
-The layer configuration holds properties that apply to the entire layer. Please leave these properties at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories). Yes, we know the map covers some properties, but they shouldn't be changed anyway! ;-)
+The layer configuration holds settings that apply to the entire layer. Please leave these settings at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories). Yes, we know the map covers some settings, but they shouldn't be changed anyway! ;-)
 
-Beneath the properties menu is a list of all the POIs that make up the AR experience of your layer. 
+Beneath the settings menu is a list of all the POIs that make up the AR experience of that layer. 
 
 Let's modify our existing POIs:
 - Select the **StripesCube** POI.
-- Then go to the next section, where you will change the POI's properties.
+- Then go to the next section, where you will change the POI's settings.
 
 . 
 ![UsingPorpoise_ExampleLayer_POIlist](images/UsingPorpoise_ExampleLayer_POI-list.png)
@@ -98,20 +98,22 @@ We will now practice changing the configuration of the POIs, and view the layer 
 . 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
-### Location properties of POI:
+### Location settings of POI:
 
 There are two ways you can place POIs in the real world:
 
-- **Lat/Lon fields:** This uses an "absolute" location, theoretically at a fixed GPS position, but the inaccuracy of GPS means that this can vary from time to time. It does two things:
-  1. **Geofencing: is the POI visible in the app at all?** The ARpoise server looks at this value + the "Visibility in meters" value (see below) to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value  + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
+- **Lat/Lon fields:** This uses an "absolute" location, theoretically at the specified fixed GPS position, but the inaccuracy of GPS means that the POI's actual location can vary from time to time. It does two things:
+  1. **Geofencing: is the POI visible in the app at all?** The ARpoise server looks at this value, plus the "Visibility in meters" value (see below), to decide whether or not it should even show this POI to you. If you are standing in Japantown and the GPS value + Visibility value means the POI is in Cupertino, it is too far away to be seen and the app will not show it to you at all.
   2. **The app draws the POI in perspective:** Once the server decides you should be able to see the POI, it compares this value to the GPS value at which you are standing to figure out how to depict the POI in your app display, using the rules of perspective to draw it just like you would: how large should it be, and  how should it look in perspective if it were really there in real life? 
 
 - **Relative location (x,y,z):** 
   - If you set values here, the GPS is still needed and used to do **geofencing.**
   - But Relative location (x,y,z)  **overrules the Lat/Lon** in deciding where the POI should be depicted   relative to where you are standing. 
-  - The x, y and z values are the distances in meters relative to your body position (or actually to your smartphone position). 
-  - If you use Relative location, the assets will always be at the same distance from the user. (Note that the orientation around the user can change - the technology has no real control over this).
-  - **This means if you go for a walk with the ARpoise app on, the POIs go with you!** You have to refresh or restart the app to have your location and availablity of layers updated to your current location.
+  - The x, y and z values are the distances in meters relative to your body position (or actually to your smartphone position). If you use Relative location, the POI will always be at the same distance from the user. 
+    - Ostensibly x values should be +x = east and -x = west, with 0 at your body, but the technology is simply too inaccurate to really control this, and you might find the POI you place at x = -5 is not 5 meters west of your position, but somewhere else in a 5 meter circle around you. 
+    - The same applies to z, which should be +z = north and -z = south with 0 at your body, but can also vary wildly. If it's any consolation, at least the POIs will keep their positions relative to each other!
+    - The y value is +y = up and -y = down, **with y = 0 always at your eye level!**
+  - **If you go for a walk with the ARpoise app on, the POIs go along with you!** At some point when the app refreshes, they might disappear, if you're far enough away. If you're standing at a location where you know there are other layers, but still see the original one, you need to restart the app to update your location with the server and see the layers that are available at that new location.
 
 **NOTE:** We have placed all the POIs in the ExampleLayer using Relative location, so that you are certain to see them. In Japantown, since the layers are often located very, very close together, [Brush the Sky](http://tamikothiel.com/brushthesky/PR/BrushTheSky_AR-tourSanJoseJapantown.pdf) also uses Relative location to put the augments directly around you, and relies on you to select the correct layer for where you are standing.
 
