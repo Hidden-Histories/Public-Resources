@@ -24,11 +24,11 @@ When you look at an ARpoise layer, you might see for instance colored or texture
 - **Assets:** the underlying 3D models, materials, textures, images, sounds etc. that you created.
 - **Prefabs:** You package these assets (using the Unity3D Editor) into "prefabricated objects" or prefabs.
 - **POIs:** You use porPOIse to define a POI (Point Of Interest), essentially a webform in your layer, that links to the prefab and declares its **settings:** GPS location, any interactivity or animations it has, etc.
-- A set of these POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you view the layer.
+
+A set of these POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you view the layer. It'll all become more clear when you start modifying them yourself below!
 
 .
-
-### Workflow: How to create site specific works for Japantown during Coronavirus lockdowns???
+### Workflow: Create site specific works in Japantown during Coronavirus lockdowns!
 (see below for details on *how* to do all of this!):
 
 #### Do the initial work at home:
