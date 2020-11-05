@@ -21,8 +21,8 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 When you look at an ARpoise layer, you might see for instance colored or textured 3D objects that are positioned at a particular GPS location, are interactive, are animated, have sound, etc. This AR experience is composed of:
 
-- **Assets:** 3D models, materials, textures, images, sounds etc.
-- These assets are packaged (using the Unity3D Editor) into **prefabs** that are linked to the ARpoise system via a setting in porPOIse.
+- **Assets:** the underlying 3D models, materials, textures, images, sounds etc.
+- **Prefabs:** These assets are packaged together (using the Unity3D Editor) into "prefabricated objects" or prefabs that are linked to the ARpoise system via a setting in porPOIse.
 - In porPOIse you also define other **settings** for the prefabs, such as GPS location, interactivity, animation.
 - These settings are all defined in porPOIse in a **POI** (Point Of Interest).
 - A set of POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you start the layer.
