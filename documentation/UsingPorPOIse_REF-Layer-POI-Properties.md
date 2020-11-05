@@ -65,8 +65,8 @@ You can edit the following properties of a POI:
 * **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative location.
 * **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
 * **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
-  * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**) 
-  * **NOTE: Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. If the sound file should play as soon as the POI is loaded, no other settings are needed. If the sound should play after a delay, or with an interactive, the POI should have an animation node (see below).
+  * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
+  * **NOTE: Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. If the sound file should play as soon as the POI is loaded, no other settings are needed. If the sound should play after a delay, or as the result of a user interaction, the POI needs an animation node (see below).
 * **Layer name**: If you type in a valid layer name here, that entire layer will be show in addition to the prefab you specified above. That layer will also be subject to the settings of this POI (GPS location, scale, animations, etc.) This enables you to create more complex POIs more easily. (Tutorial under construction.)
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
@@ -77,7 +77,6 @@ You can edit the following properties of a POI:
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
 
 **Image trigger properties (for use with AR-vos only):** tutorial under construction
-
 * **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account. 
   * If the **URL of a trigger image file** is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the smartphone. 
   * If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected in the enviroment.
@@ -85,7 +84,7 @@ You can edit the following properties of a POI:
 
 * **New action:** Currently not in use.
 
-**Animation properties**
+## **Animation properties**
 There can be multiple animations simultaneously, for instance you can scale the POI while rotating it as well.
 
 **NOTE: Sound:** An audio file can be a Prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
@@ -93,7 +92,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Name**: The name is optional. If you have chains of animations and this one should be executed when another animation finishes, enter this name in the **Followed by** field of the preceding animation.
+* **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. The following animation needs to have a name, which you then enter in the **Followed by** field of the preceding animation.
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
   * **onFollow** - This is for chains of animations - when the preceeding animation is finished, the following animation will start. 1) Give your following animation a name in its **Name** field. 2) Then enter the name of this following animation in the **Followed by** field of your preceeding animation. 
