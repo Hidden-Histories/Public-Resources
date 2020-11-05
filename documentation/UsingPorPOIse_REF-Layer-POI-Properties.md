@@ -63,8 +63,10 @@ You can edit the following properties of a POI:
 * **Is visible**: This combo box defines whether the POI is visible. If you have a lot of POIs and want to turn off some of them to make it easier to work on the others. Just remember to turn it back on!
 * **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
 * **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative location.
-* **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please! Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. (Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**)
+* **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
+* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
+  * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**) 
+  * **NOTE: Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. If the sound file should play as soon as the POI is loaded, no other settings are needed. If the sound should play after a delay, or with an interactive, the POI should have an animation node (see below).
 * **Layer name**: If you type in a valid layer name here, that entire layer will be show in addition to the prefab you specified above. That layer will also be subject to the settings of this POI (GPS location, scale, animations, etc.) This enables you to create more complex POIs more easily. (Tutorial under construction.)
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
@@ -74,19 +76,19 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
 
-**Image trigger properties (for use with AR-vos only):**
+**Image trigger properties (for use with AR-vos only):** tutorial under construction
 
 * **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account. 
-  * If the URL of an image file is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the environment. 
+  * If the **URL of a trigger image file** is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the smartphone. 
   * If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected in the enviroment.
-* **Width of trigger image:** Used only in AR-vos app. This is an approximate with of your trigger image in real life (e.g. a poster might be 0.3 meters = 1 foot wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.)
+* **Width of trigger image:** Used only in AR-vos app, if a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.)
 
 * **New action:** Currently not in use.
 
 **Animation properties**
-There can be multiple animations simultaneously, for instance you can scale the POI while rotate it as well.
+There can be multiple animations simultaneously, for instance you can scale the POI while rotating it as well.
 
-**NOTE: Sound:** An audio file can be a Prefab by itself, or be part of a large Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
+**NOTE: Sound:** An audio file can be a Prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
