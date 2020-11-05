@@ -119,7 +119,7 @@ There are two ways you can place POIs in the real world:
 
 ### POI location: change these values **one after another**, testing in between:
 
-If you want more information on the properties, see the [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
+If you want more information on the settings, see the [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration).
 
 NOTES: 
 - If you can't find any of the cubes after changing any of the values, reset them by looking at the original values in the image above - except the Lat/Lon values, which need to be the values that correspond to your "home base."
