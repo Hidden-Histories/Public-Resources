@@ -110,7 +110,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
   * **fade**, fade the POI between full visibility and invisibility, e.g. the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
   * **destroy**, delete the POI entirely. Don't worry, when you force close the app and then restart it, it will be there again!
   
-  ![FadeAnimation](images/UsingPorpoise_FadeAnimation.PNG)
+  ![FadeAnimation](images/UsingPorpoise_ChainedAnimations.png)
   
   **Note:** In order for a fade animation to work, the rendering mode of the material of the POI's Unity game object needs to be set to 'Fade'.
   
