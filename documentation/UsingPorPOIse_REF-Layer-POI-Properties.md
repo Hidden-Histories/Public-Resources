@@ -95,7 +95,7 @@ There can be multiple animations simultaneously, for instance you can scale the 
 * **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. The following animation needs to have a name, which you then enter in the **Followed by** field of the preceding animation. **The named following animations can be in other POIs in the same layer!"**
 
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations.PNG)
-  
+
 * **Event**: 
   * **onCreate** - the animation is started when the POI is loaded;
   * **onFollow** - This is for chains of animations - when the preceeding animation is finished, the following animation will start. 1) Give your following animation a name in its **Name** field. 2) Then enter the name of this following animation in the **Followed by** field of your preceeding animation. 
