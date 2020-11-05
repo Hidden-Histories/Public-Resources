@@ -17,6 +17,8 @@ This tutorial gives you the basics for working with **geolocative AR,** which wo
 
 - **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
+- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in San Jose Japantown.
+
 When you look at an ARpoise layer, you might see for instance colored or textured 3D objects that are positioned at a particular GPS location, are interactive, are animated, have sound, etc. This AR experience is composed of:
 
 - **Assets:** 3D models, materials, textures, images, sounds etc.
@@ -24,8 +26,6 @@ When you look at an ARpoise layer, you might see for instance colored or texture
 - In porPOIse you also define other **settings** for the prefabs, such as GPS location, interactivity, animation.
 - These settings are all defined in porPOIse in a **POI** (Point Of Interest).
 - A set of POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you start the layer.
-
-- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. Right now this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move this area to a location in San Jose Japantown.
 
 .
 
