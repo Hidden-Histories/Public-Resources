@@ -105,13 +105,13 @@ You can have multiple animations that run simultaneously, for instance you can s
    * Give your following animation a name in its **Name** field.
    * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
    
-The following Events require the prefab to have a collider
+The following Events require the prefab to include a Collider component. (If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
 
 ![Addcollider](images/UsingPorpoise_AddColliderToGameObject.png)
 
-  * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
+   * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
+   * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
+   * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. 
   
 * **Type**: 
   * **rotate**, rotate the POI around an axis.
