@@ -95,12 +95,20 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Remove:** Delete the animtion from the POI.
 
 * **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. Give the following animation a name, and also enter that name in the **Followed by** field of the preceding animation. **The named following animations can even be in other POIs in the same layer!"**
+(Click on the image below to see a larger version.)
 
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations1.png)
 
-* **Event**: 
+* **Event**: Interactions with the POIs.
   * **onCreate** - the animation is started when the POI is loaded;
-  * **onFollow** - This is for chains of animations - when the preceeding animation is finished, the following animation will start. 1) Give your following animation a name in its **Name** field. 2) Then enter the name of this following animation in the **Followed by** field of your preceeding animation. 
+  * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
+   * Give your following animation a name in its **Name** field.
+   * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
+   
+The following Events require the prefab to have a collider
+
+![Addcollider](images/UsingPorpoise_AddColliderToGameObject.png)
+
   * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
   * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
