@@ -79,17 +79,17 @@ You can edit the following properties of a POI:
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
 
 **Image trigger properties (for use with AR-vos only - also for SLAM):** tutorial under construction
-* **URL for trigger image:** Used only in AR-vos app - but both for image trigger and for SLAM.
-  * If the **URL of a trigger image file** is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
-  * If this field contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected when you scan your enviroment with the AR-vos app.
+* **URL for trigger image:** This field is used only in AR-vos app - but for both image trigger and for SLAM.
+  * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
+  * If this field contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once you tap on one of the vertical or horizontal planes detected by the AR-vos app when you scan your enviroment with it.
 * **Width of trigger image:** Used only in the AR-vos ap when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
 * **New action:** Currently not in use.
 
-#### **Animation properties**
-There can be multiple animations simultaneously, for instance you can scale the POI while rotating it as well.
+### **Animation properties**
+You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
-**NOTE: Sound:** If the prefab contains an audio file can be a Prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger Prefab. In either case, the POI should have an animation node. When the animation plays, the audio file will play as well.
+**NOTE: Sound:** an audio file can be a Prefab by itself, or be packaged into a prefab together with other assets, such as a 3D model. If the audio should play when the layer is loaded, no animation is needed. Use the animation settings, however, if you want to delay the start of the animation, or want to play the audio only after an Event, such as onClick, onFocus, onFollow, etc.
 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
