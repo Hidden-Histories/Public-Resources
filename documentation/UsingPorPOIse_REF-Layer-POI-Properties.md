@@ -67,10 +67,9 @@ You can edit the following properties of a POI:
 * **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
   * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
   * **NOTE: Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. If the sound file should play as soon as the POI is loaded, no other settings are needed. If the sound should play after a delay, or as the result of a user interaction, the POI needs an animation node (see below).
-* **Layer name**: If you type in a valid layer name here, all the POIs of that entire layer will become a **sub-layer** to this POI. 
-  * The entire content of that layer will be shown centered at the prefab you specified above. 
-  * The POIs of the sub-layer should have the same GPS Lat/Lon as this POI (so the server can find them here), but should be placed within that sub-layer via Relative location. The Relative locations will be of course from the center of this POI's prefab. 
-  * That layer will also be subject to the settings of this POI (scale, animations, etc.) This enables you to create more complex POIs more easily. (Tutorial under construction.)
+* **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily. (Tutorial under construction.)
+  * The POIs of the sub-layer should have the same GPS Lat/Lon as this POI (so the server can find them here), but **should be placed within that sub-layer via Relative location.** The Relative locations will be of course from the center of this POI's prefab. 
+  * That layer will also be subject to the settings of this POI (scale, animations, etc.) 
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
   * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
@@ -79,11 +78,11 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
 
-**Image trigger properties (for use with AR-vos only):** tutorial under construction
-* **URL for trigger image:** Used only in AR-vos app. This is the web address of your trigger image in your porPOIse account. 
-  * If the **URL of a trigger image file** is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the smartphone. 
-  * If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected in the enviroment.
-* **Width of trigger image:** Used only in AR-vos app, if a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.)
+**Image trigger properties (for use with AR-vos only - also for SLAM):** tutorial under construction
+* **URL for trigger image:** Used only in AR-vos app - but both for image trigger and for SLAM.
+  * If the **URL of a trigger image file** is entered into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
+  * If this field contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once the user taps on a vertical or horizontal plane detected when you scan your enviroment with the AR-vos app.
+* **Width of trigger image:** Used only in the AR-vos ap when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
 * **New action:** Currently not in use.
 
