@@ -149,9 +149,9 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **From**: Start value of the animation.
 * **To**: End or middle value of the animation, depending on the **Interpolation**.
 * **Axis (x,y,z)**: Axis to apply the animation to, e.g.: A rotation with Axis 1,0,0 is only around the X axis.
-* **Followed by**: If one or more comma separated animation names are given in this field, the animations mentioned are started once this animation ends. Animation names are global for all POIs of a layer. So the end of an animation of one POI can start an animation of the same POI or of another POI.
-
-NOTE: If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio source is played.
+* **Followed by**: If one or more comma separated animation names are given in this field, the animations mentioned are started once this animation ends. 
+   * **Animation names are global for all POIs of a layer.** So the end of an animation of one POI can start an animation of the same POI or of another POI in the layer!
+   * **Sound:** If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio file is played.
 
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
