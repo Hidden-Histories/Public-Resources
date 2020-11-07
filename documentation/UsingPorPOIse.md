@@ -172,7 +172,8 @@ NOTES:
 3. **Vertical rotation:** try 30° (since they are cubes, 90° and 180° will look the same!)
 
 4. **Animation properties:** 
-   - Read the properties description at [porPOIse_Reference: POI Configuration](UsingPorPOIse_REF-Layer-POI-Properties.md#porpoise-poi-configuration) and play around with the animation values.
+   - There is extensive documentation of the different types of animation Events and Types in the [porPOIse_Reference: Layer and POI Configuration/Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings).
+   - Please read through this and try out the different animation events and types!
    - Sound: Right now there is no audio file in the example asset bundle, but if you add one when you create your own asset bundle, it is treated as a Prefab just like any other asset. If it is including in a POI that has an animation, it will start when the first animation starts. More on this later.
 
 5. **Add Animation to a static POI:** Once you understand the animation properties, select a different POI, click **New animation** and fill out the fields to animate it as well.
