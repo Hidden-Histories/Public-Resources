@@ -103,7 +103,10 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. Give the following animation a name, and also enter that name in the **Followed by** field of the preceding animation. **The named following animations can even be in other POIs in the same layer!"**
+* **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. 
+    * Give the following animation a name, and also enter that name in the **Followed by** field of the preceding animation. 
+    * **The named following animations can even be in other POIs in the same layer!"**
+    
 (Click on the image below to see a larger version.)
 
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations1.png)
