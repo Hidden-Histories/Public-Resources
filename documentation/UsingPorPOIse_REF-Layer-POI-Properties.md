@@ -8,6 +8,8 @@ For the tutorial on how to use these settings to edit your layers, please see th
 . 
 ## porPOIse Layer Configuration
 
+For each layer you have one webpage with the layer configuration, and then a further webpage for each POI defined on the layer page.
+
 .  
 ![UsingPorpoise_ExampleLayer_POIlist](./images/UsingPorpoise_ExampleLayer_POI-list.png)
 
