@@ -86,7 +86,7 @@ You can edit the following properties of a POI:
 
 * **New action:** Currently not in use.
 
-### **Animation properties**
+### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
 **NOTE: Sound:** an audio file can be a Prefab by itself, or be packaged into a prefab together with other assets, such as a 3D model. If the audio should play when the layer is loaded, no animation is needed. Use the animation settings, however, if you want to delay the start of the animation, or want to play the audio only after an Event, such as onClick, onFocus, onFollow, etc.
