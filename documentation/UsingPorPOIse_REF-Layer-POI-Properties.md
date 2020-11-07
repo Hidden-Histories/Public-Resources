@@ -54,13 +54,15 @@ For each layer you have one webpage with the layer configuration, and then a fur
 . 
 ## porPOIse POI Configuration
 
+Clicking on a POI Title opens up that POI in its configuration page.
+
 . 
 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
 ### Explanation:
 You can edit the following properties of a POI:
-* **Title**: Give the POI a title that helps you identify it in the layer's POI list.
+* **Title**: Give the POI a title that will be shown in the layer's POI list.
 * **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
 * **Is visible**: This combo box defines whether the POI is visible. If you have a lot of POIs and want to turn off some of them to make it easier to work on the others. Just remember to turn it back on!
 * **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
@@ -76,7 +78,8 @@ You can edit the following properties of a POI:
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
   * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
-  * Note however that although the distance from your body is stable, and the distance and orientation of POIs in a layer are stabel *with respect to each other*, the orientation of all the POIs with respect to the cardinal directions is *not* stable. They will rotate around you so that for instance a POI you place at 0,0,5 which should be 5 meters due north of you could be anywhere in a circle of 5 meters radius around you.
+  * Note however that although the distance from your body is stable, and the orientation of POIs in a layer are stable *with respect to each other*, the orientation of all the POIs with respect to the cardinal directions is *not* stable and can appear anywhere in a circle around you.
+  * Say for instance you place POI_a at 0,0,5 and POI_b at 0,0,-5. POI_a *should* be 5 meters due north of you, and POI_b *should* be due south of you. They will always be 180° away from *each other,* but may be anywhere in a circle of 5 meters radius around you.
 * **Scaling factor**: This value scales the POI's geometry in all three dimensions.
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
