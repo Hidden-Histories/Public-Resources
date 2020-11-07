@@ -158,6 +158,8 @@ If the audio should play automatically as soon as the POI is loaded:
 * In the Unity component Audio Source, check on Play On Awake. 
 * If the audio should loop, check Loop here as well.
 
+![Sound settings in Unity3D](images/UsingPorpoise_SoundInUnity.png)
+  
 If the audio should play after a delay, or as the result of a user interaction: 
 * In Unity *uncheck* Play On Awake, and add an animation node (see Animation settings above). 
 * If the prefab includes geometry, but you do not actually want to animate the geometry in any way, enter a "dummy" animation, such as scaling it from 1 to 1.
