@@ -158,6 +158,8 @@ You can have multiple animations that run simultaneously, for instance you can s
 .
 ### Notes on Sound in porPOIse and Unity
 
+(If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.)
+
 An audio file can be a Unity prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab composed of several different types of assets.
 
 If the audio should play automatically as soon as the POI is loaded: 
@@ -173,7 +175,7 @@ If the audio should play after a delay, or as the result of a user interaction:
 .
 ### Unity Collider components for ARpoise animations events:
 
-If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
+(If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.)
 
 - The animation events onClick, onFocus and inFocus require the prefab to include a Unity Collider component. 
 - The GameObject primitives (Cube, Sphere, Quad, etc.) already include Collider components. 
