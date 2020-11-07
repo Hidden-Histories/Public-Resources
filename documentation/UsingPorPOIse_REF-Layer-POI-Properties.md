@@ -98,7 +98,9 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
 ### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
-**NOTE: Sound:** an audio file can be a Prefab by itself, or be packaged into a prefab together with other assets, such as a 3D model. If the audio should play when the layer is loaded, no animation is needed. Use the animation settings, however, if you want to delay the start of the animation, or want to play the audio only after an Event, such as onClick, onFocus, onFollow, etc.
+**Sound:** See [Notes on Sound in porPOIse and Unity](#notes-on-sound-in-porpoise-and-unity) at the bottom of this document.
+
+, such as onClick, onFocus, onFollow, etc.
 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
