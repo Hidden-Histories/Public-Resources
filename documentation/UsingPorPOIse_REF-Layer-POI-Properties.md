@@ -121,17 +121,17 @@ You can have multiple animations that run simultaneously, for instance you can s
     * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
     
 * **Type**: 
-  * **rotate**, rotate the POI around an axis.
-  * **transform**, transform the POI to another location.
-  * **scale**, scale the size of the POI.
+  * **rotate**, animate the rotatation of the POI around an axis.
+  * **transform**, animate the POI in the x, y or z direction.
+  * **scale**, animate the size of the POI.
   * **destroy**, delete the POI entirely. Don't worry, when you force close the app and then restart it, it will be there again!
-  * **fade**, fade the POI between full visibility and invisibility, e.g. the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
+  * **fade**, fade the POI anywhere between full visibility and invisibility. For example, the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
   
   ![FadeAnimation](images/UsingPorpoise_FadeAnimation.PNG)
   
   **Note:** In order for a fade animation to work, the Rendering mode of the material of the POI's Unity game object needs to be set to 'Fade' or 'Transparent'.
   
-  ![RenderingModeFade](images/UsingPorpoise_RenderingModeFade.PNG)
+  ![RenderingModeFade](images/UsingPorpoise_fadeAnim_UnityRenderingMode.png)
 
 * **Length**: Length of the animation in seconds.
 * **Delay**: Delay of the animation in seconds. onCreate-animations will only start after this delay.
@@ -170,14 +170,14 @@ If the audio should play after a delay, or as the result of a user interaction:
 * In Unity *uncheck* Play On Awake, and add an animation node (see Animation settings above). 
 * If the prefab includes geometry, but you do not actually want to animate the geometry in any way, enter a "dummy" animation, such as scaling it from 1 to 1.
 
-
+.
 ### Unity Collider components for ARpoise animations events:
 
 If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
 
 - The animation events onClick, onFocus and inFocus require the prefab to include a Unity Collider component. 
 - The GameObject primitives (Cube, Sphere, Quad, etc.) already include Collider components. 
-- If you create your own geometry, however, you will have to add a Collider to it, as shown in the image below:
+- If you create your own geometry, however, you will have to add a Collider to it, as shown in the image below. Click on the image to see a larger version. 
 
 ![Addcollider](images/UsingPorpoise_AddColliderToGameObject.png)
 
