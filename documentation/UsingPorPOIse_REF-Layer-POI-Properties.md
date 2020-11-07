@@ -107,17 +107,19 @@ You can have multiple animations that run simultaneously, for instance you can s
     * Give the following animation a name, and also enter that name in the **Followed by** field of the preceding animation. 
     * **The named following animations can even be in other POIs in the same layer!"**
     
-(Click on the image below to see a larger version.)
+(You can click on the image below to see a larger version.)
 
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations1.png)
 
-* **Event**: Interactions with the POIs.
+* **Event** - User interactions with the POIs:
   * **onCreate** - the animation is started when the POI is loaded;
   * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
     * Give your following animation a name in its **Name** field.
     * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
    
-The following Events require the prefab to include a Collider component. (If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
+The Events listed below require the prefab to include a Collider component. (If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
+
+The GameObject primitives (Cube, Sphere, Quad, etc.) already include Collider components. If you create your own geometry, however, you will have to add a Collider to it, as shown in the image below:
 
 ![Addcollider](images/UsingPorpoise_AddColliderToGameObject.png)
 
