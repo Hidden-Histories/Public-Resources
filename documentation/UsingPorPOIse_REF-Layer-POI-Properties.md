@@ -67,8 +67,8 @@ You can edit the following properties of a POI:
 * **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
   * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
   * **NOTE: Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. 
-  * If the sound file should play as soon as the POI is loaded, in Unity the Audio Source should be set to Play On Awake. 
-  * If the sound should play after a delay, or as the result of a user interaction, in Unity uncheck Play On Awake the POI, and add an animation node (see below).
+    * If the sound file should play as soon as the POI is loaded, in Unity the Audio Source should be set to Play On Awake. 
+    * If the sound should play after a delay, or as the result of a user interaction, in Unity uncheck Play On Awake the POI, and add an animation node (see below).
 * **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily. (Tutorial under construction.)
   * The POIs of the sub-layer should have the same GPS Lat/Lon as this POI (so the server can find them here), but **should be placed within that sub-layer via Relative location.** The Relative locations will be of course from the center of this POI's prefab. 
   * That layer will also be subject to the settings of this POI (scale, animations, etc.) 
