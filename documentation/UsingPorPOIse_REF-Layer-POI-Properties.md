@@ -78,7 +78,7 @@ You can edit the following properties of a POI:
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
   * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
-  * Note however that although the distance from your body is stable, and the orientation of POIs in a layer are stable *with respect to each other*, the orientation of all the POIs with respect to the cardinal directions is *not* stable and can appear anywhere in a circle around you.
+  * Note however that although the distance from your body is stable, and the orientation of POIs in a layer are stable *with respect to each other*, the **orientation of all the POIs with respect to the cardinal directions is *not* stable and can appear anywhere in a circle around you.**
   * Say for instance you place POI_a at 0,0,5 and POI_b at 0,0,-5. POI_a *should* be 5 meters due north of you, and POI_b *should* be due south of you. They will always be 180° away from *each other,* but may be anywhere in a circle of 5 meters radius around you.
 * **Scaling factor**: This value scales the POI's geometry in all three dimensions.
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
