@@ -98,9 +98,7 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
 ### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
-**Sound:** See [Notes on Sound in porPOIse and Unity](#notes-on-sound-in-porpoise-and-unity) at the bottom of this document.
-
-, such as onClick, onFocus, onFollow, etc.
+**For Sound:** See [Notes on Sound in porPOIse and Unity](#notes-on-sound-in-porpoise-and-unity) at the bottom of this document.
 
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
@@ -113,8 +111,8 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Event**: Interactions with the POIs.
   * **onCreate** - the animation is started when the POI is loaded;
   * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
-   * Give your following animation a name in its **Name** field.
-   * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
+    * Give your following animation a name in its **Name** field.
+    * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
    
 The following Events require the prefab to include a Collider component. (If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.
 
