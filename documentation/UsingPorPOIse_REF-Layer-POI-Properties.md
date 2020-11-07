@@ -113,9 +113,9 @@ You can have multiple animations that run simultaneously, for instance you can s
 
 * **Event** - User interactions with the POIs:
   * **onCreate** - the animation is started when the POI is loaded;
-  * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).
-  * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. 
-  * **onClick** - the animation is started when the POI is clicked by the user. NOTE: In order for this to work, the POI's Unity GameObject needs to include a Collider component (see Unity tutorials).  
+  * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
+  * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
+  * **onClick** - the animation is started when the POI is clicked by the user. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
   * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
     * Give your following animation a name in its **Name** field.
     * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
