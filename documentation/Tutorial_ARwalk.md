@@ -23,8 +23,10 @@ I created 4 prefabs, each of them being a fenced in area of the same proportions
 
 Use these in your POI (see the [porPOIse: Layer and POI configuration quick reference](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories) for details):
 
-- URL for asset bundle - Add this to your POI to be able to access the fence prefabs: www.arpoise.com/AB/fencetest.ace
-- URL for manifest file  Open this in a browser to find the Prefab names:  www.arpoise.com/AB/fencetest.manifest
+- URL for asset bundle - Add this to your POI to be able to access the fence prefabs: 
+www.arpoise.com/AB/fencetest.ace
+- URL for manifest file - Open this in a browser to find the Prefab names: 
+www.arpoise.com/AB/fencetest.manifest
 
 .
 ## On the layer webpage:
