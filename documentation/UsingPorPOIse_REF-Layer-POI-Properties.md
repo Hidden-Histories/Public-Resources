@@ -79,12 +79,12 @@ You can edit the following properties of a POI:
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
   * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
   * Note however that although the distance from your body is stable, and the orientation of POIs in a layer are stable *with respect to each other*, the **orientation of all the POIs with respect to the cardinal directions is *not* stable and can appear anywhere in a circle around you.**
-  * Say for instance you place POI_a at 0,0,5 and POI_b at 0,0,-5. POI_a *should* be 5 meters due north of you, and POI_b *should* be due south of you. They will always be 180° away from *each other,* but may be anywhere in a circle of 5 meters radius around you.
+  * Say for instance you place POI_a at 0,0,5 and POI_b at 0,0,-5. Then POI_a *should* be 5 meters due north of you, and POI_b *should* be due south of you. They will always be 180° away from *each other,* but may be anywhere in a circle of 5 meters radius around you.
 * **Scaling factor**: This value scales the POI's geometry in all three dimensions.
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around the vertical Y axis.
-* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. Useful if you have images that should always face the viewer, no matter where they are.
+* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
 
-**Image trigger properties (for use with AR-vos only - also for SLAM):** tutorial under construction
+**Image trigger properties (works only in AR-vos only, and is used for SLAM as well):** tutorial under construction
 * **URL for trigger image:** This field is used only in AR-vos app - but for both image trigger and for SLAM.
   * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
   * If this field contains only the word **SLAM**, the POI is treated as SLAM object and will be shown once you tap on one of the vertical or horizontal planes detected by the AR-vos app when you scan your enviroment with it.
