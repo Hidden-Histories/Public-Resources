@@ -2,21 +2,16 @@
 
 # Tutorial: Transparent materials in Unity and porPOIse
 
-NOTE: The following material is linked from the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).
+**NOTE:** The following material is linked from the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).
 
-- For general tutorials on using Unity, see the section "How to create your own AR artworks".
-- For general tutorials on using porPOIse, see the section "Editing augments with the ARpoise porPOIse interface".
-
-. 
-## porPOIse POI Configuration
-
-Clicking on a POI Title opens up that POI in its configuration page.
+- For general tutorials on using Unity, see the section **"How to create your own AR artworks".**
+- For general tutorials on using porPOIse, see the section **"Editing augments with the ARpoise porPOIse interface".**
 
 . 
+## Unity Material transparency for fade animation in porPOIse
 
-![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
+In the document "PorPOISe Reference: Layer and POI Properties" under [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings), we noted that to use the fade animation, you must set the Unity Material Rendering Mode to Fade or Transparent.
 
-### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
 **For Sound:** See [Notes on Sound in porPOIse and Unity](#notes-on-sound-in-porpoise-and-unity) at the bottom of this document.
