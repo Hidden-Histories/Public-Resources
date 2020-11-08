@@ -127,7 +127,7 @@ You can have multiple animations that run simultaneously, for instance you can s
   * **destroy**, delete the POI entirely. Don't worry, when you force close the app and then restart it, it will be there again!
   * **fade**, fade the POI anywhere between full visibility and invisibility. For example, the animation shown below fades a POI within 10 seconds from 1 (full visibility) to 0 (invisible) and back again.
     * ![FadeAnimation](images/UsingPorpoise_FadeAnimation.PNG)
-    * **Note:** In order for a fade animation to work, the Rendering mode of the material of the POI's Unity game object needs to be set to 'Fade' or 'Transparent'. (See [Tutorial: Transparent materials in Unity and porPOIse](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/Tutorial_UnityTransparency.md#-hidden-histories). For all Unity tutorials, see "How to create your own AR artworks" section of the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).)
+    * **Note:** In order for a fade animation to work, the Unity Material Rendering Mode of the prefab needs to be set to 'Fade' or 'Transparent'. (See [Tutorial: Transparent materials in Unity and porPOIse](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/Tutorial_UnityTransparency.md#-hidden-histories). For all Unity tutorials, see "How to create your own AR artworks" section of the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).)
 * **Length**: Length of the animation in seconds.
 * **Delay**: Delay of the animation in seconds. onCreate-animations will only start after this delay.
 * **Interpolation**:
