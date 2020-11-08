@@ -112,33 +112,6 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
 .
-### Notes on Sound in porPOIse and Unity
-
-(If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.)
-
-An audio file can be a Unity prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab composed of several different types of assets.
-
-If the audio should play automatically as soon as the POI is loaded: 
-* In the Unity component Audio Source, check on Play On Awake. 
-* If the audio should loop, check Loop here as well.
-
-![Sound settings in Unity3D](images/UsingPorpoise_SoundInUnity.png)
-  
-If the audio should play after a delay, or as the result of a user interaction: 
-* In Unity *uncheck* Play On Awake, and add an animation node (see Animation settings above). 
-* If the prefab includes geometry, but you do not actually want to animate the geometry in any way, enter a "dummy" animation, such as scaling it from 1 to 1.
-
-.
-### Unity Collider components for ARpoise animations events:
-
-(If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.)
-
-- The animation events onClick, onFocus and inFocus require the prefab to include a Unity Collider component. 
-- The GameObject primitives (Cube, Sphere, Quad, etc.) already include Collider components. 
-- If you create your own geometry, however, you will have to add a Collider to it, as shown in the image below. Click on the image to see a larger version. 
-
-![Addcollider](images/UsingPorpoise_AddColliderToGameObject.png)
-
 
 
 
