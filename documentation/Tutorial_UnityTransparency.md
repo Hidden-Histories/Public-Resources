@@ -4,13 +4,13 @@
 
 **NOTE:** The following material is linked from the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).
 
-- For general tutorials on using Unity, see the section **"How to create your own AR artworks".**
-- For general tutorials on using porPOIse, see the section **"Editing augments with the ARpoise porPOIse interface".**
+- For general tutorials on **using Unity,** see the section **"How to create your own AR artworks".**
+- For tutorials on **using porPOIse,** see the section **"Editing augments with the ARpoise porPOIse interface".**
 
 . 
 ## Unity Material transparency for fade animation in porPOIse
 
-In the document "PorPOISe Reference: Layer and POI Properties" under [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings), we noted that to use the fade animation, you must set the Unity Material Rendering Mode to Fade or Transparent.
+For the animation Type "fade," the prefab must have its Unity Material Rendering Mode set to Fade or Transparent. (See [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings) in the document "PorPOISe Reference: Layer and POI Properties."
 
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
