@@ -10,7 +10,9 @@
 . 
 ## Unity Material transparency for fade animation in porPOIse
 
-For the animation Type "fade," the prefab must have its Unity Material Rendering Mode set to Fade or Transparent. (See [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings) in the document "PorPOISe Reference: Layer and POI Properties.")
+For the animation Type "fade," the prefab must have its Unity Material Rendering Mode set to Fade or Transparent. 
+- Read the differences between Fade and Transparent in the Unity Manual section on the [Rendering Mode](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterRenderingMode.html).
+- For the Fade animation in porPOIse, see [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings) in the document "PorPOISe Reference: Layer and POI Properties."
 
 ![RenderingModeFade](images/UsingPorpoise_fadeAnim_UnityRenderingMode.png)
 
