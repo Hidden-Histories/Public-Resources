@@ -1,6 +1,6 @@
 # ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
-# PorPOISe Reference: Layer and POI Properties
+# Tutorial: Transparent materials in Unity and porPOIse
 << Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
 
 For the tutorial on how to use these settings to edit your layers, please see the [ARpoise PorPOISe User Interface tutorial](UsingPorPOIse.md)
