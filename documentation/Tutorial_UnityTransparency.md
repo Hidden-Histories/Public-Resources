@@ -16,41 +16,6 @@ Clicking on a POI Title opens up that POI in its configuration page.
 
 ![UsingPorpoise_StripesCubePOI_800w](images/UsingPorpoise_StripesCubePOI_800w.png)
 
-### Explanation:
-You can edit the following properties of a POI:
-* **Title**: Give the POI a title that will be shown in the layer's POI list.
-* **Lat/Lon**: You can change the absolute latitude and longitude of the POI here, or click and drag the POI's marker in the Google Map. Notice that mousing over the marker shows you its name in a pop-up window.
-* **Is visible**: This combo box defines whether the POI is visible. If you have a lot of POIs and want to turn off some of them to make it easier to work on the others. Just remember to turn it back on!
-* **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
-* **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative location.
-* **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location. It needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
-* **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
-  * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
-  * **Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. For more details on how to use sound in ARpoise, see the [Notes on Sound](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#notes-on-sound-in-porpoise-and-unity) at the end of this document.
-
-* **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily. (Tutorial under construction.)
-  * The POIs of the sub-layer should have the same GPS Lat/Lon as this POI (so the server can find them here), but **should be placed within that sub-layer via Relative location.** The Relative locations will be of course from the center of this POI's prefab. 
-  * That layer will also be subject to the settings of this POI (scale, animations, etc.) 
-* **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
-  * Your body's position is at 0,0,0 with y=0 being your eye level. 
-  * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
-  * Note however that although the distance from your body is stable, and the orientation of POIs in a layer are stable *with respect to each other*, the **orientation of all the POIs with respect to the cardinal directions is *not* stable and can appear anywhere in a circle around you.**
-  * Say for instance you place POI_a at 0,0,5 and POI_b at 0,0,-5. Then POI_a *should* be 5 meters due north of you, and POI_b *should* be due south of you. They will always be 180° away from *each other,* but may be anywhere in a circle of 5 meters radius around you.
-* **Scaling factor**: This value scales the POI's geometry in all three dimensions.
-* **Vertical rotation**: This value allows you to rotate the POI's geometry around its vertical Y axis.
-* **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
-
-**Image trigger properties (works only in AR-vos only, and is used for SLAM as well):** tutorial under construction
-
-See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
-
-* **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM.
-  * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
-  * If this field contains only the word **SLAM**, the POI is treated as a SLAM object and will be shown once you tap on one of the vertical or horizontal planes detected by the AR-vos app when you scan your enviroment with it.
-* **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
-
-* **New action:** Currently not in use.
-
 ### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
 
