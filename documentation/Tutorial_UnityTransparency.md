@@ -1,11 +1,10 @@
 # ![Hidden Histories Logo](images/hiddenhistories-logo.png) Hidden Histories
 
 # Tutorial: Transparent materials in Unity and porPOIse
-<< Go back to [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
+
+For tutorials on using Unity generally, see the section "How to create your own AR artworks" on the [Hidden Histories Artist Documentation Overview Page](http://hiddenhistoriesjtown.org/documentation).
 
 For the tutorial on how to use these settings to edit your layers, please see the [ARpoise PorPOISe User Interface tutorial](UsingPorPOIse.md)
-
-For each layer you have one webpage with the layer configuration, and then a further webpage for each POI defined on the layer page.
 
 . 
 ## Tutorial: Transparent materials in Unity and porPOIse
