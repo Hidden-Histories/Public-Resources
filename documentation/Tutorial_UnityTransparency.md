@@ -11,8 +11,8 @@
 ## Overview
 
 This document covers how to use transparent and semi-transparent Unity Materials in porPOIse:
-- How to create a prefab that can use the fade animation in porPOIse.
-- How to create a 1-sided or 2-sided cutout image (for paned windows, floating text, cutout figures of people, etc.)
+- How to create a prefab that can use the **fade animation in porPOIse.**
+- How to create a 1-sided or 2-sided **cutout image** (for paned windows, floating text, cutout figures of people, etc.)
 
 . 
 ## Unity Material transparency for fade animation in porPOIse
