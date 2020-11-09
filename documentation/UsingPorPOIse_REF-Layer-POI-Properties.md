@@ -152,7 +152,7 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
 .
-### Notes on Sound in porPOIse and Unity
+### Notes on Sound in porPOIse and Unity (Sound tutorial UNDER CONSTRUCTION)
 
 (If you don't know Unity yet, please go through Prof. Rhonda's "Introduction to Unity3D Editor" on the main Hidden History documentation page http://hiddenhistoriesjtown.org/documentation/.)
 
