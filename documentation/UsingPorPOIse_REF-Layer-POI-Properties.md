@@ -119,6 +119,7 @@ You can have multiple animations that run simultaneously, for instance you can s
   * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
     * Give your following animation a name in its **Name** field.
     * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
+    * If you want to have more than one following animation, **separate their names with commas.**
     
 * **Type**: 
   * **rotate**, animate the rotatation of the POI around an axis.
