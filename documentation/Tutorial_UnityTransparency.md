@@ -20,10 +20,15 @@ This document covers how to set up transparent and semi-transparent Materials in
 
 For the animation Type "fade," the prefab must have its Unity Material Rendering Mode set to Fade or Transparent. 
 - This applies to solid materials, semi-transparent materials or material textures with transparent areas or cutouts.
-- Read the differences between Fade and Transparent in the Unity Manual section on the [Rendering Mode](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterRenderingMode.html).
+- Read the differences between Fade and Transparent in the Unity Manual section on [Rendering Mode](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterRenderingMode.html).
+- NOTE: If there is still a ghost image when you thought it would be completely invisible:
+  - use the Rendering Mode "Fade" instead of "Transparent,"
+  - ... or uncheck Forward Rendering Options "Specular Highlights" and Reflections."
 - For the Fade animation in porPOIse, see [Animation settings](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings) in the document "PorPOISe Reference: Layer and POI Properties."
 
-![RenderingModeFade](images/UsingPorpoise_UnityTransparency.png)
+(Click on image to see larger version.)
+
+![RenderingModeFade](images/UsingPorpoise_UnityTransparency1.png)
 
 .
 ## How to create a cutout image in Unity, and use it in porPOIse
