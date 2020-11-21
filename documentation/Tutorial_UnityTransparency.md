@@ -62,7 +62,7 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
 ![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
 
 
-![UnityTransparency_FindingTheQuad2](images/UnityTransparency_FindingTheQuad2.png)
+![UnityTransparency_FindingTheQuad1](images/UnityTransparency_FindingTheQuad1.png)
 
 .
 
