@@ -31,16 +31,17 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 ![RenderingModeFade](images/UsingPorpoise_UnityTransparency1.png)
 
 .
-## How to create a cutout image in Unity, and use it in porPOIse
+
+## How to create a prefab with a cutout image in Unity, and use it in porPOIse
 
 ![Kini asset](images/Kini_cutout390x512.png)
 
-Kini cutout .png asset:
+###Download Kini cutout .png asset:
 - We will use the cutout image of King Ludwig II of Bavaria, affectionately called "the Kini" by his subjects.
-- You can download the image here: http://www.arpoise.com/images/Kini_cutout390x512.png In the browser the background will look white, but it is in fact transparent.
-- The image is 390x512 pixels, but it is best to only use square images that are a power of 2, e.g. 256x256, 512x512, 1024x1024, etc. So resize the image in Photoshop:
-  - 
+- You can download the image here: http://www.arpoise.com/images/Kini_cutout390x512.png. In the browser the background will look white, but it is in fact transparent.
 
+###Resize the image in Photoshop to a power of 2:
+- The image is 390x512 pixels, but it is best to only use square images that are a power of 2, e.g. 256x256, 512x512, 1024x1024, etc. 
 
 In Unity:
 - Create a Quad 3D GameObject and name it "Kini." 
