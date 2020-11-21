@@ -73,11 +73,15 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
 - In the Project window, under Assets, create a folder and name it Kini. Drag your Kini texture into the folder.
 - Then drag the Kini texture onto the Quad. If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
 - In the Assets/Kini folder, click on the Kini texture.
-- In the Inspector window, change Texture Type to "Sprite", then click the "Apply" button just above the texture image at the bottom of the Inspector window. The background of the Kini texture will be transparent now in the Inspector file window - but NOT in the Scene window.
+- In the Inspector window, change Texture Type to "Sprite", then click the "Apply" button just above the texture image at the bottom of the Inspector window. The background of the Kini texture will be transparent now in the Inspector file window - but not yet in the Scene window. We need to change the Material Shader type.
 
 ![UnityTransparency_TextureTypeSprite](images/UnityTransparency_TextureTypeSprite.png)
 
 .
+### Change Material properties in Inspector
+- When you dragged the texture onto the Quad, Unity automatically created a Materials folder right above your texture in the Kini folder.
+- Double click on the Materials folder to open it, and click on the Material there - it has the same name as the texture file.
+- Change the Render Mode to Fade
 
 Make sure the Cutout Quad’s Transform is still zeroed, and then duplicate it by selecting it in the Hierarchy window and clicking Ctrl-D (or Apple-D). Cutout (1) will be right on top of the first one, so you can’t see it yet.
 Change the y rotation of the duplicate Quad to 180°. Now both sides should look the same, showing the cutout image.
