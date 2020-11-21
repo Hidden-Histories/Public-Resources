@@ -36,11 +36,11 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 ![Kini asset](images/Kini_cutout390x512.png)
 
-###Download Kini cutout .png asset:
+### Download Kini cutout .png asset:
 - We will use the cutout image of King Ludwig II of Bavaria, affectionately called "the Kini" by his subjects.
 - You can download the image here: http://www.arpoise.com/images/Kini_cutout390x512.png. In the browser the background will look white, but it is in fact transparent.
 
-###Resize the image in Photoshop to a power of 2:
+### Best practice: Resize the image (in Photoshop or another image editor) to a power of 2:
 - The image is 390x512 pixels, but it is best to only use square images that are a power of 2, e.g. 256x256, 512x512, 1024x1024, etc. 
 
 In Unity:
