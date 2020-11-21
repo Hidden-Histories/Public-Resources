@@ -47,6 +47,7 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 ![Kini_changeCanvasSize](images/Kini_changeCanvasSize.png)
 
+.
 ### Create Quad with cutout Kini in Unity 
 
 NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
@@ -58,9 +59,9 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
   - With the Kini Quad selected, move your cursor into the Scene window and press "f" to focus the Quad into the middle of the Scene window.
   - If you still can't see it, make sure the Gizmo/Selection Outline is on (Quad will have an orange outline.)
 
-.
 ![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
 
+.
   - STILL can't see it, even though the axes are in the middle of your Scene window? Quads are one-sided, and you're probably looking at the back side! Rotate your view in the Scene window - you can click on the X or Z axes. (DON'T rotate the Quad itself - its transform should stay zeroed!)
 
 .
@@ -68,15 +69,13 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
 
 .
 
-- Now create a folder for this asset and drag your Kini texture into the folder.
-- Drag the Kini texture onto the Quad. If you can't see the texture, you're looking at the back side - ro
+### Set Texture Type to Sprite in Inspector:
+- In the Project window, under Assets, create a folder and name it Kini. Drag your Kini texture into the folder.
+- Then drag the Kini texture onto the Quad. If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
+- In the Assets/Kini folder, click on the Kini texture.
+- In the Inspector window, change Texture Type to "Sprite", then click the "Apply" button just above the texture image at the bottom of the Inspector window. The background of the Kini texture will be transparent now in the Inspector file window - but NOT in the Scene window.
 
-  - Select the Kini Quad
-- Create a Material that:
-     * Uses a cutout .png texture in the Main Maps/Albedo field. This could be useful for a text, a figure of a person, a fence ...
-Allow the transparency to show by setting the Rendering Mode to Fade.
-Drag the Material onto your Cutout Quad and scale the Quad as needed so the image has the correct proportions.
-Rotate the scene so you can see the backside of the Cutout Quad - it will be invisible, since Quads only have one side.
+
 Make sure the Cutout Quad’s Transform is still zeroed, and then duplicate it by selecting it in the Hierarchy window and clicking Ctrl-D (or Apple-D). Cutout (1) will be right on top of the first one, so you can’t see it yet.
 Change the y rotation of the duplicate Quad to 180°. Now both sides should look the same, showing the cutout image.
 Create an empty GameObject, make sure it is zeroed, rename it CutoutGroup, and drag both Cutout and Cutout (1) into the group.
