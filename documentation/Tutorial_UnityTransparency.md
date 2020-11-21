@@ -45,12 +45,25 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 - In Unity the image will often be distorted to a square image anyway, such as when you map a texture image to a Quad or cube etc. 
 - So it is best practice to only use square images that are a power of 2: change the canvas size in Photoshop to 512 x 512 while preserving the Kini's proportions.
 
-![Kini 512 x 512](images/Kini_changeCanvasSize.png)
+![Kini_changeCanvasSize](images/Kini_changeCanvasSize.png)
 
-In Unity:
+### Create Quad with cutout Kini in Unity 
+
+NOTE: If you need to refresh your Unity skills see Prof Rhonda's 
+
 - Create a Quad 3D GameObject and name it "Kini." 
 - Make sure its transform is zeroed at 0,0,0 in both Position and Rotation!
-- Create a folder for this asset and drag your texture into the folder
+- Can't see the Quad - even though all the components appear in the Inspector? 
+  - Make sure you are looking at the Scene window.
+  - With the Kini Quad selected, move your cursor into the Scene window and press "f" to focus the Quad into the middle of the Scene window.
+  - If you still can't see it: Quads are one-sided, and you're probably looking at the back side! Make sure the Gizmo/Selection Outline is on (Quad will have an orange outline.)
+
+![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
+
+- Create a folder for this asset and drag your Kini texture into the folder.
+- Drag the Kini texture onto the Quad.
+
+  - Select the Kini Quad
 - Create a Material that:
      * Uses a cutout .png texture in the Main Maps/Albedo field. This could be useful for a text, a figure of a person, a fence ...
 Allow the transparency to show by setting the Rendering Mode to Fade.
