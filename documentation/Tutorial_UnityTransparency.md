@@ -49,19 +49,25 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 ### Create Quad with cutout Kini in Unity 
 
-NOTE: If you need to refresh your Unity skills see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
+NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
 
 - Create a Quad 3D GameObject and name it "Kini." 
-- Make sure its transform is zeroed at 0,0,0 in both Position and Rotation!
+- Make sure its transform is **zeroed at 0,0,0 in both Position and Rotation!**
 - Can't see the Quad - even though all the components appear in the Inspector? 
   - Make sure you are looking at the Scene window.
   - With the Kini Quad selected, move your cursor into the Scene window and press "f" to focus the Quad into the middle of the Scene window.
-  - If you still can't see it: Quads are one-sided, and you're probably looking at the back side! Make sure the Gizmo/Selection Outline is on (Quad will have an orange outline.)
+  - If you still can't see it, make sure the Gizmo/Selection Outline is on (Quad will have an orange outline.)
+  - STILL can't see it, even though the axes are in the middle of your Scene window? Quads are one-sided, and you're probably looking at the back side! Rotate your view in the Scene window - you can click on the 
 
 ![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
 
-- Create a folder for this asset and drag your Kini texture into the folder.
-- Drag the Kini texture onto the Quad.
+
+![UnityTransparency_FindingTheQuad2](images/UnityTransparency_FindingTheQuad2.png)
+
+.
+
+- Now create a folder for this asset and drag your Kini texture into the folder.
+- Drag the Kini texture onto the Quad. If you can't see the texture, you're looking at the back side - ro
 
   - Select the Kini Quad
 - Create a Material that:
