@@ -57,11 +57,13 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
   - Make sure you are looking at the Scene window.
   - With the Kini Quad selected, move your cursor into the Scene window and press "f" to focus the Quad into the middle of the Scene window.
   - If you still can't see it, make sure the Gizmo/Selection Outline is on (Quad will have an orange outline.)
-  - STILL can't see it, even though the axes are in the middle of your Scene window? Quads are one-sided, and you're probably looking at the back side! Rotate your view in the Scene window - you can click on the 
 
+.
 ![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
 
+  - STILL can't see it, even though the axes are in the middle of your Scene window? Quads are one-sided, and you're probably looking at the back side! Rotate your view in the Scene window - you can click on the X or Z axes. (DON'T rotate the Quad itself - its transform should stay zeroed!)
 
+.
 ![UnityTransparency_FindingTheQuad1](images/UnityTransparency_FindingTheQuad1.png)
 
 .
