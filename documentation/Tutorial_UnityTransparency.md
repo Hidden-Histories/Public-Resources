@@ -41,7 +41,11 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 - You can download the image here: http://www.arpoise.com/images/Kini_cutout390x512.png. In the browser the background will look white, but it is in fact transparent.
 
 ### Best practice: Resize the image (in Photoshop or another image editor) to a power of 2:
-- The image is 390x512 pixels, but it is best to only use square images that are a power of 2, e.g. 256x256, 512x512, 1024x1024, etc. 
+- The image is 390x512 pixels, but Unity will rerender it to a power of 2, e.g. 256x256, 512x512, 1024x1024, etc. 
+- In Unity the image will often be distorted to a square image anyway, such as when you map a texture image to a Quad or cube etc. 
+- So it is best practice to only use square images that are a power of 2: change the canvas size in Photoshop to 512 x 512 while preserving the Kini's proportions.
+
+![Kini 512 x 512](images/Kini_changeCanvasSize.png)
 
 In Unity:
 - Create a Quad 3D GameObject and name it "Kini." 
