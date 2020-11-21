@@ -49,7 +49,7 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 ### Create Quad with cutout Kini in Unity 
 
-NOTE: If you need to refresh your Unity skills see Prof Rhonda's 
+NOTE: If you need to refresh your Unity skills see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
 
 - Create a Quad 3D GameObject and name it "Kini." 
 - Make sure its transform is zeroed at 0,0,0 in both Position and Rotation!
