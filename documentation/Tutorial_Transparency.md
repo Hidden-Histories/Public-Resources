@@ -36,7 +36,7 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 ![Kini asset](images/Kini_cutout390x512.png)
 
-### Download Kini cutout .png asset:
+### Download Kini cutout .png image texture asset:
 - We will use the cutout image of King Ludwig II of Bavaria, affectionately called "the Kini" by his subjects.
 - You can download the image here: http://www.arpoise.com/images/Kini_cutout390x512.png. In the browser the background will look white, but it is in fact transparent.
 
@@ -48,13 +48,13 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 ![Kini_changeCanvasSize](images/Kini_changeCanvasSize.png)
 
 .
-### Drag "2-sidedQuad" model and Kini texture into your Unity Asset Bundle Template
-
-NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
+### Download the "2-sidedQuad" model asset
 
 You may have noticed that Unity Quads have only one side - if you see them from the back, they are invisible. Often we need a Quad that looks the same from the front and the back. We have therefore created the 3D model "2-sidedQuad" for you.
 
 Click here to download the model [2-sidedQuad](hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
+
+NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
 
 - Create a Quad 3D GameObject and name it "KiniQuad." 
 - Make sure its transform is **zeroed at 0,0,0 in both Position and Rotation!**
