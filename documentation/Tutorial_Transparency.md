@@ -71,36 +71,22 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 
 .
 
-### Create a Kini prefab
+### Map your Kini texture to the "2-sidedQuad" model
 
-- Then **drag the 2-sidedQuad into the Scene or Hierarchy window** to create a new GameObject. Rename it something like 2-sidedKini.
-- Now **drag the Kini texture onto the 2-sidedKini.** It will look horrible and will not be cut out.
+- Then **drag the 2-sidedQuad into the Scene or Hierarchy window** to create a new GameObject. 
+  - In the Hierarchy window, rename it something like 2-sidedKini.
+  - Make sure to **zero its transform to 0,0,0 in both Position and Rotation!**
+  - If it disappears out of the window: make sure the 2-sidedKini is selected in the Hierarchy window, move your cursor into the Scene window and press "f" on your keyboard to "focus" the 2-sidedKini back into the middle of the Scene window.
 
-![UnityTransparency_Kini_2-sidedQuad](images/UnityTransparency_Kini_2-sidedQuad1.png)
-
-
-
-
-- Create a Quad 3D GameObject and name it "KiniQuad." 
-- Make sure its transform is **zeroed at 0,0,0 in both Position and Rotation!**
-- Can't see KiniQuad - even though it's selected in the Hierarchy window, and all its components appear in the Inspector? 
-  - Make sure you are looking at the Scene window.
-  - With KiniQuad selected in the Hierarchy window, move your cursor into the Scene window and press "f" on your keyboard to "focus" KiniQuad into the middle of the Scene window.
-  - If you still can't see it, make sure the Gizmo/Selection Outline is on, so the KiniQuad has an orange outline, even if you are looking at it from behind.
-
-![UnityTransparency_FindingTheQuad](images/UnityTransparency_FindingTheQuad.png)
+- Now **drag the Kini texture onto the 2-sidedKini GameObject.** It will look horrible and will not be cut out.
 
 .
-  - STILL can't see it, even though the axes are in the middle of your Scene window? Quads are one-sided, and you're probably looking at the back side! Rotate your view in the Scene window - you can click on the X or Z axes. (DON'T rotate the KiniQuad itself - its transform should stay zeroed.)
-
-.
-![UnityTransparency_FindingTheQuad1](images/UnityTransparency_FindingTheQuad1.png)
+![UnityTransparency_Create2-sidedKini](images/UnityTransparency_Create2-sidedKini.png)
 
 .
 
 ### Set Material properties in Inspector to make background transparent:
-- In the Project window, under Assets, create a folder and name it Kini. Drag your Kini texture into the folder.
-- Then **drag the Kini texture onto the KiniQuad.** If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
+
 - In the Inspector, the Material for the KiniQuad now is named after the texture file and includes the texture under Main Maps/Albedo.
 - In the Inspector window, change the **Rendering Mode to "Fade."** The background of the Kini texture will now be transparent now in Scene window.
 - In the Forward Rendering Options, also **unclick Specular Highlights and Reflections.** (These options are useful if you want to make window glass panes that are transparent but still reflect light. If these are checked, you may see a ghost image when the texture is supposed to be fully transparent.)
