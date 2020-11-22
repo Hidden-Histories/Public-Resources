@@ -80,7 +80,8 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 
 - Now **drag the Kini texture onto the 2-sidedKini GameObject.** It will look horrible and will not be cut out.
 
-.
+(Click on image to see larger version.)
+
 ![UnityTransparency_Create2-sidedKini](images/UnityTransparency_Create2-sidedKini1.png)
 
 .
@@ -90,16 +91,12 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - In the Inspector, the Material for the KiniQuad now is named after the texture file and includes the texture under Main Maps/Albedo.
 - In the Inspector window, change the **Rendering Mode to "Fade."** The background of the Kini texture will now be transparent now in Scene window.
 - In the Forward Rendering Options, also **unclick Specular Highlights and Reflections.** (These options are useful if you want to make window glass panes that are transparent but still reflect light. If these are checked, you may see a ghost image when the texture is supposed to be fully transparent.)
+- Your 2-sided Kini is finished!
+  - Drag it into your Project/Assets/Kini folder to turn it into a prefab.
+  - Assign it to your asset bundle, re-build the asset bundle, upload it to your Hidden Histories account and use it in porPOIse as usual.
 
-(Click on image to see larger version.)
-
-![UnityTransparency_KiniQuad1](images/UnityTransparency_KiniQuad1.png)
+![UnityTransparency_SetKiniMaterialToFade](images/UnityTransparency_SetKiniMaterialToFade.png)
 
 .
 
-Make sure the Cutout Quad’s Transform is still zeroed, and then duplicate it by selecting it in the Hierarchy window and clicking Ctrl-D (or Apple-D). Cutout (1) will be right on top of the first one, so you can’t see it yet.
-Change the y rotation of the duplicate Quad to 180°. Now both sides should look the same, showing the cutout image.
-Create an empty GameObject, make sure it is zeroed, rename it CutoutGroup, and drag both Cutout and Cutout (1) into the group.
-Create a prefab out of the CutoutGroup, add it to your asset bundle and upload it to your account.
-Use the CutoutGroup as a prefab in one of your POIs.
-NOTE: you could also just use a single Quad and then check Use Relative angle in porPOIse, but I wanted you to go through the process of creating a 2-sided cutout object, as they are often useful.
+
