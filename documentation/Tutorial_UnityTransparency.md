@@ -70,12 +70,11 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
 .
 
 ### Set Texture Type to Sprite in Inspector to make background transparent:
-- In the Project window, under Assets, create a folder and name it KiniQuad. Drag your Kini texture into the folder.
-- Then drag the Kini texture onto the Quad. If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
-- In the Assets/Kini folder, click on the Kini texture.
+- In the Project window, under Assets, create a folder and name it Kini. Drag your Kini texture into the folder.
+- Then drag the Kini texture onto the KiniQuad. If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
 - In the Inspector window, change Texture Type to "Sprite", then click the "Apply" button just above the texture image at the bottom of the Inspector window. The background of the Kini texture will be transparent now in the Inspector file window - but not yet in the Scene window. We need to change the Material Shader type.
 
-![UnityTransparency_TextureTypeSprite](images/UnityTransparency_TextureTypeSprite.png)
+![UnityTransparency_KiniQuad.png](images/UnityTransparency_KiniQuad.png.png)
 
 .
 ### Change Material properties in Inspector
