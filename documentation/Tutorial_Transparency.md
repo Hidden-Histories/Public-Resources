@@ -62,9 +62,12 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - Drag your Kini texture and the 2-sidedQuad.FBX into the folder. (Remember to **keep the original copies in a non-Unity folder!** Otherwise, if you delete the only existing copy from Unity, it is gone forever!)
 
 - In your Kini folder, click on the 2-sidedQuad model and look at the Import Settings in the Inspector.
-- In Materials, UNCHECK "Import Materials"
+  - In Materials, UNCHECK "Import Materials."
+  - In Animation, UNCHECK "Import Animation."
+  - In Model, UNCHECK "Import Cameras" and "Import Lights."
+  - **Then click "Apply" to save the changes.**
 
-![UnityTransparency_Kini_2-sidedQuad](images/UnityTransparency_Kini_2-sidedQuad.png)
+![UnityTransparency_Kini_2-sidedQuad](images/UnityTransparency_Kini_2-sidedQuad1.png)
 
 .
 
