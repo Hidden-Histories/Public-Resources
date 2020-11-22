@@ -72,7 +72,9 @@ NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduc
 ### Set Material properties in Inspector to make background transparent:
 - In the Project window, under Assets, create a folder and name it Kini. Drag your Kini texture into the folder.
 - Then drag the Kini texture onto the KiniQuad. If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
-- In the Inspector window, change Texture Type to "Sprite", then click the "Apply" button just above the texture image at the bottom of the Inspector window. The background of the Kini texture will be transparent now in the Inspector file window - but not yet in the Scene window. We need to change the Material Shader type.
+- In the Inspector, the Material for the KiniQuad now is named after the texture file and includes the texture under Main Maps/Albedo.
+- In the Inspector window, change the Rendering Mode to "Fade." The background of the Kini texture will now be transparent now in Scene window.
+- In the Forward Rendering Options, also unclick Specular Highlights and Reflections. (These options are useful if you want to make window glass panes that are transparent but still reflect light. If these are checked, you may see a ghost image when the texture is supposed to be fully transparent.)
 
 (Click on image to see larger version.)
 
