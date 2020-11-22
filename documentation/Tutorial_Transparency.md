@@ -54,13 +54,15 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 
 - Click here to download the model [2-sidedQuad.FBX](hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
 
-- Open your Unity Asset Bundle Template. Remember to first open the Unity Hub, and then open the Asset Bundle Template from within Unity.
-- NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
+- Open your Unity Asset Bundle Template. 
+  - Remember to first open the Unity Hub, and then open the Asset Bundle Template from within Unity.
+  - NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
 
 - In the Project window, under Assets, create a folder and name it Kini. 
 - Drag your Kini texture and the 2-sidedQuad.FBX into the folder. (Remember to **keep the original copies in a non-Unity folder!** Otherwise, if you delete the only existing copy from Unity, it is gone forever!)
 
-- In your Kini folder, click on the 2-sidedQuad model.
+- In your Kini folder, click on the 2-sidedQuad model and look at the Import Settings in the Inspector.
+- In Materials, UNCHECK "Import Materials"
 
 - Then **drag the Kini texture onto the KiniQuad.** If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
 
