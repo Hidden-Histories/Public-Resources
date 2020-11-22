@@ -81,7 +81,7 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - Now **drag the Kini texture onto the 2-sidedKini GameObject.** It will look horrible and will not be cut out.
 
 .
-![UnityTransparency_Create2-sidedKini](images/UnityTransparency_Create2-sidedKini.png)
+![UnityTransparency_Create2-sidedKini](images/UnityTransparency_Create2-sidedKini1.png)
 
 .
 
