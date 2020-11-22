@@ -64,6 +64,10 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - In your Kini folder, click on the 2-sidedQuad model and look at the Import Settings in the Inspector.
 - In Materials, UNCHECK "Import Materials"
 
+![UnityTransparency_Kini_2-sidedQuad](images/UnityTransparency_Kini_2-sidedQuad.png)
+
+.
+
 - Then **drag the Kini texture onto the KiniQuad.** If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
 
 
