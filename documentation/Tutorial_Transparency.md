@@ -48,7 +48,7 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 ![Kini_changeCanvasSize](images/Kini_changeCanvasSize.png)
 
 .
-### Download the "2-sidedQuad" model asset
+### Download the "2-sidedQuad" model asset and import into Unity Asset Bundle template project.
 
 You may have noticed that Unity Quads have only one side - if you see them from the back, they are invisible. Often we need a Quad that looks the same from the front and the back. We have therefore created a 3D FBX model with two sides, so you can easily have the same texture on both front and back sides.
 
@@ -71,7 +71,14 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 
 .
 
-- Then **drag the Kini texture onto the KiniQuad.** If you are not allow to drag it onto the Quad, or can't see the texture, you're looking at the back side! Rotate your view until you see the texture - but it's not cutout. :-(
+### Create a Kini prefab
+
+- Then **drag the 2-sidedQuad into the Scene or Hierarchy window** to create a new GameObject. Rename it something like 2-sidedKini.
+- Now **drag the Kini texture onto the 2-sidedKini.** It will look horrible and will not be cut out.
+
+![UnityTransparency_Kini_2-sidedQuad](images/UnityTransparency_Kini_2-sidedQuad1.png)
+
+
 
 
 - Create a Quad 3D GameObject and name it "KiniQuad." 
