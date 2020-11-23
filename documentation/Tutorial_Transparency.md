@@ -103,6 +103,7 @@ Your 2-sided Kini is finished!
 - Drag it into your Project/Assets/Kini folder to turn it into a **prefab.**
 - Assign it to your **asset bundle,** re-build the asset bundle, upload it to your Hidden Histories account and use it in porPOIse as usual.
 - Forgot how to do this? Go to the Hidden Histories documentation and re-read [Tamiko's official ARpoise guide to Creating AssetBundles in Unity](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md#-hidden-histories).
+- REMEMBER that it is still invisible if you are looking at it directly from the side! If you don't see it in your layer, try putting a onCreate Rotate animation on it, so you'll see it regardless of what the viewing angle is. Once you know it's there, you can give it the proper Vertical rotation for your viewing angle.
 
 ![UnityTransparency_Turn2-sidedKiniIntoPrefab](images/UnityTransparency_Turn2-sidedKiniIntoPrefab.png)
 
