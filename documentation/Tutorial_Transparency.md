@@ -94,7 +94,7 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - In the Inspector window, change the **Rendering Mode to "Fade."** The background of the Kini texture will now be transparent in the Scene window.
 - In the Forward Rendering Options, also **unclick Specular Highlights and Reflections.** (These options are useful if you want to make window glass panes that are transparent but still reflect light. If these are checked, you may see a ghost image when the texture is supposed to be fully transparent.)
 
-![UnityTransparency_ChangeRenderingModeToFade](images/UnityTransparency_ChangeRenderingModeToFade.png)
+![UnityTransparency_ChangeRenderingModeToFade1](images/UnityTransparency_ChangeRenderingModeToFade1.png)
 
 .
 - Your 2-sided Kini is finished!
