@@ -76,16 +76,15 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 - Then **drag the 2-sidedQuad into the Scene or Hierarchy window** to create a new GameObject. 
   - In the Hierarchy window, rename it something like 2-sidedKini.
   - Make sure to **zero its transform to 0,0,0 in both Position and Rotation!**
-  - If it disappears out of the window: make sure the 2-sidedKini is selected in the Hierarchy window, move your cursor into the Scene window and press "f" on your keyboard to "focus" the 2-sidedKini back into the middle of the Scene window.
+  - If it disappears out of the window: make sure it is selected in the Hierarchy window, move your cursor into the Scene window and press "f" on your keyboard to "focus" the 2-sidedKini back into the middle of the Scene window.
 
 ![UnityTransparency_CreateGameObjectFrom2-sidedQuad](images/UnityTransparency_CreateGameObjectFrom2-sidedQuad.png)
 
 .
 - Now **drag the Kini texture onto the 2-sidedKini GameObject.** It will look horrible and will not be cut out.
 
-(Click on image to see larger version.)
 
-![UnityTransparency_CreateGameObjectFrom2-sidedQuad](images/UnityTransparency_CreateGameObjectFrom2-sidedQuad.png)
+![UnityTransparency_DragTextureOnto2-sidedQuad](images/UnityTransparency_DragTextureOnto2-sidedQuad.png)
 
 .
 
