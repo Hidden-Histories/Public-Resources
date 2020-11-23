@@ -48,11 +48,11 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 ![Kini_changeCanvasSize](images/Kini_changeCanvasSize.png)
 
 .
-### Download the "2-sidedQuad" model asset and import into Unity Asset Bundle template project.
+### Create a prefab with the "2-sidedQuad" model asset
 
 You may have noticed that Unity Quads have only one side - if you see them from the back, they are invisible. Often we need a Quad that looks the same from the front and the back. We have therefore created a 3D FBX model with two sides, so you can easily have the same texture on both front and back sides.
 
-- Click here to download the model [2-sidedQuad.FBX](hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
+- Click here to download the model [2-sidedQuad.FBX](http://hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
 
 - Open your Unity Asset Bundle Template. 
   - Remember to first open the Unity Hub, and then open the Asset Bundle Template from within Unity.
