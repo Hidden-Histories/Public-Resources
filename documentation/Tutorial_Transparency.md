@@ -102,7 +102,7 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 Your 2-sided Kini is finished!
 - Drag it into your Project/Assets/Kini folder to turn it into a **prefab.**
 - Assign it to your **asset bundle,** re-build the asset bundle, upload it to your Hidden Histories account and use it in porPOIse as usual.
-  - Forgot how to do this? Go to the Hidden Histories documentation and re-read [Tamiko's official ARpoise guide to Creating AssetBundles in Unity](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md#-hidden-histories).
+- Forgot how to do this? Go to the Hidden Histories documentation and re-read [Tamiko's official ARpoise guide to Creating AssetBundles in Unity](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md#-hidden-histories).
 
 ![UnityTransparency_Turn2-sidedKiniIntoPrefab](images/UnityTransparency_Turn2-sidedKiniIntoPrefab.png)
 
