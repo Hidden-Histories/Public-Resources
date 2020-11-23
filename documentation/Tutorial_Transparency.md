@@ -52,10 +52,10 @@ For the animation Type "fade," the prefab must have its Unity Material Rendering
 
 You may have noticed that Unity Quads have only one side - if you see them from the back, they are invisible. Often we need a Quad that looks the same from the front and the back. We have therefore created a 3D FBX model with two sides, so you can easily have the same texture on both front and back sides.
 
-- Click here to download the model [2-sidedQuad.FBX](http://hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
+- Click here to download the 1 meter x 1 meter square model [2-sidedQuad.FBX](http://hiddenhistoriesjtown.org/documentation/sampleassets/2-sidedQuad.FBX).
 
 - Open your Unity Asset Bundle Template. 
-  - Remember to first open the Unity Hub, and then open the Asset Bundle Template from within Unity.
+  - To do this, remember to first open the Unity Hub, and then open the Asset Bundle Template from within Unity.
   - NOTE: If you need to **refresh your Unity skills** see [Prof. Rhonda's "Introduction to Unity3D Editor" slide deck](https://docs.google.com/presentation/d/1CzzGu4zK2a9VsXfM0WVPNGqtQfGEr30u67TTrWYI8qU/edit#slide=id.g7f6e1f9622_0_516), linked from the Hidden Histories documentation page.
 
 - In the Project window, under Assets, create a folder and name it Kini. 
@@ -78,11 +78,14 @@ You may have noticed that Unity Quads have only one side - if you see them from 
   - Make sure to **zero its transform to 0,0,0 in both Position and Rotation!**
   - If it disappears out of the window: make sure the 2-sidedKini is selected in the Hierarchy window, move your cursor into the Scene window and press "f" on your keyboard to "focus" the 2-sidedKini back into the middle of the Scene window.
 
+![UnityTransparency_CreateGameObjectFrom2-sidedQuad](images/UnityTransparency_CreateGameObjectFrom2-sidedQuad.png)
+
+.
 - Now **drag the Kini texture onto the 2-sidedKini GameObject.** It will look horrible and will not be cut out.
 
 (Click on image to see larger version.)
 
-![UnityTransparency_Create2-sidedKini](images/UnityTransparency_Create2-sidedKini1.png)
+![UnityTransparency_CreateGameObjectFrom2-sidedQuad](images/UnityTransparency_CreateGameObjectFrom2-sidedQuad.png)
 
 .
 
