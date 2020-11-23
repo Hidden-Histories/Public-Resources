@@ -90,9 +90,13 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 
 ### Set Material properties in Inspector to make background transparent:
 
-- In the Inspector, the Material for the KiniQuad now is named after the texture file and includes the texture under Main Maps/Albedo.
-- In the Inspector window, change the **Rendering Mode to "Fade."** The background of the Kini texture will now be transparent now in Scene window.
+- In the Inspector, the Material for the new GameObject is now named after the texture file and includes the texture under Main Maps/Albedo.
+- In the Inspector window, change the **Rendering Mode to "Fade."** The background of the Kini texture will now be transparent in the Scene window.
 - In the Forward Rendering Options, also **unclick Specular Highlights and Reflections.** (These options are useful if you want to make window glass panes that are transparent but still reflect light. If these are checked, you may see a ghost image when the texture is supposed to be fully transparent.)
+
+![UnityTransparency_ChangeRenderingModeToFade](images/UnityTransparency_ChangeRenderingModeToFade.png)
+
+.
 - Your 2-sided Kini is finished!
   - Drag it into your Project/Assets/Kini folder to turn it into a prefab.
   - Assign it to your asset bundle, re-build the asset bundle, upload it to your Hidden Histories account and use it in porPOIse as usual.
