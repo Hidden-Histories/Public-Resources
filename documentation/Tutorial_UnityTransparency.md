@@ -100,8 +100,7 @@ You may have noticed that Unity Quads have only one side - if you see them from 
 ### Add Box Collider
 
 - You may want to be able to click on the Kini to make him animate. To be clickable, you need to add a collider.
-- In the Inspector, click on Add Component, and then select Box Collider. (Please DON'T use the 2D Colliders, as they are meant only for 2D games.)
-- A green outline will appear around the Kini showing the collider.
+- In the Inspector, click on Add Component, and then select Box Collider. (Please DON'T use the 2D Colliders, as they are meant only for 2D games.) A green outline will appear around the Kini showing the collider.
 
 ![UnityTransparency_AddBoxCollider](images/UnityTransparency_AddBoxCollider.png)
 
