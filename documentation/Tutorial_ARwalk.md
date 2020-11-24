@@ -30,10 +30,10 @@ Use these in your POI (see the [porPOIse: Layer and POI configuration quick refe
 
 - You do **not** have to download the asset bundle and host it in your own porPOIse account - you can just link to the asset bundle we put for you on the ARpoise server. 
   - In the same way, if you want to **share a prefab with someone,** all you have to do is send them the URL. But of course if you change or delete the prefab and/or your asset bundle, they won't be able to access it anymore!
-  - If therefore you really do want to have a copy for yourself, you have to do the following:
-
-
-
+  - If therefore you really do want to have a copy for yourself, remember that you need both the Android version AND theiOS version! So you have to do the following:
+    - Download not only the Android asset bundle http://www.arpoise.com/AB/fencetest.ace, but also the iOs version http://www.arpoise.com/AB/fencetesti.ace. The manifest files are the same but with the file type .manifest instead of .ace.
+    - Then upload all 4 files to your own AssetBundles folder on your porPOIse account.
+    - THEN MAKE SURE YOU USE THE CORRECT URL to link to the asset bundle: change the URL to "hiddenhistoriesjtown.org/artists/MyName/AssetBundles/fencetest.ace", where "MyName" is replaced with your own account name.
 
 .
 ## On the layer webpage:
