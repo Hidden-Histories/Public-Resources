@@ -24,13 +24,13 @@ I created 4 prefabs, each of them being a fenced in area of the same proportions
 Use these in your POI (see the [porPOIse: Layer and POI configuration quick reference](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories) for details):
 
 - **Copy and paste** this URL www.arpoise.com/AB/fencetest.ace into the "URL for asset bundle" field in each of your POIs to be able to access the fence test prefabs.
-  - To find out the names of the fence prefabs, click on this link to see the manifest file www.arpoise.com/AB/fencetest.manifest in a browser. 
-    - Note that it is simply the URL for the asset bundle, but replacing the file type **.ace** with the file type **.manifest** - this is how you can find out the names of the prefabs in any given asset bundle.
+  - To find out the **names of the fence prefabs,** click on this link to see the **manifest file** www.arpoise.com/AB/fencetest.manifest in a browser. 
+    - Note that this is simply the URL for the asset bundle, but replacing the file type **.ace** with the file type **.manifest** - this is how you can find out the names of the prefabs in any given asset bundle.
     - If your computer only gives you the option to download the file, download it to your hard drive and then open it in a web browser or any text editor. Don't worry about any warnings, it really is just a text file and cannot harm your computer.
 
-  - You do NOT have to download the asset bundle and upload it to your own account - you can just link to the one on the ARpoise server. 
-  - In the same way, if you want to share a prefab with someone else, all you have to do is send them the URL. But of course if you change or delete the prefab and/or your asset bundle, they won't be able to access it anymore!
-- If therefore you really do want to make a copy for yourself, you have to do the following:
+- You do **not** have to download the asset bundle and host it in your own porPOIse account - you can just link to the asset bundle we put for you on the ARpoise server. 
+  - In the same way, if you want to **share a prefab with someone,** all you have to do is send them the URL. But of course if you change or delete the prefab and/or your asset bundle, they won't be able to access it anymore!
+  - If therefore you really do want to have a copy for yourself, you have to do the following:
 
 
 
