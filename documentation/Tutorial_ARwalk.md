@@ -18,7 +18,7 @@ Here is how to set up an AR walk at your home base. Once you set it up around yo
 
 - Because both **position and orientation can vary from minute to minute,** however, there is a certain amount of randomness in where you will see both the POI whose area you are in at the moment, and the other POIs you have set nearby. That may or may not bother you or your user, depending a bit on what your artwork is about! ;-)
 
-### Prefabs for this example
+### Prefabs for the fence test AR tour example
 I created 4 prefabs, each of them being a fenced in area of the same proportions, but with a different number on the fence (1, 2, 3, 4), so I could tell them apart.
 
 Use these in your POI (see the [porPOIse: Layer and POI configuration quick reference](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories) for details):
