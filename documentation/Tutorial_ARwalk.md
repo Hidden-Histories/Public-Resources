@@ -23,7 +23,12 @@ I created 4 prefabs, each of them being a fenced in area of the same proportions
 
 Use these in your POI (see the [porPOIse: Layer and POI configuration quick reference](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories) for details):
 
-- "URL for asset bundle" www.arpoise.com/AB/fencetest.ace - copy and paste this URL into this field in your POI to be able to access the fence test prefabs.
+- "URL for asset bundle" www.arpoise.com/AB/fencetest.ace 
+  - **Copy and paste** this URL into the "URL for asset bundle" field in your POI to be able to access the fence test prefabs.
+  - You do NOT have to download the fencetest.ace file itself - you can just link to the one on the ARpoise server. 
+- In the same way, if you want to share a prefab with someone else, all you have to do is send them the URL. (But of course if you change or delete the prefab and/or your asset bundle, they won't be able to access it anymore!)
+  - If therefore you really do want to make a copy 
+
 - To find out the names of the fence prefabs, click on this link to see the manifest file www.arpoise.com/AB/fencetest.manifest in a browser. Note that it is simply the URL for the asset bundle, but replacing the file type **.ace** with the file type **.manifest** - this is how you can find out the names of the prefabs in any given asset bundle.)
 
 
