@@ -24,17 +24,18 @@ I created 4 prefabs, each of them being a fenced in area of the same proportions
 Use these in your POI (see the [porPOIse: Layer and POI configuration quick reference](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories) for details):
 
 - **Copy and paste** this URL www.arpoise.com/AB/fencetest.ace into the "URL for asset bundle" field in each of your POIs to be able to access the fence test prefabs.
-  - To find out the **names of the fence prefabs,** click on this link to see the **manifest file** www.arpoise.com/AB/fencetest.manifest in a browser. 
+  - To find out the **names of the fence prefabs,** click on this link to see the **manifest file** in a browser: www.arpoise.com/AB/fencetest.manifest. 
     - Note that this is simply the URL for the asset bundle, but replacing the file type **.ace** with the file type **.manifest** - this is how you can find out the names of the prefabs in any given asset bundle.
     - If your computer only gives you the option to download the file, download it to your hard drive and then open it in a web browser or any text editor. Don't worry about any warnings, it really is just a text file and cannot harm your computer.
 
-- You do **not** have to download the asset bundle and host it in your own porPOIse account - you can just link to the asset bundle we put for you on the ARpoise server. 
+- You do **not** have to download the asset bundle and host it in your own porPOIse account - you can just link to the asset bundle on the ARpoise server. 
   - In the same way, if you want to **share a prefab with someone,** all you have to do is send them the URL. 
   - But of course if you change or delete the prefab and/or your asset bundle, they won't be able to access it anymore!
-- If therefore you really do want to have a copy for yourself, remember that you need both the Android version AND theiOS version! So you have to do the following:
-  - Download not only the Android asset bundle http://www.arpoise.com/AB/fencetest.ace, but also the iOs version http://www.arpoise.com/AB/fencetesti.ace. The manifest files are the same but with the file type .manifest instead of .ace.
+- If therefore you really do want to have a copy for yourself, remember that you need both the Android version AND the iOS version! So you have to do the following:
+  - Download not only the Android asset bundle http://www.arpoise.com/AB/fencetest.ace, but also the iOs version http://www.arpoise.com/AB/fencetesti.ace. (The difference in the name is just the "i" at the end - but the data structure of the iOS is different from that of the Android, and they require separate asset bundles.)
+  - Download also the two manifest files, which have the same names but with the file type .manifest instead of .ace.
   - Then upload all 4 files to your own AssetBundles folder on your porPOIse account.
-  - THEN MAKE SURE YOU USE THE CORRECT URL to link to the asset bundle: change the URL to "hiddenhistoriesjtown.org/artists/MyName/AssetBundles/fencetest.ace", where "MyName" is replaced with your own account name.
+  - THEN MAKE SURE YOU USE THE CORRECT URL to link to the asset bundle: change the URL to "hiddenhistoriesjtown.org/artists/MyName/AssetBundles/fencetest.ace", where "MyName" is replaced with your own account name. This URL should point to the Android version (without the "i" in the name).
 
 .
 ## On the layer webpage:
