@@ -13,5 +13,5 @@ As we mentioned in the tutorial [Using the AR-vos App to view image trigger and 
 
 You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app. If you need to practice, please see the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories).
 
-
+This tutorial shows how to create image trigger and SLAM layers for the AR-vos app, 
 
