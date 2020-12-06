@@ -36,6 +36,9 @@ The AR-vos-Directory will initially contain only the example layers we have set 
 - Example_AR-vosImage
 - Example_AR-vosSLAM
 
+Download all 3 Example AR-vos .xml files from here:
+https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
+
 Notes:
 - We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. 
 - There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
@@ -43,22 +46,15 @@ Notes:
 
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
-### Add 3 new entries for first artist
+### Add and rename 3 new registry entries for each artist
 
-Now use the **New Layer** link above the layer list to add 3 new layers for your first artist. The layers will be added at the end of the list.
+Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
 
+Please use the following naming convention for each layer entry, e.g. Bruce Lee would be BL_AR-vosGeo, etc.
 
-#### Explanation:
-
-
-
-. 
-**Naming the new AR-vos artist layers**
-
-Download a zip file with all 3 Example AR-vos .xml files from here:
-https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
-
-
+- <artist initial>_AR-vosGeo
+- <artist initial>_AR-vosImage
+- <artist initial>_AR-vosSLAM
 
 . 
 ### ARpoise Directory Service - enter layer properties following this example
