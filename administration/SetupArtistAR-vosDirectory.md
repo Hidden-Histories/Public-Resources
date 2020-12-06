@@ -98,7 +98,8 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 ### Add the new layers to the **config/config.xml** file:
 
 - **Duplicate the whole <layer> block.**
-- **Change both the "name" tag AND the "source" tag** - making sure to **preserve the ".xml" on the source tag!**
+- **Change both the "name" tag AND the "source" tag** - making sure to preserve the **".xml" on the source tag!**
+- You should then have 5 layers in the config file: 3 AR-vos layers and the existing 2 ARpoise layers.
 
 ### Image - Edit artist's config.xml File
 ![AR-vos_BruceLee-configFile1](images/AR-vos_BruceLee-configFile1.png)
