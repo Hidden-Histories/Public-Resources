@@ -10,7 +10,8 @@ It also assumes you are familiar with how to use the **AR-vos app** to view **ge
 
 The setup for artists to use the AR-vos app is very similar to the setup for the ARpoise app. It uses the same **Hidden Histories ArpoiseDirectory Back End Directory Service** located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
-- This ArpoiseDirectory on the Hidden Histories server contains two **metalayers** that are registries for artists' geofenced layers within the Hidden Histories area of San Jose Japantown:
+- This ArpoiseDirectory on the Hidden Histories server contains two **metalayers** that are registries for artists' geofenced layers within the Hidden Histories area of San Jose Japantown.
+- The app can only see the layers that are listed in the corresponding directory.
   - **Arpoise-Directory** for the **ARpoise app.** We assume you have already registered ARpoise layers here.
   - **AR-vos-Directory** for the **AR-vos app.** This document covers registering layers for AR-vos.
   - A metalayer is a registry entry composed of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
@@ -30,15 +31,13 @@ Now click on the **AR-vos-Directory metalayer**:
 .
 ### AR-vos-Directory within the ARpoise Directory Service - layers list
 
-The AR-vos-Directory will initially contain only the example layers we have set up as templates, positioned at our default location on the Bay.
-
-We have set up three example AR-vos layers which you can use as a template to copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
+The AR-vos-Directory will initially contain only the example layers we have set up as templates, positioned at our default location on the Bay. We have set up **three example AR-vos layers** which you can use as a template to copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
 - Example_AR-vosGeo
 - Example_AR-vosImage
 - Example_AR-vosSLAM
 
 Notes:
-- We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. The app can only see the layers that are listed in the corresponding directory.
+- We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. 
 - There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
 - In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
 
