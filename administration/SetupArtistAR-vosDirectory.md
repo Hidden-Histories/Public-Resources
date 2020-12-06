@@ -77,11 +77,39 @@ Click on each of the 3 new layers to change the following values:
 
 .
 
+### Via FTP, upload and rename .xml files for the new layers to artist's porPOIse account
 
+Just in case, here again is the download link for the 3 Example AR-vos .xml files:
+https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
+Upload them via FTP to the artist's config folder.
 
+. 
+## Customize the Layer Files for the Artist
 
+Go back to your FTP client and open up the **config folder.** 
 
+**Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
+
+### Image - config Folder
+![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
+
+Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
+
+- First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. BruceLeeExampleLayer.xml or BLExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
+
+- Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
+
+Now edit the **config/config.xml** file:
+
+- Add the artist name to the <name> tag AND the <source> tag (preserving the .xml file extension!)
+
+- Duplicate the whole <layer> block and change the <name> tag AND the <source> tag to "ArtistLayer."
+
+### Image - Edit config.xml File
+![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfigXml.png)
+
+.  
 . 
 ### Next Steps
 
