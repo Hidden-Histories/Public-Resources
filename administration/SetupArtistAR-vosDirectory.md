@@ -4,9 +4,9 @@
 
 ### Overview
 
-This document assumes you already know how to set up layers for artists **using the ARpoise app (for geolocative AR only) and ARpoise porPOIse back end,** as described on the Hidden Histories Administration website under [Setup Artist in ArpoiseDirectory](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md).
+This document assumes you already know how to **set up layers for artists to use the ARpoise app (for geolocative AR only) and ARpoise porPOIse back end,** as described on the Hidden Histories Administration website under [Setup Artist in ArpoiseDirectory](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md).
 
-It also assumes you are familiar with how to use the **AR-vos app for geolocative, image trigger and SLAM AR** as described on the Hidden Histories Administration website under (https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories)
+It also assumes you are familiar with how to use the **AR-vos app** to view **geolocative, image trigger and SLAM AR** as described on the Hidden Histories Administration website under (https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories)
 
 The setup for artists to use the AR-vos app is very similar to the setup for the ARpoise app. It uses the same **Hidden Histories ArpoiseDirectory Back End Directory Service** located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
@@ -15,18 +15,17 @@ The setup for artists to use the AR-vos app is very similar to the setup for the
   - **AR-vos-Directory** for the **AR-vos app.** This document covers entering new layers here.
   - A metalayer is made up of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
   
-- In addition, there are two metalayers for layers that should be visible everywhere in that area, regardless of the viewers' GPS location: Default-Arpoise-Directory and Default-AR-vos-Directory. We will discuss them in the future.
+- In addition, there are two metalayers for layers that should be visible everywhere in that area, regardless of the viewers' GPS location: Default-Arpoise-Directory and Default-AR-vos-Directory. We will discuss them some time in the future.
 
 . 
 ### Arpoise Directory Service - metalayers list
 
-You have already set up artists' layers in 
-If you log in to the ARpoiseDirectory Back End, you will see one link to the geolocative layers serviced by the **ARpoise app**, and another link to the layers (both geolocative and image trigger) serviced by the **AR-vos app**. The older ARpoise appruns on all iOS and Android smartphones, whereas the newer AR-vos app only runs on recent smartphones that support theAR functionality of [Android ARCore](https://developers.google.com/ar/discover/supported-devices) or [Apple ARKit](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html). 
+You have already worked with the Arpoise-Directory metalayer. 
 
-For now, we will discuss only the ARpoise metalayer in this document, but the AR-vos metalayer is similar.
-We expect to merge the two apps in the future when the newer smartphone hardware is widespread.
+Now click on the AR-vos-Directory metalayer:
 
-![DirectoryImg0](images/Directory0.png)
+
+![Directory0_4directories](images/Directory0_4directories.png)
 
 .
 ### Arpoise Directory Service - layers list
