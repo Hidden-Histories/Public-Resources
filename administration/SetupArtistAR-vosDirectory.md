@@ -89,7 +89,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 - **Upload them via FTP** to the artist's config folder.
   - **Careful:** there is a config.php file php/config.php, but you are going to change the **config/config.xml file!**
 - **Rename the files** with the artist's initials.
-- When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
+- When you're finished, there should be 3 AR-vos files in additional to the 2 Arpoise files:
 
 #### Image - now 5 .xml layer files in config Folder
 ![AR-vos_Porpoise_BruceLee-configFolder.png](images/AR-vos_Porpoise_BruceLee-configFolder.png)
@@ -97,11 +97,18 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 .
 ### Change permissions to 666 / rw - rw - rw for all new .xml files
 
+You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
+- Select the files.
+- Right click / Properties
+- Change the Permissions / Octal value to 666. This sets Ower/Group/Others to R=read and W=write.
+
+#### Image - Select right click / Properties menu for all new .xml layer files
+![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
+
+You should now have set read/write permission for all the .xml files.
+
 #### Image - correct permissions for new .xml files
 ![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
-
-
-
 
 
 ### Enter the new layers into the **config/config.xml** file:
