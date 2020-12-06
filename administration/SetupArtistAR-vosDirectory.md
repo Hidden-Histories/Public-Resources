@@ -50,30 +50,31 @@ Notes:
 
 Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
 
-Please use the following naming convention for each layer entry, e.g. Bruce Lee would be BL_AR-vosGeo, etc.
+You will need to change the following values:
 
-- <artist initial>_AR-vosGeo
-- <artist initial>_AR-vosImage
-- <artist initial>_AR-vosSLAM
+- **Layer Name:** Please use the following naming convention for each layer entry, e.g. **Bruce Lee would be BL_AR-vosGeo**, etc.
+  - artistinitial_AR-vosGeo
+  - artistinitial_AR-vosImage
+  - artistinitial_AR-vosSLAM
+
+- **Lat/Lon:** the home base GPS coordinates for the artist
+
+- **IsVisible:** Yes
+
+- **Visibility in meters:** 200 meters, since they will be in the densely AR populated San Jose Japantown.
+
+- **Porpoise URL:** The same link as in the Arpoise-Director to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
+
+
+
 
 . 
 ### ARpoise Directory Service - enter layer properties following this example
 
 ![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
 
-#### Explanation:
 
-Internal properties:
 
-* **Layer Name:** This name is shown in the directory layers list on the preceding page and **MUST** be the same as the **artist's .xml file** that defines the layer and the **artist's config/config.xml entry** that registers their layers. See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist) on how to do this.
-
-* **Lat Lon:** The base GPS location of the layer in decimal form. If you already know the GPS coordinates you need [(read here how to find them)](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/), type them directly into the latitude and longitude fields. You can also use the buttons on the **Google map** to zoom in or out, and click and drag the marker against the boundary of the maps window to drag it to your location. **As you move the marker, the lat/lon values in the properties box will change.** (Note that if the same augment should be visible in different locations around the world, a duplicate copy of that layer needs to be created and placed at each of the desired GPS locations.)
-
-* **IsVisible:** Yes for on, No to hide it, if it is not being used.
-
-* **Visibility in meter:** This is the radius in which the layer should be visible around its Lat/Lon. Given the inaccuracy of GPS, we have found that **200m~250m**, which is about 1/2 a block, is a good value. If it is too large, it is misleading as it can be seen far away from the site for which it is intended, but if it is too small it might not be visible at the actual site, as the smartphone GPS thinks you are several blocks away.
-
-* **Porpoise URL:** Required link to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
 External properties:
 
