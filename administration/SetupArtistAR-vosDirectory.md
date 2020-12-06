@@ -95,15 +95,16 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 ![AR-vos_Porpoise_BruceLee-configFolder.png](images/AR-vos_Porpoise_BruceLee-configFolder.png)
 
 .
-### Change permissions to 666 / rw - rw - rw for all new .xml files
+### Change permissions to 666 / rw-rw-rw- for all new .xml files
 
 You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
 - Select the files.
 - Right click / Properties
-- Change the Permissions / Octal value to 666. This sets Ower/Group/Others to R=read and W=write.
 
 #### Image - Select right click / Properties menu for all new .xml layer files
 ![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
+
+- Change the Permissions / Octal value to 666. This sets Ower/Group/Others to R=read and W=write.
 
 You should now have set read/write permission for all the .xml files.
 
