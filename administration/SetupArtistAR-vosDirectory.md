@@ -101,7 +101,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 - **Change both the <name> tag AND the <source> tag** - making sure to **preserve the ".xml" on the source tag!**
 
 ### Image - Edit artist's config.xml File
-![AR-vos_BruceLee-configFile](images/AR-vos_BruceLee-configFile.png)
+![AR-vos_BruceLee-configFile1](images/AR-vos_BruceLee-configFile1.png)
 
 .  
 . 
