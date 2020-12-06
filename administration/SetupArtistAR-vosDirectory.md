@@ -22,7 +22,7 @@ The setup for artists to use the AR-vos app is very similar to the setup for the
 
 You have already worked with the Arpoise-Directory metalayer. 
 
-Now click on the AR-vos-Directory metalayer:
+Now click on the **AR-vos-Directory metalayer**:
 
 
 ![Directory0_4directories](images/Directory0_4directories.png)
@@ -37,7 +37,7 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 - Tamiko Thiel's Example Layer and Artist Layer (please do NOT change or delete!)
 - Any new layers will then appear below.
 
-![Arpoise-Directory metalayer list](images/Arpoise-Directory_metalayerList.png)
+![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
 #### Explanation:
 
