@@ -30,25 +30,28 @@ Now click on the **AR-vos-Directory metalayer**:
 .
 ### AR-vos-Directory within the ARpoise Directory Service - layers list
 
-The AR-vos-Directory will initially contain only the example layers we have set up as templates.
+The AR-vos-Directory will initially contain only the example layers we have set up as templates, positioned at our default location on the Bay.
 
+We have set up three example AR-vos layers which you can use as a template to copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
 - Example_AR-vosGeo
 - Example_AR-vosImage
 - Example_AR-vosSLAM
+
+Notes:
+- We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. The app can only see the layers that are listed in the corresponding directory.
+- There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
+- In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
 
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
 ### Add 3 new entries for first artist
 
-Now use the **New Layer** link to add 3 new layers for your first artist. The layers will be added at the end of the list.
+Now use the **New Layer** link above the layer list to add 3 new layers for your first artist. The layers will be added at the end of the list.
 
 
 #### Explanation:
 
-We have set up three example AR-vos layers which you can use as a template to copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
-- We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. The app can only see the layers that are listed in the corresponding directory.
-- There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
-- In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
+
 
 . 
 **Naming the new AR-vos artist layers**
