@@ -1,6 +1,6 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories
-## Setup Artist in AR-vos Directory
+## Setup Artist Layers for AR-vos
 
 ### Overview
 
@@ -41,16 +41,18 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 #### Explanation:
 
-We have set up three example AR-vos layers which you can copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
+We have set up three example AR-vos layers which you can use as a template to copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
 - We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. The app can only see the layers that are listed in the corresponding directory.
 - There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
-- In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! 
+- In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
 
 . 
+**Naming the new AR-vos artist layers**
 
-**Now click on the new layer name "no title" to configure the new layer**
+Download a zip file with all 3 Example AR-vos .xml files from here:
+https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
-Enter the properties according to the example and the information below.
+
 
 . 
 ### ARpoise Directory Service - enter layer properties following this example
@@ -81,50 +83,6 @@ External properties:
 **Don't forget to click the Save button!** ;-)
 
 . 
-### Testing the New Artist's Layers
-
-Assuming you set the positions of the new artist's layers at their house, and you do not live near them, when you start the ARpoise app you will be too far away to see their new layers.
-
-Therefore, ARpoise has a **Fixed Location** feature that allows you to test many features remotely.
-
-- Note the **GPS latitude and longitude where you placed the layer** (in ArpoiseDirectory layer list, or the layer properties).
-
-- If you input exactly that number, you will be right in the middle of the layer. If you want to be slight to one side, select a different position in google maps (see how to do this in the properties explanation above) and enter those values instead. Just remember the augments might be **behind** you!
-
-- Start the ARpoise app.
-
-- Double click on the **ARpoise logo menu button**.
-
-- Tap the Lat and Lon fields and enter the decimal values you want.
-
-- Click **Activate Fixed Position**.
-
-- Click **OK**.
-
-![Arpoise-Directory_FixedPosition](images/Arpoise-Directory_FixedPosition.png)
-
-. 
-The layers should then appear in the list of nearby augment layers.
-
-Select one of the layers ...
-
-![Arpoise-Directory_ARpoiseLayersList](images/Arpoise-Directory_ARpoiseLayersList.png)
-
-. 
-**... and look all around you, they are also above and below you!**
-
-![Arpoise-Directory_stripedBox](images/Arpoise-Directory_stripedBox.png)
-
-. 
-#### Troubleshooting:
-
-If the layers still do not appear:
-
-- Is the GPS position you entered in the Fixed Position menu in the ARpoise app correct?
-- Is the property **IsVisible** set to **Yes** in the layer properties?
-- Is the **Layer Name** in the layer properties the same as the file name of the **.xml** in the artist's config folder, and the same as the **config/config.xml entry**? See the tutorial [SetupArtistPorpoise](SetupArtistPorpoise.md#customize-the-layer-files-for-the-artist).
-
-.
 ### Next Steps
 
 #### Admin tutorials: what you have done:
