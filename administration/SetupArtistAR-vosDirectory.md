@@ -91,17 +91,26 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 - **Rename the files** with the artist's initials.
 - When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
 
-### Image - finished artist's config Folder
+#### Image - finished artist's config Folder
 
 ![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
 
-### Add the new layers to the **config/config.xml** file:
+.
+### Change permissions to 666 / rw - rw - rw for all new .xml files
+
+![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
+
+#### Image - correct permissions for new .xml files
+
+
+
+### Enter the new layers into the **config/config.xml** file:
 
 - **Duplicate the whole <layer> block.**
 - **Change both the "name" tag AND the "source" tag** - making sure to preserve the **".xml" on the source tag!**
 - You should then have 5 layers in the config file: 3 AR-vos layers and the existing 2 ARpoise layers.
 
-### Image - Edit artist's config.xml File
+#### Image - Edit artist's config.xml File
 ![AR-vos_BruceLee-configFile1](images/AR-vos_BruceLee-configFile1.png)
 
 .  
