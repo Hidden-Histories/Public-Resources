@@ -124,6 +124,13 @@ Edit the config/config.xml file:
 ![AR-vos_BruceLee-configFile1](images/AR-vos_BruceLee-configFile1.png)
 
 .  
+### TEST all the layers - in app and in porPOIse!
+
+- Make sure you can **view** the layers in the **AR-vos app.**
+
+- Make suer you can **edit** the layers in **porPOIse!**
+
+
 . 
 ### Next Steps
 
