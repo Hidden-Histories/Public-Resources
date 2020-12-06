@@ -50,12 +50,12 @@ Notes:
 
 Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
 
-You will need to change the following values:
+**You will need to change the following values:**
 
-- **Layer Name:** Please use the following naming convention for each layer entry, e.g. **Bruce Lee would be BL_AR-vosGeo**, etc.
-  - artistinitial_AR-vosGeo
-  - artistinitial_AR-vosImage
-  - artistinitial_AR-vosSLAM
+- **Layer Name:** Please replace "Example" with the artist's initials, e.g. **Bruce Lee** would be:
+  - BL_AR-vosGeo
+  - BL_AR-vosImage
+  - BL_AR-vosSLAM
 
 - **Lat/Lon:** the home base GPS coordinates for the artist
 
