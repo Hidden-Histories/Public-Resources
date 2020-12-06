@@ -87,10 +87,11 @@ Download the 3 Example_AR-vos .xml files:
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
 - **Upload them via FTP** to the artist's config folder.
+  - **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
+- Rename the files with the artist's initials.
+- When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
 
-- **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
-
-### Image - artist's config Folder
+### Image - finished artist's config Folder
 
 ![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
 
