@@ -71,7 +71,7 @@ You will need to change the following values:
 . 
 ### ARpoise Directory Service - enter layer properties following this example
 
-![Arpoise-Directory_TamikoTExampleLayer](images/Arpoise-Directory_TamikoTExampleLayer.png)
+![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
 
 
 
