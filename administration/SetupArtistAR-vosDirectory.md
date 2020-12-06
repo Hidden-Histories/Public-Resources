@@ -98,7 +98,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 ### Add the new layers to the **config/config.xml** file:
 
 - **Duplicate the whole <layer> block.**
-- **Change both the <name> tag AND the <source> tag** - making sure to **preserve the ".xml" on the source tag!**
+- **Change both the "name" tag AND the "source" tag** - making sure to **preserve the ".xml" on the source tag!**
 
 ### Image - Edit artist's config.xml File
 ![AR-vos_BruceLee-configFile1](images/AR-vos_BruceLee-configFile1.png)
