@@ -62,7 +62,7 @@ Click on each of the 3 new layers to change the following values:
 
 ![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
 
-- **Layer Name:** Please replace "Example" with the artist's initials, e.g. **Bruce Lee** would be:
+- **Layer Name:** Please replace "Example" with the artist's initials as in the image above, e.g. **Bruce Lee** would be:
   - BL_AR-vosGeo
   - BL_AR-vosImage
   - BL_AR-vosSLAM
@@ -75,13 +75,13 @@ Click on each of the 3 new layers to change the following values:
 
 - **Porpoise URL:** The same link as in the Arpoise-Director to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
-- **Layer Title:** This name is shown **in the AR-vos app list of available layers** This should be unique to make it easier for the public to identify which artist and artwork it is!
+- **Layer Title:** This title should have the artist's name, as it is shown **in the AR-vos app list of available layers.**
 
 **Don't forget to click the Save button!** ;-)
 
 .
 
-### Via FTP: in each artist's porPOIse account, upload and rename .xml files to create the new layers
+### FTP: upload, rename .xml files to artist's config folder
 
 Download the 3 Example_AR-vos .xml files:
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
@@ -92,7 +92,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 
 ### Image - artist's config Folder
 
-![SetupAR-vosPorpoise_config.png](images/SetupAR-vosPorpoise_config.png)
+![AR-vos_Porpoise_config.png](images/AR-vos_Porpoise_config.png)
 
 Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 
