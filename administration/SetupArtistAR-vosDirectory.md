@@ -1,10 +1,10 @@
 ![Hidden Histories Logo](/images/hiddenhistories-logo.png)
 # Hidden Histories
-## Setup Artist in ArpoiseDirectory
+## Setup Artist in AR-vos Directory
 
 ### Overview
 
-**ARpoise porPOIse** requires a directory back end as registry for all the AR projects ("layers") that it services. The directory keeps track of which layers exist, and where in the world they can be viewed.
+This document assumes you already know how to set up layers for artists using the ARpoise app and ARpoise porPOIse back end, as described on the Hidden Histories Administration website under [Setup Artist in ArpoiseDirectory](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md).
 
 The **Hidden Histories ARpoiseDirectory Back End Directory Service** is located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
