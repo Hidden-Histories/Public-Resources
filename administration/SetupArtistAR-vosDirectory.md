@@ -92,7 +92,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 
 ### Image - artist's config Folder
 
-![AR-vos_Porpoise_config.png](images/AR-vos_Porpoise_config.png)
+![AR-vos_Porpoise_config1.png](images/AR-vos_Porpoise_config1.png)
 
 Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 
