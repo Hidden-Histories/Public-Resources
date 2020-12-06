@@ -44,17 +44,19 @@ Notes:
 - There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
 - In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
 
+Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
+
+.
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
 .
 
 ### Add and rename 3 new registry entries for each artist
 
-Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
+Click on each of the 3 new layers to change the following values:
 
+.
 ![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
-
-**You will need to change the following values:**
 
 - **Layer Name:** Please replace "Example" with the artist's initials, e.g. **Bruce Lee** would be:
   - BL_AR-vosGeo
