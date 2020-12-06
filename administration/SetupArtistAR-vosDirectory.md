@@ -41,24 +41,10 @@ Click on the Arpoise-Directory link to view the metalayer list of all layers ser
 
 #### Explanation:
 
-For each layer, the registry specifies a GPS position that defines a base location around which the layer is visible. See the section below for a description of the properties.
-
-(The Google map only shows the GPS location of the very first layer in the list.)
-
-. 
-### Arpoise Directory Service - add a new layer
-
-Go Back to the Arpoise-Directory level.
-
-- Add a new layer by clicking on the **New Layer** link above the layer list.
-
-- In the next screen ignore the warning message and just click on "Create" ...
-
-![Arpoise Directory CreateNewLayer](images/Arpoise-Directory_CreateNewLayer.png)
-
-... and a new empty layer will be added to the directory:
-
-![Arpoise-Directory_notitle](images/Arpoise-Directory_notitle.png)
+We have set up three example AR-vos layers which you can copy and paste into the artists' accounts, for them to modify and change into layers with their own content. 
+- We have given them all names that include "AR-vos," so the artists know which layers can be viewed in which apps. The app can only see the layers that are listed in the corresponding directory.
+- There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
+- In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! 
 
 . 
 
