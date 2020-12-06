@@ -50,6 +50,8 @@ Notes:
 
 Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
 
+![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
+
 **You will need to change the following values:**
 
 - **Layer Name:** Please replace "Example" with the artist's initials, e.g. **Bruce Lee** would be:
@@ -70,7 +72,7 @@ Use the **New Layer** link above the layer list to add 3 new entries for each ar
 **Don't forget to click the Save button!** ;-)
 
 .
-![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
+
 
 
 
