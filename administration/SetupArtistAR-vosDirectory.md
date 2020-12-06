@@ -25,6 +25,7 @@ You have already worked with the Arpoise-Directory metalayer.
 
 Now click on the **AR-vos-Directory metalayer**:
 
+### Image - ARpoise Directory Service: all directory registries
 
 ![Directory0_4directories](images/Directory0_4directories.png)
 
@@ -36,7 +37,7 @@ The AR-vos-Directory will initially contain only the example layers we have set 
 - Example_AR-vosImage
 - Example_AR-vosSLAM
 
-Download all 3 Example AR-vos .xml files from here:
+**Download all 3 Example AR-vos .xml files from here:**
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
 Notes:
@@ -44,9 +45,11 @@ Notes:
 - There is no difference between the .xml for an ARpoise geolocative layer and that for an AR-vos geolocative layer. We have literally copied and pasted the ARpoise .xml file from the Arpoise-Directory folder into the AR-vos-Directory folder. 
 - In fact, there is no difference between the porPOIse web form to create an AR-vos geolocative, image trigger or SLAM layer! The difference is mainly one single field in the artist's POI configuration - as we will describe in the artist tutorial for setting up an AR-vos layer. But we decided to give the layers distinct names for clarity.
 
-Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
-
 .
+**NOW: Use the New Layer link** above the layer list to **add 3 new entries for each artist.** The layers will be added at the end of the list.
+
+### Image - AR-vos-Directory metalayers list
+
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
 .
@@ -55,7 +58,8 @@ Use the **New Layer** link above the layer list to add 3 new entries for each ar
 
 Click on each of the 3 new layers to change the following values:
 
-.
+### Image - Settings for layer entry
+
 ![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
 
 - **Layer Name:** Please replace "Example" with the artist's initials, e.g. **Bruce Lee** would be:
@@ -77,22 +81,18 @@ Click on each of the 3 new layers to change the following values:
 
 .
 
-### Via FTP, upload and rename .xml files for the new layers to artist's porPOIse account
+### Via FTP: in each artist's porPOIse account, upload and rename .xml files to create the new layers
 
-Just in case, here again is the download link for the 3 Example AR-vos .xml files:
+Download the 3 Example_AR-vos .xml files:
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
-Upload them via FTP to the artist's config folder.
-
-. 
-## Customize the Layer Files for the Artist
-
-Go back to your FTP client and open up the **config folder.** 
+**Upload them via FTP** to the artist's config folder:
 
 **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
 
-### Image - config Folder
-![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
+### Image - artist's config Folder
+
+![SetupAR-vosPorpoise_config.png](images/SetupAR-vosPorpoise_config.png)
 
 Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 
