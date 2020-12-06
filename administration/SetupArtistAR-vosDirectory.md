@@ -87,27 +87,19 @@ Download the 3 Example_AR-vos .xml files:
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
 
 - **Upload them via FTP** to the artist's config folder.
-  - **Careful: there is a config.php file php/config.php, but now you are going to change the config/config.xml file!**
-- Rename the files with the artist's initials.
+  - **Careful:** there is a config.php file php/config.php, but you are going to change the **config/config.xml file!**
+- **Rename the files** with the artist's initials.
 - When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
 
 ### Image - finished artist's config Folder
 
 ![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
 
-Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
+### Add the new layers to the **config/config.xml** file:
 
-- First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. BruceLeeExampleLayer.xml or BLExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
+- Duplicate the whole <layer> block and change both the <name> tag AND the <source> tag - making sure to preserve the ".xml" on the source tag!
 
-- Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
-
-Now edit the **config/config.xml** file:
-
-- Add the artist name to the <name> tag AND the <source> tag (preserving the .xml file extension!)
-
-- Duplicate the whole <layer> block and change the <name> tag AND the <source> tag to "ArtistLayer."
-
-### Image - Edit config.xml File
+### Image - Edit artist's config.xml File
 ![SetupArtistPorpoise8 edit config xml](images/SetupArtistPorpoise8_editConfigXml.png)
 
 .  
