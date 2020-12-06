@@ -81,7 +81,7 @@ Click on each of the 3 new layers to change the following values:
 
 .
 
-### FTP: upload, rename .xml files to artist's config folder
+### FTP: upload, rename .xml files in artist's config folder
 
 Download the 3 Example_AR-vos .xml files:
 https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zip
@@ -91,16 +91,16 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 - **Rename the files** with the artist's initials.
 - When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
 
-#### Image - finished artist's config Folder
-
+#### Image - now 5 .xml layer files in config Folder
 ![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
 
 .
 ### Change permissions to 666 / rw - rw - rw for all new .xml files
 
-![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
-
 #### Image - correct permissions for new .xml files
+![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
+
+
 
 
 
