@@ -11,11 +11,11 @@ It also assumes you are familiar with how to use the **AR-vos app** to view **ge
 The setup for artists to use the AR-vos app is very similar to the setup for the ARpoise app. It uses the same **Hidden Histories ArpoiseDirectory Back End Directory Service** located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
 - This ArpoiseDirectory on the Hidden Histories server contains two **metalayers** that are registries for artists' geofenced layers within the Hidden Histories area of San Jose Japantown:
-  - **Arpoise-Directory** for the **ARpoise app.** We assume you have already set up layers here.
-  - **AR-vos-Directory** for the **AR-vos app.** This document covers entering new layers here.
-  - A metalayer is made up of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
+  - **Arpoise-Directory** for the **ARpoise app.** We assume you have already registered ARpoise layers here.
+  - **AR-vos-Directory** for the **AR-vos app.** This document covers registering layers for AR-vos.
+  - A metalayer is a registry entry composed of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
   
-- In addition, there are two metalayers for layers that should be visible everywhere in that area, regardless of the viewers' GPS location: Default-Arpoise-Directory and Default-AR-vos-Directory. We will discuss them some time in the future.
+- In addition, there are two metalayers registering layers that should be visible everywhere in that area, regardless of the viewers' GPS location: Default-Arpoise-Directory and Default-AR-vos-Directory. We will discuss them some time in the future.
 
 . 
 ### Arpoise Directory Service - metalayers list
@@ -28,16 +28,20 @@ Now click on the **AR-vos-Directory metalayer**:
 ![Directory0_4directories](images/Directory0_4directories.png)
 
 .
-### Arpoise Directory Service - layers list
+### AR-vos-Directory within the ARpoise Directory Service - layers list
 
-Click on the Arpoise-Directory link to view the metalayer list of all layers serviced by the Hidden Histories ARpoise app. This currently includes:
+The AR-vos-Directory will initially contain only the example layers we have set up as templates.
 
-- Tamiko Thiel's Brush the Sky layers in San Jose Japantown.
-- The ExampleLayer template (please do NOT change or delete!)
-- Tamiko Thiel's Example Layer and Artist Layer (please do NOT change or delete!)
-- Any new layers will then appear below.
+- Example_AR-vosGeo
+- Example_AR-vosImage
+- Example_AR-vosSLAM
 
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
+
+### Add 3 new entries for first artist
+
+Now use the **New Layer** link to add 3 new layers for your first artist. The layers will be added at the end of the list.
+
 
 #### Explanation:
 
