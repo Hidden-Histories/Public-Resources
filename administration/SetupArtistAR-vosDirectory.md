@@ -4,13 +4,13 @@
 
 ### Overview
 
-This document assumes you already know how to set up layers for artists using the ARpoise app (for geolocative AR only) and ARpoise porPOIse back end, as described on the Hidden Histories Administration website under [Setup Artist in ArpoiseDirectory](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md).
+This document assumes you already know how to set up layers for artists **using the ARpoise app (for geolocative AR only) and ARpoise porPOIse back end,** as described on the Hidden Histories Administration website under [Setup Artist in ArpoiseDirectory](https://github.com/Hidden-Histories/Public-Resources/blob/master/administration/SetupArtistArpoiseDirectory.md).
 
 The **Hidden Histories ArpoiseDirectory Back End Directory Service** is located here, accessible only to the admin: https://hiddenhistoriesjtown.org/ArpoiseDirectory/php/web/dashboard/index.php
 
-- The ArpoiseDirectory on the Hidden Histories server contains two **metalayers** that are registries for artists' geofenced layers within the Hidden Histories area of San Jose Japantown:
-  - Arpoise-Directory for the ARpoise app 
-  - AR-vos-Directory for the AR-vos app.
+- This ArpoiseDirectory on the Hidden Histories server contains two **metalayers** that are registries for artists' geofenced layers within the Hidden Histories area of San Jose Japantown:
+  - **Arpoise-Directory** for the **ARpoise app.**
+  - **AR-vos-Directory** for the **AR-vos app.**
   - A metalayer is made up of a list of all the individual layers that are accessible through that particular app. The listing for a layer includes an approximate GPS location and area where it is visible, which allows the app to quickly find which layers are relevant given the location of a user who has called up the app.
   
 - In addition, there are two metalayers for layers that should be visible everywhere in that area, regardless of the viewers' GPS location: Default-Arpoise-Directory and Default-AR-vos-Directory. We will discuss them in the future.
