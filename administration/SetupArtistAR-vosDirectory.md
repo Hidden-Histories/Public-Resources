@@ -65,25 +65,16 @@ Use the **New Layer** link above the layer list to add 3 new entries for each ar
 
 - **Porpoise URL:** The same link as in the Arpoise-Director to the **artist's folder**, so it knows where to look for the .xml file: replace "ExampleArtist" here with the artist's name: https://hiddenhistoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?
 
+- **Layer Title:** This name is shown **in the AR-vos app list of available layers** This should be unique to make it easier for the public to identify which artist and artwork it is!
 
+**Don't forget to click the Save button!** ;-)
 
-
-. 
-### ARpoise Directory Service - enter layer properties following this example
-
+.
 ![AR-vos-Directory_BruceLeeAR-vosGeo](images/AR-vos-Directory_BruceLeeAR-vosGeo.png)
 
 
 
 
-External properties:
-
-* **Layer Title:** This name is shown on the **layer listing in the ARpoise app** (see screenshot of ARpoise app above). Please give this a unique name to make it easier for the public to identify which artist and artwork it is!
-* **Line 2:** The second, smaller line in the layer entry in the ARpoise app (see screenshot of ARpoise app above).
-* **Line 3:** The third, very small line in the layer entry in the ARpoise app (see screenshot of ARpoise app above), along with the (often *very* inaccurate!) distance to the base location of the layer.
-* **Icon Name:** Please enter **HiddenHistoriesSprite**. This is the icon shown in the layer's entry in the ARpoise app (see screenshot above). This has to be set by the ARpoise adminstrators. We have set it to be the square version of the Hidden Histories logo that we made ourselves--please contact us at public@arpoise.com if you want to change it.
-
-**Don't forget to click the Save button!** ;-)
 
 . 
 ### Next Steps
