@@ -46,6 +46,8 @@ Notes:
 
 ![AR-vos-Directory_metalayerList](images/AR-vos-Directory_metalayerList.png)
 
+.
+
 ### Add and rename 3 new registry entries for each artist
 
 Use the **New Layer** link above the layer list to add 3 new entries for each artist. The layers will be added at the end of the list.
