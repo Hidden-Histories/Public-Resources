@@ -111,9 +111,11 @@ You should now have set read/write permission for all the .xml files.
 #### Image - correct permissions for new .xml files
 ![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
 
+.
 
 ### Enter the new layers into the **config/config.xml** file:
 
+Edit the config/config.xml file:
 - **Duplicate the whole <layer> block.**
 - **Change both the "name" tag AND the "source" tag** - making sure to preserve the **".xml" on the source tag!**
 - You should then have 5 layers in the config file: 3 AR-vos layers and the existing 2 ARpoise layers.
