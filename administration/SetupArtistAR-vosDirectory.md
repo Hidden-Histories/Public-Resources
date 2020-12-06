@@ -92,7 +92,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 - When you're finished, there should be 3 AR-vos files in additional to the 3 Arpoise files:
 
 #### Image - now 5 .xml layer files in config Folder
-![AR-vos_Porpoise_BruceLee-config.png](images/AR-vos_Porpoise_BruceLee-config.png)
+![AR-vos_Porpoise_BruceLee-configFolder.png](images/AR-vos_Porpoise_BruceLee-configFolder.png)
 
 .
 ### Change permissions to 666 / rw - rw - rw for all new .xml files
