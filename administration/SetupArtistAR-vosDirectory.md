@@ -139,7 +139,8 @@ You should now have completed the following steps:
 
 1. [Getting Started: ARpoise Admins](GettingStarted-ARpoiseAdmins.md).
 2. [Setup Artist Porpoise](SetupArtistPorpoise.md).
-3. **SetupArtistArpoiseDirectory**
+3. [Setup Artist ArpoiseDirectory](SetupArtistArpoiseDirectory.md).
+4. **Setup Artist Layers for AR-vos.**
 
 #### Artist tutorials
 Please see the overview link page for all the tutorials on using porPOIse to set up and modify layers, creating Unity asset bundles with your own content, etc.
