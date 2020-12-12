@@ -14,7 +14,9 @@ NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an exam
 
 ## Use Google Maps to get familiar with the site
 
-I make tons of screenshots at this point!
+I'll give basic directions, but here is the [Google Maps support page](https://support.google.com/maps/answer/144349).
+
+I would make tons of screenshots as documentation during the process described below!
 
 - Go to [Google Maps](https://www.google.com/maps) in your browser and search for your site.
 - Note the **scale bar** - we will need this!
