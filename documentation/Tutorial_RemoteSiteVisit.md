@@ -12,6 +12,8 @@ If you are creating an AR layer that is to be viewed at a very specific site, it
 
 NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an example. I am doing this on my Windows PC, and the commands and behavior of the websites might be different depending on what you are using.
 
+## Use Google Maps to get familiar with the site, and measure distances
+
 - Go to [Google Maps](https://www.google.com/maps) in your browser and search for your site.
 - Note the **scale bar** - we will need this!
 - Click on the **satellite** inset to switch to satellite view.
