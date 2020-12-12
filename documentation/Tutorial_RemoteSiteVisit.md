@@ -55,22 +55,18 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 
 .
 
-Now zoom in, rotate the view so you can see the front lawn of the building, and use that scale bar to measure the distance between a viewer standing on the sidewalk, and the sign or the front of the building.
+Now zoom in, rotate the view so you can see the front lawn of the building.
+
+####Think about where you and your viewers will likely stand to view the artwork.
+- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
+- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
+
+#### Use that scale bar to measure the distances
+between a viewer standing on the sidewalk, and the sign or the front of the building.
 - It's roughly 5 meters from sidewalk to the sign, which is at the back edge of the lawn.
 - From the sidewalk to the building facade it's about 7m to the steps or the facade.
 
 ![googlemaps_2D-measurements](images/googlemaps_2D-measurements.png)
-
-
-
-
-.
-
-
-
-**Think about where you and your viewers will likely stand to view the artwork.** 
-- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
-- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
 
 .
 
