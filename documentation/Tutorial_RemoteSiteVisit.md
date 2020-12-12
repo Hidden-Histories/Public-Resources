@@ -38,7 +38,6 @@ You need space for your AR. The lawn to the right is pretty full, but the lawn t
 - There would be plenty of space on the left lawn to put 3D AR content with SLAM - if they keep their lawn mown, so that the app perceives the lawn as a flat plane.
 - With image trigger:
   - Perhap the sign, or the front porches with their details could be used as image triggers. 
-  - Perhaps you could also use the front of the building, with the steps or porch.
   - As always, plants and cast shadows could give you problems - but try it and see if it works at different times of the day.
 
 .
