@@ -34,11 +34,14 @@ This is your best way to make a visualization of what your artwork could look li
 ### Use these images to plan your AR experience
 
 You need space for your AR. The lawn to the right is pretty full, but the lawn to the left is open.
-- There would be space enough on the left lawn to put AR content with SLAM
-- Perhaps you could also use the front of the building, with the steps or porch.
-- Perhap the sign, or the front porches with their details could be used as image triggers.
-- Geolocative would also be fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
+- Geolocative is of course fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
+- There would be plenty of space on the left lawn to put 3D AR content with SLAM - it they keep their lawn mown, so that the app perceives the lawn as a flat plane.
+- With image trigger:
+  - Perhap the sign, or the front porches with their details could be used as image triggers. 
+  - Perhaps you could also use the front of the building, with the steps or porch.
+  - As always, plants and cast shadows could give you problems - but try it and see if it works at different times of the day.
 
+.
 ## Use Google Maps to measure the site
 
 So how far back is that sign, or the stairs? You can use Google Maps to roughly measure that distance. Later, we'll use that measurement to select a site near you to use for your simulation.
