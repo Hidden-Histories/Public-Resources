@@ -18,8 +18,17 @@ NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an exam
 
 ![googlemaps_SatelliteIcon-ScaleBar](images/googlemaps_SatelliteIcon-ScaleBar.png)
 
-This lets you look at the site in a number of ways. Zoom in so you are centered on the building or site of interest, but can still see the sidewalk, street, surrounding buildings etc. I make tons of screenshots at this point!
+This lets you look at the site in a number of ways. Zoom in so you are centered on the building or site of interest, but can still see the sidewalk, street, surrounding buildings etc. 
+- Think about where you and your viewers will likely stand to view the artwork. With the Issei Memorial Building, I would say on the sidewalk, to the right or left of the pathway to the building.
+- Click on the 3D button to get a bird's eye view of the 3D modeling.
+- Use the arrows to the sides of the compass to rotate large amounts - or better yet, Control+Left-Mouse-Drag (sorry, don't know on a Mac!) to rotate and tilt the view so you can really view the building from all sides.
 
-Use the map to decide where you and your viewers will likely stand to view the artwork.
+![googlemaps_rotate-3D-zoom](images/googlemaps_rotate-3D-zoom.png)
+
+
+
+I make tons of screenshots at this point!
+
+
 
 
