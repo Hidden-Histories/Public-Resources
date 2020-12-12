@@ -55,7 +55,7 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 
 Look at the red/white compass between the rotation arrows. 
 - If it's not pointing straight up, click on it so it is pointing due north.
-- Now you can see that 5th street does NOT run N - S. It is about at a 30° angle, running NW - SE.
+- Now you can see that 5th street does NOT run N - S (surprise!) It is about at a 30° angle, running NW - SE.
 
 ![googlemaps_rotate-3D-zoom](images/googlemaps_rotate-3D-zoom.png)
 
@@ -79,8 +79,22 @@ Now zoom in, rotate the view so you can see the front lawn of the building.
 
 An ideal location would be:
 - Right by your house, so you can run in and out to use your laptop, charge your batteries, etc.
-- With the same orientation as your site, so you could practice using the same orientation in your AR layer.
-- with the building about the same size and distance back from the sidewalk as your site building, so you can practice using the same distance between viewer and building - and the same amount of space in between.
+- The street running in the same orientation as your site, so you could practice using the same orientation in your AR layer.
+- With the building about the same size as your site building, in the case of the Issei Mem. Building, 2 stories.
+- With the building the same distance back from the sidewalk as your site building, so you can practice using the same distance between viewer and building - and the same amount of space in between.
+
+Go to your own house in Google Maps:
+- Zoom in until the scale bar is the same value as the scale bar in your images of your Japantown site. In the case above, this is 10 meters.
+- In my neighborhood the front yards are much smaller, and the streets tend to run NE - SW, instead of the opposite like in Japantown.
+- Since I know that with geolocative, I have to build 360° installations anyway, I won't worry about the orientation.
+- Well, the buildings here are 5 stories, not two! But I can think about that and just measure it by eye two stories up.
+- The depth between viewer standing point and the building facade is more critical, since that affects the relative scaling of my artworks with respect to the building.
+
+Finally I found a building in my neighborhood with a similarly sized front lawn.
+- Once I get my AR layer set up with a couple of POIs, I can go there and see how they look - remembering that the orientation is different, and that I have to pretend that the building is only 2 stories instead of 5.
+- I'll be much easier for you to find a suitable building, since the building styles will be more similar!
+
+![googlemaps_Munich-Measure](images/googlemaps_Munich-Measure.png)
 
 
 
