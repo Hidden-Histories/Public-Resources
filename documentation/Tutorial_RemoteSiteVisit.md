@@ -55,7 +55,7 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 
 Look at the red/white compass between the rotation arrows. 
 - If it's not pointing straight up, click on it so it is pointing due north.
-- Now you can see that 5th street does NOT run N - S. It is about at a 30° angle to the NW.
+- Now you can see that 5th street does NOT run N - S. It is about at a 30° angle, running NW - SE.
 
 ![googlemaps_rotate-3D-zoom](images/googlemaps_rotate-3D-zoom.png)
 
@@ -75,7 +75,12 @@ Now zoom in, rotate the view so you can see the front lawn of the building.
 ![googlemaps_2D-measurements](images/googlemaps_2D-measurements.png)
 
 .
-## Use this measurement to find a location similar to your site - but near your home base.
+## Find a location similar to your site - but near your home base.
+
+An ideal location would be:
+- Right by your house, so you can run in and out to use your laptop, charge your batteries, etc.
+- With the same orientation as your site, so you could practice using the same orientation in your AR layer.
+- with the building about the same size and distance back from the sidewalk as your site building, so you can practice using the same distance between viewer and building - and the same amount of space in between.
 
 
 
