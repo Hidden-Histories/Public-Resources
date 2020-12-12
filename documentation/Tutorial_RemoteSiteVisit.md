@@ -12,6 +12,23 @@ If you are creating an AR layer that is to be viewed at a very specific site, it
 
 NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an example. I am doing this on my Windows PC, and the commands and behavior of the websites might be different depending on what you are using.
 
+- Collect all the images you have of the site.
+- Go on the Internet, collect all the good-looking images you can find of the site.
+- Bigger is better - we'll use them to create mock-ups of your artwork on site.
+
+Here's a nice one from the JACL website:
+
+![JACL-IsseiMemBldg_c](images/JACL-IsseiMemBldg_c.png)
+
+USE IMAGES LIKE THIS TO MAKE PHOTOSHOP MOCKUPS OF YOUR ARTWORK!
+
+This is your best way to make a visualization of what your artwork could look like - not just to communicate your idea to other people, but even to communicate with yourself. If your screenshots of your AR layer on site don't look as good as your visualization does, you can use that to figure out how to make the AR layer better! ;-)
+
+- **Think about where you and your viewers will likely stand to view the artwork.** 
+- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
+- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
+
+
 ## Use Google Maps to get familiar with the site
 
 I'll give basic directions, but here is the [Google Maps support page](https://support.google.com/maps/answer/144349).
@@ -37,13 +54,20 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 
 ![googlemaps_3Dview1](images/googlemaps_3Dview1.png)
 
-- **Think about where you and your viewers will likely stand to view the artwork.** 
-- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
-
-- Notice the little yellow figure in the lower right hand corner - click and drag it onto the map to go into Google Street View, to get a good photographic view of the building.
+Notice the little yellow figure in the lower right hand corner:
+- Click and drag it onto a street on the googlemap to go into Google Street View.
+- This gives you a panoramic photographic view of the building.
 
 ## Use Google Maps Street View to get familiar with the site
 
+This is a great way to get photos showing your site! Take screenshots and save for making mockups later.
+
+- Use the +/- buttons on the right hand side to zoom in and out (or on Windows, the mouse wheel)
+- NOTE: If you zoom out a lot, you will go back out to 3D satellite map view.
+
+This is a good way to think about 
+
+![googlemaps_StreetViewDetail](images/googlemaps_StreetViewDetail.png)
 
 
 ## Use Google Maps to get familiar with the site
