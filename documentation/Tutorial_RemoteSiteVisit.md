@@ -51,24 +51,33 @@ If I were you, I'd make tons of screenshots as documentation during the process 
 
 This lets you look at the site in a number of ways. **Zoom in** (with the **+/- buttons**, or with mouse wheel) so you are centered on the building or site of interest, but can still see the sidewalk, street, surrounding buildings etc. 
 
+#### Note the orientation of your site
+
+Look at the red/white compass between the rotation arrows. 
+- If it's not pointing straight up, click on it so it is pointing due north.
+- Now you can see that 5th street does NOT run N - S. It is about at a 30° angle to the NW.
+
 ![googlemaps_rotate-3D-zoom](images/googlemaps_rotate-3D-zoom.png)
 
 .
 
 Now zoom in, rotate the view so you can see the front lawn of the building.
 
-####Think about where you and your viewers will likely stand to view the artwork.
+#### Think about where you and your viewers will likely stand to view the artwork.
 - With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
 - This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
 
 #### Use that scale bar to measure the distances
-between a viewer standing on the sidewalk, and the sign or the front of the building.
+
 - It's roughly 5 meters from sidewalk to the sign, which is at the back edge of the lawn.
 - From the sidewalk to the building facade it's about 7m to the steps or the facade.
 
 ![googlemaps_2D-measurements](images/googlemaps_2D-measurements.png)
 
 .
+## Use this measurement to find a location similar to your site - but near your home base.
+
+
 
 ## Use Google Maps 3D and Street View to get more familiar with the site
 
