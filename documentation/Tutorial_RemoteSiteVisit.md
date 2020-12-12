@@ -96,7 +96,7 @@ Finally I found a building in my neighborhood with a similarly sized front lawn.
 
 ![googlemaps_Munich-Measure](images/googlemaps_Munich-Measure.png)
 
-
+.
 
 ## Use Google Maps 3D and Street View to get more familiar with the site
 
@@ -116,7 +116,7 @@ This is a great way to get photos showing your site! Take screenshots and save f
 - Use the +/- buttons on the right hand side to zoom in and out (or on Windows, the mouse wheel)
 - NOTE: If you zoom out a lot, you will go back out to 3D satellite map view.
 
-This is a good way to think about 
+.
 
 ![googlemaps_StreetViewDetail](images/googlemaps_StreetViewDetail.png)
 
