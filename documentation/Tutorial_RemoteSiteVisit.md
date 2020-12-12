@@ -10,20 +10,23 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 If you are creating an AR layer that is to be viewed at a very specific site, it is important to understand the physical site itself. Even if you think you know and understand the site, **collect images** and look at the **satellite images of the site on google maps** to get some real information on it.
 
-NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an example. I am doing this on my Windows PC, and the commands and behavior of the websites might be different depending on what you are using.
+## Create visualizations of your artwork on site in Photoshop
 
-- Collect all the images you have of the site.
+NOTE: I will use the **Issei Building** in San Jose Japantown as an example. I am doing this on my Windows PC, and the commands and behavior of the websites might be different depending on what you are using.
+
+- Collect all the images you have of the site (and ask everybody else if they have good ones too.)
 - Go on the Internet, collect all the good-looking images you can find of the site.
-- Bigger is better - we'll use them to create mock-ups of your artwork on site.
-
-Here's a nice one from the JACL website:
-
-![JACL-IsseiMemBldg_c](images/JACL-IsseiMemBldg_c.png)
 
 USE IMAGES LIKE THIS TO MAKE PHOTOSHOP MOCKUPS OF YOUR ARTWORK!
 
+Here's an image I stole off the JACL website:
+
+![JACL-IsseiMemBldg-Kini](images/JACL-IsseiMemBldg-Kini.png)
+
+.
 This is your best way to make a visualization of what your artwork could look like - not just to communicate your idea to other people, but even to communicate with yourself. If your screenshots of your AR layer on site don't look as good as your visualization does, you can use that to figure out how to make the AR layer better! ;-)
 
+.
 - **Think about where you and your viewers will likely stand to view the artwork.** 
 - With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
 - This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
