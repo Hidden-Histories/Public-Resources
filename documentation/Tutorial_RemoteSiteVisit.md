@@ -11,8 +11,9 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 These are the steps I go through **before** going to a new site to test out a new AR layer. Right now in the corona lockdown it's even harder to get to the sites in Japantown, if you live far away. Do as much as possible before you go, to make the best use of your time there on site.
 
 If you are creating an AR layer that is to be viewed at a very specific site, it is important to understand the physical site itself. Even if you think you "know" the site:
-- **collect images** and create mockup visualizations of your artwork with photos of the site, and 
-- examine the **satellite images of the site on google maps** to understand the site better.
+- **Collect images** and create mockup visualizations of your artwork with photos of the site. 
+- Examine the **satellite images of the site on google maps** to understand the site better.
+- Use this information to find a somewhat comparable site near where you live, so you can simulate your new AR layer at home as much as possible, before you make the time consuming trek in to Japantown.
 
 .
 
