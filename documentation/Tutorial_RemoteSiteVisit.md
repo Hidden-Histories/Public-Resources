@@ -27,7 +27,11 @@ This is your best way to make a visualization of what your artwork could look li
 
 ### Use these images to plan your AR experience
 
-
+You need space for your AR. The lawn to the right is pretty full, but the lawn to the left is open.
+- There would be space enough on the left lawn to put AR content with SLAM
+- Perhaps you could also use the front of the building, with the steps or porch.
+- Perhap the sign, or the front porches with their details could be used as image triggers.
+- Geolocative would also be fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
 
 ## Use Google Maps to get familiar with the site
 
@@ -40,7 +44,6 @@ I would make tons of screenshots as documentation during the process described b
 - Click on the **satellite** inset to switch to satellite view.
 
 ![googlemaps_SatelliteIcon-ScaleBar](images/googlemaps_SatelliteIcon-ScaleBar.png)
-
 
 .
 
