@@ -35,12 +35,12 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 - Click on the **3D** button to get a bird's eye view of the 3D model of the site.
 - Use the **arrows** to the sides of the compass to **rotate** large amounts - or better yet, **Control+Left-Mouse-Drag** (sorry, don't know on a Mac!) to rotate and tilt the view so you can really view the building from all sides.
 
-![googlemaps_3Dview](images/googlemaps_3Dview.png)
+![googlemaps_3Dview1](images/googlemaps_3Dview1.png)
 
 - **Think about where you and your viewers will likely stand to view the artwork.** 
 - With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
 
-
+- Notice the little yellow figure in the lower right hand corner - click and drag it onto the map to go into Google Street View, to get a good photographic view of the building.
 
 ## Use Google Maps Street View to get familiar with the site
 
