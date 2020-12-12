@@ -35,7 +35,7 @@ This is your best way to make a visualization of what your artwork could look li
 
 You need space for your AR. The lawn to the right is pretty full, but the lawn to the left is open.
 - Geolocative is of course fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
-- There would be plenty of space on the left lawn to put 3D AR content with SLAM - it they keep their lawn mown, so that the app perceives the lawn as a flat plane.
+- There would be plenty of space on the left lawn to put 3D AR content with SLAM - if they keep their lawn mown, so that the app perceives the lawn as a flat plane.
 - With image trigger:
   - Perhap the sign, or the front porches with their details could be used as image triggers. 
   - Perhaps you could also use the front of the building, with the steps or porch.
