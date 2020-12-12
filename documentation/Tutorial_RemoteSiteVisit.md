@@ -132,8 +132,9 @@ This is a great way to get photos showing your site! Take screenshots and save f
 - NOTE: If you zoom out a lot, you will go back out to 3D satellite map view.
 
 .
-
 ![googlemaps_StreetViewDetail](images/googlemaps_StreetViewDetail.png)
+
+.
 
 ## Visting the Real Site
 
