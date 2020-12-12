@@ -107,13 +107,13 @@ Go to your own house in Google Maps:
 
 Finally I found a building in my neighborhood with a similarly sized front lawn.
 - Once I get my AR layer set up with a couple of POIs, I can go there and see how they look - remembering that the orientation is different, and that I have to pretend that the building is only 2 stories instead of 5.
-- I'll be much easier for you to find a suitable building, since the building styles will be more similar!
+- It'll be much easier for you to find a suitable building, since the building styles will be more similar!
 
 ![googlemaps_Munich-Measure](images/googlemaps_Munich-Measure.png)
 
 .
 
-## Use Google Maps 3D and Street View to get more familiar with the site
+## Use Google Maps 3D and Street View to get even more familiar with the site
 
 - Click on the **3D** button to get a bird's eye view of the 3D model of the site.
 - Use the **arrows** to the sides of the compass to **rotate** large amounts - or better yet, **Control+Left-Mouse-Drag** (sorry, don't know on a Mac!) to rotate and tilt the view so you can really view the building from all sides.
@@ -134,5 +134,19 @@ This is a great way to get photos showing your site! Take screenshots and save f
 .
 
 ![googlemaps_StreetViewDetail](images/googlemaps_StreetViewDetail.png)
+
+## Visting the Real Site
+
+Now, when you finally go to your site, you'll have tested out your layer as much as possible at home, at a site that has some spatial simularities with your real site.
+
+We have built porPOIse so you can stand directly at the real site, make changes in the positioning of your POIs and see the results immediately in your app layer.
+
+If you have a tablet or a small laptop, that is the ideal device with which to edit your layers on site. (You can also use a smartphone, but it much more difficult to edit the porPOIse form in a tiny display!)
+- If your tablet has a **mobile network chip,** that's all you need. 
+- Otherwise, if it has only wifi or if you only have a laptop, set up a **wifi hot spot on your smartphone** and access the Internet that way. (Setting up a wifi hot spot on your phone is different for every device - check in the Internet!)
+- **Make sure you have the URL of your porPOIse account with you - AND your password!**
+- On site, log in to your porPOIse account as always, make changes in porPOIse, SAVE, then view in the app.
+
+
 
 
