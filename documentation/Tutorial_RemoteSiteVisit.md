@@ -19,7 +19,7 @@ NOTE: I will use the **Issei Building** in San Jose Japantown as an example. I a
 
 ### USE IMAGES LIKE THIS TO MAKE PHOTOSHOP MOCKUPS OF YOUR ARTWORK!
 
-Here's an image I stole off the JACL website:
+Here's an image I stole off the JACL website (no, the Kini never visited there ...):
 
 ![JACL-IsseiMemBldg-Kini](images/JACL-IsseiMemBldg-Kini.png)
 
@@ -27,9 +27,6 @@ This is your best way to make a visualization of what your artwork could look li
 
 ### Use these images to plan your AR experience
 
-- **Think about where you and your viewers will likely stand to view the artwork.** 
-- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
-- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
 
 
 ## Use Google Maps to get familiar with the site
@@ -57,11 +54,16 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 
 ![googlemaps_3Dview1](images/googlemaps_3Dview1.png)
 
-Notice the little yellow figure in the lower right hand corner:
-- Click and drag it onto a street on the googlemap to go into Google Street View.
-- This gives you a panoramic photographic view of the building.
+
+**Think about where you and your viewers will likely stand to view the artwork.** 
+- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
+- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
 
 ## Use Google Maps Street View to get familiar with the site
+
+Notice the little yellow figure in the lower right hand corner of the above image:
+- Click and drag it onto a street on the googlemap to go into Google Street View.
+- This gives you a panoramic photographic view of the building.
 
 This is a great way to get photos showing your site! Take screenshots and save for making mockups later.
 
