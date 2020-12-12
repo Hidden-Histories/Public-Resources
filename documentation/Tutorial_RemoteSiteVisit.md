@@ -34,21 +34,24 @@ This is your best way to make a visualization of what your artwork could look li
 
 ### Use these images to plan your AR experience
 
-#### You need space for your AR. 
+#### Where should the artwork go?
 
-The lawn to the right is pretty full, but the lawn to the left is open.
-- Geolocative is of course fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
+- You need space for your AR. The lawn to the right is pretty full with the ramp, but the lawn to the left is open.
+- Geolocative will of course work fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
 - There would be plenty of space on the left lawn to put 3D AR content with SLAM - if they keep their lawn mown, so that the app perceives the lawn as a flat plane.
 - With image trigger:
   - Perhap the sign, or the front porches with their details could be used as image triggers. 
   - As always, plants and cast shadows could give you problems - but try it and see if it works at different times of the day.
+  - This images gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
 
+#### Where should your viewers stand?
 
-#### Think about where you and your viewers will likely stand to view the artwork.
-- With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
-- This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
+- They'll get mad at you if you trample their lawn, or block their pathway!
+- So here I would say on the sidewalk in front of the left lawn.
+- Also, when we look at the site on Google Maps, you'll see that on the right a tree will create a bottleneck, if viewers are standing here and pedestrians need to get past.
 
 .
+
 ## Use Google Maps to measure the site
 
 So how far back is that sign, or the stairs? You can use Google Maps to roughly measure that distance. Later, we'll use that measurement to select a site near you to use for your simulation.
