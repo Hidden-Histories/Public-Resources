@@ -17,16 +17,16 @@ NOTE: I will use the **Issei Building** in San Jose Japantown as an example. I a
 - Collect all the images you have of the site (and ask everybody else if they have good ones too.)
 - Go on the Internet, collect all the good-looking images you can find of the site.
 
-USE IMAGES LIKE THIS TO MAKE PHOTOSHOP MOCKUPS OF YOUR ARTWORK!
+### USE IMAGES LIKE THIS TO MAKE PHOTOSHOP MOCKUPS OF YOUR ARTWORK!
 
 Here's an image I stole off the JACL website:
 
 ![JACL-IsseiMemBldg-Kini](images/JACL-IsseiMemBldg-Kini.png)
 
-.
 This is your best way to make a visualization of what your artwork could look like - not just to communicate your idea to other people, but even to communicate with yourself. If your screenshots of your AR layer on site don't look as good as your visualization does, you can use that to figure out how to make the AR layer better! ;-)
 
-.
+### Use these images to plan your AR experience
+
 - **Think about where you and your viewers will likely stand to view the artwork.** 
 - With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
 - This also gives a nice clear view of the sign and of at least the steps and front doorway. Maybe we can cut out one or both as trigger images for our AR layer?
