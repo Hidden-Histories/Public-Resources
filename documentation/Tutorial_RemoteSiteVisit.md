@@ -12,7 +12,9 @@ If you are creating an AR layer that is to be viewed at a very specific site, it
 
 NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an example. I am doing this on my Windows PC, and the commands and behavior of the websites might be different depending on what you are using.
 
-## Use Google Maps to get familiar with the site, and measure distances
+## Use Google Maps to get familiar with the site
+
+I make tons of screenshots at this point!
 
 - Go to [Google Maps](https://www.google.com/maps) in your browser and search for your site.
 - Note the **scale bar** - we will need this!
@@ -36,8 +38,11 @@ This lets you look at the site in a number of ways. **Zoom in** (with the **+/- 
 - **Think about where you and your viewers will likely stand to view the artwork.** 
 - With the Issei Memorial Building, I would say on the sidewalk to the left of the pathway to the building - on the right the tree will turn the sidewalk into a bottleneck, if viewers are standing here and pedestrians need to get past.
 
-I make tons of screenshots at this point!
+
+
+## Use Google Maps Street View to get familiar with the site
 
 
 
+## Use Google Maps to get familiar with the site
 
