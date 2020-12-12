@@ -33,11 +33,13 @@ You need space for your AR. The lawn to the right is pretty full, but the lawn t
 - Perhap the sign, or the front porches with their details could be used as image triggers.
 - Geolocative would also be fine - if you're OK doing a 360° installation, since some of it will be behind you, whether you like it or not!
 
-## Use Google Maps to get familiar with the site
+## Use Google Maps to measure the site
 
-I'll give basic directions, but here is the [Google Maps support page](https://support.google.com/maps/answer/144349).
+So how far back is that sign, or the stairs? You can use Google Maps to roughly measure that distance. Later, we'll use that measurement to select a site near you to use for your simulation.
 
-I would make tons of screenshots as documentation during the process described below!
+I'll give basic directions on how to use Google Maps, but here is the [Google Maps support page](https://support.google.com/maps/answer/144349).
+
+If I were you, I'd make tons of screenshots as documentation during the process described below!
 
 - Go to [Google Maps](https://www.google.com/maps) in your browser and search for your site.
 - Note the **scale bar** - we will need this!
@@ -50,6 +52,13 @@ I would make tons of screenshots as documentation during the process described b
 This lets you look at the site in a number of ways. **Zoom in** (with the **+/- buttons**, or with mouse wheel) so you are centered on the building or site of interest, but can still see the sidewalk, street, surrounding buildings etc. 
 
 ![googlemaps_rotate-3D-zoom](images/googlemaps_rotate-3D-zoom.png)
+
+Now zoom in and use that scale bar to measure the distance between a viewer standing on the sidewalk, and the sign or the front of the building.
+
+![googlemaps_2D-measurements](images/googlemaps_2D-measurements.png)
+
+
+
 
 .
 - Click on the **3D** button to get a bird's eye view of the 3D model of the site.
@@ -76,6 +85,7 @@ This is a great way to get photos showing your site! Take screenshots and save f
 This is a good way to think about 
 
 ![googlemaps_StreetViewDetail](images/googlemaps_StreetViewDetail.png)
+
 
 
 ## Use Google Maps to get familiar with the site
