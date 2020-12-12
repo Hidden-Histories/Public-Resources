@@ -18,6 +18,8 @@ NOTE: I will use the JACL in the Issei Building in San Jose Japantown as an exam
 
 ![googlemaps_SatelliteIcon-ScaleBar](images/googlemaps_SatelliteIcon-ScaleBar.png)
 
+This lets you look at the site in a number of ways. Zoom in so you are centered on the building or site of interest, but can still see the sidewalk, street, surrounding buildings etc. I make tons of screenshots at this point!
 
+Use the map to decide where you and your viewers will likely stand to view the artwork.
 
 
