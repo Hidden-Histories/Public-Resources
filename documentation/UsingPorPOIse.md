@@ -35,7 +35,7 @@ A set of these POIs defined in the porPOIse web interface define a layer, that i
 
 Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
 
-(Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page for links to tutorials on adding new **assets** (2d images, 3D models, sounds, etc.) to your layer.)
+(Once you understand this tutorial on how to use porPOIse to set up and modify your layer, the [**Next Steps**](#next-steps) section at the bottom of this page has links to tutorials on how to create and add your own new **assets** (2d images, 3D models, sounds, etc.) to your layer.)
 
 #### Then simulate the experience of your layer at home:
 
@@ -43,7 +43,9 @@ The tutorial [**Remote Site Visit and Simulation**](https://github.com/Hidden-Hi
 
 #### Refining your layers once they are moved to Japantown:
 
-- When your layer is ready for testing, both you and the admin will need to move it to the desired location in Japantown: first the admin has to change the position in the ARpoise directory registry, and then you need to change the positions of the POIs in your own porPOIse account. 
+- When your layer is ready for testing, both you and the admin will need to move it to the desired location in Japantown: 
+- first the admin has to change the position in the ARpoise directory registry, 
+- then you need to change the positions of the POIs in your own porPOIse account. 
 
 - Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#exercise2-remote-viewing-of-brush-the-sky-in-san-jose-japantown), as you already learned in the [Using ARpoise App: Remote Viewing with Fixed Position](UsingARpoiseApp.md#-hidden-histories) tutorial.
 
@@ -67,7 +69,7 @@ In the exercises below, remember that in order to see any changes you make in po
   
 
 . 
-## Log in to your porPOIse account
+## Let's get started! Log in to your porPOIse account
 
 Log in to your porPOIse account in a web browser on your PC. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
 
