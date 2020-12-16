@@ -69,7 +69,8 @@ In the exercises below, remember that in order to see any changes you make in po
   
 
 . 
-## Let's get started! Log in to your porPOIse account
+## Let's get started! 
+## Log in to your porPOIse account
 
 Log in to your porPOIse account in a web browser on your PC. The URL to access it has the form below, but replace ExampleArtist with the porPOIse account name that the admin created for you. (no blanks!):
 
@@ -89,7 +90,7 @@ Click on the name of your example layer to open it for editing.
 . 
 ## porPOIse Layer Configuration
 
-The layer configuration holds settings that apply to the entire layer. Please leave these settings at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories). Yes, we know the map covers some settings, but they shouldn't be changed anyway! ;-)
+The layer configuration holds settings that apply to the entire layer. Please leave these settings at the default values [(as described in the layer configuration reference)](UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories).
 
 Beneath the settings menu is a list of all the POIs that make up the AR experience of that layer. 
 
@@ -267,6 +268,12 @@ The **artist** then defines in **porPOIse**:
 .
 
 ## Next Steps
+
+### Advanced properties in porPOIse
+
+**Animation:** For more details see the [**Animation** section in the **PorPOIse_Reference**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation//UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings).
+
+
 
 ### Creating new content for your layers:
 
