@@ -273,7 +273,9 @@ The **artist** then defines in **porPOIse**:
 
 **Animation:** For more details see the [**Animation** section in the **PorPOIse_Reference**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation//UsingPorPOIse_REF-Layer-POI-Properties.md#animation-settings).
 
+**Sound:** For more details see the [**Sound** section in the **PorPOIse_Reference**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation//UsingPorPOIse_REF-Layer-POI-Properties.md#notes-on-sound-in-porpoise-and-unity)
 
+.
 
 ### Creating new content for your layers:
 
