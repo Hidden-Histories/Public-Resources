@@ -60,25 +60,23 @@ We expect to merge the two client apps at some time when the older smartphones b
 
 If you haven't already, please go through the following tutorials to see how to use the ARpoise and AR-vos apps to view AR artworks:
 - [**Using the ARpoise App**](UsingARpoiseApp.md#-hidden-histories-artists-overview) to understand geolocative augmented reality artworks.
-- [**Using the AR-vos App**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md) to understand image trigger augmented reality artworks. (If your smartphone doesn't work with AR-vos don't worry, just use the ARpoise app.)
+- [**Using the AR-vos App**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md) to understand image trigger and SLAM augmented reality artworks. (If your smartphone doesn't work with AR-vos don't worry, just use the ARpoise app.)
 
 ### First Steps: make sure you can view your own example layers!
 
 In order to work with your own augments on the ARpoise and AR-vos apps, you should already have the following. If you don't, please contact the Hidden Histories administrator. 
 
-- The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise and AR-vos apps.
+- The Hidden Histories administrator should have set up a **ARpoise porPOIse user account** for you, and you should be able to log in to it in a web browser. This is the user interface for setting up and editing your AR experiences ("layers") so that they can be accessed by the ARpoise and AR-vos apps.
 
 - You should be able to view the **example layer** and the initially identical **artist layer** that the admin set up for you in porPOIse. They should be geolocated at your "home base" (where you are likely to work on them most of the time) so when you are there, you see them immediately when you open up the ARpoise app. When you are at some other location, you can still work on them using the [Fixed Position feature described in the ARpoise app tutorial](UsingARpoiseApp.md#exercise1-remote-viewing-with-arpoises-fixed-position-feature).
 
 ### Next Steps: learn how to adjust those layers, and create your own content
 
-NOTE: An **asset**  is a digital file that is one of several components that are combined to create an augment layer. An asset could be a 3D model, a 2D images, a sound files, a video file etc. For visual diagrams of the entire process, see the images below.
-
 The tutorials link to each other in a specific order that should help you go progressively deeper into using ARpoise:
 
-1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use porPOIse. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
+1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use the porPOIse interface to the ARpoise system. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
-2. UNDER CONSTRUCTION **Unity 3D Editor:** Learn to put together your own assets  in the Unity3D Editor to construct the basics of your AR experience. 
+2. [**How to create your own AR artworks**](https://hiddenhistoriesjtown.org/documentation): see this topic on the Hidden Histories documentation page. This heading contains tutorials that show you how to use the **Unity 3D Editor** to put together your own assets (3D models, 2D images, sound files, video files etc.) in the Unity3D Editor to construct the **prefabs** - "prefabricated" content that you put together in porPOIse to create your AR experience. 
 
 3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account.
 
