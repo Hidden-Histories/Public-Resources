@@ -34,19 +34,19 @@ An **augment layer** (also called "layer" or "augment" in these tutorials) is a 
 
 ![Corinne's overview of viewing AR with ARpoise](images/hiddenhistories-ARviewingWorkflow_v3b1_1024w.png)
 
-**Why TWO apps???** Due to a change in smartphone hardware that is slowing happening right now, there are currently two apps, ARpoise that works on pretty much all phones, and AR-vos that is more restrictive but also has more functionality. We are asking you to tell us what make and model smartphone you have, so we can see if we can just use the more advanced one, AR-vos. But we will start with the ARpoise geolocative app, and everything you learn applies exactly to the AR-vos app as well.
+**Why TWO apps???** Due to a change in smartphone hardware that is slowing happening right now, there are currently two apps, ARpoise that works on pretty much all phones, and AR-vos that is more restrictive but also has more functionality. These tutorials start with geolocative AR on the ARpoise app, but geolocative AR works exactly the same on the AR-vos app as well.
 
 We expect to merge the two client apps at some time when the older smartphones become defunct. 
 
 - The **ARpoise app** is a geolocative AR app that runs on most available iOS and Android smartphones. 
-  - **Geolocative** augments are placed in the real world using GPS coordinates and seem to float around in space. Any AR artworks developed for this app can also run on the newer AR-vos app. 
+  - [**Geolocative**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#geolocative-ar-in-ar-vos-app-and-arpoise-app) augments are placed in the real world using GPS coordinates and seem to float around in space. Any AR artworks developed for this app can also run on the newer AR-vos app. 
   - The **ARpoise app can be downloaded** here from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARpoise) Store and the Apple [App Store](https://itunes.apple.com/de/app/arpoise/id1451460843).
 
 - The **AR-vos app** provides geolocative, image trigger and SLAM AR functionality. 
 
-  - **Image trigger AR** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. The functionality will be extended to the newer SLAM functionality (Simultaneous Localization and Mapping) that automatically on the fly creates a 3D model of your surroundings in the smartphone and places augments in this space. 
+  - **Image trigger AR** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images.
   
-  - **SLAM based AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
+  - **SLAM AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
 
   - The **AR-vos app can be downloaded** here from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444).
   
