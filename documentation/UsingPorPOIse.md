@@ -11,13 +11,13 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 Whether you create your own digital assets for your AR artwork, or work together with a helper to turn your drawings, sculptures or videos into digital assets, it is easy to "choreograph" them together into your AR experience in porPOIse. This is a web-based interface that allows you to edit and adjust your own AR experience either while working from your home base, or standing at your artwork site in Japantown.
 
-This tutorial gives you the basics for working with **geolocative AR,** which works on both the **ARpoise app** and the **AR-vos app** in exactly the same way. A subsequent tutorial will cover the image trigger and SLAM AR that can only be done by the AR-vos app.
+This tutorial gives you the basics for working with **geolocative AR,** which works on both the **ARpoise app** and the **AR-vos app** in exactly the same way. The tutorial **Using porPOIse: Set up and modify AR-vos app layers** covers the additional image trigger and SLAM functionaltiy that can be done only in the AR-vos app.
 
 ### Some terminology ([See also Glossary of Terms >>>](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#-hidden-histories-artists)):
 
-- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single location in the real world can have multiple layers at exactly the same site, each of them a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
+- **Layer:** An ARpoise "layer" is an individual AR experience or project. A single site in the real world can have multiple layers at exactly the same place, each of them in a separate AR layer. (This is like a channel on your TV or YouTube - you look at them in the same place, but they are completely separate programs.) When you stand at that site, the ARpoise and AR-vos apps will show you a list of layers available for you there.
 
-- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. For the Hidden History layers this is about 200 meters (1/2 city block) around your "home base." For the final project, the admin will move your layer to a location in San Jose Japantown.
+- **Geofencing:** This term means to restrict the physical part of the world in which a layer can be viewed in the ARpoise app. For the final Hidden History layers, this will be about 200 meters (1/2 city block) around the site chosen for your artwork. For development purposes however, under coronavirus restrictions, the admin has set your layers at your home base, and set the geofencing to a very generous mile radius surrounding your base, so you can test your layers in your neighborhood.
 
 When you look at an ARpoise layer, you might see for instance colored or textured 3D objects that are positioned at a particular GPS location, are interactive, are animated, have sound, etc. This AR experience is composed of:
 
@@ -25,10 +25,10 @@ When you look at an ARpoise layer, you might see for instance colored or texture
 - **Prefabs:** You package these assets (using the Unity3D Editor) into "prefabricated objects" or prefabs.
 - **POIs:** You use porPOIse to define a POI (Point Of Interest), essentially a webform in your layer, that links to the prefab and declares its **settings:** GPS location, any interactivity or animations it has, etc.
 
-A set of these POIs defined in the porPOIse webpage for a layer then create the AR experience you see when you view the layer. It'll all become more clear when you start modifying them yourself below!
+A set of these POIs defined in the porPOIse web interface define a layer, that is the AR experience you see when you view that layer in the ARpoise or AR-vos app. It'll all become more clear when you start modifying them yourself below!
 
 .
-### Workflow: Create site specific works in Japantown during Coronavirus lockdowns!
+### Workflow: Create site specific works for Japantown during Coronavirus lockdowns!
 (see below for details on *how* to do all of this!):
 
 #### Do the initial work at home:
@@ -37,9 +37,13 @@ A set of these POIs defined in the porPOIse webpage for a layer then create the 
 
 - Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page for links to tutorials on adding new **assets** (2d images, 3D models, sounds, etc.) to your layer.
 
+### Simulate the experience of your layer at home:
+
+If it is difficult to go to Japantown to test your layers, follow our tutorial [**Remote Site Visit and Simulation**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/Tutorial_RemoteSiteVisit.md#-hidden-histories) to understand how to analyze your site, and do as much preparation as possible before actually going there.
+
 #### Refining your layers once they are moved to Japantown:
 
-- When your layer is ready for testing, both you and the admin will need to move it to the desired location in Japantown: first they have to change the position in the ARpoise directory registry, and then you need to change the position in your own porPOIse account. 
+- When your layer is ready for testing, both you and the admin will need to move it to the desired location in Japantown: first the admin has to change the position in the ARpoise directory registry, and then you need to change the positions of the POIs in your own porPOIse account. 
 
 - Once your layer is positioned in Japantown, you can still change and test it from home using [remote testing with Fixed Location](UsingARpoiseApp.md#exercise2-remote-viewing-of-brush-the-sky-in-san-jose-japantown), as you already learned in the [Using ARpoise App: Remote Viewing with Fixed Position](UsingARpoiseApp.md#-hidden-histories) tutorial.
 
