@@ -31,15 +31,15 @@ A set of these POIs defined in the porPOIse web interface define a layer, that i
 ### Workflow: Create site specific works for Japantown during Coronavirus lockdowns!
 (see below for details on *how* to do all of this!):
 
-#### Do the initial work at home:
+#### First do initial set up of some assets at home:
 
-- Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
+Due to the coronavirus lockdown, we have positioned and geofenced your layers **at your home base,** so you can do the main work of **setting up, modifying and testing** your layer in porPOIse there on your PC. 
 
-- Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page for links to tutorials on adding new **assets** (2d images, 3D models, sounds, etc.) to your layer.
+(Once you understand this tutorial on how to use porPOIse to set up and modify your layer, go to the [**Next Steps**](#next-steps) section at the bottom of this page for links to tutorials on adding new **assets** (2d images, 3D models, sounds, etc.) to your layer.)
 
-### Simulate the experience of your layer at home:
+#### Then simulate the experience of your layer at home:
 
-If it is difficult to go to Japantown to test your layers, follow our tutorial [**Remote Site Visit and Simulation**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/Tutorial_RemoteSiteVisit.md#-hidden-histories) to understand how to analyze your site, and do as much preparation as possible before actually going there.
+The tutorial [**Remote Site Visit and Simulation**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/Tutorial_RemoteSiteVisit.md#-hidden-histories) tells you how to analyze your site, via photos and Google Maps, so you can develop a strategy of how your AR experience should be placed and viewed on site. Especially if it is difficult for you to go to Japantown, this helps you do as much preparation as possible before actually going there.
 
 #### Refining your layers once they are moved to Japantown:
 
