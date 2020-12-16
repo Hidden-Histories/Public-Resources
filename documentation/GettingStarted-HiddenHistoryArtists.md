@@ -76,15 +76,15 @@ The tutorials link to each other in a specific order that should help you go pro
 
 1. [**porPOIse tutorial**](UsingPorPOIse.md#-hidden-histories-artists): Modify your existing layers to learn how to use the porPOIse interface to the ARpoise system. (Due to coronavirus restrictions, we set up your example layers at your own home. Later, we will move them to their proper places in San Jose Japantown.)
 
-2. [**How to create your own AR artworks**](https://hiddenhistoriesjtown.org/documentation): see this topic on the Hidden Histories documentation page. This heading contains tutorials that show you how to use the **Unity 3D Editor** to put together your own assets (3D models, 2D images, sound files, video files etc.) in the Unity3D Editor to construct the **prefabs** - "prefabricated" content that you put together in porPOIse to create your AR experience. 
+2. [**How to create your own AR artworks**](https://hiddenhistoriesjtown.org/documentation): see this topic on the Hidden Histories documentation page. This section contains tutorials that show you how to use the **Unity 3D Editor** to put together your own **assets** (3D models, 2D images, sound files, video files etc.) in **prefabs** - "prefabricated" content that you then link to your porPOIse account to form the content of your AR experience. 
 
-3. [**AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export the assets in a Unity asset bundle and upload to your porPOIse account.
+3. [**Create AssetBundles:**](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md) Export these prefab assets into a Unity **asset bundle** and upload to your porPOIse account. The link to this online asset bundle in porPOIse is what tells ARpoise what content you want to use.
 
-4. Set up your final AR experience in porPOIse. Test, modify, repeat! ;-)
+4. Then set up your final AR experience in porPOIse. Test, modify, repeat! ;-)
 
 ### Overviews of the AR art creation process with the ARpoise platform:
 
-If you are not used to working in digital media, please ask the Hidden Histories coordinators for assistance. Below we list the steps of two pathways, one with assistance from a Hidden Histories helper, and the other if you can create all your own material and go through the entire process by yourself.
+If you are not used to working in digital media, please ask the Hidden Histories helpers for assistance. Below we show two pathways your can use: one with assistance from a Hidden Histories helper, and the other if you can create all your own material and go through the entire process by yourself.
 
 . 
 
