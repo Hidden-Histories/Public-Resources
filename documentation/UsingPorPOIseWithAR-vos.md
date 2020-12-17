@@ -23,7 +23,7 @@ This is covered by the tutorials on the [Hidden Histories documentation page](ht
 - All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
 - All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
 
-## Review: Differences between geolocative, image trigger and SLAM AR
+## Review: image trigger AR and SLAM AR
 
 - **Image trigger AR (only in AR-vos)** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
   - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
