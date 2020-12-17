@@ -5,7 +5,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 .
 
-# PorPOISe - create AR-vos image trigger and SLAM layers
+# PorPOISe - create AR-vos image trigger and SLAM
 
 ## Overview
 
@@ -61,8 +61,12 @@ Please open each layer in a separate window and arrange them side by side, as in
 ![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
 The only substantial difference is in the field **URL for trigger image.**
-- If it is empty, AR-vos treats this as a geolocative layer. If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
-- If that field contains the URL of a png or jpg that is viewable on the Internet, that image will be treated as the trigger image for this POI. Usually this image is 
+- If it is **empty, AR-vos treats this as a geolocative layer.** If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
+- If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
+- If the field contains the word **SLAM,** the layer is treated as a SLAM layer.
+
+So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe. Read on!
+
 
 
 If you're not sure which image you entered:
