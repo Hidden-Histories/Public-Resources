@@ -39,4 +39,8 @@ This is covered by the tutorials on the [Hidden Histories documentation page](ht
    
 **Geofencing:** all these forms of AR are restricted to a certain area. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
 
-## Overview
+## AR-vos layers in your porPOIse acccount
+
+We have now added three AR-vos layers to your porPOIse account. If you log in as you always have done to work on your ARpoise layers, you will see them immediately:
+
+
