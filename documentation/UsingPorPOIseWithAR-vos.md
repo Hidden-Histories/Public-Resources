@@ -56,9 +56,14 @@ Please open each layer in a separate window and arrange them side by side, as in
 
 .
 
--Now just click on a POI in each layer to open it in the same window.
+- Now just click on a POI in each layer to open it in the same window.
 
 ![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
+The only substantial difference is in the field **URL for trigger image.**
+- If it is empty, AR-vos treats this as a geolocative layer. If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
+- If that field contains the URL of a png or jpg that is viewable on the Internet, that image will be treated as the trigger image for this POI. Usually this image is 
 
 
+If you're not sure which image you entered:
+  - Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
