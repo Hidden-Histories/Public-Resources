@@ -34,9 +34,9 @@ This is covered by the tutorials on the [Hidden Histories documentation page](ht
 - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you might have to set up multiple POIs with different trigger images for the different lighting conditions.
 
 **SLAM AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
-- Right now the planes stay visible, and each time you touch any of the planes, another copy of your POI is placed at that location.
+- Right now the planes always stay visible, and each time you touch any of them, another copy of your POI is placed at that location.
 - We will be expanding your control of both the visibility of the planes and how often users can place copies of your POIs, but these updates will probably not come until February 2021 at the earliest.
    
-**Geofencing:** all these forms of AR can be restricted to a certain area if desired. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
+**Geofencing:** all these forms of AR are restricted to a certain area. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
 
 ## Overview
