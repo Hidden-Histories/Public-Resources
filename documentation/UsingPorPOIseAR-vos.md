@@ -11,7 +11,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 As we mentioned in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), AR-vos is a more advanced AR app that can do not only **geolocative AR,** but also **image trigger** and **SLAM AR.** 
 
-If you haven't used image trigger and SLAM recently in AR-vos, go through that tutorial so you understand how to use both types of AR.
+**If you haven't used image trigger and SLAM recently in AR-vos, PLEASE go through that tutorial so you understand how to use both types of AR.**
 
 You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app. If you need to practice, please see the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories).
 
