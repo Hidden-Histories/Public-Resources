@@ -13,15 +13,14 @@ This tutorial shows how to create image trigger and SLAM layers for the AR-vos a
 
 You can **download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
-If you haven't recently **viewed image trigger and SLAM in AR-vos, PLEASE go through this tutorial** so you understand how to use both types of AR: [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories).
+If you haven't recently **viewed image trigger and SLAM in AR-vos, PLEASE go through the tutorial** [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), so you understand how to use both types of AR.
 
 **NOTE:** 
 
 Additionally, before you do this tutorial, you should have already be comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
 - All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
 - All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
-- You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app. If you need to practice, please see the tutorial [Using porPOIse: Set up and modify ARpoise app layers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse.md#-hidden-histories).
-
+- You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.
 
 
 - **Image trigger AR (only in AR-vos)** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
@@ -33,8 +32,6 @@ Additionally, before you do this tutorial, you should have already be comfortabl
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
     
-- **Geolocative AR (in both the AR-vos app and the ARpoise app)** is a simpler technology that uses the GPS coordinates of the augments as the sole way to determine whether and where an augment is viewable. Due to the imprecision of civilian GPS systems in smartphones, the location and orientation of the augments can vary by +/- 20 meters. The AR-vos app can do geolocative AR as well as image trigger and SLAM. The ARpoise app can only do geolocative AR, but runs on a very large variety of older smartphones. We expect to merge the two client apps soon, as the older smartphones become defunct. 
-
-- **Geofencing:** all these forms of AR can be restricted to a certain area if desired. Therefore both the ARpoise app and the AR-vos app always check your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. We will change this default layer periodically.
+- **Geofencing:** all these forms of AR can be restricted to a certain area if desired. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
 
 ## Overview
