@@ -73,22 +73,22 @@ So actually, you could use any of the AR-vos layers to do any type of AR. We jus
 
 ## Creating an image trigger layer
 
-Go to the layer page for your own AR-vosImage layer. Note that it has two POIs in the POI list.
+Go to the layer page for your own AR-vosImage layer. Note that it has two POIs in the POI list right now. (You can of course add and delete and modify them as you wish.)
 
 Theoretically, you should be able to for instance have an exhibition of your paintings, and use each painting as a trigger for a different AR experience. That is: 
 - In each POI you would have linked a photograph of a different painting as a trigger in the field **URL for trigger image.**
 - Each **Prefab name** field would reference an AR experience specific to that corresponding painting. So each POI represents a different painting, and a different AR experience connected to that painting.
 - Then you should be able to keep the layer open as you go from one painting to another, and get the appropriate AR experience for each painting.
 
+![AR-vosImage_POI-list](images/AR-vosImage_POI-list.png)
+
+.
+
 Right now however, we have a bug: 
 - If you trigger one prefab AR experience from one trigger image, and then scan a different trigger image without closing the app in between, sometimes you get both the prefab for the first POI you scanned, as well as the second one you are scanning now. :-(
 - We hope to get rid of this bug, but it won't happen until February at the earliest. :-(
 
 So if this happens to you and you find it annoying, please just work on one POI at a time, and turn off the other ones by setting **Is visible** to **No.**
-
-
-![AR-vosImage_POI-list](images/AR-vosImage_POI-list.png)
-
 
 
 ![AR-vos_ZenPOI](images/AR-vos_ZenPOI.png)
