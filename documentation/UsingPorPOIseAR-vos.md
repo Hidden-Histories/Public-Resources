@@ -15,7 +15,7 @@ As we mentioned in the tutorial [Using the AR-vos App to view image trigger and 
 
 **If you haven't used image trigger and SLAM recently in AR-vos, PLEASE go through that tutorial so you understand how to use both types of AR.**
 
-**NOTE:** Before you do this tutorial, you should have already be comfortable creating **geolocative AR,** using the porPOIse user interface, with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
+**NOTE:** Before you do this tutorial, you should have already be comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
 - All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
 - All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
 
