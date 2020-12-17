@@ -9,10 +9,6 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-**NOTE:** Before you do this tutorial, you should have already be comfortable creating **geolocative AR,** using the porPOIse user interface, with the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
-- All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
-- All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
-
 **AR-vos** is an open source app that can do **geolocative**, **SLAM** and **image trigger** AR. It is part of the [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment)](http://arpoise.com/) open-source Augmented Reality platform.
 
 **Download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
