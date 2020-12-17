@@ -45,16 +45,20 @@ We have now added three AR-vos layers to your porPOIse account. If you log in as
 - **These new layers are **only** visible in the AR-vos app!**
 - The older layers - without "AR-vos" in the name - are only visible in the ARpoise app.
 
-![Example AR-vos layers](images/AR-vos_layers.png)
+![AR-vos_layers](images/AR-vos_layers.png)
 
 .
 
 Please open each layer in a separate window and arrange them side by side, as in the image below.
+- Note that the **form** for the three layers looks exactly alike (they just vary in the content and the POIs listed).
 
-![Example AR-vos layers](images/AR-vos_3LayersSideBySide.png)
+![AR-vos_3LayersSideBySide](images/AR-vos_3LayersSideBySide.png)
 
+.
 
+-Now just click on a POI in each layer to open it in the same window.
 
+![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
 
 
