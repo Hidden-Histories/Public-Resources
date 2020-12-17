@@ -60,6 +60,8 @@ Please open each layer in a separate window and arrange them side by side, as in
 
 ![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
+.
+
 The only substantial difference is in the field **URL for trigger image.**
 - If it is **empty, AR-vos treats this as a geolocative layer.** If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
 - If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
@@ -67,7 +69,7 @@ The only substantial difference is in the field **URL for trigger image.**
 
 So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe.
 
-**Geolocative AR in AR-vos is done exactly the same as in ARpoise, we will not cover that at all here.** If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading "Editing augments with the ARpoise porPOIse interface."
+**Remember, geolocative AR in AR-vos is done exactly the same as in ARpoise.** So we will not cover that at all here. If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading "Editing augments with the ARpoise porPOIse interface."
 
 ## Creating an image trigger layer
 
