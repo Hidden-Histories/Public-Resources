@@ -47,6 +47,14 @@ We have now added three AR-vos layers to your porPOIse account. If you log in as
 
 ![Example AR-vos layers](images/AR-vos_layers.png)
 
+.
+
+Please open each layer in a separate window and arrange them side by side, as in the image below.
+
+![Example AR-vos layers](images/AR-vos_3LayersSideBySide.png)
+
+
+
 
 
 
