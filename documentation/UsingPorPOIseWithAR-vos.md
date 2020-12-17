@@ -98,10 +98,13 @@ So if this happens to you and you find it annoying, please just work on one POI 
 Now let's go through the fields that behave a bit differently in image trigger versus in geolocative AR.
 
 - Lat/Lon
-- Relative location (x,y,z)
+- Relative location (x,y,z): This does not work in image trigger. The origin of your prefab (which you can set in Unity or in a 3D modeling program, but not in porPOIse) will be centered in the middle of the image. If you want to move it in porPOIse, however, your can do that by adding a dummy animation that moves it with respect to the center of the image.
 - Scaling factor
 - URL for trigger image
 - Width of trigger image
+
+Does layer property Area size in meters affect how widely trigger is available - and how does it interact with the Visibility in the ArpoiseDirectory?
+
 
 
 If you're not sure which image you entered:
