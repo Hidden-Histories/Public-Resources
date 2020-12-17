@@ -13,11 +13,9 @@ This tutorial shows how to create image trigger and SLAM layers for the AR-vos a
 
 **AR-vos** is an open source app that can do **geolocative**, **SLAM** and **image trigger** AR. It is part of the [**ARpoise** (**A**ugmented **R**eality **p**oint **o**f **i**nterest **s**ervice **e**nvironment)](http://arpoise.com/) open-source Augmented Reality platform.
 
-**Download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
+You **download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
-As we mentioned in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), AR-vos is a more advanced AR app that can do not only **geolocative AR,** but also **image trigger** and **SLAM AR.** 
-
-**If you haven't used image trigger and SLAM recently in AR-vos, PLEASE go through that tutorial so you understand how to use both types of AR.**
+**If you haven't used image trigger and SLAM recently in AR-vos, PLEASE go through that tutorial so you understand how to use both types of AR.** As we mentioned in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), AR-vos is a more advanced AR app that can do not only **geolocative AR,** but also **image trigger** and **SLAM AR.** 
 
 **NOTE:** 
 Before you do this tutorial, you should have already be comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
