@@ -65,9 +65,11 @@ The only substantial difference is in the field **URL for trigger image.**
 - If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
 - If the field contains the word **SLAM,** the layer is treated as a SLAM layer.
 
-So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe. Read on!
+So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe.
 
+**Geolocative AR in AR-vos is done exactly the same as in ARpoise, we will not cover that at all here.** If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading "Editing augments with the ARpoise porPOIse interface."
 
+## Creating an image trigger layer
 
 If you're not sure which image you entered:
   - Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
