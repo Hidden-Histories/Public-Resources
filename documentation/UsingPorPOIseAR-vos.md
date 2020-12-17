@@ -15,7 +15,7 @@ This tutorial shows how to create image trigger and SLAM layers for the AR-vos a
 
 You **download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
-**If you haven't used image trigger and SLAM recently in AR-vos, PLEASE go through that tutorial so you understand how to use both types of AR.** As we mentioned in the tutorial [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), AR-vos is a more advanced AR app that can do not only **geolocative AR,** but also **image trigger** and **SLAM AR.** 
+If you haven't recently **viewed image trigger and SLAM in AR-vos, PLEASE go through this tutorial** so you understand how to use both types of AR: [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories).
 
 **NOTE:** 
 Before you do this tutorial, you should have already be comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
