@@ -41,6 +41,10 @@ This is covered by the tutorials on the [Hidden Histories documentation page](ht
 
 ## AR-vos layers in your porPOIse acccount
 
-We have now added three AR-vos layers to your porPOIse account. If you log in as you always have done to work on your ARpoise layers, you will see them immediately:
+We have now added three AR-vos layers to your porPOIse account. If you log in as you always have done to work on your ARpoise layers, you will see them immediately: the three new layers with ".. AR-vos.." in their names.
+
+![Example AR-vos layers](images/AR-vos_BruceLeeLayers.png)
+
+
 
 
