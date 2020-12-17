@@ -45,7 +45,7 @@ We have now added three AR-vos layers to your porPOIse account. If you log in as
 - **These new layers are **only** visible in the AR-vos app!**
 - The older layers - without "AR-vos" in the name - are only visible in the ARpoise app.
 
-![Example AR-vos layers](images/AR-vos_BruceLeeLayers.png)
+![Example AR-vos layers](images/AR-vos_layers.png)
 
 
 
