@@ -17,11 +17,11 @@ If you haven't recently **viewed image trigger and SLAM in AR-vos, PLEASE go thr
 
 **NOTE:** 
 
-Additionally, before you do this tutorial, you should have already be comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
+Additionally, this tutorial assumes you are already comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.
+
+This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
 - All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
 - All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
-- You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.
-
 
 - **Image trigger AR (only in AR-vos)** uses A.I. computer vision technology to recognize images (e.g. posters, postcards, or even photos of an outdoor facade, etc.) and place augments relative to those images. 
   - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you will have to set up multiple layers with different trigger images for the different lighting conditions **and test extensively with different types of smartphones!**
