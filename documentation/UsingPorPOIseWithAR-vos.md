@@ -5,7 +5,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 .
 
-# ARpoise PorPOISe - create AR-vos image trigger and SLAM layers
+# PorPOISe - create AR-vos image trigger and SLAM layers
 
 ## Overview
 
