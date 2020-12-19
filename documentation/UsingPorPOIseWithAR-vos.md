@@ -124,8 +124,28 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 - **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
 
+.
 
+## Exercise 1: Trigger Images
 
+There are in essence two aspects of any trigger image:
+- How does it look in the real world? 
+  - It should **not** have any reflections or shadows that make it look different at different times.
+  - It should be **large and clear** enough to be recognizable. If you can't recognize it, neither will AR-vos.
+- What is the file like that you upload to your account? 
+  - It has to be a **jpg or png,** and should be **RGB,** *not* CYMK.
+  - It should be only about **1 MB,** as it will be downloaded and analyzed on the user's smartphone.
+  - A good size is between **500 - 1050 pixels on a side.**
+
+Additionally, the AR-vos app needs to be able to identify your trigger image to decide how to depict your AR content:
+- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it uniquely.
+- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity!
+- **Size** of your content with respect to the size of the trigger image.
+
+This means the trigger image should be:
+- **Asymmetrical** - otherwise it doesn't know which way is up.
+- **High contrast** - otherwise it'll all look like a blur.
+- **Lots of detail** - otherwise it'll be hard to identify uniquely
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
  
