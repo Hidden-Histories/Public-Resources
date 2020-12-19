@@ -102,11 +102,13 @@ So if this happens to you and you find it annoying, please just work on one POI 
 - Relative location (x,y,z): **This does not work in image trigger.** The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
   - In porPOIse, add a dummy transform animation that moves it with respect to the center of the image, by using the same values in both From and To fields, e. g. From 0.5 To 0.5).
   - Use Unity or your 3D modeling program to shift the center of the prefab. (How you do this is beyond the scope of this tutorial.)
-- URL for trigger image: This is usually your own image that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. BUT it can literally be *any* image you can find on the Internet - just remember to remove the "https://" at the front of the URL.
-- Width of trigger image
+- URL for trigger image: This is usually your own image that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. 
+- BUT it can literally be *any* image you can find on the Internet - just remember to remove the "https://" at the front of the URL.
 
-Does layer property Area size in meters affect how widely trigger is available - and how does it interact with the Visibility in the ArpoiseDirectory?
-
+![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
+ 
+.
+- Width of trigger image: This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
 
 
 If you're not sure which image you entered:
