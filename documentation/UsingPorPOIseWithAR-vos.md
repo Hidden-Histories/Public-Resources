@@ -138,14 +138,16 @@ There are in essence two aspects of any trigger image:
   - A good size is between **500 - 1050 pixels on a side.**
 
 Additionally, the AR-vos app needs to be able to identify your trigger image to decide how to depict your AR content:
-- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it uniquely.
-- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity!
-- **Size** of your content with respect to the size of the trigger image.
+- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it - it should be a **unique** part of the larger image.
+- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, there is no up or down.
 
 This means the trigger image should be:
 - **Asymmetrical** - otherwise it doesn't know which way is up.
 - **High contrast** - otherwise it'll all look like a blur.
-- **Lots of detail** - otherwise it'll be hard to identify uniquely
+- **Lots of detail** - otherwise it'll be hard to identify uniquely.
+
+See also Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/).
+
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
  
