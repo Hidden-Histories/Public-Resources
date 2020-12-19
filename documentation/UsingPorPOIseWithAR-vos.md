@@ -85,19 +85,22 @@ Theoretically, you should be able to (for instance) have an exhibition of your p
 
 **Right now however, we have a bug:**
 - If you trigger one prefab AR experience from one trigger image, and then scan a different trigger image without closing the app in between, sometimes you get both the prefab for the first POI you scanned, as well as the second one you are scanning now. :-(
-- We hope to get rid of this bug, but it won't happen until February at the earliest. :-(
+- We hope to get rid of this bug, but it might not happen until February or so. :-(
 
-So if this happens to you and you find it annoying, please just work on one POI at a time, and turn off the other ones by setting **Is visible** to **No.**
+So if this happens to you and you find it annoying, please just work on one POI at a time, and **turn off the other ones by setting Is visible to No.**
 
 . 
 ![AR-vos_ZenPOI](images/AR-vos_ZenPOI.png)
 
 .
 
-Now let's go through the fields that behave a bit differently in image trigger versus in geolocative AR.
+### Fields that behave a bit differently in image trigger versus in geolocative AR.
 
-- Lat/Lon
-- Relative location (x,y,z): This does not work in image trigger. The origin of your prefab (which you can set in Unity or in a 3D modeling program, but not in porPOIse) will be centered in the middle of the image. If you want to move it in porPOIse, however, your can do that by adding a dummy animation that moves it with respect to the center of the image.
+- Lat/Lon: In image trigger AR, the latitude and longitude GPS values are *not* used to position the POI - it will always be placed centered on the trigger image. However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
+
+- Relative location (x,y,z): **This does not work in image trigger.** The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
+  - In porPOIse, add a dummy transform animation that moves it with respect to the center of the image, by using the same values in both From and To fields, e. g. From 0.5 To 0.5).
+  - Use Unity or your 3D modeling program to shift the center of the prefab. (How you do this is beyond the scope of this tutorial.)
 - Scaling factor
 - URL for trigger image
 - Width of trigger image
