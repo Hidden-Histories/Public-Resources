@@ -96,26 +96,29 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 ### Fields that behave a bit differently in image trigger versus in geolocative AR.
 
-- Lat/Lon: 
+- **Lat/Lon:** 
   - In image trigger AR, the latitude and longitude GPS values are *not* used to position the POI - it will always be placed centered on the trigger image. 
   - However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
 
-- Relative location (x,y,z): **This does not work in image trigger.** The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
+- **Relative location (x,y,z):** This does **not** work in image trigger! The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
   - In Unity, set up the trigger image as a GameObject Quad (with a zeroed transform!), and use this to position the prefab as desired with respect to the trigger image. This is what we did with the cutout image of King Ludwig II standing in a doorway, in the "Kini" POI. (How to do this in Unity is beyond the scope of this tutorial!)
-  - OR: in porPOIse, add a **dummy transform animation** that moves it with respect to the center of the image, by using the same values in both From and To fields. 
-    - NOTE: on the surface of the trigger image, the +y axis goes up, but the +x axes is to the left.
-    - Try it: That is: , e. g. From 0.5 To 0.5).
-  
-![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
-  
-- URL for trigger image: This is usually your own image that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. 
-- BUT it can literally be *any* image you can find on the Internet - just remember to remove the "https://" at the front of the URL.
+  - OR: in porPOIse, add a **dummy transform animation** that moves it with respect to the center of the image, by using the same values in both From and To fields. See the exercise below for more details.
+
+- **URL for trigger image:** This is a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
+
+- **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
+
+
+
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
  
-.
-- Width of trigger image: This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
+![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
 
 
+    - NOTE: on the surface of the trigger image, the +y axis goes up, but the +x axes is to the left.
+    - Try it: That is: , e. g. From 0.5 To 0.5).
+    
+    
 If you're not sure which image you entered:
   - Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
