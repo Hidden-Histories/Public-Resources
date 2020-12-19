@@ -13,15 +13,13 @@ This tutorial shows how to create image trigger and SLAM layers for the AR-vos a
 
 You can **download the AR-vos app** from the [Google Play](https://play.google.com/store/apps/details?id=com.arpoise.ARvos) Store and the Apple [App Store](https://apps.apple.com/us/app/ar-vos/id1483218444). 
 
-If you haven't recently **viewed image trigger and SLAM in AR-vos, PLEASE go through the tutorial** [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), so you understand how to use both types of AR.
+If you haven't done it recently **PLEASE go through the tutorial** [Using the AR-vos App to view image trigger and SLAM based AR artworks](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingAR-vosApp.md#-hidden-histories), so you understand how to *use* AR-vos to view both types of AR.
 
 **NOTE:** 
 
-Additionally, this tutorial assumes you are already comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. **You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.**
-
-This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
-- All the tutorials under "Viewing augments on your smartphone in the ARpoise and AR-vos apps." 
-- All the other, preceding tutorials under the same heading as this one, "Editing augments with the ARpoise porPOIse interface."
+Additionally, this tutorial assumes you are already comfortable **creating - not just viewing! - geolocative AR,** using the **porPOIse user interface** with either the ARpoise app or the AR-vos app. **You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.** This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
+- All the tutorials under **Viewing augments on your smartphone in the ARpoise and AR-vos apps.** 
+- All the other, preceding tutorials under the same heading as this one, **Editing augments with the ARpoise porPOIse interface.**
 
 ## Review: image trigger AR and SLAM AR
 
@@ -33,11 +31,11 @@ This is covered by the tutorials on the [Hidden Histories documentation page](ht
 - Your POI prefab is then placed relative to those images, and will (pretty much) stick to those images. 
 - Note that if lighting conditions vary, for instance cast shadows on outdoor trigger images, you might have to set up multiple POIs with different trigger images for the different lighting conditions.
 
-**SLAM AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will (pretty much) stay in place, and the user can then walk around them in 3D space.
+**SLAM AR** uses the newest form of A.I. computer vision technology, [Simultaneous localization and mapping](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping), to discover planes in the physical space around the user, and then place augments on these planes. The augments will pretty much stay in place, and the user can then walk around them in 3D space.
 - Right now the planes always stay visible, and each time you touch any of them, another copy of your POI is placed at that location.
-- We will be expanding your control of both the visibility of the planes and how often users can place copies of your POIs, but these updates will probably not come until February 2021 at the earliest.
+- We will be expanding your control of both the visibility of the planes and how often users can place copies of your POIs, but these updates will probably not come until February 2021 or so.
    
-**Geofencing:** all these forms of AR are restricted to a certain area. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
+**Geofencing:** all these forms of AR can be restricted to a certain area. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are, you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
 
 ## AR-vos layers in your porPOIse acccount
 
@@ -48,6 +46,7 @@ We have now added three AR-vos layers to your porPOIse account. If you log in as
 ![AR-vos_layers](images/AR-vos_layers.png)
 
 .
+### How does AR-vos know what sort of AR each layer will provide?
 
 Please open each layer in a separate window and arrange them side by side, as in the image below.
 - Note that the **form** for the three layers looks exactly alike (they just vary in the content and the POIs listed).
