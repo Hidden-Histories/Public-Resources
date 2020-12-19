@@ -21,6 +21,8 @@ Additionally, this tutorial assumes you are already comfortable **creating - not
 - All the tutorials under **Viewing augments on your smartphone in the ARpoise and AR-vos apps.** 
 - All the other, preceding tutorials under the same heading as this one, **Editing augments with the ARpoise porPOIse interface.**
 
+.
+
 ## Review: image trigger AR and SLAM AR
 
 **The AR-vos app *only* run on newer models,** as it requires Apple's ARKit and Google Android's ARCore technologies.
@@ -36,6 +38,8 @@ Additionally, this tutorial assumes you are already comfortable **creating - not
 - We will be expanding your control of both the visibility of the planes and how often users can place copies of your POIs, but these updates will probably not come until February 2021 or so.
    
 **Geofencing:** all these forms of AR can be restricted to a certain area. Just like the ARpoise app, the AR-vos app always checks your device's GPS coordinates and sends a request to the **ARpoise** back end server to see whether there are specific art works at your location. If there are, you will see them; if there are none, a default layer will be shown to you. (Note that we will change this default layer periodically.)
+
+. 
 
 ## AR-vos layers in your porPOIse acccount
 
@@ -69,6 +73,8 @@ The field **URL for trigger image** tells the AR-vos app how to treat this entir
 So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe.
 
 **Remember, geolocative AR in AR-vos is done exactly the same as in ARpoise.** So we will not cover that at all here. If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading **Editing augments with the ARpoise porPOIse interface.**
+
+.
 
 ## Setting up an image trigger layer
 
