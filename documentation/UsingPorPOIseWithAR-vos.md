@@ -97,11 +97,12 @@ So if this happens to you and you find it annoying, please just work on one POI 
 ### Fields that behave a bit differently in image trigger versus in geolocative AR.
 
 - Lat/Lon: 
-  - In image trigger AR, the latitude and longitude GPS values are *not* used to position the POI - it will always be placed centered on the trigger image. However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
+  - In image trigger AR, the latitude and longitude GPS values are *not* used to position the POI - it will always be placed centered on the trigger image. 
+  - However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
 
 - Relative location (x,y,z): **This does not work in image trigger.** The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
   - In porPOIse, add a dummy transform animation that moves it with respect to the center of the image, by using the same values in both From and To fields, e. g. From 0.5 To 0.5).
-  - Use Unity or your 3D modeling program to shift the center of the prefab. (How you do this is beyond the scope of this tutorial.)
+  - Or use Unity or your 3D modeling program to shift the center of the prefab - this is what we did with the cutout image of King Ludwig II standing in a doorway, in the "Kini" POI. (How you do this is beyond the scope of this tutorial!)
 - URL for trigger image: This is usually your own image that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. 
 - BUT it can literally be *any* image you can find on the Internet - just remember to remove the "https://" at the front of the URL.
 
