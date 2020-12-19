@@ -55,22 +55,22 @@ Please open each layer in a separate window and arrange them side by side, as in
 
 .
 
-- Now just click on the first POI in each layer to open it in the same window.
+- Now just click on the **first POI in each layer** to open it in the same window.
 
 ![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
 .
 
-The field **URL for trigger image** in the first POI tells the AR-vos app how to treat this entire layer:
+The field **URL for trigger image** tells the AR-vos app how to treat this entire layer:
 - If it is **empty, AR-vos treats this as a geolocative layer.** If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
 - If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
 - If the field contains the word **SLAM,** the layer is treated as a SLAM layer.
 
 So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe.
 
-**Remember, geolocative AR in AR-vos is done exactly the same as in ARpoise.** So we will not cover that at all here. If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading "Editing augments with the ARpoise porPOIse interface."
+**Remember, geolocative AR in AR-vos is done exactly the same as in ARpoise.** So we will not cover that at all here. If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading **Editing augments with the ARpoise porPOIse interface.**
 
-## Creating an image trigger layer
+## Setting up an image trigger layer
 
 Go to the layer page for your own AR-vosImage layer. Note that it has two POIs in the POI list right now. (You can of course add and delete and modify them as you wish.)
 
@@ -78,12 +78,12 @@ Go to the layer page for your own AR-vosImage layer. Note that it has two POIs i
 
 .
 
-Theoretically, you should be able to for instance have an exhibition of your paintings, and use each painting as a trigger for a different AR experience. That is: 
+Theoretically, you should be able to (for instance) have an exhibition of your paintings, and use each painting as a trigger for a different AR experience. That is: 
 - In each POI you would have linked a photograph of a different painting as a trigger in the field **URL for trigger image.**
 - Each **Prefab name** field would reference an AR experience specific to that corresponding painting. So each POI represents a different painting, and a different AR experience connected to that painting.
 - Then you should be able to keep the layer open as you go from one painting to another, and get the appropriate AR experience for each painting.
 
-**Right now however, we have a bug: **
+**Right now however, we have a bug:**
 - If you trigger one prefab AR experience from one trigger image, and then scan a different trigger image without closing the app in between, sometimes you get both the prefab for the first POI you scanned, as well as the second one you are scanning now. :-(
 - We hope to get rid of this bug, but it won't happen until February at the earliest. :-(
 
