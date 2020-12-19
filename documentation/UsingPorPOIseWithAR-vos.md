@@ -90,7 +90,7 @@ Theoretically, you should be able to (for instance) have an exhibition of your p
 So if this happens to you and you find it annoying, please just work on one POI at a time, and **turn off the other ones by setting Is visible to No.**
 
 . 
-![AR-vos_ZenPOI_1](images/AR-vos_ZenPOI_1.png)
+![AR-vos_ZenPOI_2](images/AR-vos_ZenPOI_2.png)
 
 .
 
