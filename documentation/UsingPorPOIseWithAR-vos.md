@@ -96,6 +96,8 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 ### Fields that behave a bit differently in image trigger versus in geolocative AR.
 
+(For a description of all the settings, please see the [PorPOISe Reference: Layer and POI Properties]( https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories).)
+
 - **Lat/Lon:** 
   - In image trigger AR, the latitude and longitude GPS values are *not* used to position the POI - it will always be placed centered on the trigger image. 
   - However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
