@@ -90,11 +90,11 @@ Theoretically, you should be able to (for instance) have an exhibition of your p
 So if this happens to you and you find it annoying, please just work on one POI at a time, and **turn off the other ones by setting Is visible to No.**
 
 . 
-![AR-vos_ZenPOI](images/AR-vos_ZenPOI.png)
+![AR-vos_ZenPOI_1](images/AR-vos_ZenPOI_1.png)
 
 .
 
-### Fields that behave a bit differently in image trigger versus in geolocative AR.
+### Settings that behave a bit differently in image trigger versus in geolocative AR.
 
 (For a description of all the settings, please see the [PorPOISe Reference: Layer and POI Properties]( https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories).)
 
