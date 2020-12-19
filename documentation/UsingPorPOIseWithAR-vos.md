@@ -55,13 +55,13 @@ Please open each layer in a separate window and arrange them side by side, as in
 
 .
 
-- Now just click on a POI in each layer to open it in the same window.
+- Now just click on the first POI in each layer to open it in the same window.
 
 ![AR-vos_3LayersPOIsSideBySide](images/AR-vos_3LayersPOIsSideBySide.png)
 
 .
 
-The only substantial difference is in the field **URL for trigger image.**
+The field **URL for trigger image** in the first POI tells the AR-vos app how to treat this entire layer:
 - If it is **empty, AR-vos treats this as a geolocative layer.** If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
 - If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
 - If the field contains the word **SLAM,** the layer is treated as a SLAM layer.
