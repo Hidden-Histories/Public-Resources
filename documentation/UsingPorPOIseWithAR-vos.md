@@ -130,8 +130,8 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 There are in essence two aspects of any trigger image:
 - How does it look in the real world? 
-  - It should **not** have any reflections or shadows that make it look different at different times.
-  - It should be **large and clear** enough to be recognizable. If you can't recognize it, neither will AR-vos.
+  - It should **not** have any reflections or shadows that make it look different at different times. Glass and metal are bad, it should be matt, opaque, non-reflective and evenly lit.
+  - It should be **large and clear** enough to be recognizable. If you can't recognize it, neither will AR-vos!
 - What is the file like that you upload to your account? 
   - It has to be a **jpg or png,** and should be **RGB,** *not* CYMK.
   - It should be only about **1 MB,** as it will be downloaded and analyzed on the user's smartphone.
@@ -148,7 +148,7 @@ This means the trigger image should be:
 
 See also Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/).
 
-
+We have 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
  
 ![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
