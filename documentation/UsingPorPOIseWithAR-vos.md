@@ -21,7 +21,7 @@ This tutorial assumes you are already comfortable **creating - not just viewing!
 
 To do this tutorial you will need to:
 - Access your porPOIse account in a web browser and use it to set up POIs.
-- Use an FTP client to upload new content to your porPOIse account. (If you do not know how to do this, contact the Hidden Histories system administrator.)
+- Use an **FTP client** to upload new content to your porPOIse account. (If you do not know how to do this, contact the Hidden Histories system administrator.)
 
 **You create geolocative AR content for the AR-vos app in exactly the same way you do for the ARpoise app.** This is covered by the tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/), including:
 - All the tutorials under **Viewing augments on your smartphone in the ARpoise and AR-vos apps.** 
