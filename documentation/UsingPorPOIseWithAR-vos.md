@@ -121,11 +121,13 @@ Theoretically, you should be able to (for instance) have a catalog or website of
   - If this is too small or too big, you might not see the prefab. Only add animations after you've made sure you can see the object at all!
   - Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
 
-- **Relative angle:** This should set the prefab such that its "font" side is always pointing to the viewer, but it will depend on what is defined as "front" in the 3D modeling program in which the assets for the prefab were created.
-  - If a prefab is sticking out perpendicular from the trigger image, instead of lying in the same plane as the image, try setting this to "Yes." 
+- **Relative angle:** This should set the prefab such that its "front" side is always pointing to the viewer, but it will depend on what is defined as "front" in the 3D modeling program in which the assets for the prefab were created.
+  - If a prefab is sticking out perpendicular from the trigger image, instead of lying in the same plane as the image, try switching the value of the relative angle.
   - NOTE: Switching the value of the relative angle might exchange the y axis and the z axis in the animations!
 
-- **URL for trigger image:** This is a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
+- **URL for trigger image:** 
+  - This is the web address of a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
+  - This has the form hiddenhistoriesjtown.org/artists/ExampleArtist/TI/mytrigger.jpg, in which "ExampleArtist" is replaced with the name of your account, and "mytrigger.jpg" is replaced with the name of your trigger image.
 
 - **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
 
