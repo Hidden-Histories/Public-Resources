@@ -150,17 +150,27 @@ This means the trigger image should be:
 
 ### How does AR-vos access your trigger image?
 
-The POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this POI.
+As mentioned above, the POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this POI. Let's take a look at an existing trigger image:
 
 - In your porPOIse account, open one of the image trigger POIs, copy the URL in this field, paste it into the search field of a web brower and press the Enter key. You should see the trigger image in the browser. 
 - In AR-vos, select that layer and scan the image - you should get the POI that links to that trigger image.
 
+### Upload your own trigger image
 
+We have added a folder **TI** in your porPOIse account to hold your trigger images.
+- Use your FTP client to go to your porPOIse account. 
+- Notice that besides the AssetBundles folder to which you have uploaded your own asset bundles, there is now a TI folder.
+- Open the TI folder (usually you can double click on it), and then drag an image (that fits the criteria mentioned above) into that folder.
 
-
-
-We have 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
+
+.
+
+Now link that image from one of your image trigger POIs:
+
+
+
+
  
 ![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
 
