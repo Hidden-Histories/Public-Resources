@@ -127,7 +127,7 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 
 - **URL for trigger image:** 
   - This is the web address of a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
-  - This has the form hiddenhistoriesjtown.org/artists/ExampleArtist/TI/mytrigger.jpg, in which "ExampleArtist" is replaced with the name of your account, and "mytrigger.jpg" is replaced with the name of your trigger image.
+  - This has the form **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/mytrigger.jpg,** in which you replace "ExampleArtist" with the name of your account, and "mytrigger.jpg" with the name of your trigger image.
 
 - **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
 
@@ -162,9 +162,9 @@ As mentioned above, the POI setting **URL for trigger image** is where you tell 
 ### Upload your own trigger image
 
 We have added a folder **TI** in your porPOIse account to hold your trigger images.
-- Use your FTP client to go to your porPOIse account. 
+- Use your FTP client to go to your porPOIse account. If you don't know how to do this, talk to the Hidden Histories system administrator.
 - Notice that besides the AssetBundles folder (to which you have already uploaded your own asset bundles when making geolocative layers), there is now a TI folder as well.
-- Open the TI folder (usually you can double click on it), and then drag an image (that fits the criteria mentioned above) into that folder.
+- Open the TI folder and then drag an image that fits the criteria mentioned above into that folder.
 - PLEASE only make changes in these two folders! The other files and folders contain the code for your porPOIse account - if you alter them, your porPOIse will not work any more!
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
@@ -173,7 +173,7 @@ We have added a folder **TI** in your porPOIse account to hold your trigger imag
 
 ### Link your image to one of your image trigger POIs:
 
-Do you remember the URL for your asset bundle in ARpoise? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
+Do you remember the URL for your [asset bundle in ARpoise](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md#-hidden-histories)? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
 
 The URL for a trigger image is almost the same:
 Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
