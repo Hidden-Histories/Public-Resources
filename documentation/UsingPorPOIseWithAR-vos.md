@@ -120,6 +120,8 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 - **Scaling factor:** This should often be in the range of the value **Width of trigger image** below. Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
 
+- **Relative angle:** If your prefab is single-sided, for instance an image mapped to a Quad, you **must** set this to **Yes.** This will always rotate the prefab such that its "front" is always facing the viewer. Even if you have a 3D object you might want to set this, for instance if you have a flower that you always want to show from a certain angle.
+
 - **URL for trigger image:** This is a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
 
 - **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
