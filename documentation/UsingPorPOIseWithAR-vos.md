@@ -141,15 +141,12 @@ There are two aspects of any trigger image:
   - A good size is between **500 - 1050 pixels on a side.**
 
 Additionally, the AR-vos app needs to be able to identify your trigger image to decide how to depict your AR content:
-- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it - it should be a **unique** part of the larger image.
-- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, it can't tell which direction is up or down.
-
-This means the trigger image should be:
-- **Asymmetrical** - otherwise it doesn't know which way is up.
+- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it - it should be a **distinctive** part of the larger image.
+- **Asymmetrical:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, it can't tell which direction is up or down.
 - **High contrast** - otherwise it'll all look like a blur.
 - **Lots of detail** - otherwise it'll be hard to identify uniquely.
 
-### How does AR-vos access your trigger image?
+### Test the trigger images in your example AR-vosImage layer
 
 As mentioned above, the POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this POI. Let's take a look at an existing trigger image:
 
@@ -162,6 +159,7 @@ We have added a folder **TI** in your porPOIse account to hold your trigger imag
 - Use your FTP client to go to your porPOIse account. 
 - Notice that besides the AssetBundles folder (to which you have already uploaded your own asset bundles when making geolocative layers), there is now a TI folder as well.
 - Open the TI folder (usually you can double click on it), and then drag an image (that fits the criteria mentioned above) into that folder.
+- PLEASE only make changes in these two folders! The other files and folders contain the code for your porPOIse account - if you alter them, your porPOIse will not work any more!
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
 
@@ -172,10 +170,11 @@ We have added a folder **TI** in your porPOIse account to hold your trigger imag
 Do you remember the URL for your asset bundle in ARpoise? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
 
 The URL for a trigger image is almost the same:
+Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
 - Replace "AssetBundles" with "TI".
 - Replace the asset bundle file name with the name of your image.
-- Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
-
+- Try it in a web browser and see if you get the image you uploaded.
+- Create a new POI, copy all the other fields exactly but paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works. If it doesn't, compare the new POI line by line with your original example POI to find the error.
 
  
 ![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
