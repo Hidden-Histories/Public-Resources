@@ -200,8 +200,5 @@ From the illustration below you can see:
 ### Use an animation to move the prefab with respect to the trigger image
 
 Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. We'll try a transform animation so you can see that this does indeed work.
-- 
-    
-    
-If you're not sure which image you entered:
-  - Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
+- If you're not sure which image you entered:
+- Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
