@@ -160,17 +160,16 @@ As mentioned above, the POI setting **URL for trigger image** is where you tell 
 
 We have added a folder **TI** in your porPOIse account to hold your trigger images.
 - Use your FTP client to go to your porPOIse account. 
-- Notice that besides the AssetBundles folder to which you have uploaded your own asset bundles, there is now a TI folder.
+- Notice that besides the AssetBundles folder (to which you have already uploaded your own asset bundles when making geolocative layers), there is now a TI folder as well.
 - Open the TI folder (usually you can double click on it), and then drag an image (that fits the criteria mentioned above) into that folder.
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
 
 .
 
-Now link that image from one of your image trigger POIs:
+### Link your image to one of your image trigger POIs:
 
-Remember the URL for your asset bundle in ARpoise? 
-hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace
+Do you remember the URL for your asset bundle in ARpoise? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
 
 The URL for a trigger image is almost the same, but you replace "AssetBundles" with "TI", and of course replace the asset bundle file name with the name of your image, for instance:
 
