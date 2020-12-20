@@ -127,7 +127,7 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 
 .
 
-## Exercise 1: Trigger Images
+## Exercise 1: Setting up a new trigger image
 
 What does the trigger image have to look like? See Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/) for visual examples of dos and don'ts.
 
@@ -174,10 +174,24 @@ Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
 - Replace "AssetBundles" with "TI".
 - Replace the asset bundle file name with the name of your image.
 - Try it in a web browser and see if you get the image you uploaded.
-- Create a new POI, copy all the other fields exactly but paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works. If it doesn't, compare the new POI line by line with your original example POI to find the error.
+- Create a new POI, copy all the other fields exactly but paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works. 
+- If it doesn't, compare the new POI line by line with your original example POI to find the error.
 
- 
-![AR-vos_TI-axes](images/AR-vos_TI-axes.png)
+.
+
+## Exercise 2: Positioning your prefab on the trigger image
+
+The axes for the prefab on the trigger image are not quite what you'd expect. Remember that a trigger image can be:
+- a poster on a wall, part of a mural or an entire facade of a building,
+- a postcard in someone's hand,
+- an image or some uniquely identifiable marking on the floor.
+
+From the illustration below you can see:
+- The +y axis points toward the *top* of the image,
+- the +x axis to the *left*,
+- the +z axis *out of* the image.
+
+![AR-vos_ImageTrigger_axes](images/AR-vos_ImageTrigger_axes.png)
 
 
     - NOTE: on the surface of the trigger image, the +y axis goes up, but the +x axes is to the left.
