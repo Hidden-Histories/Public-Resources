@@ -171,9 +171,10 @@ We have added a folder **TI** in your porPOIse account to hold your trigger imag
 
 Do you remember the URL for your asset bundle in ARpoise? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
 
-The URL for a trigger image is almost the same, but you replace "AssetBundles" with "TI", and of course replace the asset bundle file name with the name of your image, for instance:
-
-hiddenhistoriesjtown.org/artists/ExampleArtist/TI/kome-kanji.jpg
+The URL for a trigger image is almost the same:
+- Replace "AssetBundles" with "TI".
+- Replace the asset bundle file name with the name of your image.
+- Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
 
 
  
