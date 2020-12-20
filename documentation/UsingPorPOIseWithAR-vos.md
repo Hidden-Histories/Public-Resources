@@ -95,7 +95,7 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 - Each **Prefab name** field would reference an AR experience specific to that corresponding painting. So each POI represents a different painting, and a different AR experience connected to that painting.
 - Then you should be able to keep the layer open as you turn or click through the pages from one painting to another, and get the appropriate AR experience for each painting.
 
-**Right now however, the POIs persist in space:**
+**Right now however, the POIs persist in real space!**
 - If you trigger one prefab AR experience from one trigger image, and then go to another trigger image without closing the app in between and **in the same real world location,** i.e. in the same place on your screen or in the same catalog, sometimes you get all the POIs you have already called up, in addition to the one you are scanning for now.
 - We hope to make this an option you can select, rather than the default, but it might not happen until February or so.
 - If it bothers you, force close the app in between scanning different trigger images - or simply have them on different locations on your monitor desktop!
