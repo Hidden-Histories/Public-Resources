@@ -98,8 +98,7 @@ Theoretically, you should be able to (for instance) have an exhibition of your p
 **Right now however, we have a bug:**
 - If you trigger one prefab AR experience from one trigger image, and then scan a different trigger image without closing the app in between, sometimes you get both the prefab for the first POI you scanned, as well as the second one you are scanning now. :-(
 - We hope to get rid of this bug, but it might not happen until February or so. :-(
-
-So if this happens to you and you find it annoying, please just work on one POI at a time, and **turn off the other ones by setting Is visible to No.**
+- So if this happens to you and you find it annoying, please just work on one POI at a time, and turn off the other ones by setting "Is visible" to "No."
 
 . 
 ![AR-vos_ZenPOI_2](images/AR-vos_ZenPOI_2.png)
