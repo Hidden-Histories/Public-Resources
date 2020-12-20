@@ -128,25 +128,36 @@ So if this happens to you and you find it annoying, please just work on one POI 
 
 ## Exercise 1: Trigger Images
 
-There are in essence two aspects of any trigger image:
+What does the trigger image have to look like? See Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/) for visual examples of dos and don'ts.
+
+There are two aspects of any trigger image:
 - How does it look in the real world? 
   - It should **not** have any reflections or shadows that make it look different at different times. Glass and metal are bad, it should be matt, opaque, non-reflective and evenly lit.
   - It should be **large and clear** enough to be recognizable. If you can't recognize it, neither will AR-vos!
-- What is the file like that you upload to your account? 
+- What sort of file should the trigger image be? 
   - It has to be a **jpg or png,** and should be **RGB,** *not* CYMK.
   - It should be only about **1 MB,** as it will be downloaded and analyzed on the user's smartphone.
   - A good size is between **500 - 1050 pixels on a side.**
 
 Additionally, the AR-vos app needs to be able to identify your trigger image to decide how to depict your AR content:
 - If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it - it should be a **unique** part of the larger image.
-- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, there is no up or down.
+- **Orientation:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, it can't tell which direction is up or down.
 
 This means the trigger image should be:
 - **Asymmetrical** - otherwise it doesn't know which way is up.
 - **High contrast** - otherwise it'll all look like a blur.
 - **Lots of detail** - otherwise it'll be hard to identify uniquely.
 
-See also Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/).
+### How does AR-vos access your trigger image?
+
+The POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this POI.
+
+- In your porPOIse account, open one of the image trigger POIs, copy the URL in this field, paste it into the search field of a web brower and press the Enter key. You should see the trigger image in the browser. 
+- In AR-vos, select that layer and scan the image - you should get the POI that links to that trigger image.
+
+
+
+
 
 We have 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
