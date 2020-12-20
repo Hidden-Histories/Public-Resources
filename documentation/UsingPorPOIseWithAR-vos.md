@@ -121,7 +121,7 @@ Theoretically, you should be able to (for instance) have a catalog or website of
   - If this is too small or too big, you might not see the prefab. Only add animations after you've made sure you can see the object at all!
   - Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
 
-- **Relative angle:** If your prefab is single-sided, for instance an image mapped to a Quad, you **must** set this to **Yes.** This will always rotate the prefab such that its "front" is always facing the viewer. Even if you have a 3D object you might want to set this, for instance if you have a flower that you always want to show from a certain angle.
+- **Relative angle:** If a prefab is sticking out perpendicular from the trigger image, instead of lying in the same plane as the image, try setting this to "Yes." This should set the prefab such that its "font" side is always pointing to the viewer, but it will depend on what is defined as "front" in the 3D modeling program in which the assets for the prefab were created.
 
 - **URL for trigger image:** This is a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
 
@@ -199,6 +199,11 @@ From the illustration below you can see:
 
 ### Use an animation to move the prefab with respect to the trigger image
 
-Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. We'll try a transform animation so you can see that this does indeed work.
-- If you're not sure which image you entered:
-- Click in the field, select all, copy, and then paste into a browser URL field. You'll see the image and can use it to test that layer.
+Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. Play with a transform animation to move it around, and we'll show you how to use a **dummy animation** to position a prefab on the trigger image.
+
+Use the Kini POI, since it doesn't have any animation that can confuse you with different effects.
+- 
+
+
+
+
