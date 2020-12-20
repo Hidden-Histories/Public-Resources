@@ -117,7 +117,9 @@ Theoretically, you should be able to (for instance) have a catalog or website of
   - In Unity, set up the trigger image as a GameObject Quad (with a zeroed transform!), and use this to position the prefab as desired with respect to the trigger image. This is what we did with the cutout image of King Ludwig II standing in a doorway, in the "Kini" POI. (How to do this in Unity is beyond the scope of this tutorial!)
   - OR: in porPOIse, add a **dummy transform animation** that moves it with respect to the center of the image, by using the same values in both From and To fields. See the exercise below for more details.
 
-- **Scaling factor:** This should often be in the range of the value **Width of trigger image** below. Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
+- **Scaling factor:** If you do any scaling animations, they will be multiplied with the Scaling factor as well. 
+  - If this is too small or too big, you might not see the prefab. Only add animations after you've made sure you can see the object at all!
+  - Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
 
 - **Relative angle:** If your prefab is single-sided, for instance an image mapped to a Quad, you **must** set this to **Yes.** This will always rotate the prefab such that its "front" is always facing the viewer. Even if you have a 3D object you might want to set this, for instance if you have a flower that you always want to show from a certain angle.
 
@@ -191,11 +193,14 @@ From the illustration below you can see:
 - the +x axis to the *left*,
 - the +z axis *out of* the image.
 
-![AR-vos_ImageTrigger_axes](images/AR-vos_ImageTrigger_axes.png)
+![AR-vos_ImageTrigger_axes 800w](images/AR-vos_ImageTrigger_axes800w.png)
 
+.
 
-    - NOTE: on the surface of the trigger image, the +y axis goes up, but the +x axes is to the left.
-    - Try it: That is: , e. g. From 0.5 To 0.5).
+### Use an animation to move the prefab with respect to the trigger image
+
+Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. We'll try a transform animation so you can see that this does indeed work.
+- 
     
     
 If you're not sure which image you entered:
