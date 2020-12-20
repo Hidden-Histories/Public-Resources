@@ -193,7 +193,7 @@ From the illustration below you can see:
 - the +x axis to the *left*,
 - the +z axis *out of* the image.
 
-![AR-vos_ImageTrigger_axes 800w](images/AR-vos_ImageTrigger_axes800w.png)
+![AR-vos_ImageTrigger_axes 500w](images/AR-vos_ImageTrigger_axes500w.png)
 
 .
 
