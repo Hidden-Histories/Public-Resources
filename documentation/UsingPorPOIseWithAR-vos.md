@@ -231,4 +231,6 @@ Note that in the image below:
 - Length can be very short, for instance 0.1 seconds.
 - BUT set Persist = Yes and Repeat = No, so it just jumps there and stays there. If you do not, the bell sound on the monk prefab "youseiSeedPod_Bell" will jitter constantly.
 
+![AR-vos_DummyAnim](images/AR-vos_DummyAnim.png)
+
 
