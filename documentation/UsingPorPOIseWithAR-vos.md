@@ -138,7 +138,7 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 
 What does the trigger image have to look like? See Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/) for visual examples of dos and don'ts.
 
-There are two aspects of any trigger image:
+There are two aspects to consider for a trigger image:
 - How does it look in the real world? 
   - It should **not** have any reflections or shadows that make it look different at different times. Glass and metal are bad, it should be matt, opaque, non-reflective and evenly lit.
   - It should be **large and clear** enough to be recognizable. If you can't recognize it, neither will AR-vos!
@@ -148,25 +148,27 @@ There are two aspects of any trigger image:
   - A good size is between **500 - 1050 pixels on a side.**
 
 Additionally, the AR-vos app needs to be able to identify your trigger image to decide how to depict your AR content:
-- If the trigger image is for instance a small section of a large mural, facade or poster, it has to be able to **identify** it - it should be a **distinctive** part of the larger image.
+- If the trigger image is, for instance, a small section of a larger mural, facade or poster, AR-vos has to be able to **identify** it - it should be a **distinctive** part of the larger image.
 - **Asymmetrical:** it has to be able to tell which direction is up - remember, it doesn't feel gravity! If it is symmetrical, it can't tell which direction is up or down.
 - **High contrast** - otherwise it'll all look like a blur.
 - **Lots of detail** - otherwise it'll be hard to identify uniquely.
 
 ### Test the trigger images in your example AR-vosImage layer
 
-As mentioned above, the POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this POI. Let's take a look at an existing trigger image:
+As mentioned above, the POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this specific POI. Let's take a look at an existing trigger image:
 
-- In your porPOIse account, open one of the image trigger POIs, copy the URL in this field, paste it into the search field of a web brower and press the Enter key. You should see the trigger image in the browser. 
-- In AR-vos, select that layer and scan the image - you should get the POI that links to that trigger image.
+- In your porPOIse account, open one of the image trigger POIs and click into the field "URL for trigger image." Copy the URL and paste it into the search field of a web brower, then press the Enter key. You should see the trigger image in the browser. 
+- Open the AR-vos app, select your example AR-vosImage layer and use it to scan the image - you should get the POI that links to that trigger image.
 
-### Upload your own trigger image
+### Now upload your own trigger image
+
+Now that you know the POIs and their trigger images work, upload your own trigger image.
 
 We have added a folder **TI** in your porPOIse account to hold your trigger images.
-- Use your FTP client to go to your porPOIse account. If you don't know how to do this, talk to the Hidden Histories system administrator.
-- Notice that besides the AssetBundles folder (to which you have already uploaded your own asset bundles when making geolocative layers), there is now a TI folder as well.
-- Open the TI folder and then drag an image that fits the criteria mentioned above into that folder.
 - PLEASE only make changes in these two folders! The other files and folders contain the code for your porPOIse account - if you alter them, your porPOIse will not work any more!
+- Use your FTP client to access your porPOIse account. If you don't know how to do this, talk to the Hidden Histories system administrator.
+- Notice that besides the AssetBundles folder (to which you have already uploaded your own asset bundles when making geolocative layers), there is now a **TI** folder as well.
+- Open the TI folder and then drag an image that fits the criteria mentioned above from your hard drive into that folder.
 
 ![AR-vos_TI-Folder](images/AR-vos_TI-Folder.png)
 
