@@ -197,7 +197,9 @@ Now create a new POI, so you preserve the existing POIs as a reference:
 
 ## Exercise 2: Positioning your prefab on the trigger image
 
-**Think about how the trigger image will appear in the real world.** The AR content is positioned and oriented with respect to the surface of the trigger image itself, which of course can vary depending on what it is:
+The position and orientation of your AR content may vary depending on these circumstances:
+
+**Think about how the trigger image will appear in the real world.** Depending on whether it is on a wall, the ground, or help in the viewer's hand, the AR content might need to be positioned and oriented very differently. A trigger image could be:
 - A poster on a wall, part of a mural or an entire facade of a building, or as an image on a website.
 - A postcard in someone's hand, or on a smartphone.
 - An image or some uniquely identifiable marking on the floor.
@@ -207,17 +209,19 @@ Now create a new POI, so you preserve the existing POIs as a reference:
 - If you use assets made by other people, you might have to play around with the following settings to orient and position the prefab on the trigger image the way you want it:
   - Remember that Relative location (x,y,z) does **not** work! Use a dummy animation instead, as described below.
   - **Relative angle Yes/No:** Ostensibly this forces the "front" of the object or image to always face the user, but this depends on how "front" is defined for that object. If you can't see the object, or it is perpendicular to the image, try switching this setting.
+  
+### Use animations to find the axes for a given prefab
 
-### 1. Use animations to find the axes for your prefab
+The default position of a prefab is in the middle of the trigger image, at 0,0,0. In the example POIs of your AR-vosImage layer:
+- The monk prefab in the POI "Zen Trigger" is at the default position.
+- The Kini prefab in the POI "Kini in Door" was set in Unity to be at the proper location with respect to the door trigger image.
+- Using these prefabs, or ones of your own, set up tranform animations to find out which axes are which for which prefabs. Try all 3 axes x,y,z for both transform and rotate.
+- If you need to read up on creating animations, see **Editing aguments with the ARpoise porPOIse interface: 3. porPOIse: Layer and POI configuration quick reference** on the [Hidden Histories documentation](https://hiddenhistoriesjtown.org/documentation) page. 
 
-The default position of a prefab is in the middle of the trigger image, at 0,0,0.
-- 
+Note that in the image below:
+- The monk prefab, youseiSeedPod_Bell, needs Relative angle = Yes to be visible, and the y-axis is the up axis.
+- The Kini prefab however needs Relative angle = No to be visible, and the z-axis is the up axis.
 
-Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. Play with a transform animation to move it around, and we'll show you how to use a **dummy animation** to position a prefab on the trigger image.
-
-Use the Kini POI, since it doesn't have any animation that can confuse you with different effects.
-- 
-
-
+![AR-vos_AnimAxes](images/AR-vos_AnimAxes.png)
 
 
