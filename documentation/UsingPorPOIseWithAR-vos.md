@@ -103,10 +103,10 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 . 
 ### Settings that behave a bit differently in image trigger versus in geolocative AR.
 
+. 
 ![AR-vos_ZenPOI_3](images/AR-vos_ZenPOI_3.png)
 
-.
-
+. 
 (For a description of all the settings, please see the [PorPOISe Reference: Layer and POI Properties]( https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories).)
 
 - **Lat/Lon:** 
@@ -114,20 +114,21 @@ Theoretically, you should be able to (for instance) have a catalog or website of
   - However, the Lat/Lon *is* used to tell the AR-vos app whether to show the POI at all. If it is too far away from where the user is standing, it will not be shown.
 
 - **Relative location (x,y,z):** This does **not** work in image trigger! The origin (0,0,0) of your prefab will be centered in the middle of the image. If you want to adjust so it is NOT centered:
-  - In Unity, set up the trigger image as a GameObject Quad (with a zeroed transform!), and use this to position the prefab as desired with respect to the trigger image. This is what we did with the cutout image of King Ludwig II standing in a doorway, in the "Kini" POI. (How to do this in Unity is beyond the scope of this tutorial!)
-  - OR: in porPOIse, add a **dummy transform animation** that moves it with respect to the center of the image, by using the same values in both From and To fields. See the exercise below for more details.
+  - In Unity, set up the trigger image as a Quad GameObject (with a zeroed transform!), and then position the prefab as desired with respect to the trigger image. (Do NOT include the trigger image in the asset bundle - simply upload the image itself to the "TI" folder in your porPOise account. See "URL for trigger image" below.) In the "Kini" POI this is what we did with the prefab of King Ludwig II, so that he is standing on the ground in front of the doorway, rather than floating in the middle of the image.
+  - OR: in porPOIse, add a **dummy transform animation** that moves it with respect to the center of the image, by using the same values in both From and To fields. See [Exercise 2](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseWithAR-vos.md#exercise-2-positioning-your-prefab-on-the-trigger-image) below for more details.
 
-- **Scaling factor:** If you do any scaling animations, they will be multiplied with the Scaling factor as well. 
-  - If this is too small or too big, you might not see the prefab. Only add animations after you've made sure you can see the object at all!
+- **Scaling factor:** NOTE: If you animate the scale in porPOIse, they scaling values will be multiplied with the Scaling factor as well. Only add animations after you've made sure you can see the object at all!
+  - If the scaling factor is too small or too big, you might not see the prefab. 
   - Remember that 3D objects are only visible if you see them from outside. So if a 3D object is too big, and you are inside of it, it will be invisible!
 
-- **Relative angle:** This should set the prefab such that its "front" side is always pointing to the viewer, but it will depend on what is defined as "front" in the 3D modeling program in which the assets for the prefab were created.
+- **Relative angle:** This is supposed to set the prefab such that its "front" side is always pointing to the viewer, but it will depend on what is defined as "front" in the 3D modeling program in which the assets for the prefab were created.
   - If a prefab is sticking out perpendicular from the trigger image, instead of lying in the same plane as the image, try switching the value of the relative angle.
-  - NOTE: Switching the value of the relative angle might exchange the y axis and the z axis in the animations!
+  - **NOTE:** Switching the value of the relative angle might exchange the y axis and the z axis in the animations!
 
 - **URL for trigger image:** 
-  - This is the web address of a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. See below for more details.
+  - This is the web address of a jpg or png that you upload to the new **TI** (Trigger Images) folder we added to your porPOIse account. 
   - This has the form **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/mytrigger.jpg,** in which you replace "ExampleArtist" with the name of your account, and "mytrigger.jpg" with the name of your trigger image.
+  - See the following Exercise 1 below for more details.
 
 - **Width of trigger image:** This doesn't have to be exact, but is a rough guide for the size of your trigger image. This would be around 0.1m = 10cm for a postcard, 1m for a poster, and perhaps 10m for a house facade.
 
