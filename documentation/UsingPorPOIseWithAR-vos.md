@@ -101,11 +101,11 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 - If it bothers you, force close the app in between scanning different trigger images - or simply have the trigger images open in separate windows on different locations on your monitor desktop.
 
 . 
+### Settings that behave a bit differently in image trigger versus in geolocative AR.
+
 ![AR-vos_ZenPOI_3](images/AR-vos_ZenPOI_3.png)
 
 .
-
-### Settings that behave a bit differently in image trigger versus in geolocative AR.
 
 (For a description of all the settings, please see the [PorPOISe Reference: Layer and POI Properties]( https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#-hidden-histories).)
 
