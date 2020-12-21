@@ -136,6 +136,8 @@ Theoretically, you should be able to (for instance) have a catalog or website of
 
 ## Exercise 1: Setting up a new trigger image
 
+### Best practices for trigger images
+
 What does the trigger image have to look like? See Wikitude's [Best Practices for trigger images](https://www.wikitude.com/blog-image-recognition-tracking-best-practices-and-target-guidelines/) for visual examples of dos and don'ts.
 
 There are two aspects to consider for a trigger image:
@@ -153,14 +155,14 @@ Additionally, the AR-vos app needs to be able to identify your trigger image to 
 - **High contrast** - otherwise it'll all look like a blur.
 - **Lots of detail** - otherwise it'll be hard to identify uniquely.
 
-### Test the trigger images in your example AR-vosImage layer
+### 1. Test the trigger images in your example AR-vosImage layer
 
 As mentioned above, the POI setting **URL for trigger image** is where you tell AR-vos what image to look for as a trigger for this specific POI. Let's take a look at an existing trigger image:
 
 - In your porPOIse account, open one of the image trigger POIs and click into the field "URL for trigger image." Copy the URL and paste it into the search field of a web brower, then press the Enter key. You should see the trigger image in the browser. 
 - Open the AR-vos app, select your example AR-vosImage layer and use it to scan the image - you should get the POI that links to that trigger image.
 
-### Now upload your own trigger image
+### 2. Upload your own trigger image
 
 Now that you know the POIs and their trigger images work, upload your own trigger image.
 
@@ -174,17 +176,22 @@ We have added a folder **TI** in your porPOIse account to hold your trigger imag
 
 .
 
-### Link your image to one of your image trigger POIs:
+### 3. Link your trigger image to one of your image trigger POIs:
 
 Do you remember the URL for your [asset bundle in ARpoise](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/CreatingAssetBundles.md#-hidden-histories)? It has this form, whereby "ExampleArtist" contains your own account name: **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace**
 
 The URL for a trigger image is almost the same:
-Example: **hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
+**hiddenhistoriesjtown.org/artists/ExampleArtist/TI/wind-kanji.jpg**
+
 - Replace "AssetBundles" with "TI".
-- Replace the asset bundle file name with the name of your image.
-- Try it in a web browser and see if you get the image you uploaded.
-- Create a new POI, copy all the other fields exactly but paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works. 
-- If it doesn't, compare the new POI line by line with your original example POI to find the error.
+- Replace the asset bundle file name with the name of your image. Don't forget the file type: .jpg or .png
+- Paste the URL into a web browser and see if you get the image you uploaded.
+
+Now create a new POI, so you preserve the existing POIs as a reference:
+- Copy all the other fields, including the Prefab name and URL, from one of the other POIs.
+- Test it to make sure it works.
+- Then paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works with your own image. 
+- If it doesn't, re-read the section above on best practices for trigger images, or ask the sys admin for help!
 
 .
 
