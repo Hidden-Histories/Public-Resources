@@ -232,6 +232,8 @@ Note that in the image below:
 - Especially if you can't rebuild the prefab with a different origin or orientation, you might want to use a "dummy" animation to reposition it with respect to the trigger image.
 - Length can be very short, for instance 0.1 seconds.
 - BUT set Persist = Yes and Repeat = No, so it just jumps there and stays there. If you do not, the bell sound on the monk prefab "youseiSeedPod_Bell" will jitter constantly.
+- The same can be done with rotate, fade etc. animations. 
+- Irregular scale animations can also be done in this way. The "Scaling factor" always does a uniform scale on all axes (e.g. 1,1,1), so with a dummy scale animation you can scale only one or two axes, or scale all axes by different amounts.
 
 ![AR-vos_DummyAnim](images/AR-vos_DummyAnim.png)
 
