@@ -237,4 +237,14 @@ Note that in the image below:
 
 ![AR-vos_DummyAnim](images/AR-vos_DummyAnim.png)
 
+.
+
+## UNDER CONSTRUCTION: SLAM Tutorial
+
+## Next Steps: 
+
+You may have realized that with image trigger and SLAM, you can essentially only place one prefab per layer.
+
+You can however use sub-layers (in the field "Layer name") to add additional complexity. This will be covered in a subsequent tutorial that is still under construction.
+
 
