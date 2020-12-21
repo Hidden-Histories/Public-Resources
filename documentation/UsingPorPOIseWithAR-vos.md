@@ -197,24 +197,21 @@ Now create a new POI, so you preserve the existing POIs as a reference:
 
 ## Exercise 2: Positioning your prefab on the trigger image
 
-Think about how the trigger image will appear in the real world. The AR content is positioned and oriented with respect to the surface of the trigger image itself, which of course can vary depending on what it is:
+**Think about how the trigger image will appear in the real world.** The AR content is positioned and oriented with respect to the surface of the trigger image itself, which of course can vary depending on what it is:
 - A poster on a wall, part of a mural or an entire facade of a building, or as an image on a website.
 - A postcard in someone's hand, or on a smartphone.
 - An image or some uniquely identifiable marking on the floor.
 
-The position and orientation of the prefab on the trigger image will depend on how the prefab was constructed in the original 3D modeling program, and set up in Unity as a prefab. 
+**The position and orientation of the prefab on the trigger image will depend on how the prefab was constructed in the original 3D modeling program, and set up in Unity as a prefab.** 
 - If you make your own, be consistent to save yourself time.
 - If you use assets made by other people, you might have to play around with the following settings to orient and position the prefab on the trigger image the way you want it:
   - Remember that Relative location (x,y,z) does **not** work! Use a dummy animation instead, as described below.
-  - Relative angle Yes/No: Ostensibly this forces the "front" of the object or image to always face the user, but this depends on how "front" is defined for that object. If you can't see the object, or it is perpendicular to the image, try switching this setting.
+  - **Relative angle Yes/No:** Ostensibly this forces the "front" of the object or image to always face the user, but this depends on how "front" is defined for that object. If you can't see the object, or it is perpendicular to the image, try switching this setting.
 
+### 1. Use animations to find the axes for your prefab
 
-
-Axes: 
-
-.
-
-### Use an animation to move the prefab with respect to the trigger image
+The default position of a prefab is in the middle of the trigger image, at 0,0,0.
+- 
 
 Remember that the Relative location (x,y,z) setting does *not* move the location of the prefab with respect to the trigger image. Play with a transform animation to move it around, and we'll show you how to use a **dummy animation** to position a prefab on the trigger image.
 
