@@ -210,12 +210,13 @@ The position and orientation of your AR content may vary depending on these circ
   - Remember that Relative location (x,y,z) does **not** work! Use a dummy animation instead, as described below.
   - **Relative angle Yes/No:** Ostensibly this forces the "front" of the object or image to always face the user, but this depends on how "front" is defined for that object. If you can't see the object, or it is perpendicular to the image, try switching this setting.
   
-### Use animations to find the axes for a given prefab
+### 1. Use animations to find the axes for a given prefab
 
 The default position of a prefab is in the middle of the trigger image, at 0,0,0. In the example POIs of your AR-vosImage layer:
-- The monk prefab in the POI "Zen Trigger" is at the default position.
-- The Kini prefab in the POI "Kini in Door" was set in Unity to be at the proper location with respect to the door trigger image.
+- The monk prefab "youseiSeedPod_Bell" in the POI "Zen Trigger" is at the default position.
+- The "Kini" prefab in the POI "Kini in Door" was set in Unity to be at the proper location with respect to the door trigger image.
 - Using these prefabs, or ones of your own, set up tranform animations to find out which axes are which for which prefabs. Try all 3 axes x,y,z for both transform and rotate.
+- I like to set Length = 10, Persist = No and Repeat = Yes, so that it is easier to see and understand what is happening.
 - If you need to read up on creating animations, see **Editing aguments with the ARpoise porPOIse interface: 3. porPOIse: Layer and POI configuration quick reference** on the [Hidden Histories documentation](https://hiddenhistoriesjtown.org/documentation) page. 
 
 Note that in the image below:
@@ -223,5 +224,11 @@ Note that in the image below:
 - The Kini prefab however needs Relative angle = No to be visible, and the z-axis is the up axis.
 
 ![AR-vos_AnimAxes](images/AR-vos_AnimAxes.png)
+
+### 2. Use dummy animations to simply reposition the prefab on the trigger image.
+
+- Especially if you can't rebuild the prefab with a different origin or orientation, you might want to use a "dummy" animation to reposition it with respect to the trigger image.
+- Length can be very short, for instance 0.1 seconds.
+- BUT set Persist = Yes and Repeat = No, so it just jumps there and stays there. If you do not, the bell sound on the monk prefab "youseiSeedPod_Bell" will jitter constantly.
 
 
