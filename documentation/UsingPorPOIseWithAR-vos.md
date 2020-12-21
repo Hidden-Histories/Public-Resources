@@ -225,6 +225,8 @@ Note that in the image below:
 
 ![AR-vos_AnimAxes](images/AR-vos_AnimAxes.png)
 
+.
+
 ### 2. Use dummy animations to simply reposition the prefab on the trigger image.
 
 - Especially if you can't rebuild the prefab with a different origin or orientation, you might want to use a "dummy" animation to reposition it with respect to the trigger image.
