@@ -191,23 +191,26 @@ Now create a new POI, so you preserve the existing POIs as a reference:
 - Copy all the other fields, including the Prefab name and URL, from one of the other POIs.
 - Test it to make sure it works.
 - Then paste your trigger image URL into the **URL for trigger image** field, and test your image trigger layer to make sure it works with your own image. 
-- If it doesn't, re-read the section above on best practices for trigger images, or ask the sys admin for help!
+- If the prefab flickers or is very unstable, re-read the section above on best practices for trigger images!
 
 .
 
 ## Exercise 2: Positioning your prefab on the trigger image
 
-The axes for the prefab on the trigger image are not quite what you'd expect. Remember that a trigger image can be:
-- a poster on a wall, part of a mural or an entire facade of a building,
-- a postcard in someone's hand,
-- an image or some uniquely identifiable marking on the floor.
+Think about how the trigger image will appear in the real world. The AR content is positioned and oriented with respect to the surface of the trigger image itself, which of course can vary depending on what it is:
+- A poster on a wall, part of a mural or an entire facade of a building, or as an image on a website.
+- A postcard in someone's hand, or on a smartphone.
+- An image or some uniquely identifiable marking on the floor.
 
-From the illustration below you can see:
-- The +y axis points toward the *top* of the image,
-- the +x axis to the *left*,
-- the +z axis *out of* the image.
+The position and orientation of the prefab on the trigger image will depend on how the prefab was constructed in the original 3D modeling program, and set up in Unity as a prefab. 
+- If you make your own, be consistent to save yourself time.
+- If you use assets made by other people, you might have to play around with the following settings to orient and position the prefab on the trigger image the way you want it:
+  - Remember that Relative location (x,y,z) does **not** work! Use a dummy animation instead, as described below.
+  - Relative angle Yes/No: Ostensibly this forces the "front" of the object or image to always face the user, but this depends on how "front" is defined for that object. If you can't see the object, or it is perpendicular to the image, try switching this setting.
 
-![AR-vos_ImageTrigger_axes 500w](images/AR-vos_ImageTrigger_axes500w.png)
+
+
+Axes: 
 
 .
 
