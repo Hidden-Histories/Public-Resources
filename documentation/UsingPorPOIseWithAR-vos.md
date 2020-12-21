@@ -31,7 +31,7 @@ In any case, to do this tutorial you will need to know how to:
 
 ## Review: image trigger AR and SLAM AR
 
-**The AR-vos app *only* run on newer models,** as it requires Apple's ARKit and Google Android's ARCore technologies.
+**The AR-vos app *only* run on recent model smartphones,** as it requires Apple's ARKit and Google Android's ARCore technologies.
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
   - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
   
@@ -58,8 +58,8 @@ We have now added three AR-vos layers to your porPOIse account. If you log in as
 .
 ### How does AR-vos know what sort of AR each layer will provide?
 
-Please open each layer in a separate window and arrange them side by side, as in the image below.
-- Note that the **form** for the three layers looks exactly alike (they just vary in the content and the POIs listed).
+Open each layer in a separate window and arrange them side by side, as in the image below.
+- Note that the **form** for the three layers is exactly the same (they just vary in the content and the POIs listed).
 
 ![AR-vos_3LayersSideBySide](images/AR-vos_3LayersSideBySide.png)
 
@@ -71,12 +71,12 @@ Please open each layer in a separate window and arrange them side by side, as in
 
 .
 
-The field **URL for trigger image** tells the AR-vos app how to treat this entire layer:
+The setting **URL for trigger image** in the first POI in the list tells the AR-vos app how to treat this entire layer:
 - If it is **empty, AR-vos treats this as a geolocative layer.** If you open it in the AR-vos app, you will be surrounded by all the POIs in that layer.
 - If that field contains the **URL of a png or jpg** that is viewable on the Internet, the layer is treated as **image trigger AR,** and that **image will be the trigger** for this POI.
 - If the field contains the word **SLAM,** the layer is treated as a SLAM layer.
 
-So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some small details you should observe.
+So actually, you could use any of the AR-vos layers to do any type of AR. We just named them differently so you can keep an example of each different type! That said, there are some details you should observe. Read on!
 
 **Remember, geolocative AR in AR-vos is done exactly the same as in ARpoise.** So we will not cover that at all here. If you need to review it, please read all the other tutorials on the [Hidden Histories documentation page](http://hiddenhistoriesjtown.org/documentation/) under the heading **Editing augments with the ARpoise porPOIse interface.**
 
@@ -93,12 +93,12 @@ Go to the layer page for your own AR-vosImage layer. Note that it has two POIs i
 Theoretically, you should be able to (for instance) have a catalog or website of your paintings, and use each painting as a trigger for a different AR experience. That is: 
 - In each POI you would have linked a photograph of a different painting as a trigger in the field **URL for trigger image.**
 - Each **Prefab name** field would reference an AR experience specific to that corresponding painting. So each POI represents a different painting, and a different AR experience connected to that painting.
-- Then you should be able to keep the layer open as you turn or click through the pages from one painting to another, and get the appropriate AR experience for each painting.
+- Then you should be able to keep the layer open in the AR-vos app as you turn or click through the pages from one painting to another, and get the appropriate AR experience for each painting.
 
-**Right now however, the POIs persist in real space!**
-- If you trigger one prefab AR experience from one trigger image, and then go to another trigger image without closing the app in between and **in the same real world location,** i.e. in the same place on your screen or in the same catalog, sometimes you get all the POIs you have already called up, in addition to the one you are scanning for now.
+**Right now however, all the POIs persist in real space!**
+- If you trigger one POI from one trigger image, and then go to another trigger image without closing the app in between and **in the same real world location,** i.e. in the same place on your screen or in the same catalog, right now all the POIs you have already called up might appear as well as the POI for the trigger image you are currently viewing. 
 - We hope to make this an option you can select, rather than the default, but it might not happen until February or so.
-- If it bothers you, force close the app in between scanning different trigger images - or simply have them on different locations on your monitor desktop!
+- If it bothers you, force close the app in between scanning different trigger images - or simply have the trigger images open in separate windows on different locations on your monitor desktop.
 
 . 
 ![AR-vos_ZenPOI_3](images/AR-vos_ZenPOI_3.png)
