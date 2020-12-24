@@ -229,7 +229,7 @@ Note that in the image below:
 
 ### 2. Use dummy animations to simply reposition the prefab on the trigger image.
 
-- Especially if you can't rebuild the prefab with a different origin or orientation, you might want to use a "dummy" animation to reposition it with respect to the trigger image.
+- Especially if you caoriesjtown.org/artists/ExampleArtist/php/web/porpoise.php?n't rebuild the prefab with a different origin or orientation, you might want to use a "dummy" animation to reposition it with respect to the trigger image.
 - Length can be very short, for instance 0.1 seconds.
 - BUT set Persist = Yes and Repeat = No, so it just jumps there and stays there. If you do not, the bell sound on the monk prefab "youseiSeedPod_Bell" will jitter constantly.
 - The same can be done with rotate, fade etc. animations. 
@@ -239,7 +239,11 @@ Note that in the image below:
 
 .
 
-## UNDER CONSTRUCTION: SLAM Tutorial
+## SLAM Tutorial UNDER CONSTRUCTION
+
+As mentioned [above](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseWithAR-vos.md#how-does-ar-vos-know-what-sort-of-ar-each-layer-will-provide), AR-vos looks at the first POI's setting for **URL for trigger image** to determine how to treat the layer. If that field says **SLAM,** the entire layer will be treated as SLAM.
+
+
 
 ## Next Steps: 
 
