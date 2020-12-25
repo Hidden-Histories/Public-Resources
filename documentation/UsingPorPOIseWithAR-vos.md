@@ -247,16 +247,40 @@ As mentioned [above](https://github.com/Hidden-Histories/Public-Resources/blob/m
 
 Set Fixed Position on your smartphone to the GPS location of the ExampleArtist layers:
 - Start AR-vos.
-- Right now, select some layer, any layer, in order to access the Fixed Position menu. We hope to fix this bug in the near future.
-- Once a layer has launched, double click on the AR-vos icon to bring up the Fixed Position menu.
-- Enter the GPS coordinates Lat: 37.429639, Lon: -121.979741.
-- Select Example_AR-vosSLAM.
-- Scan your surroundings, and when a grid appears on your floor, tap it to place the first POI.
-- In a different part of the grid, tap again, and again. Each time you will place a different POI. 
+- Right now, select some layer, any layer, in order to access the **Fixed Position menu.** We hope to fix this bug in the near future.
+- Once a layer has launched, **double click on the AR-vos icon** to bring up the **Fixed Position menu.**
+- Enter the GPS coordinates **Lat: 37.429639, Lon: -121.979741.**
+- Select **Example_AR-vosSLAM.**
+- Scan your surroundings, and when a grid appears on your floor, **tap** it to place the first POI.
+- In a different part of the grid, tap again, and again. Each time you will place a **different POI.** 
+- NOTE: Currently the grids remain visible. We hope to make this - and the "click to place yet another POI" behavior -  options that you can choose when setting up the layer.
 
-Note that the 
+### Setting up a SLAM layer in porPOIse
 
+Here's how the Example_AR-vosSLAM layer looks in porPOIse:
+- Note that all POIs are at the default GPS position of the entire layer. They need to have this GPS position to be viewable at this location.
+- Their exact position is then determined by the viewer's taps on the grids.
 
+![Example_AR-vosSLAM_layer](images/Example_AR-vosSLAM_layer.png)
+
+.
+
+- As with the image trigger POIs, the **Relative location (x,y,z)** does **NOT** have any effect. As with the image trigger POIs, either set an offset in your 3D modeling program or in Unity, or use a **dummy animation** as is described below.
+- Remember with the **Scaling factor** that if it is too large and you are inside an object, it will be invisible!
+
+![AR-vos_SLAM-POI](images/AR-vos_SLAM-POI.png)
+
+### Setting up a cutout figure in a SLAM layer
+
+The Example_AR-vosSLAM layer includes a (rather too low resolution) image of the Kini. The position and orientation of the figure is tricky, especially since it is one-sided and therefore invisible if you see it from the back.
+
+![AR-vosKiniSLAM](images/AR-vosKiniSLAM.png)
+
+.
+
+#### Rotating the Kini so he stands on the grid
+
+Again, you may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
 
 
 ## Next Steps: 
