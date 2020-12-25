@@ -293,7 +293,6 @@ The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of t
 
 ![AR-vosKiniSLAM-top1](images/AR-vosKiniSLAM-top1.png)
 
-. 
 - Note that the **Scaling factor** is set to **2** meters, a little bit too tall, but a good rough starting number for a standing grown male figure.
 - The **Relative angle** is set to **No,** as with the use of the Kini prefab in the image trigger example above.
 
@@ -305,9 +304,17 @@ The Kini is set up with a dummy rotation that makes him stand on the grid.
 
 ![AR-vosKiniSLAManimations](images/AR-vosKiniSLAManimations.png)
 
-. 
-- Remember the axes for a prefab can vary depending on how it was made. You may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
-- Play with the  
+Remember the axes for a prefab can vary depending on how it was made. You may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
+- Play with the rotate animation to see how the figure behaves. Use the following settings so it animates slowly, and repeats so that you have time to understand what you are seeing.
+  - Change **Length** to **10** seconds
+  - Change **Persist** to **No.**
+  - Change **Repeat** to **Yes.**
+  - Change **From** to **0.**
+- Don't forget to **SAVE** and then [force close](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingARpoiseApp.md#troubleshooting-force-closing-the-app) the app, so you get a full refresh!
+
+Once you understand what you are seeing, try changing the axes:
+- Try x=1 instead of x=-1. What happens?
+- Then try the other axes, setting first 0,1,0 and then 0,0,1. Take time to look at each setting by itself.
 
 
 ## Next Steps: 
