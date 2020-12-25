@@ -293,7 +293,7 @@ The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of t
 
 - Note that the **Scaling factor** is set to 2 meters, a little bit too tall, but a good rough starting number for a standing grown male figure.
 
-![AR-vosKiniSLAM-top](images/AR-vosKiniSLAM-top.png)
+![AR-vosKiniSLAM-top1](images/AR-vosKiniSLAM-top1.png)
 
 .
 
