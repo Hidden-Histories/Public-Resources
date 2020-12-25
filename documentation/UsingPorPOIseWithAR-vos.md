@@ -329,6 +329,7 @@ Use the following settings so it animates slowly, and repeats so that you have t
   - Where does it start, i.e. where is its 0-point?
   - At what point does the figure break through the grid? The grid may or may not be lying properly on the ground, but the grid is what the AR-vos app thinks is the 0 level.
   - Try with transforms on the other axes x = 1,0,0 and y = 0,1,0 - and remember that this can vary for each prefab, depending on how it was built!
+  - Note also that the Kini figure is set *in front of* the place on the grid where you click. I'm not sure why! You might want to compensate for this in third dummy animation also, but might have to play around to see if and how the different animations affect each other.
   
 .
 
