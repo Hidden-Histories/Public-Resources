@@ -239,9 +239,23 @@ Note that in the image below:
 
 .
 
-## SLAM Tutorial UNDER CONSTRUCTION
+## SLAM Tutorial
 
-As mentioned [above](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseWithAR-vos.md#how-does-ar-vos-know-what-sort-of-ar-each-layer-will-provide), AR-vos looks at the first POI's setting for **URL for trigger image** to determine how to treat the layer. If that field says **SLAM,** the entire layer will be treated as SLAM.
+As mentioned [above](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseWithAR-vos.md#how-does-ar-vos-know-what-sort-of-ar-each-layer-will-provide), AR-vos looks at the first POI in a layer's POI list, do decide how to interpret the entire layer. If its field **URL for trigger image** says **SLAM,** the entire layer will be treated as SLAM.
+
+### Try out Example_AR-vosSLAM layer with 3 POIs
+
+Set Fixed Position on your smartphone to the GPS location of the ExampleArtist layers:
+- Start AR-vos.
+- Right now, select some layer, any layer, in order to access the Fixed Position menu. We hope to fix this bug in the near future.
+- Once a layer has launched, double click on the AR-vos icon to bring up the Fixed Position menu.
+- Enter the GPS coordinates Lat: 37.429639, Lon: -121.979741.
+- Select Example_AR-vosSLAM.
+- Scan your surroundings, and when a grid appears on your floor, tap it to place the first POI.
+- In a different part of the grid, tap again, and again. Each time you will place a different POI. 
+
+Note that the 
+
 
 
 
