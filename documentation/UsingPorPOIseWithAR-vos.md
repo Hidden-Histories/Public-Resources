@@ -261,13 +261,15 @@ Then you should get the layer list of 3 ExampleArtist layers.
 - In a different part of the grid, tap again, and again. Each time you will place a **different POI.** 
 - NOTE: Currently the grids remain visible. We hope to make this - and the "click to place yet another POI" behavior -  options that you can choose when setting up the layer.
 
+.
+
 ### Setting up a SLAM layer in porPOIse
 
 Here's how the Example_AR-vosSLAM layer looks in porPOIse:
 
 ![Example_AR-vosSLAM_layer](images/Example_AR-vosSLAM_layer.png)
 
-.
+. 
 
 - Note that all POIs are at the default **GPS position of the entire layer.** 
   - They need to have this GPS position to be viewable at this location.
@@ -277,20 +279,19 @@ Here's how the Example_AR-vosSLAM layer looks in porPOIse:
 
 ![AR-vos_SLAM-POI](images/AR-vos_SLAM-POI.png)
 
-.
-
+. 
 - As with the image trigger POIs, the **Relative location (x,y,z)** does **NOT** have any effect. As with the image trigger POIs, either:
   - set an offset in your 3D modeling program or in Unity, 
   - or use a **dummy animation** as described below.
 - Remember with the **Scaling factor** that if it is too large and you are inside an object, it will be invisible!
 
-
+.
 
 ### Setting up a cutout figure in a SLAM layer
 
-The Example_AR-vosSLAM layer includes a (rather too low resolution) image of the Kini. The position and orientation of the figure is tricky, especially since it is one-sided and therefore invisible if you see it from the back.
+The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of the Kini. The position and orientation of the figure is tricky, especially since it is one-sided and therefore invisible if you see it from the back.
 
-![AR-vosKiniSLAM](images/AR-vosKiniSLAM.png)
+![AR-vosKiniSLAM1](images/AR-vosKiniSLAM1.png)
 
 .
 
