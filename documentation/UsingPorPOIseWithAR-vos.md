@@ -247,9 +247,9 @@ As mentioned [above](https://github.com/Hidden-Histories/Public-Resources/blob/m
 
 Set **Fixed Position** on your smartphone to the **GPS location of the ExampleArtist layers:** As a refresher on how to do this:
 - Start the AR-vos app.
-- Right now, start some layer/any layer in order to be able to access the **Fixed Position menu.** We hope to fix this bug in the near future. 
+- Right now, you have to start some layer/any layer in order to be able to access the **Fixed Position menu.** We hope to fix this bug in the near future. 
 - Once a layer has launched, **double click on the AR-vos icon** to bring up the **Fixed Position menu.**
-- Enter the GPS coordinates **Lat: 37.429639, Lon: -121.979741.**
+- Enter the GPS coordinates for the ExampleArtist: **Lat: 37.429639, Lon: -121.979741.**
 - **Activate Fixed Position** should be checked.
 - Select **OK** to close
 
@@ -264,12 +264,14 @@ Then you should get the layer list of 3 ExampleArtist layers.
 ### Setting up a SLAM layer in porPOIse
 
 Here's how the Example_AR-vosSLAM layer looks in porPOIse:
-- Note that all POIs are at the default GPS position of the entire layer. They need to have this GPS position to be viewable at this location.
-- Their exact position is then determined by the viewer's taps on the grids.
 
 ![Example_AR-vosSLAM_layer](images/Example_AR-vosSLAM_layer.png)
 
 .
+
+- Note that all POIs are at the default GPS position of the entire layer. They need to have this GPS position to be viewable at this location.
+- Their exact position is then determined by the viewer's taps on the grids.
+
 
 - As with the image trigger POIs, the **Relative location (x,y,z)** does **NOT** have any effect. As with the image trigger POIs, either set an offset in your 3D modeling program or in Unity, or use a **dummy animation** as is described below.
 - Remember with the **Scaling factor** that if it is too large and you are inside an object, it will be invisible!
