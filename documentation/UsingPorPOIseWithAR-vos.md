@@ -324,9 +324,13 @@ Try the same with the Kini transform.
 
 Use the following settings so it animates slowly, and repeats so that you have time to understand what you are seeing.
   - Change **Length** to **10** seconds
-  - Change **Persist** to **No.**
-  - Change **Repeat** to **Yes.**
-  - Change **From** to **0.**
+  - Change **Persist** to **No** and **Repeat** to **Yes.**
+  - Change **From** to **0** but leave the **To** value.
+  - Where does it start, i.e. where is its 0-point?
+  - At what point does the figure break through the grid? The grid may or may not be lying properly on the ground, but the grid is what the AR-vos app thinks is the 0 level.
+  - Try with transforms on the other axes x = 1,0,0 and y = 0,1,0 - and remember that this can vary for each prefab, depending on how it was built!
+  
+.
 
 ## Next Steps: 
 
