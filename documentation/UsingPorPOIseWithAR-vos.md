@@ -269,14 +269,22 @@ Here's how the Example_AR-vosSLAM layer looks in porPOIse:
 
 .
 
-- Note that all POIs are at the default GPS position of the entire layer. They need to have this GPS position to be viewable at this location.
-- Their exact position is then determined by the viewer's taps on the grids.
-
-
-- As with the image trigger POIs, the **Relative location (x,y,z)** does **NOT** have any effect. As with the image trigger POIs, either set an offset in your 3D modeling program or in Unity, or use a **dummy animation** as is described below.
-- Remember with the **Scaling factor** that if it is too large and you are inside an object, it will be invisible!
+- Note that all POIs are at the default **GPS position of the entire layer.** 
+  - They need to have this GPS position to be viewable at this location.
+  - Their exact position is then determined by the viewer's taps on the grids.
+  
+### Setting up POIs for a SLAM layer
 
 ![AR-vos_SLAM-POI](images/AR-vos_SLAM-POI.png)
+
+.
+
+- As with the image trigger POIs, the **Relative location (x,y,z)** does **NOT** have any effect. As with the image trigger POIs, either:
+  - set an offset in your 3D modeling program or in Unity, 
+  - or use a **dummy animation** as described below.
+- Remember with the **Scaling factor** that if it is too large and you are inside an object, it will be invisible!
+
+
 
 ### Setting up a cutout figure in a SLAM layer
 
