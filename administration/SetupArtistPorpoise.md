@@ -148,7 +148,7 @@ You need to change the permissions on the new .xml layer files, otherwise the ar
 You should now have set read/write permission for all the .xml files.
 
 ### Image - correct permissions for new .xml files
-![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
+![SetupPorpoise_Permissions.png](images/SetupPorpoise_Permissions.png)
 
 .
 
