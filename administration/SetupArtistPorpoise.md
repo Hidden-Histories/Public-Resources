@@ -50,27 +50,6 @@ Please only use letters or a dash and do NOT use blanks in file or folder names.
 
 .
 
-### Change permissions to 666 / rw-rw-rw- for all new .xml files
-
-You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
-
-#### Image - Select right click / Properties menu for all new .xml layer files
-![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
-
-- Select the files.
-- Right click / Properties
-- Change the Permissions / Octal value to 666. This sets Ower/Group/Others to R=read and W=write.
-
-You should now have set read/write permission for all the .xml files.
-
-#### Image - correct permissions for new .xml files
-![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
-
-.
-
-
-
-
 ## Edit the artist's config.php file
 
 Edit the artist's config file (in our example here /public_html/artists/TamikoThiel/php/config.php).
@@ -147,13 +126,32 @@ Go back to your FTP client and open up the **config folder.**
 ### Image - config Folder
 ![SetupArtistPorpoise2a config](images/SetupArtistPorpoise2a_config.png)
 
-Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
+### Rename the ExampleLayar file and make a duplicate copy as ArtistLayar:
 
 - First, **rename ExampleLayer.xml** using the artist's name to make it unique, e.g. BruceLeeExampleLayer.xml or BLExampleLayer.xml. This will be the artist's test file where they can play around and try out new things.
 
 - Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
-Now edit the **config/config.xml** file:
+
+### Change permissions to 666 / rw-rw-rw- for all .xml files
+
+You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
+
+### Image - Select right click / Properties menu for all new .xml layer files
+![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
+
+- Select the files.
+- Right click / Properties
+- Change the Permissions / Octal value to 666. This sets Owner/Group/Others to R=read and W=write.
+
+You should now have set read/write permission for all the .xml files.
+
+### Image - correct permissions for new .xml files
+![AR-vos_configFolderPermissions.png](images/AR-vos_configFolderPermissions.png)
+
+.
+
+### Now edit the **config/config.xml** file:
 
 - Add the artist name to the <name> tag AND the <source> tag (preserving the .xml file extension!)
 
