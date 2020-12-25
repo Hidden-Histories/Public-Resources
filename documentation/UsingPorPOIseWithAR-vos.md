@@ -291,15 +291,23 @@ Here's how the Example_AR-vosSLAM layer looks in porPOIse:
 
 The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of the Kini. The position and orientation of the figure is tricky, especially since it is one-sided and therefore invisible if you see it from the back.
 
-- Note that the **Scaling factor** is set to 2 meters, a little bit too tall, but a good rough starting number for a standing grown male figure.
-
 ![AR-vosKiniSLAM-top1](images/AR-vosKiniSLAM-top1.png)
+
+. 
+- Note that the **Scaling factor** is set to **2** meters, a little bit too tall, but a good rough starting number for a standing grown male figure.
+- The **Relative angle** is set to **No,** as with the use of the Kini prefab in the image trigger example above.
 
 .
 
-#### Rotating the Kini so he stands on the grid
+#### Kini orientation
 
-Again, you may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
+The Kini is set up with a dummy rotation that makes him stand on the grid.
+
+![AR-vosKiniSLAManimations](images/AR-vosKiniSLAManimations.png)
+
+. 
+- Remember the axes for a prefab can vary depending on how it was made. You may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
+- Play with the  
 
 
 ## Next Steps: 
