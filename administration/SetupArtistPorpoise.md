@@ -132,13 +132,14 @@ Go back to your FTP client and open up the **config folder.**
 
 - Then, **duplicate that file** and rename it to something like BruceLeeArtistLayer.xml. This will be the file that the artist uses to build up working versions of their artworks.
 
+.
 
 ### Change permissions to 666 / rw-rw-rw- for all .xml files
 
 You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
 
 ### Image - Select right click / Properties menu for all new .xml layer files
-![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
+![SetupArtistPorpoise_Properties.png](images/SetupArtistPorpoise_Properties.png)
 
 - Select the files.
 - Right click / Properties
