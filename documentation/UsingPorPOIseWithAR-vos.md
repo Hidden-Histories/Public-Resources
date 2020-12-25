@@ -302,7 +302,7 @@ The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of t
 
 The Kini is set up with a dummy rotation that makes him stand on the grid.
 
-![AR-vosKiniSLAManimations](images/AR-vosKiniSLAManimations.png)
+![AR-vosKiniSLAM-rotate-anim](images/AR-vosKiniSLAM-rotate-anim.png)
 
 Remember the axes for a prefab can vary depending on how it was made. You may have to play around with a rotation animation to find which axis and what angle works to make the figure stand correctly on the grid. 
 - Play with the rotate animation to see how the figure behaves. Use the following settings so it animates slowly, and repeats so that you have time to understand what you are seeing.
@@ -316,6 +316,19 @@ Once you understand what you are seeing, try changing the axes:
 - Try x=1 instead of x=-1. What happens?
 - Then try the other axes, setting first 0,1,0 and then 0,0,1. Take time to look at each setting by itself.
 
+.
+
+#### Kini transform
+
+Try the same with the Kini transform.
+
+![AR-vosKiniSLAM-transform-anim](images/AR-vosKiniSLAM-transform-anim.png)
+
+Use the following settings so it animates slowly, and repeats so that you have time to understand what you are seeing.
+  - Change **Length** to **10** seconds
+  - Change **Persist** to **No.**
+  - Change **Repeat** to **Yes.**
+  - Change **From** to **0.**
 
 ## Next Steps: 
 
