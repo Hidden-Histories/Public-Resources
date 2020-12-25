@@ -291,7 +291,9 @@ Here's how the Example_AR-vosSLAM layer looks in porPOIse:
 
 The Example_AR-vosSLAM layer includes a (somewhat too low resolution) image of the Kini. The position and orientation of the figure is tricky, especially since it is one-sided and therefore invisible if you see it from the back.
 
-![AR-vosKiniSLAM1](images/AR-vosKiniSLAM1.png)
+- Note that the **Scaling factor** is set to 2 meters, a little bit too tall, but a good rough starting number for a standing grown male figure.
+
+![AR-vosKiniSLAM-top](images/AR-vosKiniSLAM-top.png)
 
 .
 
