@@ -100,7 +100,7 @@ https://hiddenhistoriesjtown.org/artists/ExampleArtist/config/AR-vosTemplates.zi
 You need to change the permissions on the new .xml layer files, otherwise the artist will not be able to edit them in the porPOIse Back End interface.
 
 #### Image - Select right click / Properties menu for all new .xml layer files
-![SetupArtistPorpoise_Properties.png](images/SetupArtistPorpoise_Properties.png)
+![AR-vos_Porpoise_BruceLee-Properties.png](images/AR-vos_Porpoise_BruceLee-Properties.png)
 
 - Select the files.
 - Right click / Properties
