@@ -21,7 +21,7 @@ This tutorial tells you how to use sub-layers to create more complex POIs in **A
 
 If we look at the layer example **SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place a yellow center box surrounded by four other boxes. The central yellow cube seems to be static, whereas all the other boxes have various animations. 
 
-BUT if you click the yellow BellCube, all the cubes start rotating around, with the yellow BellCube as the origin. Since the other 4 cubes also have their own animations, it seems that the boxes have a very complex behavior.
+BUT if you click the yellow BellCube, all the cubes start rotating around, with the yellow BellCube at the origin. Since the other 4 cubes also have their own animations, it seems that the boxes have a very complex behavior.
 
 ![AR-vosSLAMBoxes1x_horiz512h](/documentation/images/AR-vosSLAMBoxes1x_horiz512h.png)
 
@@ -29,18 +29,18 @@ BUT if you click the yellow BellCube, all the cubes start rotating around, with 
 
 ### SlamBoxes: layer definition
 
-However if you look at the porPOIse definition of the layer Example SlamBoxes, it contains only a single POI, called **BellCube.** This is just the single yellow box that is in the center.
+If we look at the porPOIse definition of the layer Example SlamBoxes, it contains only a single POI, called **BellCube.** This is just the single yellow box that is at the center.
 
 ![SubLayers-DefaultSLAMBoxes_LayerDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_LayerDefinition.png)
 
 . 
 
-### POI "BellCube":
+### SlamBoxes: POI BellCube
 
-SlamBoxes consists of the **BellCube** POI containing the single yellow box, plus a sub-layer **Slam-Example** (referenced in the **Layer name** field) that contains the other four boxes, centered around an empty origin. 
+In the POI BellCube definition, the **Layer name** references a sub-layer **Slam-Example.** 
 - The single, central POI **BellCube** has a rotate animation when clicked (and also a bell sound). 
 - As this POI references the sub-layer **Slam-Example,** this sub-layer is shown whenever the parent POI **BellCube** appears.
-- When you click the parent POI **BellCube,** the sub-layer **Slam-Example** is rotated along with it. Notice that they still keep their individual animations as well!
+- When you click the parent POI **BellCube,** the sub-layer **Slam-Example** is rotated along with it. Remember that they still keep their individual animations as well!
 
 ![SubLayers-DefaultSLAMBoxes_PoiDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_PoiDefinition.png)
 
