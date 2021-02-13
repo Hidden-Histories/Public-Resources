@@ -1,6 +1,13 @@
-![ARpoise Logo](/images/arpoise_logo_rgb-128.png)
-# *A*ugmented *R*eality *p*oint *o*f *i*nterest *s*ervice *e*nvironment
-# -- Using Sub-Layers --
+
+# ![Hidden Histories Logo](/images/hiddenhistories-logo.png) Hidden Histories 
+<< Need an overview? Go to the [Hidden Histories Artist Documentation Overview](http://hiddenhistoriesjtown.org/documentation).
+
+Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/ARpoiseGlossary.md#-hidden-histories-artists).
+
+.
+
+# Tutorial: Creating Sub-Layers
+
 ## Overview
 This a tutorial detailing an example of how sub layers can be used with POIs in **ARpoise** or **AR-vos**.
 
