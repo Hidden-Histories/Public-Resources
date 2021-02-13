@@ -86,7 +86,7 @@ Say you have an image trigger or SLAM layer:
 
 ## Exercise: Set up your own sub-layer
 
-- Decide which of your layers you want to use for your** main layer,** and which of your layers to use as a **sub-layer.**
+- Decide which of your layers you want to use for your **main layer,** and which of your layers to use as a **sub-layer.**
 - In the **main layer, enter the name of your sub-layer in the **Layer name** field.**
 - In the [Sub-Layer: Layer definition example](UsingPorPOIseSubLayers.md#sub-layer-layer-definition-example), just set the Refresh interval to 0.
 - **For each POI** follow the [Sub-Layer: POI definition example](UsingPorPOIseSubLayers.md#sub-layer-poi-definition-example):
