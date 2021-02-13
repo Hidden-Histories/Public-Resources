@@ -52,4 +52,4 @@ The sub-layer Slam-Example is defined as follows, it contains four simple cube p
 ## Sub-Layer POI Definition
 Each of the POIs in the sublayer is a simple POI, defined as in the example.
 ### Image - Sub-Layer POI "StripesCube":
-![SubLayers-SubLayerPoiDefinition](/documentation/images/SubLayers-SubLayerPoiDefinition.png)
+![SubLayers-SubLayerPoiDefinition](/documentation/images/SubLayers-SubLayerPOIDefinition.png)
