@@ -17,6 +17,11 @@ Especially in image trigger and SLAM layers, in which only one POI can be trigge
 
 If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place many boxes. But if you look at the porPOIse settings shown below, the layer itself contains only one POI, **BellCube**. 
 
+## Placing Example SlamBoxes
+The layer Example-SlamBoxes is defined as follows, it contains only a single POI, called BellCube.
+### Image - Placing Example SlamBoxes:
+![AR-voxSLAMBoxes1x](/documentation/images/AR-voxSLAMBoxes1x.png)
+
 builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
 
 ## Layer Definition
