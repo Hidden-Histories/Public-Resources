@@ -15,19 +15,22 @@ This a tutorial on how to use sub-layers to create more complex POIs in **ARpois
 
 - Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
 
-If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place many boxes. But if you look at the porPOIse settings shown below, the layer itself contains only one POI, **BellCube**. 
+If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place a center box surrounded by several other boxes. 
 
 ## Placing Example SlamBoxes
 The layer Example-SlamBoxes is defined as follows, it contains only a single POI, called BellCube.
 ### Image - Placing Example SlamBoxes:
 ![AR-voxSLAMBoxes1x_horiz](/documentation/images/AR-voxSLAMBoxes1x_horiz.png)
 
-builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
+But if you look at the porPOIse settings for Example SlamBoxes shown below, the layer itself contains only one POI, **BellCube**. 
 
 ## Layer Definition
 The layer Example-SlamBoxes is defined as follows, it contains only a single POI, called BellCube.
 ### Image - Layer "Example-SlamBoxes":
 ![SubLayers-LayerDefinition](/documentation/images/SubLayers-LayerDefinition.png)
+
+builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
+
 
 ## POI Definition
 The POI BellCube is defined as follows, it contains only a single prefab, called BellCube and with it's parameter **Layer name** it references the sub-layer **Slam-Example**.
