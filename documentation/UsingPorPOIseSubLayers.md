@@ -9,11 +9,15 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 # Tutorial: Creating Sub-Layers
 
 ## Overview
-This a tutorial detailing an example of how sub layers can be used with POIs in **ARpoise** or **AR-vos**.
+This a tutorial on how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
 
-Sub-layers allow constructing POIs to be shown in **ARpoise** or **AR-vos** from sets of simple POIs and make sure they appear and react synchronously.
+The POIs in the sub-layer inherit the same properties, animations etc. of the POI from which they are linked.
 
-The layer **Example-SlamBoxes** of the [AR-vos-examples](/unity/AR-vos-examples.md#slam-example) builds it's POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
+Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
+
+If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place many boxes. But if you look at the porPOIse settings shown below, the layer itself contains only one POI, **BellCube**. 
+
+builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
 
 ## Layer Definition
 The layer Example-SlamBoxes is defined as follows, it contains only a single POI, called BellCube.
