@@ -20,7 +20,7 @@ If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutor
 ## Placing Example SlamBoxes
 The layer Example-SlamBoxes is defined as follows, it contains only a single POI, called BellCube.
 ### Image - Placing Example SlamBoxes:
-![AR-voxSLAMBoxes1x](/documentation/images/AR-voxSLAMBoxes1x.png)
+![AR-voxSLAMBoxes1x_horiz](/documentation/images/AR-voxSLAMBoxes1x_horiz.png)
 
 builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
 
