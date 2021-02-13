@@ -11,9 +11,9 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 ## Overview
 This a tutorial on how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
 
-The POIs in the sub-layer inherit the same properties, animations etc. of the POI from which they are linked.
+- The POIs in the sub-layer inherit the same properties, animations etc. of the POI from which they are linked.
 
-Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
+- Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
 
 If we look at the layer **Example SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place many boxes. But if you look at the porPOIse settings shown below, the layer itself contains only one POI, **BellCube**. 
 
