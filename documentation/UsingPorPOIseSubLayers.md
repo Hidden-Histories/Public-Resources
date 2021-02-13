@@ -73,7 +73,9 @@ Each of the POIs in the sublayer is a simple POI, defined as in the example.
 . 
 
 **Summary: SO WHAT'S THE BIG DEAL???**
+
 Say you have an image trigger or SLAM layer: 
+
 - You want to have a lot of POIs, each of which is clickable to produce a completely different animation. In geolocative this would be easy to do - just set up a lot of POIs, each with its own animation.
 - For a given trigger image however, you can only have one POI. 
 - In SLAM, you can have multiple POIs, but they have to be placed one after another by the user - you can't control where they will be.
