@@ -17,7 +17,7 @@ This tutorial tells you how to use sub-layers to create more complex POIs in **A
 
 
 
-### Example SlamBoxes: one tap places all these boxes
+## Example SlamBoxes: one tap places all these boxes
 
 If we look at the layer example **SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place a yellow center box surrounded by four other boxes. The central yellow cube seems to be static, whereas all the other boxes have various animations. 
 
@@ -27,7 +27,7 @@ BUT if you click the yellow BellCube, all the cubes start rotating around, with 
 
 . 
 
-### SlamBoxes: layer definition
+## SlamBoxes: layer definition
 
 If we look at the porPOIse definition of the layer Example SlamBoxes, it contains only a single POI, called **BellCube.** This is just the single yellow box that is at the center.
 
@@ -35,7 +35,7 @@ If we look at the porPOIse definition of the layer Example SlamBoxes, it contain
 
 . 
 
-### SlamBoxes: POI BellCube
+## SlamBoxes: POI BellCube
 
 In the POI BellCube definition, the **Layer name** references a sub-layer **Slam-Example.** 
 - The single, central POI **BellCube** has a rotate animation when clicked (and also a bell sound). 
@@ -44,10 +44,17 @@ In the POI BellCube definition, the **Layer name** references a sub-layer **Slam
 
 ![SubLayers-DefaultSLAMBoxes_PoiDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_PoiDefinition.png)
 
-## Sub-Layer Definition
-The sub-layer Slam-Example is defined as follows, it contains four simple cube prefabs.
-### Image - Sub-Layer "Slam-Example":
+. 
+
+## Sub-Layer "Slam-Example"
+
+The sub-layer Slam-Example doesn't look much different from a normal layer, although we didn't bother to give it a Layer title (since that won't show up anywhere), and the the refresh rate is set to 0 (so it will have the same refresh rate as the main layer). 
+
+It contains the four cube POIs that will appear surrounding the main layer's yellow BellCube POI. 
+
 ![SubLayers-SubLayerDefinition](/documentation/images/SubLayers-SubLayerDefinition.png)
+
+. 
 
 ## Sub-Layer POI Definition
 Each of the POIs in the sublayer is a simple POI, defined as in the example.
