@@ -15,24 +15,33 @@ This a tutorial on how to use sub-layers to create more complex POIs in **ARpois
 
 - Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
 
+
+
+### Example SlamBoxes: one tap places these boxes
+
 If we look at the layer example **SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place a center box surrounded by several other boxes. 
 
-### Image - Example SlamBoxes: one tap places these boxes
 ![AR-vosSLAMBoxes1x_horiz](/documentation/images/AR-vosSLAMBoxes1x_horiz.png)
 
 . 
 
-However if you look at the porPOIse definition of the layer Example SlamBoxes, it contains only a single POI, called **BellCube.**
+### SlamBoxes: layer definition
 
-### Image - SlamBoxes: layer definition
+However if you look at the porPOIse definition of the layer Example SlamBoxes, it contains only a single POI, called **BellCube,** which is just the single box that is in the center.
+
 ![SubLayers-DefaultSLAMBoxes_LayerDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_LayerDefinition.png)
 
-builds its POIs of five boxes from a single POI with one box and a sub-layer with four more boxes. The single center POI **BellCube** has a rotate animation when clicked. As this POI references the sub-layer **Slam-Example**, this sub-layer is shown whenever the center POI appears and the sub-layer is rotated whenever the POI is rotated. 
+. 
 
+### POI "BellCube":
 
-## POI Definition
-The POI BellCube is defined as follows, it contains only a single prefab, called BellCube and with it's parameter **Layer name** it references the sub-layer **Slam-Example**.
-### Image - POI "BellCube":
+SlamBoxes builds its POIs out the **BellCube** containing one box, plus a sub-layer **Slam-Example** that contains four more boxes placed around the origin. 
+- The single, central POI **BellCube** has a rotate animation when clicked. 
+- As this POI references the sub-layer **Slam-Example,** this sub-layer is shown whenever the parent POI **BellCube** appears.
+- The sub-layer **Slam-Example** is rotated whenever the parent POI **BellCube** is rotated. 
+
+The POI BellCube contains only a single prefab **BellCube,** but its **Layer name** parameter references the sub-layer **Slam-Example.**
+
 ![SubLayers-DefaultSLAMBoxes_PoiDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_PoiDefinition.png)
 
 ## Sub-Layer Definition
