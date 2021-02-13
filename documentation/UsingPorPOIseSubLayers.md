@@ -88,5 +88,10 @@ Say you have an image trigger or SLAM layer:
 
 - Decide which of your layers you want to use for your** main layer,** and which of your layers to use as a **sub-layer.**
 - In the **main layer, enter the name of your sub-layer in the **Layer name** field.**
-- Modify your sub-layer according to the Sub-Layer: Layer definition example
-
+- In the [Sub-Layer: Layer definition example](UsingPorPOIseSubLayers.md#sub-layer-layer-definition-example), just set the Refresh interval to 0.
+- **For each POI** follow the [Sub-Layer: POI definition example](UsingPorPOIseSubLayers.md#sub-layer-poi-definition-example):
+  - Set the **Lat and Lon** to **0.**
+  - Set the **Relative location (x,y,z)** to be the POIs **offset from the position of the main layer's POI.**
+  - **Leave the URL for trigger image field blank** - this will be inherited from the main layer's POI as well.
+  
+Have fun!
