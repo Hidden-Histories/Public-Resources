@@ -13,7 +13,7 @@ This tutorial tells you how to use sub-layers to create more complex POIs in **A
 
 - The POIs in the sub-layer inherit the same properties (scale, GPS or Relative position, animations etc.) of the POI from which they are referenced.
 
-- Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
+- Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex augments. 
 
 
 
@@ -35,7 +35,7 @@ However if you look at the porPOIse definition of the layer Example SlamBoxes, i
 
 ### POI "BellCube":
 
-SlamBoxes builds its POIs out the **BellCube** containing one box, plus a sub-layer **Slam-Example** that contains four more boxes placed around the origin. 
+SlamBoxes consists of the **BellCube** POI containing one box, plus a sub-layer **Slam-Example** (referenced in the **Layer name** field) that contains four more boxes placed around the origin. 
 - The single, central POI **BellCube** has a rotate animation when clicked. 
 - As this POI references the sub-layer **Slam-Example,** this sub-layer is shown whenever the parent POI **BellCube** appears.
 - The sub-layer **Slam-Example** is rotated whenever the parent POI **BellCube** is rotated. 
