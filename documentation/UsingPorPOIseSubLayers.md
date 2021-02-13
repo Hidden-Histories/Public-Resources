@@ -9,9 +9,9 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 # Tutorial: Creating Sub-Layers
 
 ## Overview
-This a tutorial on how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
+This tutorial tells you how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
 
-- The POIs in the sub-layer inherit the same properties, animations etc. of the POI from which they are linked.
+- The POIs in the sub-layer inherit the same properties (scale, GPS or Relative position, animations etc.) of the POI from which they are referenced.
 
 - Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex interations. 
 
