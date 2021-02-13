@@ -21,7 +21,7 @@ This tutorial tells you how to use sub-layers to create more complex POIs in **A
 
 If we look at the layer example **SlamBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example), one tap will place a center box surrounded by several other boxes. 
 
-![AR-vosSLAMBoxes1x_horiz](/documentation/images/AR-vosSLAMBoxes1x_horiz.png)
+![AR-vosSLAMBoxes1x_horiz512h](/documentation/images/AR-vosSLAMBoxes1x_horiz512h.png)
 
 . 
 
