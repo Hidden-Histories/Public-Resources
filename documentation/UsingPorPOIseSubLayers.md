@@ -94,5 +94,10 @@ Decide which of your layers you want to use for your **main layer,** and which o
   - Set the **Lat and Lon** to **0.**
   - Set the **Relative location (x,y,z)** to be the POIs **offset from the position of the main layer's POI.**
   - **Leave the URL for trigger image field blank** - this will be inherited from the main layer's POI as well.
+  - Give each of the POIs in your sub-layer a different animation. Make them animate onClick, so you can try them out individually.
+
+**Now open your main layer:** 
+- You should see the POIs of the sub-layer centered around the POI of the main layer, but with the offsets you entered as their Relative locations.
+- Try clicking on the POIs of your sub-layer - they should animation independently of the other POIs, and the of the main layer POIs.
   
 Have fun!
