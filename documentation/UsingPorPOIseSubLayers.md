@@ -95,6 +95,9 @@ For example, I could:
 - set **Is visible** to "No" for all my POIs except my Kini POI,
 - use my geolocative layer TamikoT_AR-vosGeo as the sub-layer,
 - and then I should have my Kini layer surrounded by the boxes.
+- **Remember:**
+  - **If the Kini has a rotation, the sub-layer boxes will too!**
+  - **If some of the boxes are now behind the Kini, you won't see them, and therefore can't click on them either!**
 
 In detail:
 
