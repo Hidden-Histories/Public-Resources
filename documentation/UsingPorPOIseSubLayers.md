@@ -52,7 +52,9 @@ The sub-layer Slam-Example doesn't look much different from a normal layer, alth
 
 It contains the four cube POIs that will appear surrounding the main layer's yellow BellCube POI. 
 
-![SubLayers-SubLayerDefinition](/documentation/images/SubLayers-SubLayerDefinition.png)
+**NOTE:** The **Layer name** you need to turn this into your sub-layer is at the top of the page just under the links. It is NOT the Layer title! It must be spelled exactly as shown on your layer page, otherwise it will not be recognized!
+
+![SubLayers-SubLayerDefinition2](/documentation/images/SubLayers-SubLayerDefinition2.png)
 
 . 
 
