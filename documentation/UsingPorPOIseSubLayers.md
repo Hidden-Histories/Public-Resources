@@ -42,7 +42,7 @@ In the POI BellCube definition, the **Layer name** references a sub-layer **Slam
 - As this POI references the sub-layer **Slam-Example,** this sub-layer is shown whenever the parent POI **BellCube** appears.
 - When you click the parent POI **BellCube,** the sub-layer **Slam-Example** is rotated along with it. Remember that they still keep their individual animations as well!
 
-![SubLayers-DefaultSLAMBoxes_PoiDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_PoiDefinition.png)
+![SubLayers-DefaultSLAMBoxes_PoiDefinition2](/documentation/images/SubLayers-DefaultSLAMBoxes_PoiDefinition2.png)
 
 . 
 
