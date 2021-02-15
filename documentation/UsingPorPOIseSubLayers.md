@@ -70,7 +70,7 @@ Each of the POIs in the sublayer is a simple POI, defined as in the example.
 - Remember the sub-layer will also inherit all the other main layer's properties - such as scale, verticle rotation, etc.
 - **Leave the URL for trigger image field blank** - this will be inherited from the main layer's POI as well.
 
-![SubLayers-SubLayerPoiDefinition](/documentation/images/SubLayers-SubLayerPOIDefinition.png)
+![SubLayers-SubLayerPoiDefinition2](/documentation/images/SubLayers-SubLayerPOIDefinition2.png)
 
 . 
 
