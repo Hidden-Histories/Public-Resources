@@ -11,11 +11,22 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 ## Overview
 This tutorial tells you how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
 
-- The POIs in the sub-layer inherit the same properties (scale, GPS or Relative position, animations etc.) of the POI from which they are referenced.
+- The POIs in the sub-layer:
+  - Are located centered at the POI in the parent main layer (i.e. the sub-layer's Relative position 0,0,0 = position of parent layer POI).  
+  - Inherit any properties (scale, GPS or Relative position, animations etc.) of the parent layer POI.
+  - BUT each POI in the sub-layer can have its own unique animation types and events.
 
-- Especially in image trigger and SLAM layers, in which only one POI can be triggered by a image or placed in SLAM at one time, sub-layers allow you to create much more complex augments. 
+## WHEN DO I NEED SUB-LAYERS???**
 
+Say you have an image trigger or SLAM layer: 
 
+- You want to have a lot of POIs, **each of which is clickable to produce a completely different animation.** In geolocative this would be easy to do - just set up a lot of POIs, each with its own animation.
+- For a given **trigger image** however, **you can only have one POI.** 
+- In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be.**
+- With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
+- AND **each POI** in the sub-layer can have its **own event and type of animation.**
+
+. 
 
 ## Example SlamBoxes: one tap places all these boxes
 
