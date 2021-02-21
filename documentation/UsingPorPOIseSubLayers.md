@@ -23,6 +23,8 @@ The entire sub-layer:
 
 ## DO I NEED SUB-LAYERS???
 
+You may not need to use sub-layers at all. Here are two situations where they can help you, however.
+
 Sub-layers are useful if you are using **image trigger or SLAM,** and therefore **can only place a single POI,** but want **different parts of that content to each have its own animation type and/or event.** 
 
 ### Example:
