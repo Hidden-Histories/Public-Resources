@@ -83,11 +83,14 @@ In the POI BellCube definition, the **Layer name** references a sub-layer **Slam
 ## Sub-Layer Slam-Example: Layer definition
 
 The sub-layer Slam-Example doesn't look much different from a normal layer, but:
-- It has no **Layer title,** since that won't show up anywhere anyway.
+- It has no **Layer title,** since it won't show up anywhere anyway.
 - The **Refresh interval** is set to 0, so the sub-layer will have the same refresh rate as the main layer. 
 - Its POI List contains the four cube POIs that will appear surrounding the parent layer's yellow BellCube POI. 
 
-**NOTE:** The **Layer name** you need to turn this into your sub-layer is at the top of the page just under the links. It is NOT the Layer title! It must be spelled exactly as shown on your layer page, otherwise it will not be recognized!
+### IMPORTANT: 
+- The **Layer name** you need to identify this as your sub-layer is at the top of the webpage just under the blue links.
+- It is NOT the **Layer title,** which we left blank to make this clear. 
+- It must be spelled *exactly* as shown on your sub-layer page, otherwise it will not be recognized! (You can select and copy/paste it to make sure you get it right.)
 
 ![SubLayers-SubLayerDefinition2](/documentation/images/SubLayers-SubLayerDefinition2.jpg)
 
