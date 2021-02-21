@@ -69,7 +69,7 @@ Please note the following in the porPOIse definition of the layer Example SLAMBo
 
 . 
 
-## SlamBoxes: POI BellCube
+## Example SLAMBoxes/BellCube POI definition
 
 In the POI BellCube definition, the **Layer name** references a sub-layer **Slam-Example.** 
 - The single, central POI **BellCube** has a rotate animation when clicked (and also a bell sound). 
