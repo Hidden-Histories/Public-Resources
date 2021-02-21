@@ -20,7 +20,7 @@ POIs in a sub-layer:
 
 ## DO I NEED SUB-LAYERS???
 
-Sub-layers are useful **if you are using image trigger or SLAM,** and therefore can only place a single POI, but want different parts of that POI to each have its own animation type and/or event. 
+Sub-layers are useful **if you are using image trigger or SLAM,** and therefore can only place a single POI, but want **different parts of that POI to each have its own animation type and/or event.** 
 
 For example:
   - You want to place a timeline with SLAM.
