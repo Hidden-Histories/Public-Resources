@@ -16,7 +16,7 @@ POIs in a sub-layer:
 - This reference is in that POI's **Layer name** field (see [SlamBoxes: POI BellCube image](UsingPorPOIseSubLayers.md#slamboxes-poi-bellcube) below).
 - Are centered at the position of the parent POI (i.e. the entire sub-layer's Relative position 0,0,0 = position of parent POI).  
 - Inherit any properties (scale, GPS or Relative position, animations etc.) of the parent POI.
-- BUT **each POI in the sub-layer can have its own unique animation types and events.**
+- **BUT each POI in the sub-layer can have its own unique animation types and events.**
 
 ## DO I NEED SUB-LAYERS???
 
