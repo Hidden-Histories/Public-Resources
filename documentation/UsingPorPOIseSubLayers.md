@@ -13,11 +13,18 @@ This tutorial shows you how to use sub-layers to create more complex POIs in **A
 
 POIs in a sub-layer:
 - Are referenced from a POI of a **parent layer,** in that POI's **Layer name** field (see [SlamBoxes: POI BellCube image](UsingPorPOIseSubLayers.md#slamboxes-poi-bellcube) below).
-- Are centered at the parent POI in the parent main layer (i.e. the sub-layer's Relative position 0,0,0 = position of parent layer POI).  
-- Inherit any properties (scale, GPS or Relative position, animations etc.) of the parent layer POI.
+- Are centered at the position of the parent POI (i.e. the sub-layer's Relative position 0,0,0 = position of parent POI).  
+- Inherit any properties (scale, GPS or Relative position, animations etc.) of the parent POI.
 - BUT each POI in the sub-layer can have its own unique animation types and events.
 
 ## DO I NEED SUB-LAYERS???
+
+Sub-layers are useful:
+- **If you are using image trigger or SLAM** (which allow you to place only a single POI at a time), but want to have that POI be composed of various assets, each of which should have its own animation type and/or event. For instance:
+  - You want to place a timeline with SLAM.
+  - onClick, each year in the timeline should fade in different content. 
+- If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
+
 
 Say you have an image trigger or SLAM layer: 
 
