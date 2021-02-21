@@ -27,8 +27,8 @@ Sub-layers are useful if you are using **image trigger or SLAM,** and therefore 
 
 ### Example:
   - You want to place a **timeline with SLAM.**
-  - For each year in the timeline, if the user **clicks on the year** different content should fade into view.
-  - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event.)
+  - For each year in the timeline, if the user **clicks on the year,** different content should fade into view.
+  - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event. In image trigger or SLAM, this doesn't work because you can only place one POI.)
 
 The problem:
   - For a given **trigger image** you can only have **one POI.** 
