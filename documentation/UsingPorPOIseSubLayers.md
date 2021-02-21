@@ -96,11 +96,10 @@ The sub-layer Slam-Example doesn't look much different from a normal layer, but:
 
 . 
 
-## Sub-Layer Slam-Example: POI definition example
+## Sub-Layer Slam-Example: POI definition
 
-Each of the POIs in the sublayer is a simple POI, defined as in the example.
-
-**It can have an animation of its own, different from that of the parent POI in the main layer.**
+- Each of the POIs in the sublayer is a simple POI, defined as in the example.
+- **Each POI can have an animation of its own, different from all the others and in addition to the animations it might inherit from the parent POI in the parent layer.**
 
 **NOTE:**
 - The **Lat and Lon** have to be set to **0.**
