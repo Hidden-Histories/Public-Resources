@@ -27,13 +27,13 @@ You may not need to use sub-layers at all. Here are two situations where they ca
 
 Sub-layers are especially useful if you are using **image trigger or SLAM,** and therefore **can only place a single POI,** but want **different parts of that content to each have its own animation type and/or event.** 
 
-### Example:
-  - You want to place a **timeline with SLAM.**
+### Example: Timeline
+  - You want to have a timeline that the user places on the sidewalk with SLAM, or on a wall with image trigger.
   - For each year in the timeline, if the user **clicks on the year,** different content should fade into view.
   - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event.)
 
 The problem:
-  - For a given **trigger image** you can only have **one POI.** 
+  - For a given **trigger image** you can only have **one POI** - and that's the entire timeline. If the years are part of that POI, if you click on one year, you have clicked on the whole POI. 
   - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be placed, or their relationship to each other.** 
   - So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
 
