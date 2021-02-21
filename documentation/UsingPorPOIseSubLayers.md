@@ -47,19 +47,20 @@ Sub-layer solution:
 
 . 
 
-## Example Example SLAMBoxes: one tap places all these boxes
+## Example SLAMBoxes: one tap places all these boxes
 
 You already have experienced a layer with sub-layers: the example with the layer title **Example SLAMBoxes** of the [Using the AR-vos app tutorial](UsingAR-vosApp.md#slam-example).
 - One tap will place 5 boxes: a yellow center box surrounded by four other boxes. The central yellow cube seems to be static, whereas all the other boxes have various animations. 
 - BUT if you click the yellow center box, *all* the cubes start rotating around, with the yellow box rotating around its own axis at the origin. Since the other 4 cubes also have their own animations, it seems that the boxes have a very complex behavior.
 
-![AR-vosSLAMBoxes1x_horiz512h](/documentation/images/AR-vosSLAMBoxes1x_horiz512h.png)
-
 . 
 
-## Default-SlamBoxes: layer definition
+## Example SLAMBoxes: layer definition
 
-If we look at the porPOIse definition of the layer Default-SlamBoxes, it contains only a single POI, called **BellCube.** This is just the single yellow box that is at the center.
+Please note the following in the porPOIse definition of the layer Example SLAMBoxes:
+- The **Layer name** is **Default SLAMBoxes."
+- The **Layer title** is different - it is **Example SLAMBoxes.** THIS IS AN IMPORTANT DISTINCTION.
+- The layer contains only a single POI, **BellCube.** This is just the single yellow box that is at the center.
 
 ![SubLayers-DefaultSLAMBoxes_LayerDefinition](/documentation/images/SubLayers-DefaultSLAMBoxes_LayerDefinition.png)
 
