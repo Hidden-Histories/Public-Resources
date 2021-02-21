@@ -115,14 +115,14 @@ The sub-layer Slam-Example doesn't look much different from a normal layer, but:
 
 Decide which of your layers you want to use for your **parent layer,** and which of your layers to use as a **sub-layer.**
 
-For example, I could:
-- use my TamikoT_AR-SLAM layer as my main layer, 
-- set **Is visible** to "No" for all my POIs except my Kini POI,
-- use my geolocative layer TamikoT_AR-vosGeo as the sub-layer,
-- and then I should have my Kini layer surrounded by the boxes.
-- **Remember:**
-  - **If the Kini has a rotation, the sub-layer boxes will too!**
-  - **If some of the boxes are now behind the Kini, you won't see them, and therefore can't click on them either!**
+For example, if I wanted to surround my SLAM Kini with colorful boxes, I would:
+- Use my "TamikoT_AR-SLAM" layer as my parent layer. 
+- To get rid of the other POIs (so I just see the Kini POI), I set **Is visible** to "No" for all my other POIs.
+- Use my geolocative layer "TamikoT_AR-vosGeo" as my sub-layer. It still has 6 colorful boxes on 4 sides, plus one up and one down. 
+
+**Remember:**
+- **If the Kini is rotated in space (in order to be standing correctly on the ground), the sub-layer boxes will be rotated too!**
+- **If some of the boxes are now behind the Kini, you won't see them, and therefore can't click on them either!**
 
 In detail:
 
