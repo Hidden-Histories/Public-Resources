@@ -126,16 +126,16 @@ For example, if I wanted to surround my SLAM Kini with colorful boxes, I would:
 
 In detail:
 
-- In the **main layer, enter the name of your sub-layer in the **Layer name** field.**
-- In the [Sub-Layer: Layer definition example](UsingPorPOIseSubLayers.md#sub-layer-layer-definition-example), just set the Refresh interval to 0.
+- In the **parent layer: enter the name of your sub-layer** in the **Layer name** field.
+- In the [Sub-Layer: Layer definition example](UsingPorPOIseSubLayers.md#sub-layer-layer-definition-example), set the **Refresh interval** to **0.**
 - **For each POI** follow the [Sub-Layer: POI definition example](UsingPorPOIseSubLayers.md#sub-layer-poi-definition-example):
   - Set the **Lat and Lon** to **0**
-  - Set the **Relative location (x,y,z)** to be the POIs **offset from the position of the main layer's POI.**
-  - **Leave the URL for trigger image field blank** - this will be inherited from the main layer's POI as well.
+  - Set the **Relative location (x,y,z)** to be the POI's **offset from the position of the main layer's POI.**
+  - **Leave the URL for trigger image field blank** - this will be inherited from the parent layer's POI as well.
   - Give each of the POIs in your sub-layer a different animation. Make them animate onClick, so you can try them out individually.
 
 **Now open your main layer:** 
-- You should see the POIs of the sub-layer centered around the POI of the main layer, but with the offsets you entered as their Relative locations.
-- Try clicking on the POIs of your sub-layer - they should animation independently of the other POIs, and the of the main layer POIs.
+- You should see the POIs of the sub-layer centered around the POI of the parent layer, but with the offsets you entered as their Relative locations.
+- Try clicking on the POIs of your sub-layer - they should animation independently of the other POIs, and independently of the parent layer POI as well.
   
 Have fun!
