@@ -20,8 +20,9 @@ POIs in a sub-layer:
 
 ## DO I NEED SUB-LAYERS???
 
-Sub-layers are useful:
-- **If you are using image trigger or SLAM** (which allow you to place only a single POI at a time), but want to have that POI be composed of various assets, each of which should have its own animation type and/or event. For instance:
+Sub-layers are useful **if you are using image trigger or SLAM,** and therefore can only place a single POI, but want different parts of that POI to each have its own animation type and/or event. 
+
+For example:
   - You want to place a timeline with SLAM.
   - onClick, each year in the timeline should fade in different content. 
 - If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
