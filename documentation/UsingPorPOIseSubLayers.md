@@ -23,9 +23,9 @@ The entire sub-layer:
 
 ## DO I NEED SUB-LAYERS???
 
-Sub-layers are useful **if you are using image trigger or SLAM,** and therefore can only place a single POI, but want **different parts of that POI to each have its own animation type and/or event.** 
+Sub-layers are useful if you are using **image trigger or SLAM,** and therefore **can only place a single POI,** but want **different parts of that content to each have its own animation type and/or event.** 
 
-For example:
+### Example:
   - You want to place a **timeline with SLAM.**
   - **onClick,** each **year** in the timeline should fade in **different content.** 
   - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event.)
