@@ -25,7 +25,7 @@ The entire sub-layer:
 
 You may not need to use sub-layers at all. Here are two situations where they can help you, however.
 
-Sub-layers are useful if you are using **image trigger or SLAM,** and therefore **can only place a single POI,** but want **different parts of that content to each have its own animation type and/or event.** 
+Sub-layers are especially useful if you are using **image trigger or SLAM,** and therefore **can only place a single POI,** but want **different parts of that content to each have its own animation type and/or event.** 
 
 ### Example:
   - You want to place a **timeline with SLAM.**
@@ -43,8 +43,6 @@ Sub-layer solution:
 - The **Year Sub-layer** has a POI for each year of interest (e.g. Year1909 prefab, Year1941 prefab, etc.)
 - In the Year Sub-layer, with Relative position (x,y,z) you can place each Year POI exactly with respect to the origin 0,0,0, which is also the origin of the parent Timeline-axis layer. 
   - AND **each Year POI** in the sub-layer can have its **own event** (e.g. onClick) and **own type of animation** (e.g. fade in, scale up, etc.)
-
-If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
 
 . 
 
