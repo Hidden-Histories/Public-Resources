@@ -19,7 +19,7 @@ The entire sub-layer:
 - Is **referenced from a single "parent" POI** of the parent layer.
 - Is **centered at the position of that parent POI** (i.e. the entire sub-layer's Relative position 0,0,0 = position of parent POI).  
 - **Inherits all the properties** (scale, GPS or Relative position, animations etc.) **of the parent POI.**
-- **BUT - each POI in the sub-layer can have its own unique animation types and events as well.**
+- **BUT: each POI in the sub-layer can have its own unique animation types and events as well.**
 
 ## DO I NEED SUB-LAYERS???
 
@@ -28,11 +28,11 @@ Sub-layers are useful if you are using **image trigger or SLAM,** and therefore 
 ### Example:
   - You want to place a **timeline with SLAM.**
   - For each year in the timeline, if the user **clicks on the year,** different content should fade into view.
-  - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event. In image trigger or SLAM, this doesn't work because you can only place one POI.)
+  - (In geolocative AR this would be easy to do - just set up a lot of POIs, each with its own animation and animation event.)
 
 The problem:
   - For a given **trigger image** you can only have **one POI.** 
-  - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be.**
+  - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be placed, or their relationship to each other.** So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
   - With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
   - AND **each POI** in the sub-layer can have its **own event and type of animation.** 
 
