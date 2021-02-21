@@ -36,7 +36,7 @@ The problem:
   - For a given **trigger image** you can only have **one POI** - and that's the entire timeline. If the years are part of that POI, if you click on one year, you have clicked on the whole POI. 
   - In **SLAM:** 
     - You can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be placed, or their relationship to each other.** 
-   - So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
+    - So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
 
 Sub-layer solution:
 - The **Timeline layer** contains just one POI, the **Timeline-axis prefab.**
