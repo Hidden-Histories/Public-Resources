@@ -58,7 +58,7 @@ You already have experienced a layer with sub-layers: the example with the layer
 ## Example SLAMBoxes: layer definition
 
 Please note the following in the porPOIse definition of the layer Example SLAMBoxes:
-- The **Layer name** is **Default SLAMBoxes."
+- The **Layer name** is **Default SLAMBoxes." This is above the form, just under the buttons "Log out," "home" and "Copy layers."
 - The **Layer title** is different - it is **Example SLAMBoxes.** THIS IS AN IMPORTANT DISTINCTION.
 - The layer contains only a single POI, **BellCube.** This is just the single yellow box that is at the center.
 
