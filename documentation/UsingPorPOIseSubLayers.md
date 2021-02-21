@@ -73,7 +73,6 @@ Please note the following in the porPOIse definition of the layer Example SLAMBo
 
 In the POI BellCube definition, the **Layer name** references a sub-layer **Slam-Example.** 
 - The single, central POI **BellCube** has a rotate animation when clicked (and also a bell sound that is part of the prefab, and gives the prefab its name). 
-- Remember that when you click on the yellow box in the center, *all* the boxes start rotating around, with the yellow BellCube in the center. 
 - As this POI references the sub-layer **Slam-Example,** this sub-layer is shown whenever the parent POI **BellCube** appears.
 - When you click the parent POI **BellCube,** the sub-layer **Slam-Example** is rotated along with it. Remember that they still keep their individual animations as well!
 
