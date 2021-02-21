@@ -25,16 +25,13 @@ Sub-layers are useful **if you are using image trigger or SLAM,** and therefore 
 For example:
   - You want to place a timeline with SLAM.
   - onClick, each year in the timeline should fade in different content. 
-- If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
+  - In geolocative this would be easy to do - just set up a lot of POIs, each with its own animation.
+  - For a given **trigger image** however, **you can only have one POI.** 
+  - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be.**
+  - With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
+  - AND **each POI** in the sub-layer can have its **own event and type of animation.** 
 
-
-Say you have an image trigger or SLAM layer: 
-
-- You want to have a lot of POIs, **each of which is clickable to produce a completely different animation.** In geolocative this would be easy to do - just set up a lot of POIs, each with its own animation.
-- For a given **trigger image** however, **you can only have one POI.** 
-- In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be.**
-- With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
-- AND **each POI** in the sub-layer can have its **own event and type of animation.**
+If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
 
 . 
 
