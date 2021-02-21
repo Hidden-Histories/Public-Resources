@@ -43,7 +43,7 @@ Sub-layer solution:
 - The **Timeline-axis** POI references the **Year Sub-layer** in its **Layer name** property.
 - The **Year Sub-layer** has a POI for each year of interest (e.g. Year1909 prefab, Year1941 prefab, etc.)
 - In the Year Sub-layer, with Relative position (x,y,z) you can place each Year POI exactly with respect to the origin 0,0,0, which is also the origin of the parent Timeline-axis layer. 
-  - AND **each Year POI** in the sub-layer can have its **own event** (e.g. onClick) and **own type of animation** (e.g. fade in, scale up, etc.)
+  - AND **each Year POI** in the sub-layer can have its **own event** (e.g. onClick) and **own type of animation** (e.g. fade in, scale up, etc.) 
 
 . 
 
