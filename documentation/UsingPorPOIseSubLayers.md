@@ -23,10 +23,12 @@ POIs in a sub-layer:
 Sub-layers are useful **if you are using image trigger or SLAM,** and therefore can only place a single POI, but want **different parts of that POI to each have its own animation type and/or event.** 
 
 For example:
-  - You want to place a timeline with SLAM.
-  - onClick, each year in the timeline should fade in different content. 
+  - You want to place a **timeline with SLAM.**
+  - **onClick,** each **year** in the timeline should fade in **different content.** 
   - In geolocative this would be easy to do - just set up a lot of POIs, each with its own animation.
-  - For a given **trigger image** however, **you can only have one POI.** 
+
+The problem:
+  - For a given **trigger image** you can only have **one POI.** 
   - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be.**
   - With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
   - AND **each POI** in the sub-layer can have its **own event and type of animation.** 
