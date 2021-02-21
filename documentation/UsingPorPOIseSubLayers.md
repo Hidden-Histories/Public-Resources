@@ -11,9 +11,11 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 ## Overview
 This tutorial shows you how to use sub-layers to create more complex POIs in **ARpoise** or **AR-vos**.
 
+A **sub-layer** is almost like a regular geolocative layer, but can be embedded in another **parent** layer via the **Layer name** field (see [SlamBoxes: POI BellCube image] in on of the parent layer POIs. 
+
 POIs in a sub-layer:
 - Are referenced from a POI of a **parent layer.** 
-- This reference is in that POI's **Layer name** field (see [SlamBoxes: POI BellCube image](UsingPorPOIseSubLayers.md#slamboxes-poi-bellcube) below).
+- This reference is in that POI's (UsingPorPOIseSubLayers.md#slamboxes-poi-bellcube) below).
 - Are centered at the position of the parent POI (i.e. the entire sub-layer's Relative position 0,0,0 = position of parent POI).  
 - Inherit any properties (scale, GPS or Relative position, animations etc.) of the parent POI.
 - **BUT each POI in the sub-layer can have its own unique animation types and events.**
