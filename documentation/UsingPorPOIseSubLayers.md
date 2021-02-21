@@ -102,10 +102,10 @@ The sub-layer Slam-Example doesn't look much different from a normal layer, but:
 - **Each POI can have an animation of its own, different from all the others and in addition to the animations it might inherit from the parent POI in the parent layer.**
 
 **NOTE:**
-- The **Lat and Lon** have to be set to **0.**
-- The **Relative location (x,y,z)** will be its **offset from the position of the main layer's POI.**
-- Remember the sub-layer will also inherit all the other main layer's properties - such as scale, verticle rotation, etc.
-- **Leave the URL for trigger image field blank** - this will be inherited from the main layer's POI as well.
+- The POI's **Lat and Lon** have to be set to **0.**
+- The **Relative location (x,y,z)** of this POI is its **offset from the position of the parent POI in the parent layer.**
+- Remember every POI inthe sub-layer will also inherit all the parent POI's properties - such as scale, verticle rotation, etc.
+- **Leave the URL for trigger image field blank** - this will be inherited from the parent layer's POI as well.
 
 ![SubLayers-SubLayerPoiDefinition](/documentation/images/SubLayers-SubLayerPOIDefinition.png)
 
