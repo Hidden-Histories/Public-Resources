@@ -32,8 +32,13 @@ Sub-layers are useful if you are using **image trigger or SLAM,** and therefore 
 
 The problem:
   - For a given **trigger image** you can only have **one POI.** 
-  - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be placed, or their relationship to each other.** So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
-  - With **sub-layers,** you can **control the position exactly** because they are always placed centered at the POI of the parent layer. 
+  - In **SLAM,** you can have multiple POIs, but they have to be placed one after another by the user - **you can't control where they will be placed, or their relationship to each other.** 
+  - So for instance, each POI could be the number of a year, but you can't compell the user to place them in linear order with respect to each other.
+
+Sub-layer solution:
+- The **Timeline layer** contains just one POI, the **Timeline-axis prefab.**
+- The **Year Sub-layer** Each **year** that should be clicked is a POI in the sub-layer
+  - With **sub-layers:** you can **control the position of each year exactly** with respect to the center  POI of the parent layer. 
   - AND **each POI** in the sub-layer can have its **own event and type of animation.** 
 
 If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
