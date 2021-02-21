@@ -113,7 +113,7 @@ The sub-layer Slam-Example doesn't look much different from a normal layer, but:
 
 ## Exercise: Set up your own sub-layer
 
-Decide which of your layers you want to use for your **main layer,** and which of your layers to use as a **sub-layer.**
+Decide which of your layers you want to use for your **parent layer,** and which of your layers to use as a **sub-layer.**
 
 For example, I could:
 - use my TamikoT_AR-SLAM layer as my main layer, 
