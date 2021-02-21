@@ -37,8 +37,9 @@ The problem:
 
 Sub-layer solution:
 - The **Timeline layer** contains just one POI, the **Timeline-axis prefab.**
-- The **Year Sub-layer** Each **year** that should be clicked is a POI in the sub-layer
-  - With **sub-layers:** you can **control the position of each year exactly** with respect to the center  POI of the parent layer. 
+- The **Timeline-axis prefab** references the **Year Sub-layer** in its **Layer name** property.
+- The **Year Sub-layer** has a POI for each **Year-prefab** (e.g. Year1909 prefab, Year1941 prefab, etc.)
+- With **sub-layers:** you can **control the position of each year exactly** with respect to the center  POI of the parent layer. 
   - AND **each POI** in the sub-layer can have its **own event and type of animation.** 
 
 If you have a complicated form that is composed of prefabs you are also using individually, you could create it by using a sub-layer, instead of building a new prefab in Unity that just increases the size of the asset bundle.
