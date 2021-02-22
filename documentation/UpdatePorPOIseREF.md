@@ -72,9 +72,11 @@ You can edit the following properties of a POI:
   * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
   * **Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. For more details on how to use sound in ARpoise, see the [Notes on Sound](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#notes-on-sound-in-porpoise-and-unity) at the end of this document.
 
-* **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily. (Tutorial under construction.)
-  * The POIs of the sub-layer should have the same GPS Lat/Lon as this POI (so the server can find them here), but **should be placed within that sub-layer via Relative location.** The Relative locations will be of course from the center of this POI's prefab. 
-  * That layer will also be subject to the settings of this POI (scale, animations, etc.) 
+* **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. 
+ * That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily.
+  * The sub-layer will inherit settings of the parent POI (scale, animations, etc.), and need some special settings to work properly.
+  * See the tutorial [Using PorPOIse SubLayers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseSubLayers.md#-hidden-histories) for details.
+
 * **Relative location**: The location of the POI relative to your body. This is a comma separated list of the x =east-west, y = up-down, z = north-south values. 
   * Your body's position is at 0,0,0 with y=0 being your eye level. 
   * **These values override the Lat/Lon values and the Absolute altitude and Relative altitude values.** 
