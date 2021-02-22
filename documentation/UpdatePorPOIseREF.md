@@ -73,7 +73,7 @@ You can edit the following properties of a POI:
   * **Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. For more details on how to use sound in ARpoise, see the [Notes on Sound](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#notes-on-sound-in-porpoise-and-unity) at the end of this document.
 
 * **Layer name**: If you type in the name of another layer of yours here, that entire layer will become a **sub-layer** to this POI. 
- * That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily.
+  * That is, **all the POIs of that layer will be shown centered at the prefab you specified in this POI.** This enables you to create more complex POIs more easily.
   * The sub-layer will inherit settings of the parent POI (scale, animations, etc.), and need some special settings to work properly.
   * See the tutorial [Using PorPOIse SubLayers](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIseSubLayers.md#-hidden-histories) for details.
 
