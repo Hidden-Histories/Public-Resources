@@ -116,6 +116,7 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
   * **SLAM:** If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
     * The POI will appear when you tap on one of the vertical or horizontal grids drawn by the AR-vos app when you scan your enviroment.
     * By default, with each successive tap, the app will go through the POI list for the layer and place the next POI that has the word SLAM in this field.
+    * The plane grids will also stay forever.
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
 * **New action:** Add new actions to control the behavior of the AR-vos app with Image Trigger or with SLAM.
@@ -134,13 +135,12 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
 
 . 
 
-  * **SLAM** - If the first POI in a layer has the word **SLAM** in the URL for trigger image property, the entire layer is a SLAM layer, and the POI is treated as SLAM object. See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
-    - Every time you tap on a vertical or horizontal plane detected by the app, it will place a POI at that spot. 
-    - If you have more than one POI in a layer, it will go through the list and place one POI after another every time you tap a detected plane. 
-    - The plane grids will also stay forever.
-  * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
-    - Add a new action, type **MaximumCount** into the Parameter field, set Is Active to Yes, and type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
-    - After it reaches the maximum, the plane grids disappear.
+   * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
+     * Click the **New action** button.
+     * Type **MaximumCount** into the **Parameter** field.
+     * Set **IsActive to Yes** 
+     * Type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
+     * After it reaches the maximum, the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
