@@ -31,7 +31,16 @@ For each layer you have one webpage with the layer configuration, and then a fur
   * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
   * **Action: Label**: Currently not used.
   * **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
-  * **Action: Information message**: This is the information message to be displayed at the bottom of the app display. (E.g. where the "Loading data, please wait ..." message is displayed.) Examples: N {N} F {F} I {I} D {D} Y {Y} C {C}
+  * **Action: Information message**: This is the information message to be displayed.
+   * You see this message in red letters at the bottom of the app display. For instance when you first start a layer you often see the message "Loading data, please wait ..." 
+   * You can write a short text here, and it will always be displayed while your layer is active.
+   * Enter these values to get debugging information that tells you what the app actually sees or thinks it sees, which may be different from real life! 
+     * N {N} is the number of POIs the app sees.
+     * F {F} is your current frames/second. If lower than 12 f/s you have too many POIs with too many megabytes!
+     * H {H} is which direction the app thinks you are looking, with H=0/360° due north, H=90° due east, etc. You will notice that this is not very accurate, and can vary depending on what smartphone you have!
+     * LAT {LAT} and LON {LON} tell you the GPS that the app thinks you are at. If there is a tall building next to you, this could be very wrong.
+     * LAT1 {LAT1} and LON1 {LON1} - make a layer with only one POI, and then this tells you where the app thinks that POI is located. Use this to understand the difference between what you think and what the app sees. ;-)
+     * D1 {D1} - make a layer with only one POI, and then this tells you how far away the POI is from your GPS position (or at least the position it thinks you are at).
 * **New action button**: Currently not used.
 * **Save button**: If you make changes to these properties, **you MUST save them!**
 
@@ -94,12 +103,11 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around its vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
 
-**Image trigger properties (works only in AR-vos only, and is used for SLAM as well):** tutorial under construction
-
-See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
+**Image trigger properties (works only in AR-vos, and is used for SLAM as well):** See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
 * **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM.
-  * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. 
+  * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
+  * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url. To test you can use the AR-vos logo as a trigger - enter this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg". 
   * If this field contains only the word **SLAM**, the POI is treated as a SLAM object and will be shown once you tap on one of the vertical or horizontal planes detected by the AR-vos app when you scan your enviroment with it.
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
