@@ -28,11 +28,10 @@ For each layer you have one webpage with the layer configuration, and then a fur
 * **Is a default layer** Currently not used.
 * **Action:** - additional functions to be determined by users.
 * **Remove button** - please do NOT remove these actions!
- * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
- * **Action: Label**: Currently not used.
- * **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
- * **Action: Information message**: This is the information message to be displayed at the bottom of the app display. (E.g. where the "Loading data, please wait ..." message is displayed.)
- - N {N} F {F} I {I} D {D} Y {Y} C {C}
+  * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
+  * **Action: Label**: Currently not used.
+  * **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
+  * **Action: Information message**: This is the information message to be displayed at the bottom of the app display. (E.g. where the "Loading data, please wait ..." message is displayed.) Examples: N {N} F {F} I {I} D {D} Y {Y} C {C}
 * **New action**: Currently not used.
 * **Save** button: If you make changes to these properties, you MUST save them!
 
