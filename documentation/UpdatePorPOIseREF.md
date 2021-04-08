@@ -109,11 +109,11 @@ You can edit the following properties of a POI:
 See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
 * **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM. **Note that an entry in this field defines the entire layer!**
-  * If the first POI in a layer has an **URL of a trigger image** in this field, the entire layer will be treated as an image trigger layer, and the POI will be treated as an image trigger POI. 
+  * **URL of a trigger image** - If the first POI in a layer has an URL of an image in this field, the entire layer will be treated as an image trigger layer, and the POI will be treated as an image trigger POI. 
     * The layer will show a frame in the display and ask you to frame the trigger image. 
     * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
-   * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url. To test you can use the AR-vos logo as a trigger - enter this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg". 
-  * If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
+    * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url. To test you can use the AR-vos logo as a trigger - enter this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg". 
+  * **SLAM:** If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
     * The POI will appear when you tap on one of the vertical or horizontal grids drawn by the AR-vos app when you scan your enviroment.
     * By default, with each successive tap, the app will go through the POI list for the layer and place the next POI that has the word SLAM in this field.
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
@@ -124,7 +124,11 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
     * This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
     * If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
     * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
-    * To do this, type **TrackingTimeout** into the **Parameter** field, set **IsActive to Yes** and enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds.
+   * **To set a tracking timeout:** 
+     * Click the **New action** button.
+     * Type **TrackingTimeout** into the **Parameter** field.
+     * Set **IsActive to Yes** 
+     * Enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds.
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
