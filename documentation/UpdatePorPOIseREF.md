@@ -32,8 +32,8 @@ For each layer you have one webpage with the layer configuration, and then a fur
   * **Action: Label**: Currently not used.
   * **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
   * **Action: Information message**: This is the information message to be displayed at the bottom of the app display. (E.g. where the "Loading data, please wait ..." message is displayed.) Examples: N {N} F {F} I {I} D {D} Y {Y} C {C}
-* **New action**: Currently not used.
-* **Save** button: If you make changes to these properties, you MUST save them!
+* **New action button**: Currently not used.
+* **Save button**: If you make changes to these properties, **you MUST save them!**
 
 **Google map box:** (Note: "Find place" field is defunct)
 
