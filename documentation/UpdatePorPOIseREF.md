@@ -106,8 +106,10 @@ You can edit the following properties of a POI:
 
 **Image trigger properties (works only in AR-vos, and is used for SLAM as well):** See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
-* **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM.
-  * If you enter the **URL of a trigger image file** into this field, the POI will be treated as an image trigger POI. The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
+* **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM. **Note that an entry in this field defines the entire layer!**
+  * If the first POI in a layer has an **URL of a trigger image** in this field, the entire layer will be treated as an image trigger layer, and the POI will be treated as an image trigger POI. 
+   * The layer will show a frame in the display and ask you to frame the trigger image. 
+   * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
   * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url. To test you can use the AR-vos logo as a trigger - enter this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg". 
   * If this field contains only the word **SLAM**, the POI is treated as a SLAM object and will be shown once you tap on one of the vertical or horizontal planes detected by the AR-vos app when you scan your enviroment with it.
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
@@ -124,8 +126,8 @@ You can edit the following properties of a POI:
 
 . 
 
-  * **SLAM** - If the URL contains only the word **SLAM**, the POI is treated as SLAM object.
-    - Every time you taps on a vertical or horizontal plane detected by the app, it will place a POI at that spot. 
+  * **SLAM** - If the first POI in a layer has the word **SLAM** in the URL for trigger image property, the entire layer is a SLAM layer, and the POI is treated as SLAM object.
+    - Every time you tap on a vertical or horizontal plane detected by the app, it will place a POI at that spot. 
     - If you have more than one POI in a layer, it will go through the list and place one POI after another every time you tap a detected plane. 
     - The plane grids will also stay forever.
   * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
