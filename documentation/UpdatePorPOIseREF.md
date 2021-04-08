@@ -74,8 +74,8 @@ You can edit the following properties of a POI:
   * The URL needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
   * **NOTE:** Currently it is not possible for Androids and iOS devices to use the same asset bundle. Therefore you need to create and upload two asset bundles, one created for Android and one created for iOS. 
     * The iOS asset bundle should have exactly the same name as the Android asset bundle WITH THE ADDITION OF AN "i" at the end of the name and before the ".ace" file extension. 
-    * Enter the name of the Android asset bundle url here, i.e. the name WITHOUT the "i" at the end. 
-    * Do this even if you are testing on iOS and haven't made the Android asset bundle yet!
+    * Example: the Android asset bundle is hh_examples.ace and the iOS asset bundle is hh_examplesi.ace.
+    * Enter the name of the *Android* asset bundle url here, i.e. the name WITHOUT the "i" at the end. Do this even if you are testing just on iOS and haven't made the Android asset bundle yet!
 * **Prefab name**: The POI's assets are loaded from the asset bundle with this prefab name. Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information. 
   * Tip: if you've forgotten the names of the prefabs in your asset bundle, you can view its manifest file simply by pasting the name of the asset bundle into a web brower and **replacing .ace with .manifest**
   * **Sound:** An audio file can be a prefab by itself, or be packaged together with other assets, such as a 3D model, as part of a larger prefab. For more details on how to use sound in ARpoise, see the [Notes on Sound](https://github.com/Hidden-Histories/Public-Resources/blob/master/documentation/UsingPorPOIse_REF-Layer-POI-Properties.md#notes-on-sound-in-porpoise-and-unity) at the end of this document.
