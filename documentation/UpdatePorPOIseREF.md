@@ -39,8 +39,8 @@ For each layer you have one webpage with the layer configuration, and then a fur
      * F {F} is your current frames/second. If lower than 12 f/s you have too many POIs with too many megabytes!
      * H {H} is which direction the app thinks you are looking, with H=0/360° due north, H=90° due east, etc. You will notice that this is not very accurate, and can vary depending on what smartphone you have!
      * LAT {LAT} and LON {LON} tell you the GPS that the app thinks you are at. If there is a tall building next to you, this could be very wrong.
-     * LAT1 {LAT1} and LON1 {LON1} - make a layer with only one POI, and then this tells you where the app thinks that POI is located. Use this to understand the difference between what you think and what the app sees. ;-)
-     * D1 {D1} - make a layer with only one POI, and then this tells you how far away the POI is from your GPS position (or at least the position it thinks you are at).
+     * LAT1 {LAT1} and LON1 {LON1} - If you make a layer with only one POI, you can use this value to understand where the app thinks that POI is located. Use this to understand the difference between what you think and what the app sees. ;-)
+     * D1 {D1} - If you make a layer with only one POI, you can use this value to understand how far away the POI is from your GPS position (or rather the GPS position the app thinks you are at).
 * **New action button**: Currently not used.
 * **Save button**: If you make changes to these properties, **you MUST save them!**
 
