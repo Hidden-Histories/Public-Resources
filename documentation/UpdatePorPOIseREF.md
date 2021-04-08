@@ -139,8 +139,8 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
      * Click the **New action** button.
      * Type **MaximumCount** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * Type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
-     * After it reaches the maximum, the plane grids disappear.
+     * Type the number of POIs you want to set into the **Value** field. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
+     * After it reaches the maximum value, the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
