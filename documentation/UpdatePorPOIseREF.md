@@ -118,13 +118,13 @@ You can edit the following properties of a POI:
     * With the TrackingTimeout, you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
     * To do this, type in "TrackingTimeout" in the Parameter field, set IsActive to Yes and enter the length of the timeout in milliseconds. In the example it is 1500 milliseconds = 1.5 seconds.
 
-![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout.png)
+![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
 
   * **SLAM** - If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown every time the user taps on a vertical or horizontal plane detected in the enviroment. 
   * **SLAM - Maximum Count** - For SLAM POIs, the number of times an object can be placed into the environment can be restricted using an Action with the Parameter set to **MaximumCount** and it's Value set to a positive number, as shown below.
 
-![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount.png)
+![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
 ### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
