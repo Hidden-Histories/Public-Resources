@@ -155,12 +155,12 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Remove:** Delete the animtion from the POI.
 
 * **Name**: The name is used for one of two purposes:
-  * **Chained animations:** Usually this is simply alphanumeric name that you can use in a chained series of animations, e.g. when one animation finishes, a following animation with that Name should start. 
-    * Give the following animation a Name, and also enter that Name in the **Followed by** field of the preceding animation. 
+  * **Chained animations:** Give your animation a name if you want it to be a **following animation,** i.e. it should start when a preceding animation ends. This way you can make a chained series of animations. 
+    * You also need to enter that same following animation's name in the **Followed by** field of the preceding animation. 
     * **The named following animations can even be in other POIs in the same layer!"**
-  * **Websites:** If the name is of the form **openUrl:https://www.mywebsite.com/** when the animation starts, that webpage will open up in a new, separate web browser window. 
+  * **Websites:** If the name is of the form **openUrl:https://www.mywebsite.com/** that website will open up in a new, separate web browser window when the animation starts.
     * NOTE: The new browser window will be in the foreground, covering up the AR app running in the background! You need to close the browser window or bring the AR app to the foreground to continue looking at AR content.
-    * You can also enter this openUrl call in the **Followed by** field, see below.
+    * Alternatively, you can enter this openUrl call in the **Followed by** field (see below), so that when a preceding animation ends, the website will be opened.
 
 (Click on the image below to see a larger version.)
 
@@ -171,10 +171,10 @@ You can have multiple animations that run simultaneously, for instance you can s
   * **onFocus** - the animation is started when the viewer focuses (centers) the POI in the middle of the aRpoise app screen. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
   * **inFocus** - the animation starts when the POI is centered in the ARpoise display and stops once the POI loses focus. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
   * **onClick** - the animation is started when the POI is clicked by the user. (Unity Collider component required - see the explanation in [Unity collider components for ARpoise animations events](#unity-collider-components-for-arpoise-animations-events) below.)
-  * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, the following animation will start.
+  * **onFollow** - This is for the chains of animations described above: When the preceeding animation is finished, this animation will start.
     * Give your following animation a name in its **Name** field.
-    * Then enter the name of the following animation in the **Followed by** field of your preceeding animation. 
-    * If you want to have more than one following animation, **separate their names with commas.**
+    * Then enter this name also in the **Followed by** field of your preceding animation. 
+    * **Start more than one following animation at the same time:** just insert all their names **separated with commas.**
     
 * **Type**: 
   * **rotate**, animate the rotatation of the POI around an axis.
