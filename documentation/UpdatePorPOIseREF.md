@@ -118,15 +118,20 @@ You can edit the following properties of a POI:
     * This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
     * If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
     * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
-    * To do this, type in "TrackingTimeout" in the **Parameter** field, set **IsActive to Yes** and enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds.
+    * To do this, type **TrackingTimeout** into the **Parameter** field, set **IsActive to Yes** and enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds.
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
+l 
 
-  * **SLAM** - If the URL contains only the word **SLAM**, the POI is treated as SLAM object and will be shown every time the user taps on a vertical or horizontal plane detected in the enviroment. 
-  * **SLAM - Maximum Count** - For SLAM POIs, the number of times an object can be placed into the environment can be restricted using an Action with the Parameter set to **MaximumCount** and it's Value set to a positive number, as shown below.
+  * **SLAM** - If the URL contains only the word **SLAM**, the POI is treated as SLAM object.
+   * Every time you taps on a vertical or horizontal plane detected by the app, it will place a POI at that spot. If you have more than one POI in a layer, it will go through the list and place one POI after another every time you tap a detected plane. The plane grids will also stay forever.
+  * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
+  * Add a new action, type **MaximumCount** into the Parameter field, set Is Active to Yes, and type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. After it reaches the maximum, the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
+
+. 
 
 ### **Animation settings**
 You can have multiple animations that run simultaneously, for instance you can scale the POI while rotating it as well.
