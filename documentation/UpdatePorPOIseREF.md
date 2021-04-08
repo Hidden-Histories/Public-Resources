@@ -80,7 +80,8 @@ You can edit the following properties of a POI:
 * **Absolute altitude**: Doesn't really work. It should set the absolute altitude of the POI in meters above sea level, but smartphone GPS does not give good altitude values. This will be overruled anyway if Relative location is set.
 * **Relative altitude**: Sets the absolute altitude of the POI relative to the viewer's device. Use this if you are using absolute latitude and longitude. It is overruled if you use Relative location.
 * **URL of asset bundle**: The assets that make up the POI will be taken from the Unity asset bundle at this web location.
-  * The URL needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for more information.
+  * **Please see the tutorial [Creating AssetBundles](CreatingAssetBundles.md) for detailed instructions on how to make asset bundles.**
+  * The URL needs to have the form:  **hiddenhistoriesjtown.org/artists/ExampleArtist/AssetBundles/hh_examples.ace,** where "ExampleArtist" is replaced with your porPOIse account name and "hh_examples.ace" is replaced with the name of your asset bundle. (Note: NO "http://" please!) 
   * **NOTE:** Currently it is not possible for Androids and iOS devices to use the same asset bundle. Therefore you need to create and upload two asset bundles, one created for Android and one created for iOS. 
     * The iOS asset bundle should have exactly the same name as the Android asset bundle WITH THE ADDITION OF AN "i" at the end of the name and before the ".ace" file extension. 
     * Example: the Android asset bundle is hh_examples.ace and the iOS asset bundle is hh_examplesi.ace.
