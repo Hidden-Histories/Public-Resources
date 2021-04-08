@@ -115,6 +115,8 @@ You can edit the following properties of a POI:
 * **New action:** Add new actions to control the behavior of the AR-vos app with Image Trigger or with SLAM.
   * **ImageTrigger: Tracking Timeout** Once the app detects a trigger image, the POI is shown positioned relative to that image. 
     * By default, the POI will persist there forever, as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
+    * This is useful if you have an exhibition in a gallery or on the street with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
+    * If however you have a *book* of trigger images or a slide show on a monitor, the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
     * With the TrackingTimeout, you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
     * To do this, type in "TrackingTimeout" in the Parameter field, set IsActive to Yes and enter the length of the timeout in milliseconds. In the example it is 1500 milliseconds = 1.5 seconds.
 
