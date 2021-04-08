@@ -122,12 +122,15 @@ You can edit the following properties of a POI:
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
-l 
+. 
 
   * **SLAM** - If the URL contains only the word **SLAM**, the POI is treated as SLAM object.
-   * Every time you taps on a vertical or horizontal plane detected by the app, it will place a POI at that spot. If you have more than one POI in a layer, it will go through the list and place one POI after another every time you tap a detected plane. The plane grids will also stay forever.
+    - Every time you taps on a vertical or horizontal plane detected by the app, it will place a POI at that spot. 
+    - If you have more than one POI in a layer, it will go through the list and place one POI after another every time you tap a detected plane. 
+    - The plane grids will also stay forever.
   * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
-  * Add a new action, type **MaximumCount** into the Parameter field, set Is Active to Yes, and type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. After it reaches the maximum, the plane grids disappear.
+    - Add a new action, type **MaximumCount** into the Parameter field, set Is Active to Yes, and type in the number of POIs you want to set. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
+    - After it reaches the maximum, the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
