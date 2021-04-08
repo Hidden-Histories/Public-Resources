@@ -11,7 +11,7 @@ For each layer you have one webpage with the layer configuration, and then a fur
 ## porPOIse Layer Configuration
 
 .  
-![UsingPorpoise_ExampleLayer_POIlist](./images/UsingPorpoise_ExampleLayer_POI-list_2.png)
+![UsingPorpoise_ExampleLayer_POIlist](./images/UsingPorpoise_ExampleLayer_POI-list_3.png)
 
 ### Explanation:
 
