@@ -154,8 +154,10 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Name**: The name is only needed for a chained series of animations, e.g. when one animation finishes, a following animation should start. 
-    * Give the following animation a name, and also enter that name in the **Followed by** field of the preceding animation. 
+* **Name**: The name is used for one of two purposes:
+  * If the Name is of the form "openUrl:https://www.mywebsite.com/" it will open up that webpage in a separate web browser window. NOTE: The new browser window will be in the foreground and the AR app will be running in the background! You need to close the browser window or bring the AR app to the foreground to continue looking at AR content. 
+  * Otherwise, if the Name is simply an alphnumeric name, you can use in a chained series of animations, e.g. when one animation finishes, a following animation should start. 
+    * Give the following animation a Name, and also enter that Name in the **Followed by** field of the preceding animation. 
     * **The named following animations can even be in other POIs in the same layer!"**
     
 (You can click on the image below to see a larger version.)
