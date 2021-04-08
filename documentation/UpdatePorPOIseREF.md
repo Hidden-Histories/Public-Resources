@@ -113,7 +113,10 @@ You can edit the following properties of a POI:
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
 * **New action:** Add new actions to control the behavior of the AR-vos app with Image Trigger or with SLAM.
-  * Image - Tracking Timeout - Once a trigger image is detected in the environment, the POI is shown. By default, the POI will be kept visible forever, even if the device cannot detect the trigger image in the environment anymore. Optionally, the number of milliseconds a POI will be kept visible after the device stopped tracking the trigger image can be restricted using an Action with the Parameter set to TrackingTimeout and it's Value set to a positive number, as shown below.
+  * **ImageTrigger: Tracking Timeout** Once the app detects a trigger image, the POI is shown positioned relative to that image. 
+    * By default, the POI will persist there forever, as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
+    * With the TrackingTimeout, you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
+    * To do this, type in "TrackingTimeout" in the Parameter field, set IsActive to Yes and enter the length of the timeout in milliseconds. In the example it is 1500 milliseconds = 1.5 seconds.
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout.png)
 
