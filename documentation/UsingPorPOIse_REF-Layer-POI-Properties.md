@@ -29,6 +29,9 @@ For each layer you have one webpage with the layer configuration, and then a fur
 
 
 #### Action: additional functions that can be controlled by users.
+
+![UsingPorpoise_ExampleLayer_JustAction](./images/UsingPorpoise_ExampleLayer_JustAction.png)
+
   * **Remove button** - please do NOT remove these actions!
   * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
   * **Action: Label**: Currently not used.
