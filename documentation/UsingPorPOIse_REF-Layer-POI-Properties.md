@@ -26,20 +26,19 @@ For each layer you have one webpage with the layer configuration, and then a fur
 * **Show menu button**: Please leave on. This combo box defines whether the ARpoise logo menu button is shown in the app. If the logo menu button is on, the viewer can click on it to get out of a layer and back to the list of available layers, or click twice to enter a Fixed Position when they want to view a layer that is far away from them.
 * **Apply Kalman filter**: Currently not used.
 * **Is a default layer** Currently not used.
-
+* **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
 
 #### Action: additional functions that can be controlled by users.
 
 ![UsingPorpoise_ExampleLayer_JustAction](./images/UsingPorpoise_ExampleLayer_JustAction.png)
 
-  * **Remove button** - please do NOT remove these actions!
-  * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
-  * **Action: Label**: Currently not used.
-  * **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
-  * **Action: Information message**: This is the information message to be displayed.
-   * You see this message in red letters at the bottom of the app display. For instance when you first start a layer you often see the message "Loading data, please wait ..." 
-   * You can write a short text here, and it will always be displayed while your layer is active.
-   * Enter these values to get debugging information that tells you what the app actually sees or thinks it sees, which may be different from real life! 
+* **Remove button** - please do NOT remove these actions!
+* **Action: Label**: Currently not used.
+* **Action: Show information**: Set to Yes to show information messages at the bottom of the app display.
+* **Action: Information message**: This is the information message to be displayed.
+  * You see this message in red letters at the bottom of the app display. For instance when you first start a layer you often see the message "Loading data, please wait ..." 
+  * You can write a short text here, and it will always be displayed while your layer is active.
+  * Enter these values to get debugging information that tells you what the app actually sees or thinks it sees, which may be different from real life! 
      * N {N} is the number of POIs the app sees.
      * F {F} is your current frames/second. If lower than 12 f/s you have too many POIs with too many megabytes!
      * H {H} is which direction the app thinks you are looking, with H=0/360° due north, H=90° due east, etc. You will notice that this is not very accurate, and can vary depending on what smartphone you have!
@@ -47,7 +46,8 @@ For each layer you have one webpage with the layer configuration, and then a fur
      * LAT1 {LAT1} and LON1 {LON1} - If you make a layer with only one POI, you can use this value to understand where the app thinks that POI is located. Use this to understand the difference between what you think and what the app sees. ;-)
      * D1 {D1} - If you make a layer with only one POI, you can use this value to understand how far away the POI is from your GPS position (or rather the GPS position the app thinks you are at).
 * **New action button**: Currently not used.
-* **Save button**: If you make changes to these properties, **you MUST save them!**
+ 
+#### Save button: If you make changes to these properties, you MUST save them!
 
 **Google map box:** (Note: "Find place" field is defunct)
 
