@@ -47,7 +47,7 @@ For each layer you have one webpage with the layer configuration, and then a fur
      * D1 {D1} - If you make a layer with only one POI, you can use this value to understand how far away the POI is from your GPS position (or rather the GPS position the app thinks you are at).
 * **New action button**: Currently not used.
  
-#### Save button: If you make changes to these properties, you MUST save them!
+#### SAVE button: If you make changes to these properties, you MUST save them!
 
 **Google map box:** (Note: "Find place" field is defunct)
 
