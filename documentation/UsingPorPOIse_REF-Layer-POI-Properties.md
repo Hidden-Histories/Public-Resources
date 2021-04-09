@@ -26,7 +26,9 @@ For each layer you have one webpage with the layer configuration, and then a fur
 * **Show menu button**: Please leave on. This combo box defines whether the ARpoise logo menu button is shown in the app. If the logo menu button is on, the viewer can click on it to get out of a layer and back to the list of available layers, or click twice to enter a Fixed Position when they want to view a layer that is far away from them.
 * **Apply Kalman filter**: Currently not used.
 * **Is a default layer** Currently not used.
-* **Action:** - additional functions to be determined by users.
+
+
+#### Action: additional functions that can be controlled by users.
   * **Remove button** - please do NOT remove these actions!
   * **No pois message**: Please leave on. This message is shown by the ARpoise app if there are no POIs within the range given by "Visibility in meters."
   * **Action: Label**: Currently not used.
