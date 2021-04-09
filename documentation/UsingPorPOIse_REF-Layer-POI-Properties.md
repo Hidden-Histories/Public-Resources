@@ -124,13 +124,18 @@ See [Using the AR-vos App to view image trigger and SLAM based AR artwork](Using
     * The plane grids will also stay forever.
 * **Width of trigger image:** Used only in the AR-vos app when a trigger image is entered above. This is the approximate width of your trigger image in real life (e.g. a flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) This helps the app to scale your prefab correctly.
 
-* **New action:** Add new actions to control the behavior of the AR-vos app with Image Trigger or with SLAM.
-  * **ImageTrigger: Tracking Timeout** Once the app detects a trigger image, the POI is shown positioned relative to that image. 
-    * **By default, the POI will persist on the image forever,** as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
-    * This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
-    * If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
-    * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
-   * **To set a tracking timeout:** 
+#### POI Actions: Control how AR-vos deals with Image Trigger or SLAM POIs.
+
+* **New action:** Add a new action.
+
+**Image trigger POI:** 
+* Once the app detects a trigger image, the POI is shown **positioned relative to that image.** 
+* By default the POI will **persist on the image forever,** as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
+* This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
+* If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
+* **ImageTrigger: Tracking Timeout**
+  * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
+  * **To set a tracking timeout:** 
      * Click the **New action** button.
      * Type **TrackingTimeout** into the **Parameter** field.
      * Set **IsActive to Yes** 
