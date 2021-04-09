@@ -109,7 +109,7 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around its vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
 
-**Image trigger properties (works only in AR-vos, and is used for SLAM as well):** 
+#### Image trigger properties (only in AR-vos - but used for SLAM as well):
 
 See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
