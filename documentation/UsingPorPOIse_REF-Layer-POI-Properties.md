@@ -111,11 +111,11 @@ You can edit the following properties of a POI:
 
 #### Image trigger properties (only in AR-vos - but used for SLAM as well):
 
-See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
+See also [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
-* **URL for trigger image:** This field is used only in the AR-vos app - but it is used to define this POI as either an image trigger POI or a SLAM POI.
-  * **To make the POI image trigger AR:** enter the URL of any image that is accessible on your web account.
-    * To test this, you can use the AR-vos logo as a trigger by entering this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg".
+* **URL for trigger image:** This field is used only in the AR-vos app - but it is used to define this POI as either an **image trigger POI** or as a **SLAM POI.**
+  * **To make the POI image trigger AR:** enter the URL of any image that is accessible on your web account, for instance in your asset bundle folder, something like https://hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/mytrigger.jpg, where your own name replaces TamikoThiel in the URL.
+    * To test this, you can use our example AR-vos logo as a trigger by entering this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg".
     * When you start the layer, it will show a frame in the display and ask you to frame the trigger image. 
     * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
 
