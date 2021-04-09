@@ -113,11 +113,12 @@ You can edit the following properties of a POI:
 
 See [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
 
-* **URL for trigger image:** This field is used only in the AR-vos app - but for both image trigger and for SLAM. **Note that an entry in this field defines the entire layer!**
-  * **URL of a trigger image** - If the first POI in a layer has an URL of an image in this field, the entire layer will be treated as an image trigger layer, and the POI will be treated as an image trigger POI. 
-    * The layer will show a frame in the display and ask you to frame the trigger image. 
-    * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
-    * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url. To test you can use the AR-vos logo as a trigger - enter this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg". 
+* **URL for trigger image:** This field is used only in the AR-vos app - but it is used to define this POI as either an image trigger POI or a SLAM POI.
+  * To make the POI image trigger AR: enter the URL of any image that is accessible on your web account, in the format 
+  * To test this, you can use the AR-vos logo as a trigger by entering this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg".
+  * When you start the layer, it will show a frame in the display and ask you to frame the trigger image. 
+  * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
+   * You may use any image you like as an image trigger, but it has to be accessible on the web through a normal, valid web url.  
   * **SLAM:** If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
     * The POI will appear when you tap on one of the vertical or horizontal grids drawn by the AR-vos app when you scan your enviroment.
     * By default, with each successive tap, the app will go through the POI list for the layer and place the next POI that has the word SLAM in this field.
