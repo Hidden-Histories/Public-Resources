@@ -109,12 +109,16 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around its vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
 
-#### Image trigger properties (only in AR-vos - but used for SLAM as well):
+#### Image trigger properties (only in AR-vos - but used for SLAM *and* Image Trigger):
 
-See also [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories)
+To understand how image trigger and SLAM work, see also [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories).
 
 * **URL for trigger image:** This field is used only in the AR-vos app - but it is used to define this POI as either an **image trigger POI** or as a **SLAM POI.**
-  * **To make the POI image trigger AR:** enter the URL of any image that is accessible on your web account, for instance in your asset bundle folder, something like https://hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/mytrigger.jpg, where your own name replaces TamikoThiel in the URL.
+* NOTE: 
+  * Do NOT mix image trigger POIs and SLAM POIs in the same layer!
+  * You can however mix geolocative POIs with either image trigger POIs or SLAM POIs.
+* **To make the POI image trigger AR:** 
+  * Enter the URL of any image that is accessible on your web account, for instance in your asset bundle folder, something like https://hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/mytrigger.jpg, where your own name replaces TamikoThiel in the URL.
     * To test this, you can use our example AR-vos logo as a trigger by entering this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg".
     * When you start the layer, it will show a frame in the display and ask you to frame the trigger image. 
     * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
