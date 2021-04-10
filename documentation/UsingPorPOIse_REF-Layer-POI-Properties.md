@@ -113,15 +113,18 @@ You can edit the following properties of a POI:
 
 To understand how image trigger and SLAM work, see also [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories).
 
-* **URL for trigger image:** This field is used only in the AR-vos app - but it is used to define this POI as *either* an **image trigger POI** *or* as a **SLAM POI.** 
-  * Do NOT mix image trigger POIs and SLAM POIs in the same layer!
+* **URL for trigger image:** This field is used *only* in the AR-vos app - but it is used to define this POI as *either* an **image trigger POI** *or* as a **SLAM POI.** 
+  * **Do NOT mix image trigger POIs and SLAM POIs in the same layer!**
   * You can however mix geolocative POIs with either image trigger POIs or SLAM POIs.
-  * **To make the POI image trigger AR:** Enter the URL of any image that is accessible on your web account, for instance in your asset bundle folder, something like https://hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/mytrigger.jpg, where your own name replaces TamikoThiel in the URL.
+  * **Image trigger AR:** Enter the URL of any image that is accessible on your web account, for instance in your asset bundle folder, something like https://hiddenhistoriesjtown.org/artists/TamikoThiel/AssetBundles/mytrigger.jpg, where your own name replaces TamikoThiel in the URL.
     * To test this, you can use our example AR-vos logo as a trigger by entering this URL into the field: "www.arpoise.com/TI/arvos_logo_rgb-weiss1024.jpg".
     * When you start the layer, it will show a frame in the display and ask you to frame the trigger image. 
-    * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone.
+    * The POI will be shown once the trigger image is detected in the display of the AR-vos app on your smartphone. The frame will then disappear.
+    * If there are other image trigger POIs in your layer, you can view their trigger images and their prefabs will appear on top of those other images.
+    * If the trigger images are separated in space, for instance on different buildings or as pictures in a gallery space, you can walk from one trigger image to another and view their augments in this way.
+    * If however the trigger images are located at the same physical place - for instance on the right hand page in a book - the POIs will all appear on top of each other. To prevent this, set the Action described below.
 
-  * **SLAM:** If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
+  * **SLAM AR:** If the first POI in a layer has the word **SLAM** in this field, the entire layer is treated as a SLAM layer and the POI is treated as a SLAM object.
     * The POI will appear when you tap on one of the vertical or horizontal grids drawn by the AR-vos app when you scan your enviroment.
     * By default, with each successive tap, the app will go through the POI list for the layer and place the next POI that has the word SLAM in this field.
     * The plane grids will also stay forever.
