@@ -152,7 +152,7 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
      * Click the **New action** button.
      * Type **TrackingTimeout** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * Enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds.
+     * **Information message/Value": Enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
@@ -162,7 +162,7 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
      * Click the **New action** button. 
      * Type **MaximumCount** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * Type the number of POIs you want to set into the **Value** field. In the example below, the layer will then set only two POIs. (The Action menu might say "Information message," but when you enter a number, it will change to "Value." This is a bug and will be fixed in the next update.)
+     * **Information message/Value:** Type in the number of POIs you want to set. In the example below, the layer will then set only two POIs. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
      * When you start the layer and tap on a plane grid, AR-vos then again goes through the list of POIs, placing one after the other as you tap - but only up to the maximum value for each POI. 
      * After it reaches the maximum values *for each of the POIs,* the "All Augments placed" message appears, and the plane grids disappear.
 
