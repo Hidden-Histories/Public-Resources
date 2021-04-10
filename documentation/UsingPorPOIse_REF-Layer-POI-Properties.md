@@ -129,13 +129,13 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
     * Then you will be asked to tap one of the planes to set the POI at that spot.
     * By default, with each successive tap, the app will go through the POI list for the layer and place the next SLAM POI in the list on the plane you tapped.
     * You can keep on tapping to set more POIs, and the plane grids will also stay forever.
-    * Too restrict the number of POIs you can place, create an Action with a **Maximum Count** as described below.
+    * To restrict the number of POIs you can place, create an Action with a **Maximum Count** as described below. The plane grids will disappear once you have set that number of POIs
 
 * **Width of trigger image:** 
   * Leave blank for SLAM POIs and geolocative POIs.
-  * This is used only in the AR-vos app when an URL for a trigger image is entered above. 
+  * This is used *only* in the AR-vos app when an URL for a trigger image is entered above. 
     * This is the approximate width of your trigger image in real life. This helps the app to scale your prefab correctly.
-    * A flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.) 
+    * A flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.
 
 #### POI Actions: Control how AR-vos deals with Image Trigger or SLAM POIs.
 
