@@ -146,13 +146,13 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
 * By default the POI will **persist on the image forever,** as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
 * This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go back and forth between all the images without having to close the layer.
 * If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
-* **ImageTrigger: Tracking Timeout**
+* **ImageTrigger: TrackingTimeout**
   * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
-  * **To set a tracking timeout:** 
+  * **To set a TrackingTimeout:** 
      * Click the **New action** button.
      * Type **TrackingTimeout** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * **Information message/Value": Enter the **length of the timeout in milliseconds.** In the example it is 1500 milliseconds = 1.5 seconds. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
+     * **Information message/Value:** Enter the length of the timeout in **milliseconds.** In the example below it is 1500 milliseconds = 1.5 seconds. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
 
 ![UsingPorPOIse_TrackingTimeout](images/UsingPorPOIse_TrackingTimeout_2.png)
 
@@ -162,9 +162,9 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
      * Click the **New action** button. 
      * Type **MaximumCount** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * **Information message/Value:** Type in the number of POIs you want to set. In the example below, the layer will then set only two POIs. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
+     * **Information message/Value:** Type in the number of POIs you want the app to place. In the example below, the layer will then set only two POIs. (This Action field might say "Information message" at first, but when you enter a number it will change to "Value." This is a bug and will be fixed in the next update.)
      * When you start the layer and tap on a plane grid, AR-vos then again goes through the list of POIs, placing one after the other as you tap - but only up to the maximum value for each POI. 
-     * After it reaches the maximum values *for each of the POIs,* the "All Augments placed" message appears, and the plane grids disappear.
+     * After it reaches the maximum values *for all of the POIs,* the "All Augments placed" message appears, and the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
