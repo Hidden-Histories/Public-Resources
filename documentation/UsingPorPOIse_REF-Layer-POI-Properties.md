@@ -109,7 +109,7 @@ You can edit the following properties of a POI:
 * **Vertical rotation**: This value allows you to rotate the POI's geometry around its vertical Y axis.
 * **Relative angle**: If this value is set to Yes, the POI's geometry will always be turned so that the front side always faces the user. This is useful if you have images that should always face the viewer no matter where they are, for instance a cut-out figure of a person.
 
-#### Image trigger properties (only in AR-vos - but used for SLAM *and* Image Trigger):
+#### IMAGE TRIGGER and SLAM PROPERTIES (only in AR-vos):
 
 To understand how image trigger and SLAM work, see also [Using the AR-vos App to view image trigger and SLAM based AR artwork](UsingAR-vosApp.md#-hidden-histories).
 
@@ -137,7 +137,7 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
     * This is the approximate width of your trigger image in real life. This helps the app to scale your prefab correctly.
     * A flyer is roughly 0.2 meters = 8.5" wide, a doorway might be 1 meter = 3 feet wide, a house facade might be 10 meters = 30 feet wide.
 
-#### POI Actions: Control how AR-vos deals with Image Trigger or SLAM POIs.
+#### POI ACTIONS: Control how AR-vos deals with Image Trigger or SLAM POIs.
 
 * **New action:** Add a new action.
 
