@@ -144,7 +144,7 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
 **Image trigger POI:** 
 * Once the app detects a trigger image, the POI is shown **positioned relative to that image.** 
 * By default the POI will **persist on the image forever,** as long as that layer is open. If you look away from the trigger image and then look back, it will still be there. 
-* This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go from image to another, trigger the AR experience for each image, and go back and forth between all the images without having to close the layer.
+* This is useful if you have an **exhibition in a gallery or on the street** with different trigger images physically spaced apart. You have one POI for each trigger image and can go back and forth between all the images without having to close the layer.
 * If however you have a **book** of trigger images or a **slide show on a monitor,** the trigger images are all at the same physical location. You want to turn the pages or switch between images in the slide show, and the POIs should change everytime the image changes.
 * **ImageTrigger: Tracking Timeout**
   * With the **TrackingTimeout,** you can set the number of milliseconds a POI will persist after you no longer see the trigger image.
@@ -158,12 +158,13 @@ To understand how image trigger and SLAM work, see also [Using the AR-vos App to
 
 . 
 
-   * **SLAM: Maximum Count** For SLAM POIs, you can add a new action that limits the number of POIs an object can be placed into the environment.
-     * Click the **New action** button.
+   * **SLAM: Maximum Count** For each SLAM POI in your layer, you can add a new action that limits the number of times a copy of that POI will be placed into the environment.
+     * Click the **New action** button. (The Action menu might say "Information message," but when you enter a number, it will change to "Value." This is a bug and will be fixed in the next update.)
      * Type **MaximumCount** into the **Parameter** field.
      * Set **IsActive to Yes** 
-     * Type the number of POIs you want to set into the **Value** field. In the example below, it will set the first two POIs, or if there is only one POI, you can set two of them. 
-     * After it reaches the maximum value, the plane grids disappear.
+     * Type the number of POIs you want to set into the **Value** field. In the example below, the layer will then set only two POIs. 
+     * AR-vos then again goes through the list of POIs, placing one after the other as you tap on the planes - but only up to the maximum value for each POI. 
+     * After it reaches the maximum values for each of the POIs, the "All Augments placed" message appears, and the plane grids disappear.
 
 ![UsingPorPOIse_MaximumCount](images/UsingPorPOIse_MaximumCount_2.png)
 
