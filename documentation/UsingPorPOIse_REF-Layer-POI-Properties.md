@@ -195,8 +195,8 @@ You can have multiple animations that run simultaneously, for instance you can s
        * **Event:** Do NOT use onCreate, as this means the user will never see the app at all, being immediately redirected to the website. We recommend using onClick.
        * **Length:** Set this to some value, otherwise it will not run at all. The actual value has no meaning, but must be > 0.
        * **Delay:** You can set a delay, but use very carefully - otherwise the user will not realize the cause and effect between their click and the website opening, and will get confused!
-       * **Repeat:** Set this to *No**, otherwise when you try to go back to the app, it will immediately redirect you to the website again.
-       * **Followed by** does work, but use with care, as the user experience of the artwork will be interrupted by looking at the website.
+       * **Repeat:** Set this to No, otherwise when you try to go back to the app, it will immediately redirect you to the website again.
+       * **Followed by:** This does work, but use with care, as the user experience of the artwork will be interrupted by looking at the website.
 
 ![UsingPorpoise_openUrl](images/UsingPorpoise_openUrl1.png)
 
