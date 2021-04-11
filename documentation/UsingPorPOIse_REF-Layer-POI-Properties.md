@@ -178,7 +178,7 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **New animation:** Create a new animation.
 * **Remove:** Delete the animtion from the POI.
 
-* **Name**: The name is used for one of two purposes:
+* **Name**: The name is used for one of two purposes: chained animations and opening websites.
   * **Chained animations:** Give your animation a name if you want it to be a **following animation,** i.e. it should start when a preceding animation ends. This way you can make a chained series of animations. 
     * You also need to enter that same following animation's name in the **Followed by** field of the preceding animation. 
     * **The named following animations can even be in other POIs in the same layer!"**
@@ -187,9 +187,11 @@ You can have multiple animations that run simultaneously, for instance you can s
 
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations1.png)
 
-  * **Websites:** If the name is of the form **openUrl:https://www.mywebsite.com/** that website will open up in a new, separate web browser window when the animation starts.
-    * NOTE: The new browser window will be in the foreground, covering up the AR app running in the background! You need to close the browser window or bring the AR app to the foreground to continue looking at AR content.
-    * Alternatively, you can enter this openUrl call in the **Followed by** field (see below), so that when a preceding animation ends, the website will be opened.
+   * **Websites:** If the name is of the form **openUrl:https://www.mywebsite.com/** that website will open up in a new, separate web browser window when the animation starts.
+     * NOTE: The new browser window will be in the foreground, covering up the AR app running in the background! You need to close the browser window or bring the AR app to the foreground to continue looking at AR content.
+     * Alternatively, you can enter this openUrl call in the **Followed by** field (see below), so that when a preceding animation ends, the website will be opened.
+
+![UsingPorpoise_openUrl](images/UsingPorpoise_openUrl.png)
 
 * **Event** - User interactions with the POIs:
   * **onCreate** - the animation is started when the POI is loaded;
