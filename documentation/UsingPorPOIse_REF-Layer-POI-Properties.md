@@ -237,7 +237,7 @@ You can have multiple animations that run simultaneously, for instance you can s
 * **Followed by**: If one or more comma separated animation names are given in this field, the animations mentioned are started once this animation ends. 
    * **Animation names are global for all POIs of a layer.** So the end of an animation of one POI can start an animation of the same POI or of another POI in the layer!
    * **Sound:** If an animation is started and the Unity Prefab of the POI contains an AudioSource component, the audio file is played.
-   * **Websites:** If the value in this field is of the form **openUrl:https://www.mywebsite.com/** that website will be opened in a new, separate web browser after the preceding animation ends. Note that the web browser will cover the AR app, which will continue running in the background. Close the web browser or bring the AR app to the foreground to continue looking at AR.
+   * **Websites:** If the value in this field is of the form **openUrl:https://www.mywebsite.com/** that website will be opened in a new, separate web browser after the preceding animation ends. Note that the web browser will cover the AR app, which will continue running in the background. Close the web browser or bring the AR app to the foreground to continue looking at AR. See above under "Name" for a full description of openUrl.
 
 * **Save** button: Saves any changes you made to the POI properties. NOTE: to see the changes in your layer, you MUST close the ARpoise app and restart it!
 
