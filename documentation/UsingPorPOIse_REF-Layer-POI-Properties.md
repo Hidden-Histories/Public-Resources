@@ -198,7 +198,7 @@ You can have multiple animations that run simultaneously, for instance you can s
        * **Repeat:** Set this to *No**, otherwise when you try to go back to the app, it will immediately redirect you to the website again.
        * **Followed by** does work, but use with care, as the user experience of the artwork will be interrupted by looking at the website.
 
-![UsingPorpoise_openUrl](images/UsingPorpoise_openUrl.png)
+![UsingPorpoise_openUrl](images/UsingPorpoise_openUrl1.png)
 
 * **Event** - User interactions with the POIs:
   * **onCreate** - the animation is started when the POI is loaded;
