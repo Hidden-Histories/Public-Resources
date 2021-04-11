@@ -188,8 +188,15 @@ You can have multiple animations that run simultaneously, for instance you can s
 ![ChainedAnimations](images/UsingPorpoise_ChainedAnimations1.png)
 
    * **Websites:** If the name is of the form **openUrl:https://www.mywebsite.com/** that website will open up in a new, separate web browser window when the animation starts.
-     * NOTE: The new browser window will be in the foreground, covering up the AR app running in the background! You need to close the browser window or bring the AR app to the foreground to continue looking at AR content.
-     * Alternatively, you can enter this openUrl call in the **Followed by** field (see below), so that when a preceding animation ends, the website will be opened.
+     * **NOTE: The new browser window will be in the foreground, covering up the AR app running in the background!** You need to close the browser window or bring the AR app to the foreground to continue looking at AR content. This might be difficult for inexperienced users!
+     * Alternatively, you can enter this openUrl call in the **Followed by** field (see below), so that the website will be opened after a preceding animation ends.
+     * Settings for openUrl:
+       * Settings like Type, Interpolation, Persist have no effect, but the following are crucial. 
+       * **Event:** Do NOT use onCreate, as this means the user will never see the app at all, being immediately redirected to the website. We recommend using onClick.
+       * **Length:** Set this to some value, otherwise it will not run at all. The actual value has no meaning, but must be > 0.
+       * **Delay:** You can set a delay, but use very carefully - otherwise the user will not realize the cause and effect between their click and the website opening, and will get confused!
+       * **Repeat:** Set this to *No**, otherwise when you try to go back to the app, it will immediately redirect you to the website again.
+       * **Followed by** does work, but use with care, as the user experience of the artwork will be interrupted by looking at the website.
 
 ![UsingPorpoise_openUrl](images/UsingPorpoise_openUrl.png)
 
