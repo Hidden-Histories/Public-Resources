@@ -9,11 +9,13 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-### IMPORTANT! AR-vos *only* run on newer model smartphones! 
+### IMPORTANT! AR-vos *only* runs on newer model smartphones! 
 
 AR-vos uses Apple's ARKit and Google Android's ARCore technologies:
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
-  - For Android, it is harder to say, please see [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
+  - For Android:
+    - Please see the list of [ARCore supporting Android devices](https://developers.google.com/ar/discover/supported-devices). 
+    - In general, a device needs at least Android version 7.0, see [Android Versions](https://source.android.com/setup/start/build-numbers).
 
 . 
 
