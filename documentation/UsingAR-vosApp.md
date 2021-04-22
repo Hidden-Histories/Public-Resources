@@ -9,7 +9,7 @@ Or puzzled by the lingo? See the [Glossary of Terms >>>](https://github.com/Hidd
 
 ## Overview
 
-### IMPORTANT! AR-vos *only* runs on newer model smartphones! 
+### IMPORTANT! AR-vos *only* runs on recent model smartphones! 
 
 AR-vos uses Apple's ARKit and Google Android's ARCore technologies:
   - For iPhones, it works on the iPhone SE or iPhone **6s** (NOT on iPhone 6) and higher. See [ARKit supporting iOS devices](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html).
