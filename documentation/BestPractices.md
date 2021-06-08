@@ -42,23 +42,27 @@ A deleted asset in Unity is forever gone:
 - **Keep your original files at their original resolution,** and make lower resolution versions to use in Unity.
 
 ### How many MB is your asset bundle??? 
-- Young people often balk at downloading the ARpoise app because its 40MB exceeds the storage space left on their phone.
-- If they are doing a Hidden Histories tour, they have to download the asset bundles for each and every layer as well. 
+- An asset bundle that is over 5 MB might not download over the mobile network, and then the layer will not work at all. :-(
+- Testing your layer at home:
+ -  Usually means you are using wifi to download the asset bundles, so they will download quickly with no problem.
+ -  TURN OFF your wifi and try your layer using your mobile network, and see if that works as well.
+ -  Remember that other people might have much slower download rates than you do, if they have a cheap contract.
+- Young people often balk at downloading the ARpoise app because its 40MB (!!!) exceeds the storage space left on their phone!
+- Remember that any visitor doing a Hidden Histories tour will be downloading the asset bundles for each and every layer as well!
 
-- Best practices:
+- Best practices: Look at your prefabs and asset bundle(s) on your hard drive: 
+  - Keep each asset bundle under 5 MB. 
+  - Split up larger asset groups into several different asset bundles.
   - If at all possible, keep each prefab to under 1 MB.
-  - Obviously videos and some audio files will have to be larger - but maybe standing on a noisy street corner is not the right place to view your masterpiece of video or sound editing???
+  - Obviously videos and some audio files will have to be larger - but maybe standing on a noisy street corner is not the right place to view your audio or video masterpiece???
 
-- Look at your prefabs on your hard drive: 
-  - How big is each prefab?
-  - If it is more than 1 MB, look at the images, models, video, sound files that make it up. Where can you reduce its size?
 
 ### Images:
-- Use **jpgs** if you need the entire image.
+- Use **jpgs** if you need the entire image. The smaller the better!
 - Use **pngs** ONLY if you have transparency or cutouts! A cutout of your Aunt Mitsuko can look great standing in front of her store! :-)
-- The **maximum size Unity will allow is 2048 x 2048 pixels**
+- The **maximum size Unity will allow is 2048 x 2048 pixels** and this is WAY to be for AR!
   - Remember that your user's smartphone screen might not be that big anyway!
-  - Try 1024 x 1024 pixels and see if that looks fine.
+  - Try 1024 x 1024 pixels and see if that looks fine. If it does, make it even smaller, say 512x512 or 256x256 or ... ;-)
 
 ### Audio:
 - Use **mp3** or even **ogg** in Unity. Use wav files *only* for your originals. 
