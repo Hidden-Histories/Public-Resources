@@ -17,7 +17,7 @@ For each layer you have one webpage with the layer configuration, and then a fur
 
 **Layer configuration:**
 
-* **Layer title**: The layer title is optional. 
+* **Layer title**: This is the artist's layer white box title, and is optional. 
   * If given, the title is displayed on the display of the open layer in a little white box at the top center of the screen. The box is very short, so keep your layer title short as well. 
   * If you do NOT enter a Layer title here, the white box will not show up at all. 
   * NOTE: the layer title that appears in the list of available layers, which also can give e.g. the artist's name and the location of the layer, has to be set by the admin in the ARpoise directory.
