@@ -18,9 +18,9 @@ For each layer you have one webpage with the layer configuration, and then a fur
 **Layer configuration:**
 
 * **Layer title**: The layer title is optional. 
- * If given, the title is displayed on the display of the open layer in a little white box at the top center of the screen. The box is very short, so keep your layer title short as well. 
- * If you do NOT enter a Layer title here, the white box will not show up at all. 
- * NOTE: the layer title that appears in the list of available layers, which also can give e.g. the artist's name and the location of the layer, has to be set by the admin in the ARpoise directory.
+  * If given, the title is displayed on the display of the open layer in a little white box at the top center of the screen. The box is very short, so keep your layer title short as well. 
+  * If you do NOT enter a Layer title here, the white box will not show up at all. 
+  * NOTE: the layer title that appears in the list of available layers, which also can give e.g. the artist's name and the location of the layer, has to be set by the admin in the ARpoise directory.
 * **Refresh interval**: The refresh interval is optional (default is no refresh). If given, it defines the seconds after which the ARpoise app will update the layer. NOTE: when you make a change in your layer with porPOIse, you MUST force close the ARpoise app completely by [swiping it out of the recent apps list](https://support.apple.com/en-us/HT201330) and restart ARpoise. Otherwise the change will not show!
 * **Redirect to layer**: Currently not used. The redirection layer is optional (default is no redirect). if given, the layer will redirected to a different layer. 
 * **Visibility in meters**: Please leave at 1500. The admin has probably set the visibility of your layer itself in the ARpoise directory to a distance of about 200-250 meters, or about 1/2 block. This value here does not have much of an effect, but if you set it to be small, the ARpoise app might not find it at all.
