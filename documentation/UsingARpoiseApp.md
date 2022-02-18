@@ -24,6 +24,7 @@ If the app ever does not work as it should, try force closing and restarting it.
   
   - ![Unity start screen](images/Unity_startScreen.png)
   
+If the app still does not work correctly, try shutting down and restarting the smartphone completely (usually by pressing for a long time on the on/off button, until it gives you the option to restart or turn off the smartphone). You know you have successfully restarted the smartphone when you see the Apple or Android logo when the smartphone restarts.  
   
 . 
 ## Viewing augments depends on where you are physically located:
