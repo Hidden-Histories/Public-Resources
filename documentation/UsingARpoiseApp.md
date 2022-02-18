@@ -58,7 +58,7 @@ To practice this quickly, we have set a couple of AR layers at the GPS position 
 
 ### Enter the GPS coodinates 1, 1 in the Fixed Position menu: 
 
-- Start the ARpoise app. If you get the list of layers, select any one of them in order to access the Fixed Position menu.
+- Start the ARpoise app. If you get the list of layers, **select any one in order to access the Fixed Position menu.**
 - Then **Double click** on the **ARpoise logo menu button** ![ARpoise logo](images/ARpoise_logo_rgb_64.png) in the top left corner to get the Fixed Position menu:
 - Tap the **Lat** field, enter 1, then click OK, Done etc. to save.
 - Tap the **Lon** field, enter 1, then click OK, Done etc. to save.
@@ -94,7 +94,7 @@ As a more useful example, we will show you how to view Tamiko Thiel’s and Mido
 
 - Search for the address of that location in [Google Maps](https://www.google.com/maps/).
 
-- Then get the decimal coordinates for that GPS latitude and longitude - [see instructions how to get the GPS coordinates here.](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
+- Then get the **decimal coordinates** for that GPS latitude and longitude - [see instructions how to get the GPS coordinates here.](https://www.businessinsider.de/international/how-to-find-coordinates-on-google-maps/).
 
 ### Enter the GPS coodinates in the Fixed Position menu:
 
