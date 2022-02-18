@@ -45,7 +45,8 @@ Start the app ...
 
 (NOTE: If you want to see these layers, you need to go somewhere where there are no layers positioned, at least 2 long blocks away from your home. Don't go to Japantown, because then you'll see the Hidden Histories layers! Or do remote viewing as described in the next section, and go to the GPS poisition 2,2, or 10,10, etc.)
 
-- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layers list.** These are some artworks or simple demo examples we make available all over the world to demonstrate our app. To select a different one, tap the ARpoise icon menu once to get the list again.
+- If there are NO layers near you, ARpoise will automatically start the **default ARpoise layers list.** These are some artworks or simple demo examples we make available all over the world to demonstrate our app. 
+- To select a different one, tap the ARpoise icon menu once to get the list again.
 
 . 
 ## Exercise1: Remote Viewing with ARpoise’s Fixed Position feature
